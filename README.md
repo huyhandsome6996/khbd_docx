@@ -40,8 +40,17 @@ khbd_docx/
 │   ├── README.md                                   Đặc tả cấu trúc 5 phần, 4 bảng biểu và thông số định dạng .docx
 │   └── Đề cương bài dạy Tin12_Bai8_Tiet2 (sv Phan Trần Hồng Anh).docx
 │
-└── 05_ke_hoach_bai_day_output/                 <-- [NGĂN 05] Nơi lưu trữ các Kế hoạch bài dạy do Agent biên soạn
-    └── README.md                                   Quy ước đặt tên file, cách xuất .docx và Checklist 10 tiêu chí QA
+├── 05_ke_hoach_bai_day_output/                 <-- [NGĂN 05] Nơi lưu trữ bản thảo (.md) Kế hoạch bài dạy do Agent biên soạn
+│   └── README.md                                   Quy ước đặt tên file, cách xuất .docx và Checklist 10 tiêu chí QA
+│
+└── 06_thanh_pham_docx/                         <-- [NGĂN 06] MỤC RIÊNG CHỨA THÀNH PHẨM FILE WORD (.DOCX) ĐỂ TẢI VỀ DÙNG NGAY
+    ├── README.md
+    ├── Đề cương bài dạy Tin10_OntapGK1.docx
+    ├── Ma-tran-Ban-dac-ta-De-KT-GK1_Tin10.docx
+    ├── Đề cương bài dạy Tin10_Bai12_Tiet1.docx
+    ├── Đề cương bài dạy Tin10_Bai12_Tiet2.docx
+    ├── Đề cương bài dạy Tin10_Bai13_Tiet1.docx
+    └── Đề cương bài dạy Tin10_Bai13_Tiet2.docx
 ```
 
 ---
