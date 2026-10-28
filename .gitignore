@@ -1,9 +1,11 @@
 # Ignore temporary extracted SGK page images
 **/extracted_pages/
 
-# Ignore Office temporary lock files
+# Ignore Office & ONLYOFFICE temporary lock files
 ~$*.docx
 ~$*.pptx
 ~$*.xlsx
+.**/.~lock.*
+.~lock.*
 .DS_Store
 Thumbs.db

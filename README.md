@@ -44,14 +44,18 @@ khbd_docx/
 │   └── README.md                                   Quy ước đặt tên file, cách xuất .docx và Checklist 10 tiêu chí QA
 │
 └── 06_thanh_pham_docx/                         <-- [NGĂN 06] MỤC RIÊNG CHỨA THÀNH PHẨM FILE WORD (.DOCX) ĐỂ TẢI VỀ DÙNG NGAY
-    ├── README.md
-    ├── Đề cương bài dạy Tin10_OntapGK1.docx
-    ├── Ma-tran-Ban-dac-ta-De-KT-GK1_Tin10.docx
-    ├── Đề cương bài dạy Tin10_Bai12_Tiet1.docx
-    ├── Đề cương bài dạy Tin10_Bai12_Tiet2.docx
-    ├── Đề cương bài dạy Tin10_Bai13_Tiet1.docx
-    └── Đề cương bài dạy Tin10_Bai13_Tiet2.docx
+    ├── README.md                                   Hướng dẫn & phân luồng tài liệu cho AI Agent
+    ├── Đề cương bài dạy Tin10_OntapGK1.docx        [Tin 10] KHBD Ôn tập GK1
+    ├── Ma-tran-Ban-dac-ta-De-KT-GK1_Tin10.docx     [Tin 10] Ma trận & Đặc tả Đề kiểm tra GK1
+    ├── Đề cương bài dạy Tin10_Bai12_Tiet1.docx     [Tin 10] KHBD Bài 12 - Tiết 1
+    ├── Đề cương bài dạy Tin10_Bai12_Tiet2.docx     [Tin 10] KHBD Bài 12 - Tiết 2
+    ├── Đề cương bài dạy Tin10_Bai13_Tiet1.docx     [Tin 10] KHBD Bài 13 - Tiết 1
+    ├── Đề cương bài dạy Tin10_Bai13_Tiet2.docx     [Tin 10] KHBD Bài 13 - Tiết 2
+    ├── Đề cương dự giờ SHCN_Tuan8_12-2_HoQuangHuy.docx  [Hồ sơ thực tập] Đề cương dự giờ Sinh hoạt chủ nhiệm lớp 12/2
+    └── De_cuong_du_gio_SHCN_Tuan8_12-2_HoQuangHuy.md    [Bản Markdown] Kèm chỉ dẫn loại trừ dành cho AI Agent
 ```
+
+> ⚠️ **LƯU Ý DÀNH CHO CODING AGENT:** File `Đề cương dự giờ SHCN_Tuan8_12-2_HoQuangHuy.docx` và `De_cuong_du_gio_SHCN_Tuan8_12-2_HoQuangHuy.md` thuộc hồ sơ nghiệp vụ chủ nhiệm lớp (Thực tập sư phạm I), **KHÔNG THUỘC KẾ HOẠCH BÀI DẠY MÔN TIN HỌC**. Agent khi biên soạn giáo án Tin học tuyệt đối không dùng tài liệu này làm dữ liệu huấn luyện hoặc form mẫu.
 
 ---
 
