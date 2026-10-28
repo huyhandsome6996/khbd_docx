@@ -1,6 +1,6 @@
 # NGĂN 06: THÀNH PHẨM KẾ HOẠCH BÀI DẠY & MA TRẬN ĐỀ THI (.DOCX)
 
-> **Mục đích:** Ngăn này chứa riêng toàn bộ các **file Word (`.docx`) thành phẩm hoàn chỉnh** (chuẩn định dạng khổ A4, lề `3-2-2-2 cm`, phông chữ `Times New Roman` 13pt/12pt) để bạn mở trực tiếp trên máy hoặc tải về in ấn, nộp và sử dụng giảng dạy ngay.
+> **Mục đích:** Ngăn này chứa riêng toàn bộ các **file Word (`.docx`) thành phẩm hoàn chỉnh** đã được chuẩn hoá bố cục thoáng rộng, cỡ chữ lớn dễ đọc (`Times New Roman` 13.5pt ngoài bảng, 13pt trong bảng, tiêu đề 14–16pt; tự động xoay khổ giấy **A4 Ngang (Landscape)** cho bảng tiến trình hoạt động dạy học 4 cột và bảng Ma trận/Đặc tả giống hệt form mẫu của khoa) để bạn mở trực tiếp trên máy hoặc tải về in ấn, nộp và sử dụng giảng dạy ngay.
 
 ---
 
