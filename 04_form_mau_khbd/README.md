@@ -1,176 +1,80 @@
-# NGĂN 04: FORM MẪU KẾ HOẠCH BÀI DẠY (LESSON PLAN TEMPLATE)
+# NGĂN 04: FORM MẪU CHUẨN, BỘ QUY TẮC SỐNG CÒN & ENGINE TẠO FILE WORD (`.DOCX`)
 
-> **Vai trò của ngăn này đối với AI Agent:** Đây là **biểu mẫu chuẩn mực tuyệt đối (Gold Standard Template)** do người dùng cung cấp. Mọi Kế hoạch bài dạy (Đề cương bài dạy) mà Agent biên soạn về sau **BẮT BUỘC** phải tuân thủ 100% bố cục 5 phần, cấu trúc các bảng biểu, phong cách diễn đạt, cách tích hợp Năng lực số / Năng lực AI và thông số định dạng Word (`.docx`) của file mẫu trong ngăn này.
-
----
-
-## 1. Tài liệu mẫu trong ngăn
-
-| Tên file | Thông tin bài mẫu | Đặc điểm nổi bật |
-| :--- | :--- | :--- |
-| `Đề cương bài dạy Tin12_Bai8_Tiet2 (sv Phan Trần Hồng Anh).docx` | **Bài 8. Định dạng văn bản** – *Tiết 2. Định dạng phông chữ và thực hành thiết kế trang báo điện tử* (Tin học 12, 45 phút, Dạy học thực hành tại phòng máy). | Đầy đủ 5 phần lớn (`I` $\rightarrow$ `V`), 4 bảng biểu chuẩn hóa, tích hợp **Năng lực đặc thù (`NLa`–`NLe`)**, **Năng lực chung**, **Năng lực số & Năng lực AI**, **Tình huống học tập xuyên suốt**, **Hoạt động sử dụng AI kiểm tra mã** và **Bảng tiêu chí đánh giá (Rubric 10 điểm)**. |
+> **Vai trò của ngăn này đối với AI Agent:** Đây là **trung tâm quy chuẩn, biểu mẫu vàng (Gold Standard Templates) và bộ máy sinh file `.docx` (`_engine_5512/`)** của toàn bộ kho lưu trữ. Mọi Kế hoạch bài dạy (Đề cương dự giờ), Ma trận đề kiểm tra hay Đề cương Sinh hoạt chủ nhiệm mà Agent biên soạn về sau **BẮT BUỘC** phải tuân thủ 100% quy tắc và biểu mẫu trong ngăn này.
 
 ---
 
-## 2. Thông số Định dạng Kỹ thuật File Word (`.docx`) Chuẩn
+## 1. Danh mục Tài liệu Quy chuẩn & Biểu mẫu Vàng trong Ngăn 04
 
-Qua phân tích XML gốc (`word/document.xml` và `word/styles.xml`) của file mẫu, khi Agent tạo hoặc xuất file `.docx` tại Ngăn 05, phải thiết lập đúng các thông số sau:
-
-* **Khổ giấy (Page Size):** A4 dọc (`w:w="11906"`, `w:h="16838"` twips $\approx 21.0\text{ cm} \times 29.7\text{ cm}$).
-* **Căn lề trang (Page Margins):**
-  * Lề trên (`Top`): `2.0 cm` (`1134` twips)
-  * Lề dưới (`Bottom`): `2.0 cm` (`1134` twips)
-  * Lề trái (`Left`): `3.0 cm` (`1701` twips)
-  * Lề phải (`Right`): `2.0 cm` (`1134` twips)
-  * Header / Footer: `1.25 cm` (`708` twips)
-* **Phông chữ và Cỡ chữ (Typography):**
-  * **Phông chữ văn bản mặc định:** `Times New Roman`
-  * **Cỡ chữ văn bản chính (Ngoài bảng):** `13 pt` (`w:sz val="26"`)
-  * **Cỡ chữ quốc hiệu / tiêu đề lớn (`ĐỀ CƯƠNG BÀI DẠY`, `TÊN BÀI DẠY`):** `13 pt – 15 pt` (`w:sz val="26"` đến `"30"`), **IN HOA, ĐẬM**, căn giữa.
-  * **Cỡ chữ nội dung bên trong Bảng biểu:** `12 pt` (`w:sz val="24"`).
-  * **Phông chữ và cỡ chữ cho Đoạn mã (HTML / CSS / Python / SQL):** `Courier New`, cỡ `10 pt – 12 pt` (`w:sz val="20"` đến `"24"`).
+| STT | Tên tệp / Thư mục | Phân loại | Mô tả & Cách sử dụng dành cho AI Agent |
+| :-: | :--- | :---: | :--- |
+| **1** | [`QUY_CHUAN_SOAN_KHBD_5512_THEO_GOP_Y_GV.md`](file:///c:/Users/PC/khbd_docx/04_form_mau_khbd/QUY_CHUAN_SOAN_KHBD_5512_THEO_GOP_Y_GV.md) | **Quy chuẩn bắt buộc (Môn Tin học)** | **ĐỌC ĐẦU TIÊN KHI SOẠN GIÁO ÁN TIN HỌC:** Đúc kết toàn bộ **42 nhận xét của 03 Giảng viên** (Cô Tuyết Ngân Tôn, Thầy Thống Nhất, Thầy Nguyễn Nhất Tân), quy tắc "Nói có sách, mách có chứng", văn phong con người lịch sự đầy đủ chủ ngữ, lịch dự giờ và quy trình kiểm tra trực quan (`x2t.exe`). |
+| **2** | [`QUY_TAC_SOAN_DE_CUONG_SHCN_12-2.md`](file:///c:/Users/PC/khbd_docx/04_form_mau_khbd/QUY_TAC_SOAN_DE_CUONG_SHCN_12-2.md) | **Quy chuẩn bắt buộc (Chủ nhiệm 12/2)** | **ĐỌC ĐẦU TIÊN KHI SOẠN ĐỀ CƯƠNG SHCN:** Lưu trữ danh sách Ban Cán sự, Tổ trưởng lớp 12/2, thông tin Cô Nguyễn Thị Thu Phương và 5 quy tắc sống còn (đầy đủ chủ ngữ – vị ngữ lễ phép, đánh số trang, trang bìa 1 trang, chống trùng lặp với bạn cùng nhóm). |
+| **3** | [`MAU_CHUAN_KHBD_5512_2Tiet_Tin12_Bai9.docx`](file:///c:/Users/PC/khbd_docx/04_form_mau_khbd/MAU_CHUAN_KHBD_5512_2Tiet_Tin12_Bai9.docx) | **Biểu mẫu Vàng số 1 (KHBD 02 tiết)** | Mẫu chuẩn **Đề cương dự giờ – KHBD bài 02 tiết (90 phút)** theo Công văn 5512 (Bài 9 – Tin học 12, Lớp 12/4), đã sửa hoàn chỉnh theo 42 nhận xét của 03 giảng viên và nhúng 8 hình SGK. |
+| **4** | [`MAU_CHUAN_KHBD_5512_1Tiet_Tin10_Bai12_Tiet1.docx`](file:///c:/Users/PC/khbd_docx/04_form_mau_khbd/MAU_CHUAN_KHBD_5512_1Tiet_Tin10_Bai12_Tiet1.docx) | **Biểu mẫu Vàng số 2 (KHBD 01 tiết)** | Mẫu chuẩn **Đề cương dự giờ – KHBD tiết đơn (45 phút)** theo Công văn 5512 (Bài 12 – Tiết 1 LT – Tin học 10, Lớp 10/1, Tiết PPCT: 17), nhúng 5 hình SGK. |
+| **5** | [`MAU_CHUAN_MA_TRAN_DAC_TA_DE_KIEM_TRA_7991_Tin10_GHKI.docx`](file:///c:/Users/PC/khbd_docx/04_form_mau_khbd/MAU_CHUAN_MA_TRAN_DAC_TA_DE_KIEM_TRA_7991_Tin10_GHKI.docx) | **Biểu mẫu Vàng số 3 (Ma trận & Đề KT)** | Mẫu chuẩn **Ma trận, Bản đặc tả, Đề kiểm tra và Hướng dẫn chấm Kiểm tra định kì** theo Công văn 7991/BGDĐT-GDTrH (12 câu TN nhiều lựa chọn + 4 câu TN Đúng/Sai + 3 câu Tự luận). |
+| **6** | [`MAU_CHUAN_DE_CUONG_SHCN_Lop12-2.docx`](file:///c:/Users/PC/khbd_docx/04_form_mau_khbd/MAU_CHUAN_DE_CUONG_SHCN_Lop12-2.docx) | **Biểu mẫu Vàng số 4 (Đề cương SHCN)** | Mẫu chuẩn **Đề cương dự giờ Sinh hoạt chủ nhiệm lớp 12/2** (Tuần 9 – nộp Cô Nguyễn Thị Thu Phương), trang bìa 1 trang, đánh số trang chân trang từ 1, đầy đủ 7 mục La Mã. |
+| **7** | [`_engine_5512/`](file:///c:/Users/PC/khbd_docx/04_form_mau_khbd/_engine_5512) | **Bộ máy Python tạo `.docx` chuẩn 5512** | Chứa [`docx_engine_5512.py`](file:///c:/Users/PC/khbd_docx/04_form_mau_khbd/_engine_5512/docx_engine_5512.py), `base_template_5512.docx` và `base_worksheet_5512.docx`. Agent import trực tiếp module này để sinh file `.docx` chuẩn định dạng 100% mà không sợ lỗi XML hay vỡ khung bìa. |
+| **8** | [`khbd_kntt_tham_khao/`](file:///c:/Users/PC/khbd_docx/04_form_mau_khbd/khbd_kntt_tham_khao) | **Học liệu KHBD tham khảo (NXB GDVN)** | Chứa trọn bộ KHBD tham khảo cả năm của bộ sách *Kết nối tri thức với cuộc sống* cho Lớp 10 (`KHBD_Tin10_CS_KNTT.docx`), Lớp 11 (`GA_Tin11_KHMT_KNTT_full.docx`, `GiaoAn_Tin11_ICT_KNTT.docx`) và Lớp 12 (`KHBD_Tin12_ALL_NOP.pdf`, `GA_12_Word.docx`). Dùng để tra cứu ngữ liệu và gợi ý hoạt động (nhưng khi trình bày sang file của sinh viên Hồ Quang Huy thì **bắt buộc phải định dạng theo chuẩn 42 nhận xét tại Ngăn 04 này**). |
 
 ---
 
-## 3. Cấu trúc Chi tiết 5 Phần của Kế Hoạch Bài Dạy (Chuẩn Form Mẫu)
+## 2. Tóm tắt Cấu trúc Khung Bắt buộc của Đề cương Dự giờ – Kế hoạch Bài dạy (Chuẩn Công văn 5512)
 
-Dưới đây là cấu trúc khung chi tiết mà Agent phải tuân thủ nghiêm ngặt khi soạn bài:
+Mọi file `.docx` Kế hoạch bài dạy môn Tin học phải tuân thủ đúng cấu trúc sau (chi tiết xem tại [`QUY_CHUAN_SOAN_KHBD_5512_THEO_GOP_Y_GV.md`](file:///c:/Users/PC/khbd_docx/04_form_mau_khbd/QUY_CHUAN_SOAN_KHBD_5512_THEO_GOP_Y_GV.md)):
 
-### PHẦN ĐẦU TRANG (HEADER THÔNG TIN CHUNG)
-```text
-Trường: [Tên trường, VD: THPT Hai Bà Trưng]          Họ và tên: [Họ và tên giáo viên/sinh viên]
-Tổ: Tin
+### 2.1. TRANG BÌA (Section 1 – Gói gọn đúng 01 trang duy nhất, không đánh số trang)
+- Quốc hiệu / Tên trường Đại học Sư phạm – Đại học Huế & Logo.
+- Tiêu đề lớn: **`ĐỀ CƯƠNG DỰ GIỜ – KẾ HOẠCH BÀI DẠY`**
+- Tên bài dạy + **Thời lượng thực hiện + Tiết thứ mấy của bài + Tiết PPCT thứ mấy**.
+- Bảng thông tin 2 cột: `Giáo viên hướng dẫn: Thầy Mai Xuân Văn`, `Giáo viên giảng dạy (SVTT): Hồ Quang Huy (MSV: 24S1020030)`, `Môn học / Lớp / Thời lượng / Lịch dự giờ / Phòng học`.
+- Dòng địa danh cuối trang bìa: *`Huế, tháng 11 năm 2026`* (nằm gọn trong Trang 1).
 
-                                  ĐỀ CƯƠNG BÀI DẠY
-                        TÊN BÀI DẠY: BÀI [SỐ]. [TÊN BÀI HỌC IN HOA]
-                     TIẾT [SỐ]. [TÊN NỘI DUNG TIẾT HỌC IN HOA]
-                      Môn học: Tin học; lớp: [10 / 11 / 12]
-                      Thời gian thực hiện: [01] tiết (45 phút)
-                Hình thức tổ chức: [VD: Dạy học thực hành tại phòng máy]
+### 2.2. PHẦN NỘI DUNG CHÍNH (Section 2 – Đánh số trang chân trang bắt đầu từ `1`)
+- **Đầu trang 1 (Header hành chính):**
+  - `Trường: THPT Thuận Hoá` [TAB] `Giáo viên giảng dạy (SVTT): Hồ Quang Huy`
+  - `Tổ: Tin học` [TAB] `Giáo viên hướng dẫn: Thầy Mai Xuân Văn`
+  - **`ĐỀ CƯƠNG DỰ GIỜ – KẾ HOẠCH BÀI DẠY`**
+  - **`TÊN BÀI DẠY: ...`** + Dòng phụ đề ghi rõ **Số tiết & Tiết PPCT**.
+- **`I. MỤC TIÊU`** (Gắn mã `[KT1..n]`, `[NLC1..3]`, `[NLa..e]`, `[NLS/NLAI]`, `[PC1..3]`):
+  - `1. Về kiến thức`
+  - `2. Về năng lực`:
+    - **`a) Năng lực chung`** *(Bắt buộc đặt trước)*
+    - **`b) Năng lực đặc thù môn Tin học`** *(Đặt thứ hai)*
+    - **`c) Năng lực số và Năng lực Trí tuệ nhân tạo (AI)`** *(Đặt thứ ba)*
+  - `3. Về phẩm chất`
+- **`II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU`**:
+  - `1. Thiết bị dạy học`
+  - `2. Học liệu` (Ghi đầy đủ tên SGK kèm Định hướng và NXB Giáo dục Việt Nam; dẫn chiếu rõ từng Phiếu học tập và Công cụ đánh giá `CCĐG` tại Mục `IV. PHỤ LỤC`).
+- **`III. TIẾN TRÌNH DẠY HỌC`** (Đúng 04 Hoạt động chuẩn Công văn 5512 – không có dòng tiêu đề thừa `Các hoạt động dạy học`):
+  - **`1. Hoạt động 1: Mở đầu (Xác định vấn đề / nhiệm vụ học tập)`**
+  - **`2. Hoạt động 2: Hình thành kiến thức mới (Nghiên cứu kiến thức mới)`** *(Gộp chung toàn bộ kiến thức mới vào mục này, bên trong chia thành `2.1. Nhiệm vụ 1`, `2.2. Nhiệm vụ 2`, `2.3. Nhiệm vụ 3`...)*
+  - **`3. Hoạt động 3: Luyện tập`** *(Đặt sau khi đã hoàn thành xong Hoạt động 2)*
+  - **`4. Hoạt động 4: Vận dụng`**
+  - **Trong mỗi Hoạt động / Nhiệm vụ:**
+    - `a) Mục tiêu:` (Đặt ngoài bảng, trích dẫn mã khớp 1–1 với Mục I).
+    - `b) Nội dung:` (Đặt ngoài bảng, **nhúng trực tiếp Hình ảnh / Bảng cắt từ SGK** kèm chú thích).
+    - `c) Sản phẩm:` (Đặt ngoài bảng, cuối mục có dòng ghi chú *`Công cụ kiểm tra, đánh giá sản phẩm học tập: ... tại Mục IV. PHỤ LỤC`*).
+    - `d) Tổ chức thực hiện:` **Bảng 2 cột** (`HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH` [gồm đúng 4 bước: `Bước 1. Giáo viên chuyển giao nhiệm vụ học tập`, `Bước 2. Học sinh thực hiện nhiệm vụ`, `Bước 3. Báo cáo sản phẩm`, `Bước 4. Đánh giá, nhận xét`] | `SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI)`).
+- **`IV. PHỤ LỤC`**:
+  - Đính kèm toàn bộ **Phiếu học tập (kèm Đáp án)** và **Công cụ kiểm tra, đánh giá (`CCĐG 1..n` – Bảng kiểm, Thang đánh giá, Rubric 6 cột có khung thông tin hành chính ở đầu)**.
+  - *(Tuyệt đối không có mục `KẾT QUẢ DỰ KIẾN`)*.
+- **`V. NHẬN XÉT CỦA GIÁO VIÊN HƯỚNG DẪN VÀ KÝ DUYỆT`**:
+  - Dòng `Nhận xét của Giáo viên hướng dẫn:` + 4 dòng chấm chấm (`115` dấu chấm/dòng).
+  - Dòng *`Huế, ngày ... tháng 11 năm 2026`* (in nghiêng, căn phải).
+  - Bảng chữ ký 2 cột: `GIÁO VIÊN HƯỚNG DẪN (Thầy Mai Xuân Văn)` | `GIÁO VIÊN GIẢNG DẠY (Hồ Quang Huy)`.
+
+---
+
+## 3. Cách sử dụng Engine `_engine_5512/docx_engine_5512.py` để tạo bài mới
+
+Khi cần tạo một file `.docx` KHBD mới bằng Python, Agent chỉ cần import các hàm từ [`_engine_5512/docx_engine_5512.py`](file:///c:/Users/PC/khbd_docx/04_form_mau_khbd/_engine_5512/docx_engine_5512.py):
+```python
+import sys
+sys.path.insert(0, r'c:\Users\PC\khbd_docx\04_form_mau_khbd\_engine_5512')
+from docx_engine_5512 import (
+    p, r, tabline, code_box, tbl, step_block,
+    create_5512_doc_builder, approval_and_signature_elements
+)
 ```
-
----
-
-### I. MỤC TIÊU
-
-#### 1. Về kiến thức
- Mở đầu bằng cụm: *"Sau tiết học, học sinh:"*
-* Gạch đầu dòng 3–4 ý cốt lõi, bắt đầu bằng động từ hành động đo lường được (*Nhận biết được..., Trình bày được..., Thực hiện được..., Viết được...*).
-* Nếu tiết học có tích hợp AI, bổ sung 1 ý: *"Biết AI có thể hỗ trợ phát hiện lỗi và gợi ý điều chỉnh mã [HTML/Python/SQL...]; biết cần kiểm tra lại gợi ý trước khi sử dụng."*
-
-#### 2. Về năng lực
-Chia rõ 3 mục nhỏ `a)`, `b)`, `c)`:
-* **a) Năng lực đặc thù môn Tin học:**
-  Liệt kê các năng lực có trong bài kèm mã và tên đầy đủ theo chuẩn CT GDPT 2018:
-  * `NLa – Sử dụng và quản lí các phương tiện công nghệ thông tin và truyền thông:` [Mô tả hành vi cụ thể trong bài].
-  * `NLc – Giải quyết vấn đề với sự hỗ trợ của công nghệ thông tin và truyền thông:` [Mô tả hành vi cụ thể trong bài].
-  * `NLd – Ứng dụng công nghệ thông tin và truyền thông trong học và tự học:` [Mô tả hành vi cụ thể trong bài].
-  *(Bổ sung `NLb` hoặc `NLe` nếu nội dung bài học hướng tới ứng xử số hoặc hợp tác nhóm trên môi trường số).*
-* **b) Năng lực chung:**
-  * `Tự chủ và tự học:` Chủ động nghiên cứu SGK, thực hành viết mã/thao tác và tự điều chỉnh sản phẩm.
-  * `Giao tiếp và hợp tác:` Trao đổi theo cặp/nhóm, trình bày và nhận xét kết quả học tập.
-  * `Giải quyết vấn đề và sáng tạo:` Lựa chọn nội dung, công cụ, cấu trúc/thuật toán phù hợp để thiết kế sản phẩm.
-* **c) Năng lực số và năng lực AI:**
-  Ghi mã năng lực số (theo Khung năng lực số) và mã năng lực AI cụ thể gắn với bài học, ví dụ:
-  * `3.1.NC1.a:` Phát triển / chỉnh sửa nội dung số (văn bản web, chương trình, cơ sở dữ liệu, đồ họa...).
-  * `3.2.NC1.a:` Tinh chỉnh, tích hợp và hoàn thiện nội dung số hiển thị.
-  * `[Lớp].C2.2` *(VD: `10.C2.2`, `11.C2.2`, `12.C2.2`)*: Vận dụng trợ lý AI để phát hiện lỗi cú pháp/logic, nhận gợi ý điều chỉnh mã; biết kiểm tra lại kết quả trước khi sử dụng.
-
-#### 3. Về phẩm chất
-* `Chăm chỉ:` Tích cực tìm hiểu kiến thức, thực hành và điều chỉnh sản phẩm.
-* `Trách nhiệm:` Hoàn thành nhiệm vụ được giao; sử dụng thiết bị và công cụ hỗ trợ đúng mục đích.
-* `Trung thực:` Trình bày đúng quá trình thực hiện và giải thích được việc sử dụng gợi ý của AI khi hoàn thiện sản phẩm.
-
----
-
-### II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU
-
-#### 1. Thiết bị dạy học và điều kiện tổ chức
-* Máy tính, máy chiếu.
-* Phòng máy có phần mềm phù hợp với bài học *(VD: phần mềm soạn thảo mã/văn bản và trình duyệt web; hoặc IDE Python/Thonny; hoặc hệ QTCSDL MySQL/HeidiSQL; hoặc Inkscape/GIMP)*.
-* Kết nối Internet nếu học sinh trực tiếp sử dụng công cụ AI.
-
-#### 2. Học liệu
-* **Giáo viên chuẩn bị:**
-  * SGK Tin học [Lớp] – Bài [Số]: [Tên bài].
-  * Bài trình chiếu, trò chơi ôn tập / khởi động (nêu tên trò chơi cụ thể).
-  * Đoạn mã / tệp dữ liệu minh họa các đơn vị kiến thức mới.
-  * Sản phẩm mẫu, đoạn mã có lỗi và kết quả phản hồi của AI được chuẩn bị trước (phương án dự phòng khi phòng máy mất mạng).
-  * Bảng tiêu chí đánh giá sản phẩm (Rubric).
-* **Học sinh chuẩn bị:**
-  * SGK, vở ghi và dụng cụ học tập.
-  * Tệp sản phẩm đã thực hiện ở tiết trước (nếu là tiết 2 nối tiếp).
-
----
-
-### III. TIẾN TRÌNH DẠY HỌC
-
-#### 1. Nội dung đã học ở tiết trước (làm cơ sở cho tiết học hiện tại)
-*(Nếu soạn Tiết 2 của bài học hoặc bài học kế thừa trực tiếp bài trước, lập Bảng 2 cột tóm tắt nền tảng kiến thức học sinh đã có)*:
-
-| Nội dung | Kiến thức, kĩ năng học sinh đã học |
-| :--- | :--- |
-| [Đơn vị kiến thức 1] | [Mô tả ngắn gọn những gì HS đã nhận biết và làm được] |
-| [Đơn vị kiến thức 2] | [Mô tả ngắn gọn những gì HS đã nhận biết và làm được] |
-| Thực hành cơ bản | [Kỹ năng thao tác cơ bản HS đã thực hiện được ở tiết trước] |
-
-* **Sản phẩm dự kiến cuối tiết trước:** Mô tả rõ tệp sản phẩm học sinh đã có để tiếp tục phát triển trong tiết này. *(Nếu là Tiết 1 mở đầu chủ đề mới, có thể tóm tắt kiến thức nền tảng từ chủ đề/lớp trước).*
-
-#### 2. Tình huống học tập
-* Thiết kế một bối cảnh thực tiễn, gần gũi với học sinh nhà trường phổ thông (3–5 câu văn), đóng vai trò "sợi chỉ đỏ" xuyên suốt toàn bộ các hoạt động trong tiết học.
-* *Ví dụ mẫu:* *"Nhà trường tổ chức hoạt động 'Góc báo điện tử của học sinh'. Mỗi học sinh thiết kế một trang báo điện tử cá nhân giới thiệu một chủ đề gần gũi như môn học yêu thích, một cuốn sách hay, hoạt động của lớp hoặc thông điệp bảo vệ môi trường..."*
-
-#### 3. Phân bố thời gian
-Lập **Bảng 2 cột** tổng hợp thời lượng các hoạt động (Tổng cộng = `45 phút`):
-
-| Hoạt động | Thời lượng |
-| :--- | :--- |
-| Hoạt động 1. [Ôn tập / Khởi động và xác định nhiệm vụ...] | 4 – 5 phút |
-| Hoạt động 2. [Tìm hiểu đơn vị kiến thức mới 1...] | 7 – 8 phút |
-| Hoạt động 3. [Tìm hiểu đơn vị kiến thức mới 2...] | 7 – 8 phút |
-| Hoạt động 4. [Thực hành thiết kế sản phẩm / lập trình...] | 17 – 20 phút |
-| Hoạt động 5. [Sử dụng AI kiểm tra mã và giao nhiệm vụ vận dụng] | 6 – 7 phút |
-| **Tổng** | **45 phút** |
-
-#### 4. Các hoạt động dạy học (BẢNG CHÍNH 4 CỘT)
-Đây là phần trọng tâm nhất của Đề cương bài dạy. Bảng gồm **4 cột bắt buộc** với cấu trúc nội dung từng ô như sau:
-
-| Hoạt động – thời lượng | Nội dung hoạt động và nhiệm vụ học tập | Năng lực, phẩm chất hướng tới | Sản phẩm và đánh giá |
-| :--- | :--- | :--- | :--- |
-| **HOẠT ĐỘNG [SỐ]. [TÊN HOẠT ĐỘNG IN HOA]**<br>([X] phút) | **Mục tiêu:** [Nêu ngắn gọn 1–2 câu mục tiêu của hoạt động].<br>**Nội dung:** [Mô tả nhiệm vụ cốt lõi HS thực hiện].<br>**Tổ chức thực hiện:**<br>**Giáo viên:**<br>- [Hành động trình chiếu / tổ chức trò chơi / nêu đoạn mã mẫu].<br>- [Đặt câu hỏi đánh số rõ ràng: (1) ...? (2) ...? (3) ...? hoặc giao nhiệm vụ cụ thể].<br>**Học sinh:**<br>- [Hoạt động quan sát, nghiên cứu SGK, trao đổi theo cặp / thực hành cá nhân].<br>- [Viết mã / thực hiện thao tác, trình bày câu trả lời, nhận xét và bổ sung].<br>**Giáo viên:**<br>- [Quan sát, hỗ trợ các điểm khó cụ thể].<br>- [Mời HS trình bày, nhận xét, chuẩn hóa kiến thức].<br>- [Câu dẫn dắt chuyển tiếp sang hoạt động tiếp theo]. | - [Mã NL đặc thù: `NLa`, `NLc`, `NLd`...]<br>- [Mã Năng lực số / Năng lực AI nếu có]<br>- [Năng lực chung: `Tự chủ và tự học`, `Giao tiếp và hợp tác`...]<br>- [Phẩm chất: `Chăm chỉ`, `Trách nhiệm`, `Trung thực`...] | **Câu trả lời dự kiến / Đoạn mã dự kiến / Sản phẩm dự kiến / Lỗi dự kiến:**<br>- [Ghi rõ đáp án từng câu hỏi (1), (2), (3)...]<br>- [Ghi rõ đoạn mã mẫu hoặc mô tả chi tiết sản phẩm hoàn chỉnh kèm ví dụ cụ thể].<br>**Đánh giá:**<br>- [Ghi rõ phương thức: Qua trò chơi, hỏi – đáp / Qua câu trả lời và đoạn mã học sinh viết / Qua thao tác, sản phẩm và bảng tiêu chí đánh giá...]. |
-
----
-
-### IV. KIỂM TRA, ĐÁNH GIÁ
-
-#### 1. Đánh giá quá trình
-Liệt kê 4–5 điểm chạm đánh giá xuyên suốt tiết học:
-* Kết quả trò chơi ôn tập / khởi động.
-* Câu trả lời và đoạn mã học sinh viết trong hoạt động tìm hiểu kiến thức.
-* Quá trình thực hành thiết kế sản phẩm tại phòng máy.
-* Việc tìm lỗi, viết prompt và nhận xét gợi ý của AI.
-* Phần trình bày, nhận xét và điều chỉnh sản phẩm của học sinh.
-
-#### 2. Tiêu chí đánh giá sản phẩm (Bảng Rubric 3 cột)
-Lập **Bảng 3 cột** chấm điểm sản phẩm thực hành (Tổng = `10 điểm`):
-
-| Tiêu chí | Yêu cầu cần đạt | Điểm tối đa |
-| :--- | :--- | :---: |
-| Cấu trúc và lưu tệp | Tệp có cấu trúc đúng quy chuẩn, lưu đúng tên (`HoTen_Lop_TenBai.ext`) và mở/chạy được. | 2 |
-| [Tiêu chí nội dung/kỹ thuật 1] | [Mô tả yêu cầu cụ thể 1] | 2 |
-| [Tiêu chí kỹ thuật 2 (Kiến thức mới 1)] | [Mô tả yêu cầu cụ thể 2] | 1 |
-| [Tiêu chí kỹ thuật 3 (Kiến thức mới 2)] | [Mô tả yêu cầu cụ thể 3] | 2 |
-| [Tiêu chí kỹ thuật phụ / kết hợp] | [Mô tả yêu cầu cụ thể 4] | 1 |
-| Nội dung và trình bày | Nội dung rõ ràng, phù hợp chủ đề; trình bày khoa học, dễ đọc / code mạch lạc. | 2 |
-| **Tổng** | | **10** |
-
-* **Cách cho điểm dự kiến:**
-  * *Tiêu chí 2 điểm:* đạt đầy đủ yêu cầu được 2 điểm; đạt một phần được 1 điểm; chưa thực hiện được 0 điểm.
-  * *Tiêu chí 1 điểm:* thực hiện phù hợp được 1 điểm; chưa thực hiện hoặc thực hiện chưa phù hợp được 0 điểm.
-  * Giáo viên công bố tiêu chí trước khi học sinh thực hành. Nếu sử dụng để nhận xét thường xuyên, giáo viên có thể góp ý theo từng tiêu chí mà không nhất thiết cho điểm.
-
----
-
-### V. KẾT QUẢ DỰ KIẾN
-Mở đầu bằng cụm: *"Sau tiết học, học sinh:"*
-* Tóm tắt 3–4 kết quả đầu ra thực chất mà học sinh làm được sau khi kết thúc 45 phút (nhận biết và sử dụng được công cụ/cú pháp gì, tạo và lưu được sản phẩm gì, viết được prompt nhờ AI hỗ trợ phát hiện lỗi và biết kiểm tra lại gợi ý trước khi sử dụng).
+Xem các script mẫu đã dựng sẵn tại [`khoi10/_scripts_build/`](file:///c:/Users/PC/khbd_docx/khoi10/_scripts_build) và [`09_nop_du_gio_Tin12_Bai9_05-11-2026/_scripts_build/`](file:///c:/Users/PC/khbd_docx/09_nop_du_gio_Tin12_Bai9_05-11-2026/_scripts_build).

@@ -1,0 +1,31 @@
+2
+Slide 1 Tôi dùng AI đểlàm tài liệu học tập
+Thời lượng 40 giây
+Nội dung hiện trên slide
+• Đầu vào: sách, giáo trình, mẫu và yêu cầu.
+• AI hỗtrợ: soạn nháp, tạo phiếu, định dạng.
+• Tôi chọn nguồn, kiểm chứng và duyệt bản dùng.
+Lời nói gợi ý
+Khi làm một bộtài liệu học tập, tôi thường có sách, giáo trình, mẫu Word và yêu
+cầu của thầy. Nếu mỗi lần mởcuộc trò chuyện mới lại gửi và giải thích từđầu thì khá
+mất công. Tôi gom chúng vào một thư mục có hướng dẫn đểAI tiếp tục làm việc trên
+cùng bộtài liệu. Hôm nay tôi chia sẻcách sắp xếp và giao việc đó. Điều tôi muốn mọi
+người mang vềlà cách dùng AI có căn cứ, biết kiểm tra và vẫn hiểu sản phẩm mình
+tạo ra.
+Hình minh hoạ: Ba nhóm Đầu vào →AI hỗtrợ→Tôi kiểm chứng. Chưa cần hiện tên
+nhiều công cụ.
+Slide 2 Mỗi công cụcó một vai trò
+Thời lượng 50 giây
+Nội dung hiện trên slide
+• GitHub: giữvà chia sẻcảbộtài liệu cùng hướng dẫn.
+• Antigravity: bàn làm việc đểtôi và AI đọc, sửa file.
+• OpenCode: thêm một cách gọi AI từcửa sổlệnh.
+Lời nói gợi ý
+Có thểhình dung GitHub như nơi giữmột bộhồsơ có lịch sửsửa đổi.
+Antigravity là bàn làm việc trên máy: tôi mởthư mục, giao việc cho AI và xem kết
+quả. Khi cần, tôi mởOpenCode trong terminal, tức cửa sổgõ lệnh, đểdùng model đã
+cấu hình. Model là bộmáy tạo câu trảlời; agent là trợlý dùng model cùng công cụđể
+làm việc với file. GitHub tựnó không đọc sách hay viết giáo án. Điểm tôi chia sẻở
+đây là cách nối tài liệu, hướng dẫn và công cụthành một quy trình.
+Hình minh hoạ: Ba ô có biểu tượng tủhồsơ, bàn làm việc và cửa sổlệnh; dưới mỗi ô
+chỉmột câu giải thích.

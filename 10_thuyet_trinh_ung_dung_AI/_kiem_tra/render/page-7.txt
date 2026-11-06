@@ -1,0 +1,34 @@
+7
+Ghi chú đểnói chính xác và trảlời câu hỏi
+Vì sao tôi chọn GitHub thay cho cách làm trong NotebookLM
+Nên nói: “Tôi chọn thư mục và GitHub vì muốn quản lý nhiều loại file, hướng
+dẫn và lịch sửsửa, rồi dùng chúng với các công cụAI khác nhau.” NotebookLM có
+chức năng chia sẻvà xuất nội dung [4]. Vì vậy, tránh khẳng định NotebookLM chỉcho
+Gemini dùng hoặc bắt buộc phải có MCP mới dùng được tài liệu ởcông cụkhác. Với
+file đã có trong thư mục và công cụcó quyền đọc, không cần MCP chỉđểđọc những
+file đó.
+Clone repo có làm agent tựhiểu mọi thứkhông
+Clone là lấy bản sao kho vềmáy, không sao chép cuộc trò chuyện hay quyền truy
+cập dịch vụ[1]. README là điểm bắt đầu. Việc tựnạp rule, skill và vịtrí file phụ
+thuộc công cụ[2, 3]. Hãy yêu cầu agent nêu đã đọc gì. PDF scan hoặc file khó đọc có
+thểcần OCR hay công cụtrích xuất. Người nhận vẫn phải có công cụvà model phù
+hợp.
+Điểm mạnh và giới hạn cần nói cân bằng
+Có thểchia sẻcảcách làm, đổi công cụvà rà lại các lần sửa. Đổi lại, phải tổchức
+file và cập nhật yêu cầu. Nhiều model cùng đồng ý chưa phải bằng chứng đúng. Lịch
+sửGit dễxem với văn bản .md; thay đổi trong Word hoặc PDF vẫn cần mởbản cũ và
+mới đểđối chiếu. Chỉchia sẻhọc liệu có quyền sửdụng; loại thông tin học sinh, mật
+khẩu và khoá truy cập khỏi repo công khai.
+Nếu chỉđược 5 phút hoặc được nói đủ8 phút
+Bản 5 phút: giữđủbảy ý, mỗi slide nói một đoạn ngắn; slide 4 chỉnêu phân vai,
+slide 5 dùng ảnh thay thao tác, bỏphần giới thiệu thuật ngữdài. Bản 8 phút: giữnhịp 7
+phút rồi thêm khoảng 1 phút hỏi khán giảchọn cách kiểm tra lỗi HTML ởslide 6. Tập
+có bấm giờmột lần; không đọc các trang hướng dẫn dựphòng.
+Nguồn tra cứu khi chuẩn bị
+Các nguồn dưới đây hỗtrợphần mô tảcông cụ; ví dụđềcương dựa trên hồsơ và ba
+nhận xét của thầy trong dựán. Tra cứu ngày 04/11/2026.
+[1] GitHub Docs vềclone và đồng bộbản sao kho
+[2] Google Antigravity vềrule và skill
+[2] Google Antigravity vềquy trình trong SKILL md
+[3] OpenCode vềchỉdẫn trong AGENTS md
+[4] Google vềtạo chia sẻvà xuất nội dung notebook

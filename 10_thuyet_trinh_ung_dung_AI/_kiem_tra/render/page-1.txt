@@ -1,0 +1,39 @@
+1
+Ứng dụng AI đểlàm tài liệu học tập
+Sườn 7 slide và lời nói trong 5 đến 8 phút
+Người trình bày HồQuang Huy
+Tôi tổchức tài liệu và cách làm thành một thư mục có hướng dẫn, dùng AI hỗtrợ
+tạo học liệu, rồi tựkiểm chứng trước khi sửdụng. Người nghe có thểáp dụng ngay
+cho một bài học nhỏ, chưa cần biết lập trình hay thiết lập kết nối giữa các ứng dụng.
+Điều người nghe cần mang về
+• Biết sắp tài liệu nguồn, yêu cầu và sản phẩm vào các ngăn dễtìm.
+• Biết giao cho AI việc cụthể, có nguồn và tiêu chí kiểm tra.
+• Biết tựgiải thích, đối chiếu và quyết định thay vì chấp nhận bản AI viết.
+Nhịp trình bày mục tiêu 7 phút
+Slide
+Nội dung
+Thời gian
+1
+Tôi dùng AI đểgiải quyết việc gì
+0:00–0:40
+2
+Mỗi công cụlàm một việc gì
+0:40–1:30
+3
+Chia ngăn và viết hướng dẫn cho AI
+1:30–2:35
+4
+Nhiều agent cùng làm như thếnào
+2:35–3:35
+5
+Ví dụthật từđềcương Bài 9
+3:35–5:00
+6
+Con người kiểm chứng và tựsuy nghĩ
+5:00–6:10
+7
+Người nghe có thểbắt đầu ra sao
+6:10–7:00
+Bản 7 phút gồm khoảng 30 giây mởxem tài liệu ởslide 5. Lời nói là gợi ý đểtập,
+không cần đọc nguyên văn. Các trang cuối dành cho chuẩn bịvà trảlời câu hỏi,
+không đưa hết lên slide.

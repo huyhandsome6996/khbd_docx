@@ -1,0 +1,34 @@
+5
+Slide 6 Tôi làm gì đểAI không suy nghĩ thay
+Thời lượng 70 giây
+Nội dung hiện trên slide
+• Trước khi hỏi: tựxác định mục tiêu và viết ý chính.
+• Khi nhận: hỏi căn cứvà thửmột ví dụcụthể.
+• Trước khi dùng: tựgiải thích và chịu trách nhiệm.
+Lời nói gợi ý
+Tôi giữlại ba việc cho mình: chọn mục tiêu, đánh giá bằng chứng và quyết định
+bản dùng. Chẳng hạn, học sinh đang sửa bảng HTML có hai ô dữliệu nằm ngoài hàng.
+Em nên tựdựđoán lỗi trước, rồi yêu cầu AI chỉgợi ý, chưa viết đáp án. Sau đó em tự
+sửa, chạy thửvà giải thích vì sao cần thẻtr bao các ô. Nếu AI chỉkhuyên thêm viền,
+em phải nhận ra viền không sửa được lỗi cấu trúc. Cách kiểm tra rất đơn giản: tắt AI
+đi, mình có giải thích được lựa chọn và làm lại một ví dụgần giống không? Nếu chưa,
+mình cần học tiếp trước khi dùng hoặc nộp.
+Hình minh hoạ: Ba bước Tựlàm trước →Nhận phản hồi →Tựgiải thích. Giữđoạn
+mã chi tiết ởphần dựphòng, không nhét lên slide.
+Slide 7 Bắt đầu từmột bài học nhỏ
+Thời lượng 50 giây
+Nội dung hiện trên slide
+• Một bài học và vài tài liệu đáng tin.
+• Một hướng dẫn rõ và một sản phẩm nhỏ.
+• Đọc lại, thửlại rồi mới chia sẻ.
+Lời nói gợi ý
+Mọi người có thểbắt đầu bằng một thư mục của một bài học: đểtài liệu nguồn
+vào một ngăn, yêu cầu vào một file và kết quảvào ngăn khác. Giao AI làm một phiếu
+ngắn rồi tựkiểm tra. Khi dùng ổn, có thểđưa phần được phép chia sẻlên GitHub để
+người khác lấy vềvà tiếp tục làm với công cụcủa họ. Điểm mạnh của cách này là giữ
+được nguồn, quy trình và các lần sửa; không phải giải thích lại mọi thứtừđầu. Cách
+làm cần công sắp xếp và kiểm chứng, nhưng áp dụng được cho phiếu học tập, đề
+cương ôn tập, câu hỏi tựkiểm tra và slide bài học. Tôi chọn việc và duyệt kết quả; AI
+hỗtrợtôi thực hiện.
+Hình minh hoạ: Một ảnh thư mục tối giản và bốn biểu tượng sản phẩm. Câu cuối dừng
+ởvai trò của người dùng.

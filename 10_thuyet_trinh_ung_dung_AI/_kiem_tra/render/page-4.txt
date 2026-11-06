@@ -1,0 +1,28 @@
+4
+Slide 5 Ví dụthật từđềcương Bài 9
+Thời lượng 85 giây
+Nội dung hiện trên slide
+• Nguồn: SGK, mẫu đềcương và nhận xét của thầy.
+• Sửa: từ45 lên 90 phút và đổi cách trình bày hoạt động.
+• Kiểm tra: nội dung theo nguồn và từng trang Word.
+Lời nói gợi ý
+Ví dụgần nhất là đềcương Bài 9 vềtạo danh sách và bảng trong HTML. Bản
+trước dựkiến cảbài trong 45 phút. Thầy góp ý bài được bốtrí hai tiết, tức 90 phút;
+năng lực chung cần đặt trước năng lực đặc thù; mục tiêu, nội dung và sản phẩm cần
+đưa ra ngoài bảng. Tôi dùng những nhận xét đó làm yêu cầu sửa, rồi cho AI đồng bộ
+đềcương, phiếu và học liệu. Tôi mởWord đểxem lại và đối chiếu nguồn. Ví dụnày
+cho thấy một bản trình bày đẹp vẫn cần người có chuyên môn phản biện. Sau đây tôi
+mởnhanh một phần đểmọi người thấy cách tôi kiểm tra.
+Hình minh hoạ: Đặt cạnh nhau ảnh nhận xét của thầy và một đoạn sau khi sửa. Nếu
+dùng ảnh nhận xét, xin phép người liên quan hoặc ẩn tên.
+Minh hoạtrực tiếp trong khoảng 30 giây
+• Mởcây thư mục có ngăn SGK, mẫu và thành phẩm, khoảng 5 giây.
+• Mởđềcương ởphần hai tiết và một hoạt động có mục tiêu ngoài bảng, khoảng 15
+giây.
+• Chỉtrang SGK hoặc PDF nguồn và nói mình đang đối chiếu điều gì, khoảng 10 giây.
+Câu nói khi thao tác: “Trên máy tôi có extension đểxem, sửa DOCX và xem
+PDF ngay trong IDE. Tôi đối chiếu được nhanh mà không phải rời chỗlàm. Xem được
+file mới là một bước; tôi còn kiểm tra nguồn, thời lượng và bốcục từng trang.”
+Chuẩn bịsẵn các tab. Nếu máy hoặc mạng chậm, dùng hai ảnh đã chụp; không chờAI
+tạo tài liệu mới trước khán giả. Khi cần in hoặc nộp, kiểm tra thêm bản Word hoặc
+PDF xuất cuối vì các trình xem có thểhiển thịkhác nhau.

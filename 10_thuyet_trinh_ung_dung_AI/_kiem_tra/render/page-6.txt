@@ -1,0 +1,40 @@
+6
+Mẫu nhỏđểngười nghe áp dụng
+Đây là cấu trúc gợi ý cho người mới, không phải yêu cầu phải đổi toàn bộdựán
+hiện có. Bắt đầu bằng một môn và một bài, chưa cần nhiều agent.
+bai_hoc/
+README.md
+Bản đồtài liệu và cách bắt đầu
+AGENTS.md
+Hướng dẫn chung cho công cụhỗtrợ
+01_nguon/
+Tài liệu có tên và sốtrang
+02_yeu_cau/
+Mục tiêu và mẫu trình bày
+03_ban_nhap/
+Nơi AI tạo bản đểxem
+04_kiem_tra/
+Nhận xét và đối chiếu nguồn
+05_thanh_pham/
+Chỉbản đã được người dùng duyệt
+Năm dòng hướng dẫn ban đầu
+• Đọc README và yêu cầu trước khi làm; nêu các file nguồn đã dùng.
+• Ghi rõ tên tài liệu và trang cho kiến thức quan trọng; thiếu căn cứthì hỏi hoặc đánh
+dấu đểtôi kiểm tra.
+• Không ghi đè tài liệu nguồn; bản mới lưu vào ngăn bản nháp.
+• Word A4, Times New Roman 13, lềtrái 3 cm, còn lại 2 cm; kiểm tra từng trang sau
+khi xuất.
+• Góp ý mới được tôi duyệt phải cập nhật vào yêu cầu hiện hành; báo nếu mâu thuẫn
+với hướng dẫn cũ.
+Lệnh giao việc có thểdùng ngay
+“Đọc README, yêu cầu và tài liệu vềbài đang học. Hãy tạo một phiếu 5 câu
+phù hợp với mục tiêu tôi ghi, kèm đáp án riêng. Nêu nguồn và trang cho từng nhóm
+câu hỏi. Lưu bản nháp đểtôi đọc, chưa ghi vào ngăn thành phẩm. Chỗnào chưa đủcăn
+cứthì ghi rõ, không tựđiền thông tin.”
+Mẫu lệnh đểluyện tư duy thay vì chép đáp án
+“Tôi dựđoán đoạn bảng HTML này sai vì các ô td nằm ngoài tr. Hãy hỏi tôi một
+câu đểkiểm tra lập luận, rồi cho một gợi ý nếu cần. Chưa viết mã hoàn chỉnh. Sau khi
+tôi sửa, hãy chỉra cách tựkiểm tra bằng cấu trúc và kết quảchạy.”
+Bài tựkiểm tra: đóng cửa sổAI, giải thích vai trò của tr, th và td, rồi tựtạo bảng hai
+cột có một hàng dữliệu. Việc trình duyệt vẫn hiển thịđược không đủđểkết luận mã
+đúng.

@@ -1,154 +1,290 @@
-Trường: THPT Thuận Hoá   Họ và tên: Hồ Huy
-Tổ: Tin   GVHD: Cô Lê Thị Tú Trinh
+Huế, tháng 11 năm 2026
+
+Trường: THPT Thuận HoáGiáo viên giảng dạy (SVTT): Hồ Quang Huy
+
+Tổ: Tin họcGiáo viên hướng dẫn: Thầy Mai Xuân Văn
+
+ĐỀ CƯƠNG DỰ GIỜ – KẾ HOẠCH BÀI DẠY
+
+TÊN BÀI DẠY: BÀI 12. PHẦN MỀM THIẾT KẾ ĐỒ HOẠ (TIẾT 1 – LÍ THUYẾT)
+
+(Thời lượng toàn bài: 02 tiết [Tiết PPCT: 17, 18] – Kế hoạch này chi tiết hoá Tiết thứ 1 của bài / Tiết PPCT: 17)
+
+Môn học: Tin học; Lớp: 10/1
+
+Thời gian thực hiện: 01 tiết (45 phút – Tiết 1 - LT / Tiết PPCT: 17)
+
+Lịch dự giờ: Thứ Ba, ngày 10/11/2026 – Tiết 1 (07h10 – 07h55) – Lớp 10/1 – Phòng H.I.3
+
+Hình thức tổ chức: Dạy học lí thuyết kết hợp quan sát trực quan và thảo luận nhóm
+
+I. MỤC TIÊU
+
+Căn cứ Yêu cầu cần đạt của Chương trình Giáo dục phổ thông 2018 môn Tin học (Thông tư số 32/2018/TT-BGDĐT), lớp 10, Chủ đề E (Ứng dụng tin học – Phần mềm thiết kế đồ hoạ) và Kế hoạch dạy học môn Tin học Khối 10 của Trường THPT Thuận Hoá (khoi_10_tin_hoc_07092026.xls: Tiết PPCT 17 – §4.12. Phần mềm thiết kế đồ họa (tiết 1 - LT)):
+
+1. Về kiến thức
+
+Sau tiết học này, học sinh đạt được các yêu cầu về kiến thức (ký hiệu [KT1] – [KT3] để đối chiếu xuyên suốt các hoạt động dạy học):
+
+[KT1]: Nêu được khái niệm thiết kế đồ hoạ; phân biệt được hai loại đồ hoạ cơ bản là đồ hoạ điểm ảnh (`bitmap`) và đồ hoạ vectơ (`vector`) theo 5 tiêu chí trong Bảng so sánh SGK trang 64; giải thích được lí do chọn đồ hoạ vectơ khi thiết kế logo, bảng hiệu.
+
+[KT2]: Phân loại được các phần mềm đồ hoạ thông dụng (Inkscape, Illustrator, CorelDRAW, Photoshop, GIMP); nhận diện đúng các thành phần trên màn hình làm việc của Inkscape (Hình 12.3 SGK trang 65).
+
+[KT3]: Trình bày được quy tắc thứ tự lớp (Layer order – đối tượng vẽ trước ở lớp dưới, vẽ sau ở lớp trên), quy trình 3 bước vẽ đối tượng hình học cơ bản (Hình 12.4 SGK trang 66), thao tác chọn/co dãn/xoay bằng công cụ Select, cách chọn màu tô (Fill), màu vẽ (Stroke với phím Shift) và lưu tệp .svg.
+
+2. Về năng lực
+
+a) Năng lực chung
+
+[NLC1 – Tự chủ và tự học]: Học sinh chủ động đọc hiểu Sách giáo khoa Tin học 10 trang 63–67, quan sát Hình 12.1 đến Hình 12.4 để hoàn thành các Phiếu học tập.
+
+[NLC2 – Giao tiếp và hợp tác]: Học sinh tích cực thảo luận cặp đôi trong các hoạt động so sánh đồ hoạ bitmap – vectơ và bài toán sắp xếp thứ tự lớp.
+
+[NLC3 – Giải quyết vấn đề và sáng tạo]: Học sinh giải thích được cách xử lí tình huống các đối tượng đồ hoạ che khuất nhau và cách kết hợp các hình cơ bản.
+
+b) Năng lực đặc thù môn Tin học
+
+[NLa – Sử dụng và quản lí các phương tiện CNTT và truyền thông]: Nhận biết và gọi đúng tên các vùng chức năng, công cụ vẽ cơ bản của phần mềm thiết kế đồ hoạ Inkscape.
+
+[NLb – Ứng xử phù hợp trong môi trường số]: Có ý thức sử dụng phần mềm nguồn mở miễn phí Inkscape thay cho phần mềm bẻ khoá nhằm tôn trọng bản quyền phần mềm (kế thừa Bài 11 – §3.11).
+
+[NLe – Hợp tác trong môi trường số]: Phối hợp hiệu quả với bạn cùng nhóm để hoàn thành nhiệm vụ học tập đúng tiến độ.
+
+c) Năng lực số
+
+[NLS 3.1.NC1.a]: Bước đầu nắm vững nguyên lí tạo và chỉnh sửa nội dung đồ hoạ số định dạng vectơ (.svg).
+
+3. Về phẩm chất
+
+[PC1 – Chăm chỉ]: Học sinh tập trung quan sát, ghi chép đầy đủ hệ thống khái niệm và quy tắc thao tác trong Sách giáo khoa.
+
+[PC2 – Trách nhiệm]: Học sinh hoàn thành nghiêm túc các Phiếu học tập cá nhân và cặp đôi đúng thời gian quy định.
+
+[PC3 – Trung thực]: Học sinh tự giác làm bài tập củng cố và đánh giá khách quan kết quả của bạn.
+
+II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU
+
+Thiết bị dạy học: Máy tính của giáo viên đã cài đặt phần mềm Inkscape (phiên bản 1.0 trở lên), máy chiếu tại phòng học H.I.3, bảng viết và bộ Phiếu học tập.
+
+Sách giáo khoa chính thức: Sách giáo khoa Tin học 10 – Bộ sách Kết nối tri thức với cuộc sống, Nhà xuất bản Giáo dục Việt Nam, Bài 12: Phần mềm thiết kế đồ hoạ (mục 1, mục 2, mục 3 và phần Luyện tập, Vận dụng – trang 63 đến trang 68).
+
+Phân phối chương trình: Kế hoạch dạy học môn Tin học Khối 10 năm học 2026–2027 của Trường THPT Thuận Hoá (khoi_10_tin_hoc_07092026.xls: Tiết PPCT 17 – §4.12. Phần mềm thiết kế đồ họa (tiết 1 - LT)).
+
+III. TIẾN TRÌNH DẠY HỌC
+
+Bảng tổng quan tiến trình dạy học Tiết 1 - Lí thuyết (45 phút – Tiết thứ 1 của bài / Tiết PPCT: 17)
+
+| Hoạt động dạy học (Công văn 5512) | Thời lượng & Tiết PPCT | Mục tiêu | Sản phẩm & Công cụ đánh giá |
+
+|---|---|---|---|
+
+| 1. Hoạt động 1: Mở đầu / (Quan sát Hình 12.1a, 12.1b & Hình 12.2) | 05 phút / (Tiết 1 của bài / / Tiết PPCT: 17) | [KT1], [NLC1], / [PC1] | Nhận xét sự khác biệt giữa ảnh chụp và hình vẽ khi phóng to. / Công cụ đánh giá: CCĐG 1. |
+
+| 2. Hoạt động 2: Hình thành kiến thức mới / - 2.1. Nhiệm vụ 1: Thiết kế đồ hoạ & Phân biệt Bitmap – Vector (09p) / - 2.2. Nhiệm vụ 2: Phần mềm đồ hoạ & Giao diện Inkscape (09p) / - 2.3. Nhiệm vụ 3: Các đối tượng đồ hoạ, thứ tự lớp & tô màu (10p) | 28 phút / (Tiết 1 của bài / / Tiết PPCT: 17) | [KT1], [KT2], [KT3], / [NLC1], [NLC2], / [NLa], [NLb], [NLe], / [NLS 3.1.NC1.a], / [PC1], [PC2] | Phiếu học tập số 1, số 2, số 3 đã hoàn thành. / Công cụ đánh giá: CCĐG 2, CCĐG 3, CCĐG 4. |
+
+| 3. Hoạt động 3: Luyện tập / (Giải Bài Luyện tập 1 & 2 SGK trang 68) | 07 phút / (Tiết 1 của bài / / Tiết PPCT: 17) | [KT1], [KT2], [KT3], / [NLC1], [NLC3], / [NLa], [PC3] | Lời giải Phiếu học tập số 4 (Bài Luyện tập 1 & 2 trang 68). / Công cụ đánh giá: CCĐG 5. |
+
+| 4. Hoạt động 4: Vận dụng / (Phân tích thuật toán xếp lớp vẽ Quốc kì Việt Nam & các nước) | 05 phút / (Tiết 1 của bài / / Tiết PPCT: 17) | [KT3], [NLC3], / [NLa], [PC2] | Sơ đồ phân tích các bước vẽ Hình 12.5, 12.6 chuẩn bị cho Tiết 2 Thực hành (Tiết PPCT: 18). |
 
 
-**ĐỀ CƯƠNG BÀI DẠY**
-**BÀI 12. PHẦN MỀM THIẾT KẾ ĐỒ HOẠ**
-**TIẾT 1. THIẾT KẾ ĐỒ HOẠ, PHẦN MỀM ĐỒ HOẠ VÀ LÀM QUEN VỚI INKSCAPE**
-**Môn học: Tin học (định hướng Tin học ứng dụng); lớp: 10 (lớp 10/4, 10/6)**
-**Thời gian thực hiện: 01 tiết (45 phút)**
-**Hình thức tổ chức: Dạy học kết hợp lý thuyết và làm quen thực hành tại phòng máy**
 
-## I. MỤC TIÊU
+1. Hoạt động 1: Mở đầu (05 phút – Tiết 1 của bài / Tiết PPCT: 17)
 
-**Căn cứ YCCĐ (nguyên văn Chương trình GDPT 2018 môn Tin học — Chủ đề E, phần định hướng Tin học ứng dụng):** “Sử dụng được một số chức năng cơ bản của phần mềm thiết kế đồ hoạ. Tạo được sản phẩm số đơn giản, hữu ích và thực tế như thiết kế logo, tạo banner, topic quảng cáo, băng-rôn, áp phích, poster và thiệp chúc mừng,…”
+a) Mục tiêu: [KT1], [NLC1], [PC1] – Học sinh nhận biết trực quan sự khác biệt về chất lượng hiển thị khi phóng to giữa ảnh chụp (bitmap) và hình vẽ bằng phần mềm (vector).
 
+b) Nội dung: Học sinh quan sát Hình 12.1a, Hình 12.1b (SGK trang 63) và Hình 12.2 (SGK trang 64) để nhận xét về màu sắc, độ nét khi phóng to:
 
-### 1. Về kiến thức
+Hình 12.1a (Ảnh chụp điểm ảnh bitmap) và Hình 12.1b (Hình vẽ đồ hoạ vectơ) (SGK Tin học 10 KNTT, Bài 12, trang 63)
 
-Sau tiết học, học sinh:
+c) Sản phẩm: Câu trả lời miệng của học sinh chỉ ra Hình 12.1a bị vỡ nét khi phóng to còn Hình 12.1b giữ nguyên độ sắc nét.
 
-- Biết được khái niệm thiết kế đồ hoạ; **phân biệt được** đồ hoạ điểm ảnh (bitmap) và đồ hoạ vectơ theo ít nhất 2 tiêu chí trong bảng so sánh của SGK (trang 64).
-- Nhận biết được hai loại phần mềm đồ hoạ (tạo, chỉnh sửa hình vectơ và xử lí ảnh bitmap); nêu được ví dụ ít nhất 2 phần mềm cho mỗi loại.
-- Nhận biết được các thành phần chính trên màn hình làm việc của Inkscape theo Hình 12.3 SGK (hộp công cụ, thanh điều khiển thuộc tính, vùng làm việc, bảng màu...).
-- Trình bày được 3 bước thêm một đối tượng đồ hoạ vào hình vẽ; giải thích được thứ tự lớp của các đối tượng (hộp kiến thức SGK trang 67); lưu được tệp vẽ theo định dạng .svg.
-- Biết AI có thể hỗ trợ giải thích lỗi thao tác và gợi ý cách khắc phục khi làm việc với Inkscape; biết kiểm tra lại gợi ý bằng thao tác thực tế trước khi sử dụng.
+Công cụ đánh giá: CCĐG 1 – Bảng kiểm quan sát Hoạt động Mở đầu (Đính kèm tại Mục IV. Phụ lục 1).
 
-### 2. Về năng lực
+d) Tổ chức thực hiện:
+
+| HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH | SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI) |
+
+|---|---|
+
+| Bước 1. Giáo viên chuyển giao nhiệm vụ học tập / - Giáo viên chiếu lên màn hình hai hình bông hoa cúc ở phần Khởi động Hình 12.1a và Hình 12.1b (SGK Tin học 10 trang 63) cùng trạng thái phóng to một phần của hai hình đó ở Hình 12.2 (SGK trang 64). / - Giáo viên nêu câu hỏi yêu cầu học sinh quan sát và trao đổi theo cặp trong 02 phút: / + Câu hỏi 1: Em hãy nhận xét về sự khác nhau giữa màu sắc, độ chân thực và độ sắc nét của Hình 12.1a (ảnh chụp) và Hình 12.1b (hình vẽ bằng phần mềm). / + Câu hỏi 2: Khi phóng to nhiều lần (Hình 12.2), hình nào bị nhoè và lộ các ô vuông răng cưa, hình nào vẫn giữ nguyên đường viền sắc nét? / Bước 2. Học sinh thực hiện nhiệm vụ / - Học sinh quan sát kỹ Hình 12.1a, 12.1b và Hình 12.2 trong Sách giáo khoa trang 63–64, thảo luận với bạn cùng bàn để tìm điểm khác biệt. / Bước 3. Báo cáo sản phẩm / - Giáo viên mời 02 học sinh đại diện trả lời tại chỗ; mời 01 học sinh khác nhận xét, bổ sung. / Bước 4. Đánh giá, nhận xét / - Giáo viên đánh giá theo bảng kiểm CCĐG 1, biểu dương câu trả lời đúng và dẫn dắt vào bài mới: "Trong thực tế, để tạo ra các ấn phẩm truyền thông như biểu trưng (logo), áp phích, bảng hiệu có thể in ấn ở mọi kích thước mà không bị vỡ nét như Hình 12.1b, người ta sử dụng phần mềm thiết kế đồ hoạ vectơ. Bài 12 sẽ giúp các em phân biệt hai loại đồ hoạ và làm chủ phần mềm Inkscape." | Nhận xét mở đầu (SGK Bài 12, trang 63–64): / - Hình 12.1a (Ảnh chụp): Có màu sắc chuyển tiếp tự nhiên, độ chi tiết rất cao và chân thực; tuy nhiên khi phóng to (Hình 12.2 trái) thì hình bị nhoè, vỡ nét thành các ô vuông nhỏ (điểm ảnh – pixel). / - Hình 12.1b (Hình vẽ bằng phần mềm): Được tạo từ các hình khối, đường nét và mảng màu ít hơn nhưng khi phóng to hay thu nhỏ ở mức bất kì (Hình 12.2 phải) thì đường nét vẫn sắc nét, không bị vỡ hình. |
 
 
-### a) Năng lực đặc thù môn Tin học
 
-- `NLa – Sử dụng và quản lí các phương tiện công nghệ thông tin và truyền thông:` Khởi động, thoát phần mềm Inkscape; tạo, lưu, mở tệp .svg đúng quy cách (Ctrl + N, Ctrl + S); thao tác đúng các thành phần giao diện.
-- `NLc – Giải quyết vấn đề với sự hỗ trợ của công nghệ thông tin và truyền thông:` Lựa chọn đúng công cụ vẽ hình cơ bản (Hình 12.4 SGK), chọn đối tượng bằng công cụ Select, tô màu Fill/Stroke để tạo hình đơn giản; xử lý được tình huống đối tượng bị che khuất do thứ tự lớp.
-- `NLd – Ứng dụng công nghệ thông tin và truyền thông trong học và tự học:` Nghiên cứu SGK Bài 12, quan sát màn hình làm việc của Inkscape và khai thác trợ lý AI để giải thích lỗi thao tác.
-- `NLe – Hợp tác trong môi trường số:` Trao đổi theo cặp khi so sánh hai loại đồ hoạ và khi nhận xét hình vẽ của bạn.
+2. Hoạt động 2: Hình thành kiến thức mới (28 phút – Tiết 1 của bài / Tiết PPCT: 17)
 
-### b) Năng lực chung
+2.1. Nhiệm vụ 1: Tìm hiểu khái niệm thiết kế đồ hoạ và phân biệt đồ hoạ điểm ảnh với đồ hoạ vectơ (09 phút – Tiết 1 của bài / Tiết PPCT: 17)
 
-- `Tự chủ và tự học:` Chủ động khám phá giao diện phần mềm mới, tự thử nghiệm thao tác và tự điều chỉnh theo SGK.
-- `Giao tiếp và hợp tác:` Trao đổi cặp đôi, trình bày kết quả so sánh và nhận xét sản phẩm của bạn.
-- `Giải quyết vấn đề và sáng tạo:` Lựa chọn công cụ, thứ tự lớp và màu sắc phù hợp để tạo hình vẽ đơn giản theo ý muốn.
+a) Mục tiêu: [KT1], [NLC1], [NLC2], [PC1] – Học sinh phát biểu được khái niệm thiết kế đồ hoạ và lập được bảng so sánh 5 tiêu chí giữa đồ hoạ điểm ảnh (bitmap) và đồ hoạ vectơ (vector).
 
-### c) Năng lực số và năng lực AI
+b) Nội dung: Học sinh nghiên cứu mục 1. Thiết kế đồ hoạ (SGK trang 63–64), quan sát Hình 12.2 và Bảng so sánh (SGK trang 64) để hoàn thành Phiếu học tập số 1:
 
-- `3.1.NC1.a:` Tạo nội dung đồ hoạ vectơ đơn giản (hình cơ bản, hình ghép) bằng phần mềm Inkscape.
-- `3.2.NC1.a:` Tinh chỉnh hình vẽ: chọn đối tượng, đổi màu tô, màu vẽ, thay đổi thứ tự lớp và lưu tệp đúng định dạng.
-- `10.C2.2:` Vận dụng trợ lý AI để giải thích lỗi thao tác, gợi ý cách khắc phục; biết kiểm chứng lại bằng thao tác thực tế trên Inkscape trước khi áp dụng.
+Hình 12.2. Phóng to một phần ảnh gốc và Bảng so sánh đồ hoạ điểm ảnh với đồ hoạ vectơ (SGK Tin học 10 KNTT, Bài 12, trang 64)
 
-### 3. Về phẩm chất
+c) Sản phẩm: Phiếu học tập số 1 hoàn chỉnh bảng so sánh và trả lời đúng 2 câu hỏi củng cố trang 64.
 
-- `Chăm chỉ:` Tích cực quan sát, thử nghiệm từng công cụ và kiên trì điều chỉnh hình vẽ cho đúng yêu cầu.
-- `Trách nhiệm:` Bảo vệ thiết bị phòng máy; hoàn thành đúng nhiệm vụ được giao, lưu tệp đúng quy cách.
-- `Trung thực:` Trình bày đúng quá trình thực hiện và giải thích được việc sử dụng gợi ý của AI khi hoàn thiện hình vẽ.
+Công cụ đánh giá: CCĐG 2 – Thang điểm chấm Phiếu học tập số 1 (Đính kèm tại Mục IV. Phụ lục 1).
 
-## II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU
+d) Tổ chức thực hiện:
+
+| HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH | SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI) |
+
+|---|---|
+
+| Bước 1. Giáo viên chuyển giao nhiệm vụ học tập / - Giáo viên phát Phiếu học tập số 1 và yêu cầu học sinh làm việc theo nhóm đôi (05 phút), nghiên cứu mục 1. Thiết kế đồ hoạ và Bảng so sánh giữa đồ hoạ điểm ảnh và đồ hoạ vectơ (SGK trang 63–64) để thực hiện hai yêu cầu: / + Yêu cầu 1: Nêu khái niệm thiết kế đồ hoạ và hoàn thành bảng phân biệt Đồ hoạ điểm ảnh (bitmap) với Đồ hoạ vectơ (vector) theo 5 tiêu chí trong SGK trang 64. / + Yêu cầu 2 (Câu hỏi củng cố SGK trang 64): Trả lời 2 câu hỏi: (1) Ảnh chụp là loại đồ hoạ nào? (2) Tại sao dùng đồ hoạ vectơ phù hợp hơn dùng đồ hoạ điểm ảnh khi thiết kế logo? / Bước 2. Học sinh thực hiện nhiệm vụ / - Học sinh đọc hiểu Sách giáo khoa trang 63–64, thảo luận nhóm đôi và điền đầy đủ từ khoá vào Phiếu học tập số 1. Giáo viên quan sát, gợi ý học sinh liên hệ với kiến thức dung lượng tệp đã học ở Bài 1 (§1.1). / Bước 3. Báo cáo sản phẩm / - Giáo viên mời đại diện 02 nhóm trình bày bảng so sánh và giải thích 02 câu hỏi củng cố trang 64; các nhóm khác nhận xét, bổ sung. / Bước 4. Đánh giá, nhận xét / - Giáo viên nhận xét theo CCĐG 2, chuẩn hoá bảng kiến thức và nhấn mạnh hộp ghi nhớ trang 64. | 1. THIẾT KẾ ĐỒ HOẠ (SGK trang 63–64) / - Khái niệm: Thiết kế đồ hoạ (graphic design) là quá trình thiết kế các thông điệp truyền thông bằng hình ảnh; giải quyết vấn đề thông qua sự kết hợp giữa hình ảnh, kiểu chữ với ý tưởng để truyền tải thông tin đến người xem. / - Phân biệt hai loại đồ hoạ cơ bản (Bảng trang 64): / + Đồ hoạ điểm ảnh (`Bitmap`): (1) Định nghĩa bằng tập hợp các điểm ảnh (pixel), mỗi điểm có màu riêng; (2) Phù hợp chỉnh sửa ảnh chụp, nhiều chi tiết, màu sắc liền mạch, chân thực; (3) Phóng to làm ảnh hưởng chất lượng (nhoè, vỡ hình); (4) Ảnh lớn, độ chi tiết cao thì tệp có kích thước lớn (.jpg, .png, .bmp); (5) Không thể chuyển thẳng sang đồ hoạ vectơ mà giữ nguyên chất lượng. / + Đồ hoạ vectơ (`Vector`): (1) Định nghĩa bằng các phương trình toán học (đường nét có điểm đầu, điểm cuối); (2) Phù hợp tạo logo, minh hoạ, bản vẽ kĩ thuật; (3) Có thể co dãn tuỳ ý mà không bị vỡ hình; (4) Tạo bản in kích thước tuỳ ý nhưng độ lớn của tệp không thay đổi (.svg); (5) Dễ dàng xuất/chuyển sang đồ hoạ điểm ảnh. / - Trả lời Câu hỏi SGK trang 64: / + Câu 1: Ảnh chụp bằng máy ảnh, điện thoại là đồ hoạ điểm ảnh (`bitmap`). / + Câu 2: Thiết kế logo nên dùng đồ hoạ vectơ vì logo thường gồm các hình khối/đường nét cô đọng và cần phóng to/thu nhỏ trên nhiều ấn phẩm (từ danh thiếp nhỏ đến biển quảng cáo lớn) mà vẫn giữ nguyên độ sắc nét, tệp nhẹ và dễ chỉnh sửa từng thành phần. |
 
 
-### 1. Thiết bị dạy học và điều kiện tổ chức
 
-- Phòng máy: mỗi học sinh một máy tính đã cài phần mềm Inkscape 1.0 trở lên (địa chỉ tải: https://inkscape.org/release/inkscape-1.0/); máy tính và máy chiếu của giáo viên.
-- Kết nối Internet nếu học sinh trực tiếp sử dụng công cụ AI; phương án dự phòng khi mất mạng: ảnh chụp màn hình giao diện Inkscape và kết quả phản hồi của AI được giáo viên chuẩn bị sẵn.
+2.2. Nhiệm vụ 2: Tìm hiểu phần mềm đồ hoạ và màn hình làm việc của Inkscape (09 phút – Tiết 1 của bài / Tiết PPCT: 17)
 
-### 2. Học liệu
+a) Mục tiêu: [KT2], [NLC1], [NLa], [NLb], [PC1], [PC2] – Học sinh phân loại đúng hai nhóm phần mềm đồ hoạ và xác định chính xác các thành phần trên màn hình làm việc của phần mềm Inkscape.
 
-**Giáo viên chuẩn bị:**
+b) Nội dung: Học sinh đọc mục 2. Phần mềm đồ hoạ (SGK trang 64–66), quan sát Hình 12.3 (SGK trang 65) và hoàn thành Phiếu học tập số 2:
 
-- SGK Tin học 10 – Bài 12: Phần mềm thiết kế đồ hoạ (trang sách 63 – 68).
-- Bài trình chiếu; hai hình ảnh so sánh “ảnh chụp hoa” và “hình vẽ hoa” (Hình 12.1a, 12.1b SGK) phóng to để quan sát.
-- Tệp hình mẫu .svg (bông hoa đơn giản), tệp .svg có lỗi thứ tự lớp để dùng ở hoạt động tích hợp AI; bảng tiêu chí đánh giá (Rubric).
-- Trò chơi khởi động “Đoán công cụ”; phiếu bảng so sánh hai loại đồ hoạ để học sinh điền.
-**Học sinh chuẩn bị:**
+Hình 12.3. Màn hình làm việc của phần mềm thiết kế đồ hoạ Inkscape (SGK Tin học 10 KNTT, Bài 12, trang 65)
 
-- SGK, vở ghi và dụng cụ học tập.
-- Kiến thức về dữ liệu hình ảnh số (pixel, độ sâu màu) đã học ở Bài 6 để liên hệ.
+c) Sản phẩm: Phiếu học tập số 2 xác định đúng chức năng các thanh công cụ trên màn hình Inkscape và đáp án 2 câu hỏi đầu trang 66.
 
-## III. TIẾN TRÌNH DẠY HỌC
+Công cụ đánh giá: CCĐG 3 – Thang điểm chấm Phiếu học tập số 2 (Đính kèm tại Mục IV. Phụ lục 1).
 
+d) Tổ chức thực hiện:
 
-### 1. Nội dung đã học ở tiết trước (làm cơ sở cho tiết học hiện tại)
+| HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH | SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI) |
 
-| Nội dung | Kiến thức, kĩ năng học sinh đã học |
-| --- | --- |
-| Dữ liệu hình ảnh số (Bài 6) | Giải thích được sơ lược việc số hoá hình ảnh: ảnh số là tập hợp điểm ảnh (pixel); hệ màu RGB; độ sâu màu càng lớn màu sắc càng tinh tế. Nắm được ảnh bitmap lưu thông tin theo từng điểm ảnh. |
-| Thiết bị và tệp dữ liệu (Bài 7) | Sử dụng được thiết bị số thông dụng; biết cách quản lí, đặt tên tệp đúng quy cách trên máy tính. |
-| Kiến thức liên hệ | Đã biết ảnh chụp (từ máy ảnh, điện thoại) là dữ liệu bitmap; bài học này sẽ giới thiệu một cách tạo hình khác — đồ hoạ vectơ. |
+|---|---|
 
-**Sản phẩm dự kiến cuối tiết trước:** các sản phẩm thực hành Bài 6 – Bài 7 (bố trí tệp, chụp ảnh, ghi âm...) đã lưu trên máy; bài học này bắt đầu chuỗi sản phẩm đồ hoạ vectơ của Chủ đề 4.
+| Bước 1. Giáo viên chuyển giao nhiệm vụ học tập / - Giáo viên chiếu tình huống Hoạt động 2 (SGK trang 64): "Minh muốn thiết kế logo cho câu lạc bộ bóng đá của trường nhưng bạn ấy không biết bắt đầu từ đâu" và giao Phiếu học tập số 2 (06 phút) yêu cầu học sinh đọc mục 2. Phần mềm đồ hoạ (SGK trang 64–66): / + Yêu cầu 1: Phân loại các phần mềm đồ hoạ thông dụng (Adobe Illustrator, CorelDRAW, Inkscape, Adobe Photoshop, GIMP) thành 2 nhóm (vectơ và bitmap); giải thích vì sao chọn Inkscape trong nhà trường phổ thông (liên hệ Bài 11 – bản quyền phần mềm). / + Yêu cầu 2: Quan sát Hình 12.3 (SGK trang 65), xác định vị trí và chức năng của các thành phần chính trên màn hình làm việc của Inkscape. / + Yêu cầu 3: Trả lời 02 câu hỏi trắc nghiệm củng cố ở đầu trang 66 SGK. / Bước 2. Học sinh thực hiện nhiệm vụ / - Học sinh đối chiếu Hình 12.3 (SGK trang 65) với giao diện phần mềm Inkscape đang mở trên màn chiếu/máy tính, thảo luận và điền vào Phiếu học tập số 2. / Bước 3. Báo cáo sản phẩm / - Giáo viên mời 01 học sinh lên chỉ trực tiếp trên màn hình 8 vùng giao diện của Hình 12.3 và mời 01 học sinh trả lời 2 câu hỏi củng cố trang 66. / Bước 4. Đánh giá, nhận xét / - Giáo viên nhận xét theo CCĐG 3, chốt kiến thức mục 2 và nhấn mạnh sự khác biệt giữa Vùng làm việc (`Canvas`) và Trang in (`Page`). | 2. PHẦN MỀM ĐỒ HOẠ VÀ GIAO DIỆN INKSCAPE (SGK trang 64–66) / - Hai nhóm phần mềm đồ hoạ: / + Phần mềm tạo, chỉnh sửa hình vectơ: Adobe Illustrator, CorelDRAW, Inkscape. / + Phần mềm xử lí ảnh bitmap: Adobe Photoshop, GIMP. / + Inkscape là phần mềm nguồn mở miễn phí (tải tại https://inkscape.org), giúp học sinh thiết kế đồ hoạ vectơ chuyên nghiệp và tuân thủ nghĩa vụ tôn trọng bản quyền (đã học ở Bài 11). / - Các thành phần trên màn hình làm việc của Inkscape (Hình 12.3, trang 65): / 1. Thanh bảng chọn (`Menu bar`): Chứa các lệnh liên quan đến tệp tin (File), chỉnh sửa (Edit), đối tượng (Object), đường (Path)... / 2. Hộp công cụ (`Tool box` – bên trái): Chứa các công cụ chính để chọn, khởi tạo, vẽ và điều chỉnh đối tượng đồ hoạ. / 3. Thanh điều khiển thuộc tính (`Tool Controls Bar`): Chứa các thuộc tính của công cụ/đối tượng đang được chọn (thay đổi linh hoạt theo từng công cụ). / 4. Vùng làm việc (`Canvas`) & Trang in (`Page`): Vùng làm việc là toàn bộ nền trắng; khung chữ nhật ở giữa là Trang in ứng với kích thước khi xuất/in sản phẩm. / 5. Bảng màu (`Color Palette` – phía dưới): Chứa các ô màu để thiết lập nhanh màu tô (Fill) và màu vẽ đường viền (Stroke). / 6. Thanh trạng thái (`Status bar`): Hiển thị thông tin lớp vẽ, màu đối tượng, toạ độ con trỏ, tỉ lệ thu phóng. / - Trả lời Câu hỏi SGK trang 66: / + Câu 1: Thiết kế bộ sản phẩm bút, sổ, danh thiếp, bì thư, túi giấy nên dùng B. Inkscape. / + Câu 2: Có thể vẽ hình vào A. Toàn bộ vùng làm việc (nhưng khi in chỉ phần nằm trong Trang in được in ra). |
 
 
-### 2. Tình huống học tập
 
-Nhà trường chuẩn bị “Ngày hội Tri thức số” và cần một bộ nhận diện do chính học sinh thiết kế: logo câu lạc bộ, băng rôn, áp phích giới thiệu sự kiện. Ban tổ chức yêu cầu hình phải in được ở khổ lớn mà không bị nhoè, vỡ hình. Em muốn nhận nhiệm vụ thiết kế này thì phải dùng công cụ gì, vẽ theo cách nào để hình “không bị vỡ khi phóng to”? Trong tiết học hôm nay, các em sẽ làm quen với “bút vẽ kỹ thuật số” của nhà thiết kế — phần mềm thiết kế đồ hoạ vectơ Inkscape — và tự tay vẽ được những hình đầu tiên để phục vụ bộ nhận diện của Ngày hội.
+2.3. Nhiệm vụ 3: Tìm hiểu các đối tượng đồ hoạ của hình vẽ, thứ tự lớp và cách tô màu (10 phút – Tiết 1 của bài / Tiết PPCT: 17)
 
+a) Mục tiêu: [KT3], [NLC2], [NLC3], [NLa], [NLe], [NLS 3.1.NC1.a], [PC2] – Học sinh giải thích được quy tắc thứ tự lớp (Layer order), quy trình 3 bước vẽ đối tượng có sẵn (Hình 12.4) và cách chọn màu tô (Fill), màu vẽ (Stroke).
 
-### 3. Phân bố thời gian
+b) Nội dung: Học sinh nghiên cứu mục 3. Các đối tượng đồ hoạ của hình vẽ (SGK trang 66–67), quan sát Hình 12.4 (SGK trang 66) và hoàn thành Phiếu học tập số 3:
 
-| Hoạt động | Thời lượng |
-| --- | --- |
-| Hoạt động 1. Mở đầu: so sánh ảnh chụp và hình vẽ (Hình 12.1a, 12.1b SGK) — xác định nhiệm vụ | 4 phút |
-| Hoạt động 2. Tìm hiểu mục 1. Thiết kế đồ hoạ; phân biệt đồ hoạ điểm ảnh và đồ hoạ vectơ | 10 phút |
-| Hoạt động 3. Tìm hiểu mục 2. Phần mềm đồ hoạ; giao diện Inkscape (Hình 12.3 SGK) | 10 phút |
-| Hoạt động 4. Tìm hiểu mục 3. Các đối tượng đồ hoạ của hình vẽ; thực hành nhanh vẽ hình cơ bản và lưu tệp .svg | 14 phút |
-| Hoạt động 5. Sử dụng AI giải thích lỗi thứ tự lớp và giao nhiệm vụ vận dụng | 7 phút |
-| Tổng | 45 phút |
+Hình 12.4. Một số công cụ vẽ hình cơ bản có sẵn trong Hộp công cụ của Inkscape (SGK Tin học 10 KNTT, Bài 12, trang 66)
 
+c) Sản phẩm: Phiếu học tập số 3 giải quyết đúng 4 trường hợp xếp lớp quả dưa hấu – quả cam và các quy tắc thao tác đối tượng.
 
-### 4. Các hoạt động dạy học
+Công cụ đánh giá: CCĐG 4 – Thang điểm chấm Phiếu học tập số 3 (Đính kèm tại Mục IV. Phụ lục 1).
 
-| Hoạt động – thời lượng | Nội dung hoạt động và nhiệm vụ học tập | Năng lực, phẩm chất hướng tới | Sản phẩm và đánh giá |
-| --- | --- | --- | --- |
-| **HOẠT ĐỘNG 1. MỞ ĐẦU: SO SÁNH ẢNH CHỤP VÀ HÌNH VẼ — XÁC ĐỊNH NHIỆM VỤ**<br>(4 phút) | **Mục tiêu:** Học sinh nhận biết sự khác biệt giữa ảnh chụp và hình vẽ bằng phần mềm, từ đó đặt vấn đề về hai loại đồ hoạ.<br>**Nội dung:** Quan sát Hình 12.1a và 12.1b SGK; thảo luận về màu sắc, độ nét và sự đa dạng chi tiết của mỗi hình.<br>**Tổ chức thực hiện:**<br>**Giáo viên:**<br>- Trình chiếu hai hình hoa (Hình 12.1a, 12.1b SGK), tổ chức “Tìm 3 điểm khác nhau” giữa hai hình.<br>- Đặt câu hỏi: **(1)** Hình nào giống ảnh thật hơn? **(2)** Khi phóng to một phần, em dự đoán hình nào sẽ bị nhoè, vỡ? **(3)** Theo em, hình nào là “ảnh chụp”, hình nào là “hình vẽ bằng phần mềm”?<br>**Học sinh:**<br>- Quan sát, trả lời theo cặp: Hình 12.1a là ảnh chụp, màu sắc và chi tiết chân thực; Hình 12.1b là hình vẽ, gồm các hình khối đơn giản, số màu ít.<br>- Dự đoán ảnh chụp khi phóng to sẽ bị vỡ điểm (liên hệ pixel Bài 6).<br>**Giáo viên:**<br>- Chốt nhận xét ban đầu; giới thiệu tình huống “bộ nhận diện Ngày hội Tri thức số”; dẫn dắt: “Để vẽ được logo không bị vỡ khi in lớn, ta cần hiểu thiết kế đồ hoạ và hai loại đồ hoạ.” | - NLa<br>- Giao tiếp và hợp tác<br>- Chăm chỉ | **Nhận xét dự kiến:**<br>- Hình 12.1a: ảnh chụp, nhiều chi tiết, màu liền mạch và chân thực.<br>- Hình 12.1b: hình vẽ, tổng hợp từ hình khối đơn giản, số màu ít, giữ nguyên độ nét khi phóng to.<br>**Đánh giá:** Qua hỏi – đáp, quan sát tham gia thảo luận. |
-| **HOẠT ĐỘNG 2. TÌM HIỂU MỤC 1. THIẾT KẾ ĐỒ HOẠ — HAI LOẠI ĐỒ HOẠ**<br>(10 phút) | **Mục tiêu:** Biết được khái niệm thiết kế đồ hoạ; phân biệt được đồ hoạ điểm ảnh và đồ hoạ vectơ; lựa chọn được loại đồ hoạ phù hợp với từng công việc.<br>**Nội dung:** Nghiên cứu Hoạt động 1 SGK và bảng so sánh hai loại đồ hoạ (SGK trang 64); điền phiếu so sánh; trả lời câu hỏi củng cố 1, 2 SGK trang 64.<br>**Tổ chức thực hiện:**<br>**Giáo viên:**<br>- Trình bày khái niệm: thiết kế đồ hoạ (graphic design) là quá trình thiết kế các thông điệp truyền thông bằng hình ảnh, giải quyết vấn đề qua sự kết hợp giữa hình ảnh, kiểu chữ với ý tưởng để truyền tải thông tin đến người xem.<br>- Yêu cầu học sinh nghiên cứu SGK, trao đổi theo cặp và **điền phiếu so sánh** hai loại đồ hoạ theo các tiêu chí: cách định nghĩa (tập điểm / phương trình toán học); phù hợp với công việc nào; khi phóng to; kích thước tệp; chuyển đổi qua lại.<br>- Đặt câu hỏi: **(1)** Ảnh chụp là loại đồ hoạ nào? **(2)** Vì sao dùng đồ hoạ vectơ phù hợp hơn khi thiết kế logo? **(3)** Vì sao đồ hoạ điểm ảnh tệp thường lớn hơn?<br>- Chiếu thử nghiệm phóng to một phần ảnh bitmap và hình vectơ để học sinh đối chiếu dự đoán (Hình 12.2 SGK).<br>**Học sinh:**<br>- Nghiên cứu SGK, điền phiếu theo cặp; quan sát thử nghiệm phóng to, đối chiếu với dự đoán ở Hoạt động 1.<br>- Trả lời: ảnh chụp là đồ hoạ điểm ảnh; logo cần in nhiều khổ, co giãn không vỡ nên dùng đồ hoạ vectơ; bitmap lưu từng điểm nên tệp lớn.<br>**Giáo viên:**<br>- Mời cặp học sinh trình bày, chuẩn hoá theo bảng SGK và hộp kiến thức: “Thiết kế đồ hoạ là tạo ra sản phẩm bằng hình ảnh, chữ để truyền tải thông tin; hai loại đồ hoạ là đồ hoạ điểm ảnh (bitmap) và đồ hoạ vectơ.”<br>- Dẫn dắt: “Đã hiểu hai loại đồ hoạ, vậy cần phần mềm gì để tạo ra hình vectơ?” | - NLa, NLc<br>- Tự chủ và tự học<br>- Giao tiếp và hợp tác<br>- Chăm chỉ | **Phiếu so sánh (đáp án):**<br>- Định nghĩa: điểm ảnh (mỗi điểm có màu riêng) / phương trình toán học của đường nét với điểm đầu – điểm cuối.<br>- Phù hợp: chỉnh sửa ảnh, nhiều chi tiết, màu sắc liên mạch và chân thực / tạo logo, minh hoạ và bản vẽ kĩ thuật.<br>- Phóng to: có thể nhoè, vỡ hình / co giãn không bị vỡ hình.<br>- Tệp: ảnh lớn, độ chi tiết cao thì tệp lớn / kích thước tệp không thay đổi khi phóng to.<br>- Đáp án củng cố: (1) Ảnh chụp là đồ hoạ điểm ảnh; (2) logo cần in nhiều kích thước, phải giữ nguyên độ nét → vectơ.<br>**Đánh giá:** Qua phiếu điền và câu trả lời hỏi – đáp. |
-| **HOẠT ĐỘNG 3. TÌM HIỂU MỤC 2. PHẦN MỀM ĐỒ HOẠ — GIAO DIỆN INKSCAPE**<br>(10 phút) | **Mục tiêu:** Nhận biết hai loại phần mềm đồ hoạ; nhận biết được các thành phần giao diện Inkscape; khởi động được phần mềm.<br>**Nội dung:** Tình huống của Minh (Hoạt động 2 SGK: Minh muốn thiết kế logo cho câu lạc bộ bóng đá của trường nhưng không biết bắt đầu từ đâu); nghiên cứu mục a) Tải và cài đặt, b) Giao diện của Inkscape (Hình 12.3 SGK).<br>**Tổ chức thực hiện:**<br>**Giáo viên:**<br>- Trình chiếu tình huống Minh; hỏi: **(1)** Theo em, Minh cần chuẩn bị những gì để bắt đầu? **(2)** Cần phần mềm loại nào — tạo hình vectơ hay xử lí ảnh bitmap? Vì sao?<br>- Giới thiệu hai loại phần mềm đồ hoạ: tạo, chỉnh sửa hình vectơ (Adobe Illustrator, CorelDRAW, Inkscape...) và xử lí ảnh bitmap (Adobe Photoshop, GIMP...); nhấn mạnh Inkscape, GIMP là phần mềm miễn phí; dẫn dắt đến tiêu chí chọn phần mềm theo tính chất công việc (thiết kế logo, biển quảng cáo → Inkscape; xử lí ảnh → GIMP).<br>- Hướng dẫn truy cập https://inkscape.org/release/inkscape-1.0/ chọn bản phù hợp hệ điều hành để tải, cài đặt theo hướng dẫn (máy phòng máy đã cài sẵn).<br>- Chiếu Hình 12.3 SGK; tổ chức trò chơi “Gọi tên thành phần”: giáo viên chỉ vào vị trí trên màn hình thật, học sinh gọi tên.<br>- Đặt câu hỏi: **(3)** Thành phần nào chứa các công cụ khoá tạo, vẽ, điều chỉnh đối tượng? **(4)** Vùng nào là nơi ta thực hiện việc thêm các đối tượng đồ hoạ?<br>**Học sinh:**<br>- Thảo luận tình huống Minh: cần máy tính có cài phần mềm thiết kế đồ hoạ vectơ.<br>- Quan sát Hình 12.3 SGK và màn hình thật; chơi trò chơi gọi tên: thanh bảng chọn (Menu bar), hộp công cụ (Tool box), thanh điều khiển thuộc tính (Tool control bar), vùng làm việc (Canvas), bảng màu (Color Palette), thanh trạng thái (Status bar), hộp thoại lệnh, các nút lệnh nhanh...<br>- Trả lời: (3) Hộp công cụ; (4) Vùng làm việc.<br>**Giáo viên:**<br>- Chuẩn hoá theo phần chú thích Hình 12.3 SGK; yêu cầu mỗi học sinh khởi động Inkscape và chỉ ra 3 thành phần trên máy của mình trước khi chuyển hoạt động. | - NLa, NLd<br>- Năng lực số 3.1.NC1.a<br>- Tự chủ và tự học<br>- Giao tiếp và hợp tác | **Câu trả lời dự kiến:**<br>- Minh cần máy tính cài phần mềm tạo, chỉnh sửa hình vectơ (ví dụ Inkscape — miễn phí).<br>- Công việc cần in nhiều khổ, co giãn không vỡ → chọn phần mềm vectơ như Inkscape.<br>- (3) Hộp công cụ (Tool box); (4) Vùng làm việc (Canvas).<br>**Thao tác dự kiến:** mỗi học sinh khởi động được Inkscape và chỉ đúng vị trí 3 thành phần giao diện.<br>**Đánh giá:** Qua trò chơi “Gọi tên thành phần” và thao tác trên máy. |
-| **HOẠT ĐỘNG 4. TÌM HIỂU MỤC 3. CÁC ĐỐI TƯỢNG ĐỒ HOẠ CỦA HÌNH VẼ — THỰC HÀNH NHANH**<br>(14 phút) | **Mục tiêu:** Trình bày được 3 bước thêm đối tượng; tạo được hình cơ bản, chọn – di chuyển – tô màu đối tượng; giải thích được thứ tự lớp; lưu được tệp .svg.<br>**Nội dung:** Nghiên cứu Hoạt động 3 SGK (Sắp xếp các đối tượng — tình huống quả dưa hấu và quả cam), 3 bước thêm đối tượng, Hình 12.4 SGK; thực hành nhanh tạo hình đơn giản “biểu tượng Ngày hội Tri thức số”; lưu tệp.<br>**Tổ chức thực hiện:**<br>**Giáo viên:**<br>- Trình chiếu Hoạt động 3 SGK, yêu cầu thảo luận: xếp dưa hấu và cam trên bàn như thế nào để **(1)** thấy đủ cả hai quả, không quả nào bị che khuất; **(2)** chỉ thấy quả dưa hấu; **(3)** thấy đủ quả cam, dưa hấu bị che một phần; **(4)** thấy đủ dưa hấu, cam bị che một phần?<br>- Chuẩn hoá: các đối tượng thêm vào hình theo **thứ tự lớp** — vẽ trước ở lớp dưới, vẽ sau ở lớp trên; cách tạo tệp mới File/New... hoặc Ctrl + N.<br>- Hướng dẫn 3 bước thêm đối tượng có sẵn theo Hình 12.4 SGK: **Bước 1** chọn công cụ tương ứng trên hộp công cụ (hình vuông/chữ nhật, hình tròn/elip, hình đa giác/hình sao, bút vẽ, văn bản); **Bước 2** chỉnh tuỳ chọn trong thanh điều khiển thuộc tính nếu cần; **Bước 3** xác định vị trí trong vùng làm việc, kéo thả chuột để vẽ hình.<br>- Làm mẫu trực tiếp (chỉ 1 lần, 3 phút): vẽ hình tròn — chọn màu tô (Fill Color) và màu vẽ (Stroke Color) trên bảng màu (giữ Shift khi chọn màu vẽ) — chọn công cụ Select để di chuyển, phóng to/thu nhỏ.<br>- Giao nhiệm vụ thực hành nhanh (cá nhân, 6 phút): tạo hình gồm 1 hình chữ nhật + 1 hình tròn + 1 ngôi sao ghép thành biểu tượng đơn giản; lưu tệp theo quy cách `HoTen_Lop_Bai12.svg` bằng File/Save hoặc Ctrl + S.<br>**Học sinh:**<br>- Thảo luận 4 cách xếp (1)–(4): đặt cạnh nhau/quyết định xếp lớp nào trước – sau; nêu được tương ứng với thứ tự lớp trong Inkscape.<br>- Theo dõi làm mẫu; thực hành cá nhân tạo biểu tượng; chọn đối tượng bằng Select; thử thay đổi thứ tự lớp (di chuyển đối tượng vào nhau).<br>- Lưu tệp `HoTen_Lop_Bai12.svg`, mở lại kiểm tra.<br>**Giáo viên:**<br>- Quan sát, hỗ trợ các lỗi: quên chọn công cụ Select trước khi di chuyển; chọn nhầm màu vẽ thay vì màu tô; chưa thấy hộp công cụ bị ẩn.<br>- Chọn 2 sản phẩm tiêu biểu (1 đạt, 1 sao bị che khuất) để chuyển sang Hoạt động 5; chốt theo hộp kiến thức SGK trang 67: “Mỗi hình vẽ bao gồm các đối tượng đồ hoạ xuất hiện theo thứ tự lớp; ta có thể thay đổi thứ tự lớp của đối tượng.” | - NLa, NLc<br>- Năng lực số 3.1.NC1.a, 3.2.NC1.a<br>- Tự chủ và tự học<br>- Giải quyết vấn đề và sáng tạo<br>- Chăm chỉ, trách nhiệm | **Trả lời dự kiến (1)–(4):** (1) Xếp hai quả cạnh nhau, không chồng lên; (2) dưa hấu xếp sau (lớp trên); (3) cam xếp sau; (4) dưa hấu xếp sau.<br>**Sản phẩm dự kiến:** tệp `HoTen_Lop_Bai12.svg` mở được bằng Inkscape: có hình chữ nhật, hình tròn, ngôi sao; màu tô rõ ràng; ít nhất một lần điều chỉnh thứ tự lớp (sao ở lớp trên).<br>**Lỗi dự kiến:** sao vẽ xong bị hình chữ nhật vẽ sau che mất một phần; chưa biết đổi màu vẽ (giữ Shift); lưu nhầm phần mở rộng.<br>**Đánh giá:** Qua thao tác và sản phẩm theo Rubric (mục IV.2). |
-| **HOẠT ĐỘNG 5. SỬ DỤNG AI GIẢI THÍCH LỖI THỨ TỰ LỚP VÀ GIAO NHIỆM VỤ VẬN DỤNG**<br>(7 phút) | **Mục tiêu:** Bước đầu viết được prompt nhờ AI giải thích lỗi thao tác Inkscape; biết kiểm chứng gợi ý của AI bằng thao tác thực tế trước khi áp dụng.<br>**Nội dung:** Phân tích hình vẽ “sao bị che” của bạn; viết prompt nhờ AI giải thích và gợi ý cách sửa; đối chiếu với thao tác trên Inkscape.<br>**Tổ chức thực hiện:**<br>**Giáo viên:**<br>- Chiếu tình huống: “Bạn An vẽ ngôi sao vàng trước, sau đó vẽ thêm hình chữ nhật đỏ làm nền, giờ ngôi sao bị che mất một phần. An hỏi AI được câu trả lời: ‘Hãy xoá hình chữ nhật và vẽ lại ngôi sao’. Gợi ý này có tốt nhất không?”<br>- Đặt câu hỏi: **(1)** Gợi ý của AI có đúng bản chất lỗi không? **(2)** Em có cách giữ nguyên cả hai hình mà sửa được không? **(3)** Em sẽ viết prompt thế nào để AI giải thích đúng lỗi thứ tự lớp?<br>- Ghi prompt mẫu lên màn hình; hướng dẫn đối chiếu gợi ý AI với SGK và thử nghiệm trực tiếp trên Inkscape.<br>- Giao nhiệm vụ vận dụng sau giờ học: **(a)** hoàn thiện biểu tượng đã vẽ, thêm 1 đối tượng mới và điều chỉnh thứ tự lớp theo ý muốn; **(b)** Luyện tập 1, 2 SGK trang 68: xác định màu của hình tròn sau chuỗi thao tác đổi màu (giữ Shift chọn màu vẽ) và trả lời công cụ vẽ khối lập phương nằm ở thanh nào (hộp công cụ); **(c)** viết 1 prompt nhờ AI giải thích một thao tác em còn mơ hồ trong Bài 12 và kiểm chứng lại bằng SGK; nộp tệp .svg và phần ghi chú theo thời điểm giáo viên quy định.<br>**Học sinh:**<br>- Thảo luận: gợi ý “xoá và vẽ lại” chưa tốt — lỗi chỉ là thứ tự lớp, có cách sửa nhẹ nhàng hơn; đề xuất các cách: chọn sao rồi đưa lên lớp trên, hoặc chọn chữ nhật đưa xuống lớp dưới.<br>- Viết prompt mẫu: “Trong Inkscape, mình vẽ ngôi sao vàng trước rồi vẽ hình chữ nhật đỏ sau, giờ ngôi sao bị chữ nhật che mất một phần. Hãy giải thích nguyên nhân (liên quan thứ tự lớp) và đề xuất 2 cách sửa không cần vẽ lại, trình bày theo từng bước ngắn gọn.”<br>- Đối chiếu phản hồi AI với SGK trang 67 và thử ngay trên máy của mình để xác nhận cách đúng.<br>**Giáo viên:**<br>- Chuẩn hoá: AI có thể gợi ý nhưng phải kiểm chứng bằng SGK và thao tác thật; dẫn dắt: “Tiết sau ta sẽ vận dụng toàn bộ các thao tác này để vẽ một bông hoa và Quốc kì Việt Nam.” | - NLc, NLd<br>- Năng lực AI 10.C2.2<br>- Giao tiếp và hợp tác<br>- Giải quyết vấn đề và sáng tạo<br>- Trung thực, trách nhiệm | **Câu trả lời dự kiến:**<br>- (1) Chưa tốt: lỗi là thứ tự lớp, không cần xoá – vẽ lại.<br>- (2) Chọn ngôi sao → đưa lên lớp trên (hoặc chọn chữ nhật → đưa xuống lớp dưới); giữ nguyên hình và màu.<br>- (3) Prompt ghi đủ bối cảnh, yêu cầu giải thích nguyên nhân và đề xuất nhiều cách, không để AI “làm hộ”.<br>**Nhiệm vụ sau giờ học:** tệp .svg hoàn thiện + phần ghi chú kiểm chứng gợi ý AI.<br>**Đánh giá:** Qua prompt, câu trả lời và thao tác kiểm chứng. |
+d) Tổ chức thực hiện:
+
+| HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH | SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI) |
+
+|---|---|
+
+| Bước 1. Giáo viên chuyển giao nhiệm vụ học tập / - Giáo viên nêu bài toán Hoạt động 3: Sắp xếp các đối tượng (SGK trang 66) về quả dưa hấu và quả cam đặt trên bàn, đồng thời yêu cầu học sinh đọc mục 3. Các đối tượng đồ hoạ của hình vẽ (SGK trang 66–67) để trả lời các câu hỏi trong Phiếu học tập số 3: / + Câu 1: Xác định cách xếp thứ tự trước/sau của quả dưa hấu và quả cam cho 4 trường hợp a, b, c, d ở Hoạt động 3 (trang 66); từ đó rút ra quy tắc thứ tự lớp (`Layer order`) của các đối tượng trong Inkscape. / + Câu 2: Nêu quy trình 3 bước vẽ một đối tượng cơ bản từ Hộp công cụ (Hình 12.4 trang 66), cách dùng công cụ Select (phím F1 hoặc S) để phóng to/thu nhỏ (nháy lần 1) và xoay đối tượng (nháy lần 2). / + Câu 3: Phân biệt thao tác chọn Màu tô (`Fill Color`) và Màu vẽ đường viền (`Stroke Color`) trên Bảng màu và cách lưu tệp chuẩn .svg (trả lời kèm câu hỏi trắc nghiệm đầu trang 67). / Bước 2. Học sinh thực hiện nhiệm vụ / - Học sinh thảo luận nhóm đôi, đọc kỹ SGK trang 66–67 và hoàn thành Phiếu học tập số 3. / Bước 3. Báo cáo sản phẩm / - Đại diện học sinh trả lời bài toán quả dưa hấu – quả cam và thao tác với công cụ Select, bảng màu; giáo viên thao tác thị phạm trực tiếp trên Inkscape. / Bước 4. Đánh giá, nhận xét / - Giáo viên nhận xét theo CCĐG 4 và chốt quy tắc vàng: Nháy chuột vào ô màu = Đổi màu tô (`Fill`); Giữ phím `Shift` + Nháy chuột vào ô màu = Đổi màu viền (`Stroke`). | 3. CÁC ĐỐI TƯỢNG ĐỒ HOẠ CỦA HÌNH VẼ (SGK trang 66–67) / - Giải quyết Hoạt động 3 (SGK trang 66 – Quả dưa hấu và quả cam): / + a) Nhìn thấy đủ cả hai quả: Đặt hai quả tách rời nhau, không chồng lấp. / + b) Chỉ nhìn thấy quả dưa hấu: Đặt quả dưa hấu (lớn hơn) ở lớp trên che khuất hoàn toàn quả cam ở lớp dưới. / + c) Nhìn thấy đủ quả cam, dưa hấu bị che một phần: Đặt quả cam ở lớp trên, chồng một phần lên quả dưa hấu ở lớp dưới. / + d) Nhìn thấy đủ quả dưa hấu, cam bị che một phần: Đặt quả dưa hấu ở lớp trên, chồng một phần lên quả cam ở lớp dưới. / - Quy tắc thứ tự lớp trong Inkscape: Đối tượng vẽ trước nằm ở lớp dưới, đối tượng vẽ sau nằm ở lớp trên (có thể che khuất một phần hoặc toàn bộ đối tượng lớp dưới). Có thể thay đổi thứ tự lớp bằng các nút lệnh trên Thanh điều khiển thuộc tính (Lower selection to bottom, Raise selection to top). / - Ba bước thêm đối tượng có sẵn (Hình 12.4, trang 66): / + Bước 1: Chọn công cụ tương ứng trên Hộp công cụ (Hình vuông/chữ nhật F4/R, Hình tròn/elip F5/E, Hình đa giác/ngôi sao *, Bút vẽ, Văn bản F8/T). / + Bước 2: Chỉnh tuỳ chọn trên Thanh điều khiển thuộc tính (ví dụ: Corners, Spoke ratio). / + Bước 3: Kéo thả chuột trên Vùng làm việc để vẽ hình. / - Thao tác chọn, biến đổi, tô màu và lưu tệp (trang 66–67): / + Dùng công cụ Select (mũi tên chọn): Nháy chuột lần 1 vào đối tượng để di chuyển hoặc kéo mũi tên 2 chiều ở góc để phóng to/thu nhỏ; Nháy chuột lần 2 vào đối tượng để xuất hiện mũi tên cong ở góc phục vụ xoay hình. / + Màu tô (`Fill Color`): Chọn đối tượng -> Nháy chuột trái vào ô màu trên Bảng màu. / + Màu vẽ viền (`Stroke Color`): Chọn đối tượng -> Nhấn giữ phím `Shift` + Nháy chuột trái vào ô màu trên Bảng màu. / + Lưu tệp: Chọn File / Save (hoặc nhấn Ctrl + S), phần mở rộng mặc định của tệp đồ hoạ vectơ Inkscape là .svg. / - Trả lời câu hỏi SGK trang 67: Thanh công cụ được sử dụng nhiều nhất trong Inkscape để khởi tạo và chỉnh sửa đối tượng là D. Hộp công cụ. |
 
 
-## IV. KIỂM TRA, ĐÁNH GIÁ
+
+3. Hoạt động 3: Luyện tập (07 phút – Tiết 1 của bài / Tiết PPCT: 17)
+
+a) Mục tiêu: [KT1], [KT2], [KT3], [NLC1], [NLC3], [NLa], [PC3] – Học sinh vận dụng lý thuyết vừa học để giải chính xác Bài Luyện tập 1 và Bài Luyện tập 2 trong Sách giáo khoa trang 68.
+
+b) Nội dung: Học sinh làm việc cá nhân hoàn thành Phiếu học tập số 4 (gồm Bài Luyện tập 1 và Bài Luyện tập 2 SGK trang 68).
+
+c) Sản phẩm: Lời giải chính xác trên Phiếu học tập số 4 (hình tròn có nền màu Cam, viền màu Đỏ đậm; chọn đáp án C. Hộp công cụ).
+
+Công cụ đánh giá: CCĐG 5 – Đáp án và thang điểm chấm Phiếu học tập số 4 (Đính kèm tại Mục IV. Phụ lục 1).
+
+d) Tổ chức thực hiện:
+
+| HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH | SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI) |
+
+|---|---|
+
+| Bước 1. Giáo viên chuyển giao nhiệm vụ học tập / - Giáo viên yêu cầu học sinh hoàn thành Phiếu học tập số 4 (giải quyết trọn vẹn 02 bài tập phần LUYỆN TẬP – SGK trang 68 kết hợp kiểm chứng trực tiếp trên phần mềm Inkscape): / + Bài Luyện tập 1 (SGK trang 68): Sau khi vẽ một hình tròn trong Inkscape, ta thực hiện liên tục các thao tác: Nháy công cụ Select -> nháy chọn hình tròn -> nháy chuột chọn lần lượt các ô màu Đỏ, Nâu, Cam trên bảng màu -> giữ phím Shift và nháy chuột vào ô màu Đỏ đậm trên bảng màu. Em hãy xác định kết quả cuối cùng hình tròn sẽ có màu tô nền và màu viền như thế nào? / + Bài Luyện tập 2 (SGK trang 68): Để thay một ngôi sao thành một khối lập phương (hoặc vẽ hình mới), em sẽ tìm công cụ ở thanh công cụ nào? (A. Bảng màu / B. Thanh điều khiển thuộc tính / C. Hộp công cụ / D. Hộp thoại lệnh). / Bước 2. Học sinh thực hiện nhiệm vụ / - Học sinh suy nghĩ, ghi câu trả lời vào Phiếu học tập số 4 và thực hiện chuỗi thao tác của Bài Luyện tập 1 ngay trên phần mềm Inkscape để kiểm chứng kết quả. / Bước 3. Báo cáo sản phẩm / - Giáo viên mời 02 học sinh trình bày kết quả và giải thích cơ chế ghi đè màu tô (Fill) khi nháy chuột thường so với thao tác giữ phím Shift để đổi màu vẽ (Stroke). / Bước 4. Đánh giá, nhận xét / - Giáo viên nhận xét, chấm điểm theo CCĐG 5 và chốt lại quy tắc thao tác chuẩn trong Inkscape. | ĐÁP ÁN PHẦN LUYỆN TẬP (SGK BÀI 12, TRANG 68): / - Giải Bài Luyện tập 1 (SGK trang 68): / + Khi nháy chuột thường lần lượt vào các ô màu Đỏ -> Nâu -> Cam trên Bảng màu, màu tô bên trong (Fill Color) của hình tròn sẽ thay đổi liên tiếp và dừng lại ở màu cuối cùng được nháy là màu Cam. / + Khi nhấn giữ phím Shift và nháy chuột vào ô màu Đỏ đậm, thao tác này không làm thay đổi màu tô nền mà thiết lập màu vẽ đường viền (`Stroke Color`) của hình tròn thành màu Đỏ đậm. / + Kết luận: Hình tròn thu được có phần nền bên trong (`Fill`) màu Cam và đường viền bao quanh (`Stroke`) màu Đỏ đậm. / - Giải Bài Luyện tập 2 (SGK trang 68): / + Chọn đáp án C. Hộp công cụ (Vì công cụ vẽ hình hộp 3D / khối lập phương nằm trong Hộp công cụ ở cạnh trái màn hình làm việc của Inkscape). |
 
 
-### 1. Đánh giá quá trình
 
-- Câu trả lời khi quan sát Hình 12.1a, 12.1b SGK và khi thảo luận Hoạt động 3 SGK (xếp dưa hấu – cam).
-- Phiếu so sánh hai loại đồ hoạ điền theo cặp.
-- Kết quả trò chơi “Gọi tên thành phần” giao diện Inkscape.
-- Quá trình thực hành nhanh tạo biểu tượng: thao tác công cụ, chọn đối tượng, tô màu, điều chỉnh thứ tự lớp, lưu tệp đúng tên.
-- Việc viết prompt, đối chiếu và kiểm chứng gợi ý của AI bằng thao tác thực tế.
+4. Hoạt động 4: Vận dụng (05 phút – Tiết 1 của bài / Tiết PPCT: 17)
 
-### 2. Tiêu chí đánh giá biểu tượng hình vẽ (Rubric 10 điểm)
+a) Mục tiêu: [KT3], [NLC3], [NLa], [PC2] – Học sinh vận dụng quy tắc thứ tự lớp và thuộc tính đối tượng để lập sơ đồ các bước vẽ bông hoa (Hình 12.5), Quốc kì Việt Nam (Hình 12.6) và Quốc kì các nước (Vận dụng trang 68), sẵn sàng cho Tiết 2 Thực hành (Tiết PPCT: 18).
 
-| Tiêu chí | Yêu cầu cần đạt | Điểm tối đa |
-| --- | --- | --- |
-| Tạo và lưu tệp | Tệp .svg lưu đúng tên quy cách `HoTen_Lop_Bai12.svg`, mở lại được bằng Inkscape. | 2 |
-| Thành phần hình vẽ | Có đủ 3 đối tượng: hình chữ nhật, hình tròn, ngôi sao; các hình nằm trong vùng làm việc. | 2 |
-| Màu tô và màu vẽ | Tô màu Fill và chọn màu vẽ Stroke phân biệt được cho ít nhất 2 đối tượng. | 2 |
-| Thứ tự lớp | Điều chỉnh được thứ tự lớp đúng ý (đối tượng chính không bị che khuất). | 2 |
-| Chọn và chỉnh đối tượng | Dùng đúng công cụ Select để chọn, di chuyển, co giãn đối tượng. | 1 |
-| Thẩm mỹ và sáng tạo | Bố cục biểu tượng cân đối, mang ý nghĩa của Ngày hội Tri thức số. | 1 |
-| Tổng |  | 10 |
+b) Nội dung: Học sinh quan sát trước Hình 12.5, Hình 12.6 và hình Vận dụng (SGK trang 67–68) để phân tích quy trình xếp lớp:
 
-**Cách cho điểm dự kiến:**
+Hình minh hoạ bài tập Vận dụng 1 & 2: Vẽ Quốc kì các nước và ghép hình cơ bản (SGK Tin học 10 KNTT, Bài 12, trang 68)
 
-- Tiêu chí 2 điểm: đạt đầy đủ yêu cầu được 2 điểm; đạt một phần được 1 điểm; chưa thực hiện được 0 điểm.
-- Tiêu chí 1 điểm: thực hiện phù hợp được 1 điểm; chưa thực hiện hoặc thực hiện chưa phù hợp được 0 điểm.
-- Giáo viên công bố tiêu chí trước khi học sinh thực hành. Nếu sử dụng để nhận xét thường xuyên, giáo viên có thể góp ý theo từng tiêu chí mà không nhất thiết cho điểm.
+c) Sản phẩm: Bản ghi tóm tắt quy trình thực hành trong vở để thực hiện trên phòng máy ở Tiết 2 (Tiết PPCT: 18).
 
-## V. KẾT QUẢ DỰ KIẾN
+Công cụ đánh giá: CCĐG 6 – Rubric đánh giá sản phẩm thực hành và vận dụng (Đính kèm tại Mục IV. Phụ lục 2).
 
-Sau tiết học, học sinh:
+d) Tổ chức thực hiện:
 
-- Phân biệt được đồ hoạ điểm ảnh và đồ hoạ vectơ theo bảng so sánh của SGK và lựa chọn được loại đồ hoạ, loại phần mềm phù hợp với công việc.
-- Nhận biết và gọi tên được các thành phần chính trên màn hình làm việc của Inkscape; khởi động được phần mềm, tạo tệp mới.
-- Tạo, lưu và mở lại được tệp hình vẽ .svg gồm các đối tượng hình cơ bản; sử dụng được công cụ Select, bảng màu Fill/Stroke và điều chỉnh được thứ tự lớp của đối tượng.
-- Bước đầu viết được prompt nhờ AI giải thích lỗi thao tác; biết kiểm chứng gợi ý của AI bằng SGK và thao tác thực tế trước khi áp dụng.
+| HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH | SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI) |
+
+|---|---|
+
+| Bước 1. Giáo viên chuyển giao nhiệm vụ học tập / - Giáo viên chiếu hình minh hoạ phần VẬN DỤNG (SGK trang 68) và yêu cầu học sinh thực hiện: / + Bài Vận dụng 1 (SGK trang 68): Phân tích cấu tạo các lớp hình học và chọn vẽ ít nhất 01 Quốc kì trong số 4 nước: Thái Lan, Lào, Myanmar (hoặc Anh) ngay trên tệp thực hành. / + Bài Vận dụng 2 (SGK trang 68): Phân tích các hình cơ bản (hình chữ nhật, hình tam giác/đa giác 3 đỉnh, hình tròn) tạo nên hình chú chó và chú tuần lộc để hoàn thiện ở nhà. / Bước 2. Học sinh thực hiện nhiệm vụ / - Học sinh phân tích thứ tự xếp lớp và thực hành vẽ nhanh Quốc kì Lào hoặc Myanmar/Thái Lan trên máy tính. / Bước 3. Báo cáo sản phẩm / - Giáo viên mời 02 học sinh trình bày quy trình xếp lớp khi vẽ Quốc kì Lào (3 dải chữ nhật Đỏ – Xanh – Đỏ và 1 hình tròn Trắng ở lớp trên cùng) và Quốc kì Thái Lan (3 hình chữ nhật Đỏ – Trắng – Xanh lam xếp chồng đồng tâm từ lớn đến nhỏ). / Bước 4. Đánh giá, nhận xét / - Giáo viên nhận xét theo Rubric CCĐG 6, tổng kết toàn bài và hướng dẫn học sinh chuẩn bị Bài 13: Bổ sung các đối tượng đồ hoạ (Tiết PPCT: 19, 20). | HƯỚNG DẪN GIẢI PHẦN VẬN DỤNG (SGK BÀI 12, TRANG 68): / 1. Bài Vận dụng 1 – Vẽ Quốc kì các nước (SGK trang 68): / - Quốc kì Thái Lan: Vẽ 01 hình chữ nhật lớn màu Đỏ ở lớp dưới cùng -> vẽ 01 hình chữ nhật màu Trắng thấp hơn đặt chính giữa ở lớp trung gian -> vẽ 01 hình chữ nhật màu Xanh đậm đặt chính giữa ở lớp trên cùng. / - Quốc kì Lào: Vẽ hình chữ nhật lớn màu Đỏ (lớp dưới) -> vẽ hình chữ nhật màu Xanh lam cao bằng 1/2 đặt chính giữa (lớp giữa) -> dùng công cụ Hình tròn vẽ 01 hình tròn màu Trắng đặt ở tâm (lớp trên cùng). / - Quốc kì Myanmar: Vẽ 3 dải hình chữ nhật ngang màu Vàng (trên), Xanh lá (giữa), Đỏ (dưới) -> dùng công cụ Hình sao (Corners = 5, Spoke ratio = 0.4) vẽ ngôi sao 5 cánh màu Trắng đặt ở lớp trên cùng chính giữa lá cờ. / 2. Bài Vận dụng 2 – Ghép các hình cơ bản thành con vật (SGK trang 68): / - Hình chú chó & chú tuần lộc: Kết hợp công cụ Hình chữ nhật (thân, chân, cổ, sừng), Hình đa giác Corners = 3 (tai hình tam giác) và Hình tròn (mắt, chóp mũi), sử dụng lệnh Duplicate (Ctrl + D) để nhân bản các chi tiết đối xứng. |
+
+
+
+IV. PHỤ LỤC (HỒ SƠ HỌC LIỆU, PHIẾU HỌC TẬP VÀ CÔNG CỤ ĐÁNH GIÁ)
+
+Phụ lục 1. Hệ thống Phiếu học tập số 1, 2, 3, 4 và Công cụ đánh giá CCĐG 1 – CCĐG 5
+
+| Tên Phiếu / Công cụ | Nội dung câu hỏi và yêu cầu (Dựa sát SGK Tin học 10 KNTT, Bài 12 trang 63–68) | Đáp án chuẩn & Thang điểm chấm |
+
+|---|---|---|
+
+| CCĐG 1 / (Hoạt động 1: / Mở đầu) | - Quan sát Hình 12.1a, 12.1b (tr. 63) và Hình 12.2 (tr. 64): So sánh độ chi tiết màu sắc và hiện tượng xảy ra khi phóng to hai bức hình. | - Chỉ rõ Hình 12.1a là ảnh chụp bị vỡ hạt (pixel) khi phóng to; Hình 12.1b là hình vẽ giữ nguyên độ sắc nét (Đạt / Chưa đạt). |
+
+| **Phiếu học tập số 1 / & CCĐG 2** / (Hoạt động 2 – / Nhiệm vụ 1) | 1. Điền bảng so sánh Đồ hoạ điểm ảnh (`Bitmap`) và Đồ hoạ vectơ (`Vector`) theo 5 tiêu chí (SGK tr. 64): Định nghĩa; Ứng dụng phù hợp; Khi phóng to; Kích thước tệp; Khả năng chuyển đổi. / 2. Trả lời 2 câu hỏi SGK tr. 64: (a) Ảnh chụp là loại đồ hoạ nào? (b) Vì sao thiết kế logo dùng đồ hoạ vectơ? | - Điền đúng 5 tiêu chí so sánh theo Bảng trang 64 (6,0 điểm). / - Trả lời đúng: (a) Đồ hoạ điểm ảnh; (b) Co dãn không vỡ hình, tệp nhẹ, dễ in ấn mọi kích cỡ (4,0 điểm). |
+
+| **Phiếu học tập số 2 / & CCĐG 3** / (Hoạt động 2 – / Nhiệm vụ 2) | 1. Phân loại phần mềm: Illustrator, CorelDRAW, Inkscape, Photoshop, GIMP vào 2 cột (Vectơ / Bitmap). / 2. Ghi tên 6 thành phần giao diện chính trên Hình 12.3 (SGK tr. 65). / 3. Khoanh đáp án 2 câu hỏi trắc nghiệm đầu trang 66 SGK. | - Phân loại đúng 5 phần mềm (3,0 điểm). / - Nêu đúng chức năng 6 vùng giao diện Inkscape (4,0 điểm). / - Câu 1 tr. 66: B. Inkscape; Câu 2 tr. 66: A. Toàn bộ vùng làm việc (3,0 điểm). |
+
+| **Phiếu học tập số 3 / & CCĐG 4** / (Hoạt động 2 – / Nhiệm vụ 3) | 1. Giải bài toán sắp xếp quả dưa hấu và quả cam cho 4 ý a, b, c, d (Hoạt động 3 tr. 66). / 2. Nêu sự khác nhau khi nháy chuột lần 1 và nháy chuột lần 2 bằng công cụ Select lên đối tượng. / 3. Nêu thao tác chọn màu tô (Fill), màu vẽ (Stroke) và phần mở rộng tệp Inkscape. | - Giải đúng 4 trường hợp xếp lớp a, b, c, d (4,0 điểm). / - Nháy lần 1: Di chuyển/co dãn; Nháy lần 2: Xoay đối tượng (3,0 điểm). / - Nháy thường = Fill; Shift + Nháy = Stroke; tệp .svg; Câu hỏi tr. 67 chọn D. Hộp công cụ (3,0 điểm). |
+
+| **Phiếu học tập số 4 / & CCĐG 5** / (Hoạt động 3: / Luyện tập) | 1. Giải Bài Luyện tập 1 (SGK tr. 68): Xác định màu tô và màu viền của hình tròn sau chuỗi thao tác. / 2. Giải Bài Luyện tập 2 (SGK tr. 68): Chọn thanh công cụ chứa khối lập phương. | - Bài 1: Màu tô (Fill) là màu Cam; màu viền (Stroke) là màu Đỏ đậm (5,0 điểm). / - Bài 2: Chọn C. Hộp công cụ (5,0 điểm). |
+
+
+
+Phụ lục 2. Công cụ đánh giá CCĐG 6 – Rubric 10 điểm chấm sản phẩm thực hành Inkscape (Hình 12.5, Hình 12.6 & Vận dụng)
+
+| THÔNG TIN HÀNH CHÍNH PHIẾU ĐÁNH GIÁ SẢN PHẨM THỰC HÀNH (CCĐG 6) | NỘI DUNG CHI TIẾT |
+
+|---|---|
+
+| Tên bài dạy & Tiết PPCT | Bài 12. Phần mềm thiết kế đồ hoạ (Tiết PPCT: 17) |
+
+| Lớp giảng dạy & Địa điểm | Lớp 10/1 (Dự giờ Tiết 1 – Phòng H.I.3) – Trường THPT Thuận Hoá (Phòng H.I.3 / H.I.4) |
+
+| Giáo viên giảng dạy / GVHD | SVTT: Hồ Quang Huy – Giáo viên hướng dẫn: Thầy Mai Xuân Văn |
+
+| Họ và tên học sinh / Nhóm máy | ........................................................................ Máy số: ................... |
+
+
+
+| STT | Tiêu chí đánh giá | Công cụ & Thao tác Inkscape bắt buộc kiểm tra | Mô tả 3 mức độ đạt (Mức 3: Tốt / Mức 2: Đạt / Mức 1: Chưa đạt) | Điểm tối đa | Điểm đạt |
+
+|---|---|---|---|---|---|
+
+| 1 | Nhiệm vụ 1: / Vẽ bông hoa / (Hình 12.5 SGK tr. 67) | Công cụ Hình tròn/elip (E), lệnh Duplicate (Ctrl + D), nháy lần 2 công cụ Select để xoay cánh hoa. | - Mức 3 (3,5 đ): Vẽ đúng nhụy tròn, dùng Duplicate tạo các cánh hoa elip bằng nhau, xoay và xếp đều quanh nhụy như Hình 12.5g. / - Mức 2 (2,5 đ): Vẽ được nhụy và các cánh hoa nhưng góc xoay chưa đều. / - Mức 1 (1,0 đ): Các cánh hoa vẽ rời rạc bằng tay, không dùng Duplicate và chưa biết xoay. | 3,5 điểm | ...... |
+
+| 2 | Nhiệm vụ 2: / Vẽ Quốc kì Việt Nam / (Hình 12.6 SGK tr. 68) | Công cụ Hình sao (Corners = 5, Spoke ratio = 0.4), Hình chữ nhật tỉ lệ 2 : 3, nút Lower selection to bottom. | - Mức 3 (3,5 đ): Ngôi sao 5 cánh chuẩn (Corners = 5, Spoke ratio = 0.4) màu vàng nổi ở lớp trên chính giữa nền cờ chữ nhật đỏ tỉ lệ 2 : 3. / - Mức 2 (2,5 đ): Vẽ được nền đỏ và sao vàng đúng lớp nhưng thông số Spoke ratio hoặc vị trí chưa cân. / - Mức 1 (1,0 đ): Ngôi sao bị hình chữ nhật đỏ che khuất do chưa biết đổi thứ tự lớp. | 3,5 điểm | ...... |
+
+| 3 | Luyện tập & Vận dụng: / Phối màu Fill/Stroke & Quốc kì các nước (tr. 68) | Nháy chuột chọn Fill, giữ Shift + Nháy chuột chọn Stroke; xếp lớp vẽ Quốc kì Lào/Thái Lan/Myanmar. | - Mức 3 (2,0 đ): Thực hiện đúng thao tác đổi màu nền/màu viền Bài Luyện tập 1 và vẽ thêm được ít nhất 01 Quốc kì ở phần Vận dụng 1. / - Mức 2 (1,25 đ): Làm đúng Bài Luyện tập 1 nhưng chưa hoàn thiện hình Vận dụng. / - Mức 1 (0,5 đ): Còn nhầm lẫn giữa thao tác chọn màu nền (Fill) và màu viền (Stroke). | 2,0 điểm | ...... |
+
+| 4 | Lưu tệp & Ý thức thực hành phòng máy | Lệnh File / Save (Ctrl + S) đúng định dạng .svg. | - Mức 3 (1,0 đ): Lưu tệp đúng tên HoTen_Lop_Bai12.svg, hoàn thành đúng giờ, giữ gìn thiết bị phòng máy. / - Mức 2 (0,5 đ): Lưu tệp đúng định dạng .svg nhưng đặt tên chưa chuẩn. / - Mức 1 (0,25 đ): Quên lưu tệp thực hành. | 1,0 điểm | ...... |
+
+|  | TỔNG ĐIỂM |  | Xếp loại: Đạt từ 8,0 – 10,0: Tốt | 5,0 – 7,9: Đạt | < 5,0: Cần cố gắng | 10,0 điểm | ...... |
+
+
+
+V. NHẬN XÉT CỦA GIÁO VIÊN HƯỚNG DẪN VÀ KÝ DUYỆT
+
+Nhận xét của Giáo viên hướng dẫn:
+
+...................................................................................................................
+
+...................................................................................................................
+
+...................................................................................................................
+
+...................................................................................................................
+
+| GIÁO VIÊN HƯỚNG DẪN / (Ký và ghi rõ họ tên) / Thầy Mai Xuân Văn | Huế, ngày 09 tháng 11 năm 2026 / GIÁO VIÊN GIẢNG DẠY / (Sinh viên thực hiện ký và ghi rõ họ tên) / Hồ Quang Huy |
+
+|---|---|
+

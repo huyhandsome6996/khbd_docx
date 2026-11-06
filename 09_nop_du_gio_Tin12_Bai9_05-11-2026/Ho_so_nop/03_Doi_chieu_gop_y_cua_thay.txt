@@ -1,0 +1,72 @@
+BẢNG ĐỐI CHIẾU CHỈNH SỬA CHI TIẾT THEO TOÀN BỘ NHẬN XÉT CỦA CẢ 03 THẦY CÔ
+- Nguồn 1: Hồ Huy - De_cuong_Tin12_Bai9_Lop12-4.docx (03 nhận xét của Thầy Nguyễn Nhất Tân)
+- Nguồn 2: De_cuong_Tin12_Bai9_Lop12-4 (2).docx (39 nhận xét từ #0 đến #38 của Cô Tuyết Ngân Tôn & Thầy Thống Nhất)
+- File sản phẩm đã hoàn thiện: De_cuong_Tin12_Bai9_Lop12-4.docx (và bản đồng bộ tại 06_thanh_pham_docx)
+
+==============================================================================
+PHẦN I. ĐỐI CHIẾU 03 NHẬN XÉT CỦA THẦY NGUYỄN NHẤT TÂN
+(Trong file: Hồ Huy - De_cuong_Tin12_Bai9_Lop12-4.docx)
+==============================================================================
+
+1. Nhận xét #0 (Thầy Nguyễn Nhất Tân): "Năng lực chung nằm trước năng lực đặc thù"
+- Đã sửa tại mục I.2 (Về năng lực):
+  + a) Năng lực chung ([NLC1 – Tự chủ và tự học], [NLC2 – Giao tiếp và hợp tác], [NLC3 – Giải quyết vấn đề và sáng tạo]) đặt lên đầu tiên.
+  + b) Năng lực đặc thù môn Tin học ([NLa], [NLc], [NLd]) đặt tiếp theo.
+  + c) Năng lực số và Năng lực Trí tuệ nhân tạo (AI) ([NLS 3.1.NC1.a], [NLS 3.2.NC1.a], [NLAI 12.C2.2]).
+
+2. Nhận xét #1 (Thầy Nguyễn Nhất Tân): "Toàn bộ bài này được bố trí 2 tiết dạy = 90 phút, thầy dạy còn lo không kịp, vậy mà em dự định dạy trong 45 phút."
+- Đã sửa thời lượng toàn bài thành 02 tiết (90 phút – Tiết thứ 1, 2 của bài; Tiết PPCT: 20, 21), chia rõ:
+  + Tiết 1 (Tiết PPCT: 20 – 45 phút): Hoạt động 1: Mở đầu (05 phút) + Hoạt động 2 – Nhiệm vụ 1 (20 phút) + Hoạt động 2 – Nhiệm vụ 2 (20 phút).
+  + Tiết 2 (Tiết PPCT: 21 – 45 phút): Hoạt động 2 – Nhiệm vụ 3 (10 phút) + Hoạt động 2 – Nhiệm vụ 4 (12 phút) + Hoạt động 3: Luyện tập (18 phút) + Hoạt động 4: Vận dụng (05 phút).
+
+3. Nhận xét #2 (Thầy Nguyễn Nhất Tân): "Trình bày các phần: mục tiêu, nội dung, sản phẩm cùng tên hoạt động ra khỏi table. Phần tổ chức thực hiện chỉ ghi các bước tiến hành"
+- Đã đưa toàn bộ Tên hoạt động / tiểu mục, a) Mục tiêu, b) Nội dung, c) Sản phẩm ra ngoài bảng; chỉ dùng bảng cho mục d) Tổ chức thực hiện (gồm 4 bước tiến hành theo đúng quy chuẩn Công văn 5512).
+
+==============================================================================
+PHẦN II. ĐỐI CHIẾU 39 NHẬN XÉT CỦA CÔ TUYẾT NGÂN TÔN & THẦY THỐNG NHẤT
+(Trong file: De_cuong_Tin12_Bai9_Lop12-4 (2).docx)
+==============================================================================
+
+1. NHẬN XÉT #0 & #1 (Cô Tuyết Ngân Tôn – Tiêu đề & Phân phối chương trình):
+- Đã sửa tên tiêu đề trên trang bìa và đầu trang 1 thành: "ĐỀ CƯƠNG DỰ GIỜ – KẾ HOẠCH BÀI DẠY".
+- Đã tra cứu Phân phối chương trình Tin học 12 KNTT (từ file KHBD_Tin12_ALL_NOP.pdf trang 7–77 và GA_12_Word.docx) và ghi rõ: "Thời lượng: 02 tiết – Tiết thứ 1, 2 của bài; Tiết PPCT: 20, 21" trên cả trang bìa, đầu trang 1, bảng tổng quan tiến trình và từng hoạt động/nhiệm vụ.
+
+2. NHẬN XÉT #2 (Cô Tuyết Ngân Tôn – Tên Sách giáo khoa):
+- Đã sửa chính xác tên SGK tại mục II.2. Học liệu: "Sách giáo khoa Tin học 12 – Định hướng Tin học ứng dụng (và Sách giáo khoa Tin học 12 – Định hướng Khoa học máy tính), Bộ sách Kết nối tri thức với cuộc sống, Nhà xuất bản Giáo dục Việt Nam, Bài 9: Tạo danh sách, bảng (trang 52 – 56)".
+
+3. NHẬN XÉT #3 (Thầy Thống Nhất – Đính kèm tệp và đường dẫn học liệu):
+- Đã bổ sung đầy đủ đường dẫn lưu trữ học liệu trực tuyến và đính kèm toàn bộ nội dung Phiếu học tập, Bảng kiểm, Rubric cùng mã nguồn các tệp HTML (01_Khung_CLB.html, 05_CLB_HoanChinh_SGK.html...) trực tiếp vào Mục IV. PHỤ LỤC của KHBD.
+
+4. NHẬN XÉT #4, #5, #6, #7, #16, #20, #24, #27, #29 (Cô Tuyết Ngân Tôn – Cấu trúc 4 hoạt động theo Công văn 5512):
+- Đã bỏ dòng tiêu đề thừa "4. Các hoạt động dạy học" ở đầu mục III (Nhận xét #7).
+- Đã cấu trúc lại toàn bộ Tiến trình dạy học theo đúng 4 hoạt động của Công văn 5512:
+  + 1. Hoạt động 1: Mở đầu (05 phút – Tiết 1 / Tiết PPCT: 20).
+  + 2. Hoạt động 2: Hình thành kiến thức mới (62 phút), gộp chung và chia thành 4 tiểu mục (Nhiệm vụ 1, 2, 3, 4) ghi rõ thời lượng và tiết thực hiện:
+    * 2.1. Nhiệm vụ 1: Tìm hiểu danh sách có thứ tự và không có thứ tự (20 phút – Tiết 1 / Tiết PPCT: 20).
+    * 2.2. Nhiệm vụ 2: Tìm hiểu danh sách mô tả và danh sách lồng nhau (20 phút – Tiết 1 / Tiết PPCT: 20).
+    * 2.3. Nhiệm vụ 3: Tìm hiểu cấu trúc cơ bản của bảng trong HTML (10 phút – Tiết 2 / Tiết PPCT: 21).
+    * 2.4. Nhiệm vụ 4: Tìm hiểu cách định dạng bảng và gộp ô trong bảng HTML (12 phút – Tiết 2 / Tiết PPCT: 21).
+  + 3. Hoạt động 3: Luyện tập (18 phút – Tiết 2 / Tiết PPCT: 21) – đặt sau khi hoàn thành toàn bộ Hoạt động 2.
+  + 4. Hoạt động 4: Vận dụng (05 phút – Tiết 2 / Tiết PPCT: 21).
+
+5. NHẬN XÉT #8, #14, #17, #21, #25, #31 (Cô Tuyết Ngân Tôn – Đối chiếu Mục tiêu 1-1):
+- Đã mã hóa từng mục tiêu ở Mục I ([KT1]–[KT6], [NLC1]–[NLC3], [NLa/c/d], [NLS/NLAI], [PC1]–[PC3]) và trích dẫn khớp 1-1 tại mục "a) Mục tiêu" của tất cả các Hoạt động / Nhiệm vụ, đảm bảo phủ kín 100% mục tiêu toàn bài.
+
+6. NHẬN XÉT #9, #10, #11, #12, #13, #15, #19, #23, #26, #28, #30, #32 (Cô Tuyết Ngân Tôn – Bảng 2 cột và tên 4 bước ở mục d) Tổ chức thực hiện):
+- Đã chuyển toàn bộ các bảng "d) Tổ chức thực hiện" sang bảng 2 cột chuẩn CV 5512:
+  + Cột 1: HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH (trình bày đúng tên 4 bước: Bước 1. Giáo viên chuyển giao nhiệm vụ học tập; Bước 2. Học sinh thực hiện nhiệm vụ; Bước 3. Báo cáo sản phẩm; Bước 4. Đánh giá, nhận xét).
+  + Cột 2: SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI) (trình bày đầy đủ nội dung kiến thức chốt, cú pháp HTML, ví dụ và đáp án).
+
+7. NHẬN XÉT #18 & #22 (Thầy Thống Nhất – Chèn trực tiếp các hình SGK vào mục b) Nội dung):
+- Đã trích xuất và chèn trực tiếp cả 8 hình minh họa từ SGK Tin học 12 KNTT (Hình 9.1, 9.2, 9.3, 9.4, 9.5, 9.6, 9.7, 9.8) kèm chú thích rõ nét ngay tại mục "b) Nội dung" của từng nhiệm vụ tương ứng.
+
+8. NHẬN XÉT #33, #34, #35 (Cô Tuyết Ngân Tôn – Đổi mục IV thành PHỤ LỤC, bỏ mục V thừa và chi tiết hóa Rubric):
+- Đã ghi rõ công cụ đánh giá (CCĐG 1 – CCĐG 7) ngay sau mục "c) Sản phẩm" của từng Hoạt động / Nhiệm vụ.
+- Đã đổi tên Mục IV thành "IV. PHỤ LỤC" chứa đầy đủ Phiếu học tập số 1–5, Bảng kiểm/Thang điểm (CCĐG 1–7) và mã nguồn HTML.
+- Đã mở rộng bảng Rubric (Phụ lục 2 – CCĐG 6) có đầy đủ bảng thông tin hành chính (Tên bài dạy, Lớp, Tiết PPCT, Giáo viên, Học sinh, Nhóm), cột STT, Tiêu chí, Câu lệnh/Cú pháp HTML bắt buộc kiểm tra, Mô tả chi tiết 3 mức độ đạt và Điểm số.
+- Đã xóa bỏ hoàn toàn mục "V. KẾT QUẢ DỰ KIẾN" bị trùng lặp với Mục tiêu (Nhận xét #35).
+
+9. NHẬN XÉT #36, #37, #38 (Cô Tuyết Ngân Tôn – Phần Nhận xét của GVHD và Ký duyệt):
+- Đã đổi tiêu đề thành "V. NHẬN XÉT CỦA GIÁO VIÊN HƯỚNG DẪN VÀ KÝ DUYỆT" và dòng "Nhận xét của Giáo viên hướng dẫn:".
+- Đã in nghiêng dòng ngày tháng "Huế, ngày 04 tháng 11 năm 2026".
+- Đã trình bày cân đối 2 cột chữ ký: "GIÁO VIÊN HƯỚNG DẪN (Thầy Mai Xuân Văn)" và "GIÁO VIÊN GIẢNG DẠY (Sinh viên thực hiện: Hồ Quang Huy)".

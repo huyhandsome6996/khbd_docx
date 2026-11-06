@@ -1,152 +1,266 @@
-Trường: THPT Thuận Hoá   Họ và tên: Hồ Huy
-Tổ: Tin   GVHD: Cô Lê Thị Tú Trinh
+Huế, tháng 11 năm 2026
+
+Trường: THPT Thuận HoáGiáo viên giảng dạy (SVTT): Hồ Quang Huy
+
+Tổ: Tin họcGiáo viên hướng dẫn: Thầy Mai Xuân Văn
+
+ĐỀ CƯƠNG DỰ GIỜ – KẾ HOẠCH BÀI DẠY
+
+TÊN BÀI DẠY: BÀI 12. PHẦN MỀM THIẾT KẾ ĐỒ HOẠ (TIẾT 2 – THỰC HÀNH)
+
+(Thời lượng toàn bài: 02 tiết [Tiết PPCT: 17, 18] – Kế hoạch này chi tiết hoá Tiết thứ 2 của bài / Tiết PPCT: 18)
+
+Môn học: Tin học; Lớp: 10/2
+
+Thời gian thực hiện: 01 tiết (45 phút – Tiết 2 - TH / Tiết PPCT: 18)
+
+Lịch dự giờ: Thứ Ba, ngày 10/11/2026 – Tiết 2 (08h00 – 08h45) – Lớp 10/2 – Phòng H.I.4
+
+Hình thức tổ chức: Dạy học thực hành trên phần mềm Inkscape
+
+I. MỤC TIÊU
+
+Căn cứ Yêu cầu cần đạt của Chương trình Giáo dục phổ thông 2018 môn Tin học (Thông tư số 32/2018/TT-BGDĐT), lớp 10, Chủ đề E (Ứng dụng tin học – Phần mềm thiết kế đồ hoạ) và Kế hoạch dạy học môn Tin học Khối 10 của Trường THPT Thuận Hoá (khoi_10_tin_hoc_07092026.xls: Tiết PPCT 18 – §4.12. Phần mềm thiết kế đồ họa (tiết 2 - TH)):
+
+1. Về kiến thức
+
+Sau tiết học này, học sinh đạt được các yêu cầu về kiến thức và kỹ năng thực hành (ký hiệu [KT1] – [KT3] để đối chiếu xuyên suốt các hoạt động dạy học):
+
+[KT1]: Vận dụng chuẩn xác quy trình tạo đối tượng hình tròn, hình elip, nhân bản đối tượng (Duplicate / Ctrl + D), chọn và xoay đối tượng bằng công cụ Select để vẽ hoàn chỉnh bông hoa theo Hình 12.5 (SGK trang 67).
+
+[KT2]: Thiết lập đúng tham số của công cụ Hình đa giác/ngôi sao (Corners = 5, Spoke ratio = 0.4), kết hợp công cụ Hình chữ nhật (tỉ lệ 2 : 3), tô màu nền/viền và điều chỉnh thứ tự lớp (Lower selection to bottom) để vẽ hoàn chỉnh Quốc kì Việt Nam theo Hình 12.6 (SGK trang 67–68).
+
+[KT3]: Giải quyết được các bài tập thực hành nâng cao thuộc phần Luyện tập và Vận dụng (SGK trang 68): phối màu Fill/Stroke, vẽ Quốc kì các nước (Thái Lan, Lào, Myanmar, Anh) và ghép các hình cơ bản thành hình con vật.
+
+2. Về năng lực
+
+a) Năng lực chung
+
+[NLC1 – Tự chủ và tự học]: Học sinh tự đọc hướng dẫn thực hành trong Sách giáo khoa trang 67–68 và chủ động thao tác trên phần mềm Inkscape để tạo sản phẩm.
+
+[NLC2 – Giao tiếp và hợp tác]: Học sinh trao đổi theo cặp máy, hỗ trợ nhau kiểm tra thông số Corners, Spoke ratio và thứ tự lớp.
+
+[NLC3 – Giải quyết vấn đề và sáng tạo]: Học sinh tự phát hiện và xử lí lỗi khi đối tượng vẽ sau che khuất đối tượng vẽ trước hoặc khi tâm xoay cánh hoa bị lệch.
+
+b) Năng lực đặc thù môn Tin học
+
+[NLa – Sử dụng và quản lí các phương tiện CNTT và truyền thông]: Sử dụng thành thạo phần mềm Inkscape để khởi tạo tệp mới (Ctrl + N), vẽ hình, biến đổi đối tượng và lưu tệp định dạng chuẩn .svg (Ctrl + S).
+
+[NLc – Giải quyết vấn đề với sự hỗ trợ của CNTT và truyền thông]: Phân tích một hình vẽ phức tạp (bông hoa, lá cờ, con vật) thành các đối tượng hình học đơn giản và sắp xếp đúng thứ tự các lớp.
+
+[NLd – Ứng dụng CNTT và truyền thông trong học và tự học]: Khai thác hiệu quả các phím tắt và thanh điều khiển thuộc tính của Inkscape để tạo sản phẩm thẩm mỹ.
+
+c) Năng lực số
+
+[NLS 3.1.NC1.a]: Tạo và hoàn thiện sản phẩm đồ hoạ vectơ số hoàn chỉnh (.svg) theo yêu cầu kỹ thuật.
+
+3. Về phẩm chất
+
+[PC1 – Chăm chỉ]: Học sinh kiên trì căn chỉnh từng cánh hoa, góc xoay và tỉ lệ lá cờ cho đến khi sản phẩm cân đối, đẹp mắt.
+
+[PC2 – Trách nhiệm]: Học sinh tuân thủ nội quy phòng học/phòng máy H.I.4, lưu trữ tệp đúng quy định và hoàn thành sản phẩm đúng thời gian.
+
+[PC3 – Trung thực]: Học sinh tự tay thực hiện sản phẩm thực hành và đánh giá công tâm theo bảng tiêu chí Rubric CCĐG 6.
+
+II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU
+
+Thiết bị dạy học: Máy tính phòng học/phòng máy H.I.4 đã cài đặt sẵn phần mềm Inkscape, máy chiếu, tệp mẫu .svg và phiếu đánh giá Rubric.
+
+Sách giáo khoa chính thức: Sách giáo khoa Tin học 10 – Bộ sách Kết nối tri thức với cuộc sống, Nhà xuất bản Giáo dục Việt Nam, Bài 12: Phần mềm thiết kế đồ hoạ (mục Thực hành, Luyện tập và Vận dụng – trang 67–68).
+
+Phân phối chương trình: Kế hoạch dạy học môn Tin học Khối 10 năm học 2026–2027 của Trường THPT Thuận Hoá (khoi_10_tin_hoc_07092026.xls: Tiết PPCT 18 – §4.12. Phần mềm thiết kế đồ họa (tiết 2 - TH)).
+
+III. TIẾN TRÌNH DẠY HỌC
+
+Bảng tổng quan tiến trình dạy học Tiết 2 - Thực hành (45 phút – Tiết thứ 2 của bài / Tiết PPCT: 18)
+
+| Hoạt động dạy học (Công văn 5512) | Thời lượng & Tiết PPCT | Mục tiêu | Sản phẩm & Công cụ đánh giá |
+
+|---|---|---|---|
+
+| 1. Hoạt động 1: Mở đầu / (Kích hoạt kỹ năng thao tác Inkscape) | 05 phút / (Tiết 2 của bài / / Tiết PPCT: 18) | [KT1], [KT2], / [NLC1], [NLa] | Khởi động Inkscape, trả lời nhanh 3 thao tác cốt lõi (Select, Fill/Stroke, Thứ tự lớp). / Công cụ đánh giá: CCĐG 1. |
+
+| 2. Hoạt động 2: Hình thành kiến thức mới (Hướng dẫn & Thực hành cốt lõi SGK tr. 67–68) / - 2.1. Nhiệm vụ 1: Thực hành vẽ bông hoa (Hình 12.5 – 12 phút) / - 2.2. Nhiệm vụ 2: Thực hành vẽ Quốc kì Việt Nam (Hình 12.6 – 12 phút) | 24 phút / (Tiết 2 của bài / / Tiết PPCT: 18) | [KT1], [KT2], / [NLC1], [NLC2], / [NLa], [NLc], [NLd], / [NLS 3.1.NC1.a], / [PC1], [PC2] | Tệp HoTen_10-2_Bai12.svg chứa Bông hoa (Hình 12.5) và Quốc kì Việt Nam (Hình 12.6). / Công cụ đánh giá: CCĐG 6 (Rubric thực hành). |
+
+| 3. Hoạt động 3: Luyện tập / (Thực hành kiểm chứng Bài Luyện tập 1 & 2 SGK tr. 68) | 08 phút / (Tiết 2 của bài / / Tiết PPCT: 18) | [KT1], [KT2], [KT3], / [NLC1], [NLC3], / [NLa], [PC3] | Hình tròn nền Cam viền Đỏ đậm trên tệp .svg và phiếu trả lời Luyện tập. / Công cụ đánh giá: CCĐG 5 & CCĐG 6. |
+
+| 4. Hoạt động 4: Vận dụng / (Thực hành vẽ Quốc kì các nước & Ghép hình cơ bản SGK tr. 68) | 08 phút / (Tiết 2 của bài / / Tiết PPCT: 18) | [KT3], [NLC2], / [NLC3], [NLc], / [PC1], [PC2] | Hình vẽ Quốc kì Lào / Thái Lan / Myanmar bổ sung vào tệp HoTen_10-2_Bai12.svg. / Công cụ đánh giá: CCĐG 6 (Rubric 10 điểm). |
 
 
-**ĐỀ CƯƠNG BÀI DẠY**
-**BÀI 12. PHẦN MỀM THIẾT KẾ ĐỒ HOẠ**
-**TIẾT 2. THỰC HÀNH VẼ BÔNG HOA VÀ QUỐC KÌ VIỆT NAM BẰNG INKSCAPE**
-**Môn học: Tin học (định hướng Tin học ứng dụng); lớp: 10 (lớp 10/4, 10/6)**
-**Thời gian thực hiện: 01 tiết (45 phút)**
-**Hình thức tổ chức: Dạy học thực hành tại phòng máy**
 
-## I. MỤC TIÊU
+1. Hoạt động 1: Mở đầu (05 phút – Tiết 2 của bài / Tiết PPCT: 18)
 
-**Căn cứ YCCĐ (nguyên văn Chương trình GDPT 2018 môn Tin học — Chủ đề E, phần định hướng Tin học ứng dụng):** “Sử dụng được một số chức năng cơ bản của phần mềm thiết kế đồ hoạ. Tạo được sản phẩm số đơn giản, hữu ích và thực tế như thiết kế logo, tạo banner, topic quảng cáo, băng-rôn, áp phích, poster và thiệp chúc mừng,…”
+a) Mục tiêu: [KT1], [KT2], [NLC1], [NLa] – Học sinh tái hiện nhanh các quy tắc thao tác đối tượng đã học ở Tiết 1 (Tiết PPCT: 17), khởi động phần mềm Inkscape và tạo tệp làm việc mới.
 
+b) Nội dung: Giáo viên yêu cầu học sinh mở phần mềm Inkscape, lưu tệp mới với tên HoTen_10-2_Bai12.svg và trả lời nhanh 03 câu hỏi kiểm tra kỹ năng nền tảng trước khi thực hành.
 
-### 1. Về kiến thức
+c) Sản phẩm: Cửa sổ phần mềm Inkscape sẵn sàng trên máy và câu trả lời đúng 03 thao tác cốt lõi.
 
-Sau tiết học, học sinh:
+Công cụ đánh giá: CCĐG 1 – Bảng kiểm quan sát thao tác chuẩn bị thực hành (Đính kèm tại Mục IV. Phụ lục 1).
 
-- Sử dụng được các chức năng cơ bản của phần mềm thiết kế đồ hoạ Inkscape: chọn công cụ hình tròn/elip và hình đa giác/hình sao, sao chép đối tượng bằng Duplicate (hoặc Ctrl + D), quay và di chuyển đối tượng, đặt giá trị Corners và Spoke ratio của ngôi sao, điều chỉnh thứ tự lớp.
-- Trình bày được quy trình vẽ bông hoa từ hình tròn và các hình elip theo Hình 12.5 SGK; quy trình vẽ Quốc kì Việt Nam theo Hình 12.6 SGK (ngôi sao 5 cánh với Corners = 5, Spoke ratio = 0.4; hình chữ nhật tỉ lệ 2 : 3; đưa nền cờ xuống lớp dưới).
-- Biết AI có thể hỗ trợ kiểm tra lỗi trong tệp vẽ vectơ (mô tả bằng lời hoặc mã SVG); biết đối chiếu gợi ý của AI với thao tác thực tế và SGK trước khi áp dụng.
+d) Tổ chức thực hiện:
 
-### 2. Về năng lực
+| HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH | SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI) |
+
+|---|---|
+
+| Bước 1. Giáo viên chuyển giao nhiệm vụ học tập / - Giáo viên yêu cầu học sinh lớp 10/2 khởi động phần mềm Inkscape, nhấn Ctrl + S lưu tệp vào thư mục thực hành với tên HoTen_10-2_Bai12.svg và trả lời nhanh 03 câu hỏi: / + Câu 1: Muốn xoay một đối tượng đã vẽ, ta dùng công cụ Select nháy vào đối tượng mấy lần? / + Câu 2: Làm thế nào để đổi màu đường viền (Stroke) của đối tượng từ Bảng màu? / + Câu 3: Khi đối tượng vẽ sau che khuất đối tượng vẽ trước, ta xử lí như thế nào? / Bước 2. Học sinh thực hiện nhiệm vụ / - Học sinh khởi động Inkscape, tạo tệp .svg và giơ tay trả lời nhanh 3 câu hỏi. / Bước 3. Báo cáo sản phẩm / - Giáo viên mời 02 học sinh trả lời và thao tác thử nghiệm 10 giây trên máy chiếu. / Bước 4. Đánh giá, nhận xét / - Giáo viên nhận xét và giao nhiệm vụ thực hành trọng tâm của Tiết 2 (Tiết PPCT: 18): Hoàn thành Hình 12.5, Hình 12.6 và các bài Luyện tập, Vận dụng (SGK trang 67–68). | Kiến thức thao tác cốt lõi cần nhớ khi thực hành: / 1. Xoay đối tượng: Chọn công cụ Select -> nháy chuột lần 2 vào đối tượng -> kéo mũi tên cong ở góc. / 2. Đổi màu: Nháy chuột trái = Màu tô nền (Fill); Giữ `Shift` + Nháy chuột trái = Màu vẽ viền (Stroke). / 3. Thứ tự lớp: Chọn đối tượng -> nháy nút Lower selection to bottom (hạ xuống lớp dưới cùng) hoặc Raise selection to top (đưa lên lớp trên cùng). |
 
 
-### a) Năng lực đặc thù môn Tin học
 
-- `NLa – Sử dụng và quản lí các phương tiện công nghệ thông tin và truyền thông:` Tạo, lưu, mở và kiểm tra tệp .svg đúng quy cách; thao tác thành thạo các thành phần giao diện Inkscape đã làm quen ở tiết 1.
-- `NLc – Giải quyết vấn đề với sự hỗ trợ của công nghệ thông tin và truyền thông:` Vận dụng các thao tác (Duplicate, quay, đặt thuộc tính Corners/Spoke ratio, thứ tự lớp) để tạo sản phẩm đồ hoạ đúng mẫu; tự phát hiện và xử lý lỗi sản phẩm.
-- `NLd – Ứng dụng công nghệ thông tin và truyền thông trong học và tự học:` Khai thác SGK, hướng dẫn của giáo viên và trợ lý AI để tự hoàn thiện sản phẩm.
-- `NLe – Hợp tác trong môi trường số:` Nhận xét chéo sản phẩm theo cặp, hỗ trợ bạn khi gặp lỗi thao tác.
+2. Hoạt động 2: Hình thành kiến thức mới – Hướng dẫn và Thực hành Nhiệm vụ 1, Nhiệm vụ 2 (24 phút – Tiết 2 của bài / Tiết PPCT: 18)
 
-### b) Năng lực chung
+2.1. Nhiệm vụ 1: Thực hành vẽ bông hoa từ hình tròn và những hình elip – Hình 12.5 SGK trang 67 (12 phút – Tiết 2 của bài / Tiết PPCT: 18)
 
-- `Tự chủ và tự học:` Tự thực hành theo quy trình, tự kiểm tra sản phẩm theo bảng tiêu chí và tự điều chỉnh.
-- `Giao tiếp và hợp tác:` Trình bày sản phẩm, lắng nghe và góp ý cho bạn theo tiêu chí đã công bố.
-- `Giải quyết vấn đề và sáng tạo:` Lựa chọn vị trí, kích thước, màu sắc phù hợp để sản phẩm đúng mẫu mà vẫn có nét riêng.
+a) Mục tiêu: [KT1], [NLC1], [NLC2], [NLa], [NLc], [NLS 3.1.NC1.a], [PC1] – Học sinh sử dụng thành thạo công cụ Hình tròn/elip, lệnh nhân bản Duplicate (Ctrl + D) và chế độ xoay của công cụ Select để vẽ hoàn chỉnh bông hoa theo Hình 12.5.
 
-### c) Năng lực số và năng lực AI
+b) Nội dung: Học sinh quan sát hướng dẫn Nhiệm vụ 1 – Hình 12.5 (SGK trang 67) và thực hành trực tiếp trên phần mềm Inkscape:
 
-- `3.1.NC1.a:` Tạo sản phẩm đồ hoạ vectơ (bông hoa, Quốc kì Việt Nam) bằng Inkscape.
-- `3.2.NC1.a:` Tinh chỉnh, hoàn thiện hình vẽ: màu tô – màu vẽ, kích thước, góc quay, thứ tự lớp.
-- `10.C2.2:` Vận dụng trợ lý AI để kiểm tra mô tả lỗi/mã SVG và nhận gợi ý điều chỉnh; biết kiểm chứng lại gợi ý bằng thao tác trên Inkscape trước khi sử dụng.
+Hình 12.5. Các bước thực hành vẽ bông hoa từ hình tròn và những hình elip (SGK Tin học 10 KNTT, Bài 12, trang 67)
 
-### 3. Về phẩm chất
+c) Sản phẩm: Hình vẽ bông hoa hoàn chỉnh (nhụy tròn + 10 đến 12 cánh hoa elip xoay đều) được lưu trong tệp HoTen_10-2_Bai12.svg.
 
-- `Chăm chỉ:` Kiên trì hoàn thiện chi tiết sản phẩm (cánh hoa đều nhau, ngôi sao cân đối) cho đến khi đạt yêu cầu.
-- `Trách nhiệm:` Tuân thủ nội quy phòng máy; lưu tệp đúng quy cách, đúng vị trí được yêu cầu.
-- `Trung thực:` Trình bày đúng quá trình thực hiện, minh bạch khi nói về phần AI hỗ trợ và cách kiểm chứng.
+Công cụ đánh giá: CCĐG 6 – Tiêu chí 1 của Rubric thực hành (Đính kèm tại Mục IV. Phụ lục 2).
 
-## II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU
+d) Tổ chức thực hiện:
+
+| HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH | SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI) |
+
+|---|---|
+
+| Bước 1. Giáo viên chuyển giao nhiệm vụ học tập / - Giáo viên chiếu Hình 12.5 (SGK trang 67), làm mẫu nhanh thao tác nhân bản cánh hoa bằng Duplicate (Ctrl + D) và xoay cánh hoa trong 02 phút, sau đó yêu cầu học sinh thực hành trong 08 phút theo đúng 3 bước trong SGK trang 67. / Bước 2. Học sinh thực hiện nhiệm vụ / - Học sinh thực hành vẽ nhụy hoa hình tròn, vẽ 01 cánh hoa hình elip, nhấn Ctrl + D tạo các bản sao cánh hoa, nháy lần 2 công cụ Select để xoay từng cánh hoa và di chuyển ghép quanh nhụy hoa. / - Giáo viên quan sát từng dãy máy, hướng dẫn học sinh giữ phím Ctrl khi vẽ hình tròn để nhụy hoa tròn đều. / Bước 3. Báo cáo sản phẩm / - Giáo viên chọn 02 bài làm tiêu biểu chiếu lên màn hình, mời học sinh nêu lại tác dụng của lệnh Duplicate so với việc vẽ từng cánh hoa bằng tay. / Bước 4. Đánh giá, nhận xét / - Giáo viên nhận xét theo Tiêu chí 1 của Rubric CCĐG 6 (3,5 điểm) và nhắc học sinh nhấn Ctrl + S cập nhật tệp. | 1. Thực hành Nhiệm vụ 1: Vẽ bông hoa (Hình 12.5, SGK trang 67): / - Bước 1: Chọn công cụ Hình tròn/elip (`E`), vẽ 01 hình tròn (nhụy hoa) và 01 hình elip đứng (cánh hoa), chọn màu vàng trên Bảng màu (Hình 12.5a). / - Bước 2: Chọn hình elip -> nháy nút phải chuột chọn Duplicate (hoặc nhấn Ctrl + D) để tạo các bản sao cánh hoa có kích thước bằng hệt nhau (Hình 12.5b). / - Bước 3: Chọn công cụ `Select` (`S`): nháy chuột lần 1 lên cánh hoa (chế độ co dãn – Hình 12.5c), nháy chuột lần 2 để mở chế độ xoay (Hình 12.5d); kéo mũi tên góc xoay cánh hoa theo hướng phù hợp (Hình 12.5e) và xếp đều quanh nhụy hoa (Hình 12.5g). |
 
 
-### 1. Thiết bị dạy học và điều kiện tổ chức
 
-- Phòng máy: mỗi học sinh một máy tính có cài Inkscape; máy tính và máy chiếu của giáo viên để làm mẫu trực tiếp.
-- Kết nối Internet nếu học sinh trực tiếp sử dụng công cụ AI; phương án dự phòng khi mất mạng: kết quả phản hồi AI được giáo viên chuẩn bị sẵn.
+2.2. Nhiệm vụ 2: Thực hành vẽ Quốc kì Việt Nam – Hình 12.6 SGK trang 67–68 (12 phút – Tiết 2 của bài / Tiết PPCT: 18)
 
-### 2. Học liệu
+a) Mục tiêu: [KT2], [NLC1], [NLC3], [NLa], [NLc], [NLd], [NLS 3.1.NC1.a], [PC1], [PC2] – Học sinh thiết lập chính xác thuộc tính ngôi sao 5 cánh (Corners = 5, Spoke ratio = 0.4), vẽ nền cờ chữ nhật tỉ lệ 2 : 3 và sử dụng thành thạo nút hạ lớp Lower selection to bottom để hoàn thiện Quốc kì Việt Nam.
 
-**Giáo viên chuẩn bị:**
+b) Nội dung: Học sinh quan sát Hình 12.6 (SGK trang 68) và thực hành vẽ Quốc kì Việt Nam ngay bên cạnh hình bông hoa trên tệp HoTen_10-2_Bai12.svg:
 
-- SGK Tin học 10 – Bài 12 (trang sách 67 – 68): phần THỰC HÀNH Nhiệm vụ 1, Nhiệm vụ 2; Hình 12.5, Hình 12.6 SGK.
-- Tệp mẫu `BongHoa.svg`, `QuocKiVN.svg` hoàn chỉnh; tệp `QuocKi_Loi.svg` (ngôi sao bị che bởi nền cờ) dùng cho hoạt động AI.
-- Bài trình chiếu quy trình 3 bước vẽ bông hoa và Quốc kì; trò chơi ôn tập “Chọn đúng công cụ”; bảng tiêu chí đánh giá (Rubric) công bố trước khi thực hành.
-**Học sinh chuẩn bị:**
+Hình 12.6. Các bước thực hành vẽ Quốc kì Việt Nam trong Inkscape (SGK Tin học 10 KNTT, Bài 12, trang 68)
 
-- SGK, vở ghi.
-- Tệp `HoTen_Lop_Bai12.svg` đã thực hiện ở tiết 1 (biểu tượng hình cơ bản).
+c) Sản phẩm: Hình vẽ Quốc kì Việt Nam đúng tỉ lệ, ngôi sao 5 cánh vàng nằm ở lớp trên chính giữa nền cờ đỏ.
 
-## III. TIẾN TRÌNH DẠY HỌC
+Công cụ đánh giá: CCĐG 6 – Tiêu chí 2 của Rubric thực hành (Đính kèm tại Mục IV. Phụ lục 2).
 
+d) Tổ chức thực hiện:
 
-### 1. Nội dung đã học ở tiết 1 (làm cơ sở cho tiết học hiện tại)
+| HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH | SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI) |
 
-| Nội dung | Kiến thức, kĩ năng học sinh đã học |
-| --- | --- |
-| Hai loại đồ hoạ | Phân biệt được đồ hoạ điểm ảnh (bitmap) và đồ hoạ vectơ; biết đồ hoạ vectơ giữ nguyên độ nét khi phóng to, phù hợp tạo logo, minh hoạ. |
-| Phần mềm Inkscape | Nhận biết các thành phần giao diện theo Hình 12.3 SGK; khởi động phần mềm, tạo tệp mới (File/New hoặc Ctrl + N). |
-| Các đối tượng đồ hoạ của hình vẽ | Trình bày được 3 bước thêm đối tượng (chọn công cụ theo Hình 12.4 SGK → chỉnh thanh điều khiển thuộc tính → kéo thả vẽ); chọn đối tượng bằng Select; tô màu Fill/Stroke trên bảng màu (giữ Shift khi chọn màu vẽ); giải thích được thứ tự lớp của đối tượng; lưu tệp .svg bằng Ctrl + S. |
-| Thực hành cơ bản (tiết 1) | Tạo được biểu tượng đơn giản gồm hình chữ nhật, hình tròn, ngôi sao và điều chỉnh được thứ tự lớp; lưu tệp `HoTen_Lop_Bai12.svg`. |
+|---|---|
 
-**Sản phẩm dự kiến cuối tiết 1:** tệp `HoTen_Lop_Bai12.svg` — biểu tượng gồm 3 đối tượng hình cơ bản, mở lại được bằng Inkscape. Tiết 2 tiếp tục phát triển thành các sản phẩm hoàn chỉnh hơn: bông hoa và Quốc kì Việt Nam.
+| Bước 1. Giáo viên chuyển giao nhiệm vụ học tập / - Giáo viên chiếu Hình 12.6 (SGK trang 68) và yêu cầu học sinh thực hiện đúng 3 bước trong SGK trang 67–68 để vẽ Quốc kì Việt Nam: / + Thiết lập công cụ Hình sao với Corners = 5, Spoke ratio = 0.4, tô màu vàng. / + Vẽ hình chữ nhật tỉ lệ 2 : 3 (ví dụ: rộng 120 mm, dài 180 mm trên thanh thuộc tính W, H), tô nền màu đỏ. / + Xử lí hiện tượng hình chữ nhật vẽ sau che mất ngôi sao bằng nút Lower selection to bottom. / Bước 2. Học sinh thực hiện nhiệm vụ / - Học sinh thực hành trên máy tính. Giáo viên hỗ trợ các học sinh đang để chế độ Đa giác (Polygon) chuyển sang chế độ Hình sao (Star) trên Thanh điều khiển thuộc tính. / Bước 3. Báo cáo sản phẩm / - Giáo viên mời 02 học sinh trình bày sản phẩm và giải thích vì sao ở Bước 2 ngôi sao lại bị che khuất và nút lệnh nào ở Bước 3 đã giải quyết vấn đề đó. / Bước 4. Đánh giá, nhận xét / - Giáo viên chấm điểm theo Tiêu chí 2 của Rubric CCĐG 6 (3,5 điểm). | 2. Thực hành Nhiệm vụ 2: Vẽ Quốc kì Việt Nam (Hình 12.6, SGK trang 67–68): / - Bước 1 (Vẽ ngôi sao 5 cánh): Chọn công cụ Hình đa giác/ngôi sao (`*`) -> trên Thanh điều khiển thuộc tính chọn nút Hình sao, đặt Corners = 5 và Spoke ratio = 0.4 -> vẽ ngôi sao và tô màu vàng (Hình 12.6a). / - Bước 2 (Vẽ nền cờ đỏ): Chọn công cụ Hình vuông/chữ nhật (`R`), vẽ hình chữ nhật tỉ lệ chiều rộng : chiều dài là 2 : 3, tô nền màu đỏ (Hình 12.6b). Vì hình chữ nhật vẽ sau nên nằm ở lớp trên và che khuất ngôi sao khi xếp chồng. / - Bước 3 (Đưa hình chữ nhật xuống lớp dưới): Chọn công cụ Select -> chọn hình chữ nhật đỏ -> nháy nút Lower selection to bottom trên Thanh điều khiển thuộc tính để đưa hình chữ nhật xuống lớp dưới, giúp ngôi sao vàng nổi bật chính giữa nền đỏ (Hình 12.6c). |
 
 
-### 2. Tình huống học tập
 
-Ngày hội Tri thức số của lớp đã có ban tổ chức, có sân khấu và giờ đây cần “trang trí”: sân khấu cần hình bông hoa vàng rực rỡ trang trí xung quanh, và phía trên sân khấu cần treo Quốc kì Việt Nam chuẩn tỉ lệ, chuẩn màu. Ban tổ chức đặt “đơn hàng” cho các “nhà thiết kế” lớp mình: mỗi em hoàn thành một tệp bông hoa và một tệp Quốc kì theo đúng mẫu hình 12.5, 12.6 SGK, sao cho hoa đều cánh, quốc kì đúng tỉ lệ 2 : 3 với ngôi sao vàng 5 cánh cân đối nằm đúng vị trí. Sản phẩm đạt yêu cầu sẽ được in dán và trưng bày tại Ngày hội.
+3. Hoạt động 3: Luyện tập (08 phút – Tiết 2 của bài / Tiết PPCT: 18)
 
+a) Mục tiêu: [KT1], [KT2], [KT3], [NLC1], [NLC3], [NLa], [PC3] – Học sinh thực hành kiểm chứng trực tiếp Bài Luyện tập 1 và trả lời Bài Luyện tập 2 (SGK trang 68).
 
-### 3. Phân bố thời gian
+b) Nội dung: Học sinh vẽ 01 hình tròn trên tệp thực hành, thực hiện đúng chuỗi thao tác của Bài Luyện tập 1 (SGK trang 68) và trả lời Bài Luyện tập 2 (SGK trang 68) vào Phiếu học tập số 4.
 
-| Hoạt động | Thời lượng |
-| --- | --- |
-| Hoạt động 1. Ôn tập: trò chơi “Chọn đúng công cụ” và xác định nhiệm vụ “đơn hàng” | 4 phút |
-| Hoạt động 2. Giáo viên làm mẫu quy trình vẽ bông hoa và Quốc kì (phương pháp 4 bước) | 7 phút |
-| Hoạt động 3. Thực hành cá nhân: vẽ bông hoa và Quốc kì Việt Nam (phương pháp 3 bước) | 20 phút |
-| Hoạt động 4. Sử dụng AI kiểm tra lỗi sản phẩm và kiểm chứng gợi ý | 7 phút |
-| Hoạt động 5. Trình bày, nhận xét sản phẩm, chốt quy trình và giao nhiệm vụ vận dụng | 7 phút |
-| Tổng | 45 phút |
+c) Sản phẩm: Hình tròn có nền màu Cam, viền dày màu Đỏ đậm trên tệp .svg và đáp án Phiếu học tập số 4.
 
+Công cụ đánh giá: CCĐG 5 & CCĐG 6 (Đính kèm tại Mục IV. Phụ lục 1 & 2).
 
-### 4. Các hoạt động dạy học
+d) Tổ chức thực hiện:
 
-| Hoạt động – thời lượng | Nội dung hoạt động và nhiệm vụ học tập | Năng lực, phẩm chất hướng tới | Sản phẩm và đánh giá |
-| --- | --- | --- | --- |
-| **HOẠT ĐỘNG 1. ÔN TẬP: “CHỌN ĐÚNG CÔNG CỤ” VÀ XÁC ĐỊNH NHIỆM VỤ**<br>(4 phút) | **Mục tiêu:** Ôn tập công cụ và thao tác đã học ở tiết 1; xác định “đơn hàng” của tiết thực hành.<br>**Nội dung:** Trò chơi “Chọn đúng công cụ”; quan sát sản phẩm mẫu bông hoa và Quốc kì để xác định yêu cầu kỹ thuật.<br>**Tổ chức thực hiện:**<br>**Giáo viên:**<br>- Tổ chức trò chơi nhanh: chiếu từng yêu cầu, học sinh giơ thẻ/đáp án A – B – C – D: **(1)** Công cụ nào vẽ hình tròn, hình elip? **(2)** Làm sao sao chép một đối tượng? **(3)** Muốn chọn màu **vẽ** cần giữ phím gì khi bấm bảng màu? **(4)** Đối tượng vẽ sau nằm ở lớp nào? **(5)** Phím tắt nào lưu tệp?<br>- Trình chiếu sản phẩm mẫu (bông hoa, Quốc kì), giới thiệu “đơn hàng” của Ban tổ chức Ngày hội.<br>**Học sinh:**<br>- Tham gia trò chơi, trả lời; quan sát mẫu và nêu nhận xét về hình dáng, số cánh hoa, tỉ lệ cờ, vị trí sao.<br>**Giáo viên:**<br>- Công bố đáp án, nhận xét; dẫn dắt: “Để hoàn thành đơn hàng, trước tiên ta cần nắm quy trình từng bước.” | - NLa, NLe<br>- Giao tiếp và hợp tác<br>- Chăm chỉ | **Đáp án dự kiến:** (1) Công cụ hình tròn/hình elip; (2) Duplicate (chuột phải → Duplicate) hoặc Ctrl + D; (3) giữ Shift; (4) lớp trên; (5) Ctrl + S.<br>**Nhận xét dự kiến:** hoa gồm 1 đĩa tròn + nhiều cánh elip quay đều; cờ là hình chữ nhật đỏ tỉ lệ 2 : 3 + ngôi sao vàng 5 cánh ở giữa.<br>**Đánh giá:** Qua trò chơi, hỏi – đáp. |
-| **HOẠT ĐỘNG 2. GIÁO VIÊN LÀM MẪU QUY TRÌNH VẼ BÔNG HOA VÀ QUỐC KÌ**<br>(7 phút) | **Mục tiêu:** Học sinh trình bày được quy trình các bước theo SGK trước khi tự thực hiện (Bước 2 – làm mẫu của phương pháp 4 bước).<br>**Nội dung:** Làm mẫu Nhiệm vụ 1 (vẽ bông hoa — Hình 12.5 SGK) và Nhiệm vụ 2 (vẽ Quốc kì Việt Nam — Hình 12.6 SGK), nhấn mạnh các thao tác then chốt.<br>**Tổ chức thực hiện:**<br>**Giáo viên:**<br>- Làm mẫu trực tiếp trên máy chiếu, mỗi thao tác nêu rõ tên công cụ:<br>  - Bông hoa: chọn công cụ hình tròn/elip → vẽ hình elip làm cánh hoa → chọn màu ở bảng màu → chuột phải chọn **Duplicate** tạo các bản sao cánh hoa → dùng công cụ Select: nháy 1 lần để phóng to/thu nhỏ, nháy lần nữa để **quay** cánh hoa, kéo các múi tên xoay hướng phù hợp → di chuyển cánh hoa quanh tâm → vẽ hình tròn lớn làm đĩa hoa và đưa xuống lớp dưới.<br>  - Quốc kì: chọn công cụ hình đa giác/hình sao → trên thanh điều khiển thuộc tính đặt **Corners = 5**, **Spoke ratio = 0.4** → vẽ ngôi sao, tô màu vàng, quay cho thẳng nếu cần → vẽ hình chữ nhật **tỉ lệ rộng : dài = 2 : 3**, tô nền đỏ → chọn công cụ Select, nháy chọn hình chữ nhật, nháy vào nút “đưa xuống lớp dưới” trên thanh điều khiển thuộc tính để ngôi sao hiển thị trên nền cờ.<br>- Nhấn mạnh 3 điểm dễ sai: giá trị Spoke ratio quyết định độ “bè” của cánh sao; tỉ lệ 2 : 3 của cờ; thứ tự lớp giữa sao và nền.<br>**Học sinh:**<br>- Quan sát, ghi chú các bước vào vở; trả lời nhanh các câu hỏi kiểm tra hiểu ý (nếu vẽ sao bị chữ nhật che thì làm gì?).<br>**Giáo viên:**<br>- Kiểm tra nhanh bằng câu hỏi; công bố bảng tiêu chí đánh giá (Rubric) và quy cách đặt tên tệp: `HoTen_Lop_BongHoa.svg`, `HoTen_Lop_QuocKi.svg`. | - NLa, NLc<br>- Chăm chỉ, trung thực | **Quy trình dự kiến học sinh ghi được:**<br>- Hoa: vẽ elip → tô màu → Duplicate → quay/di chuyển các cánh → vẽ đĩa tròn → đưa đĩa xuống lớp dưới.<br>- Quốc kì: sao 5 cánh (Corners = 5, Spoke ratio = 0.4) tô vàng → chữ nhật 2 : 3 tô đỏ → đưa chữ nhật xuống lớp dưới.<br>**Đánh giá:** Qua câu trả lời hỏi – đáp nhanh sau khi làm mẫu. |
-| **HOẠT ĐỘNG 3. THỰC HÀNH CÁ NHÂN: VẼ BÔNG HOA VÀ QUỐC KÌ VIỆT NAM**<br>(20 phút) | **Mục tiêu:** Tự tay hoàn thành hai sản phẩm theo mẫu, lưu đúng quy cách, tự kiểm tra theo Rubric (Bước 3 – 4 của phương pháp 4 bước; phương pháp 3 bước: yêu cầu – quy trình – sản phẩm).<br>**Nội dung:** Thực hành Nhiệm vụ 1 và Nhiệm vụ 2 theo hướng dẫn SGK; học sinh hoàn thành sớm làm Luyện tập 1 (trang 68) hoặc hỗ trợ bạn.<br>**Tổ chức thực hiện:**<br>**Giáo viên:**<br>- Công bố lại yêu cầu sản phẩm và thời gian: 20 phút cho 2 tệp; dán/chiếu lại Rubric.<br>- Di chuyển quan sát toàn phòng máy, hỗ trợ theo nguyên tắc “gợi mở trước → chỉ dẫn vị trí lỗi → làm mẫu cuối cùng”; ưu tiên hỗ trợ học sinh gặp khó ở thao tác quay cánh hoa và đặt thuộc tính ngôi sao.<br>- Nhắc học sinh dùng Hình 12.5, 12.6 SGK đối chiếu từng bước; gợi ý nâng cao: bông hoa có thể đổi màu cánh theo ý muốn (vẫn giữ bố cục mẫu).<br>- Chọn sẵn 2 – 3 sản phẩm tiêu biểu để giới thiệu ở Hoạt động 5.<br>**Học sinh:**<br>- Thực hành cá nhân theo quy trình: tạo tệp mới → vẽ và chỉnh sửa → lưu `HoTen_Lop_BongHoa.svg` và `HoTen_Lop_QuocKi.svg` vào thư mục được yêu cầu.<br>- Tự kiểm tra theo Rubric: đối tượng đúng, màu đúng (cờ đỏ — sao vàng), tỉ lệ 2 : 3, sao không bị che, hoa đều cánh.<br>- Hoàn thành sớm: làm Luyện tập 1 SGK (thay đổi màu hình tròn bằng chuỗi thao tác trên bảng màu, giữ Shift để chọn màu vẽ) hoặc giúp bạn không làm mẫu cuối.<br>**Giáo viên:**<br>- Ghi nhận lỗi phổ biến (quên Duplicate nên vẽ lại từng cánh; chọn Fill thay vì Stroke; quên đưa nền cờ xuống lớp dưới; chữ nhật sai tỉ lệ) để dùng chung ở hoạt động sau; không sửa từng em một. | - NLa, NLc, NLd<br>- Năng lực số 3.1.NC1.a, 3.2.NC1.a<br>- Tự chủ và tự học<br>- Giải quyết vấn đề và sáng tạo<br>- Chăm chỉ, trách nhiệm | **Sản phẩm dự kiến:**<br>- `HoTen_Lop_BongHoa.svg`: bông hoa gồm hình tròn làm đĩa và 6 – 8 cánh elip quay đều quanh tâm, màu rõ ràng (theo Hình 12.5g SGK).<br>- `HoTen_Lop_QuocKi.svg`: cờ đỏ hình chữ nhật tỉ lệ 2 : 3, ngôi sao vàng 5 cánh cân đối ở giữa, sao hiển thị trên nền (theo Hình 12.6c SGK).<br>**Lỗi dự kiến:** cánh hoa không đều (chưa Duplicate + quay chuẩn); sao quá “bè” hoặc quá gầy (Spoke ratio chưa hợp lí — chuẩn 0.4); sao bị che (chưa chỉnh thứ tự lớp); cờ sai tỉ lệ.<br>**Đánh giá:** Qua sản phẩm và bảng tiêu chí đánh giá (mục IV.2). |
-| **HOẠT ĐỘNG 4. SỬ DỤNG AI KIỂM TRA LỖI SẢN PHẨM VÀ KIỂM CHỨNG GỢI Ý**<br>(7 phút) | **Mục tiêu:** Biết nhờ AI kiểm tra mô tả lỗi/mã SVG; rèn tư duy phản biện: đối chiếu gợi ý AI với SGK và thao tác thực tế trước khi áp dụng.<br>**Nội dung:** Phân tích tệp `QuocKi_Loi.svg` (ngôi sao bị che); viết prompt nhờ AI kiểm tra; đối chiếu, kiểm chứng và sửa trên Inkscape.<br>**Tổ chức thực hiện:**<br>**Giáo viên:**<br>- Mở tệp `QuocKi_Loi.svg` của giáo viên (ngôi sao bị nền cờ che gần hết): yêu cầu học sinh thảo luận cặp, nêu nguyên nhân trước.<br>- Giao nhiệm vụ viết **prompt** nhờ AI kiểm tra tình huống (nhóm có mạng dùng trực tiếp; còn lại dùng kết quả AI đã chuẩn bị).<br>- Prompt gợi ý: “Tôi vẽ Quốc kì Việt Nam trong Inkscape: ngôi sao vàng 5 cánh vẽ trước, sau đó vẽ hình chữ nhật đỏ làm nền, giờ ngôi sao gần như bị che hết. Hãy kiểm tra tình huống, chỉ ra nguyên nhân liên quan đến thứ tự lớp trong Inkscape và đề xuất 2 cách sửa (không vẽ lại), trình bày ngắn gọn từng bước.”<br>- Trình chiếu phản hồi AI mẫu; đặt câu hỏi: **(1)** Gợi ý của AI đúng với lỗi trên máy chưa? **(2)** Cách nào nhanh và an toàn nhất? **(3)** Còn trường hợp nào ngôi sao “bị lỗi” nhưng không phải do thứ tự lớp? (gợi ý: Spoke ratio sai, Corners sai).<br>- Yêu cầu cặp đôi sửa lại tệp của mình (nếu có lỗi tương tự) ngay trên máy và lưu lại.<br>**Học sinh:**<br>- Thảo luận, nêu nguyên nhân (sao vẽ trước → lớp dưới; chữ nhật vẽ sau → lớp trên).<br>- Viết prompt, đọc phản hồi AI, đối chiếu với SGK trang 67 (hộp kiến thức thứ tự lớp) và **kiểm chứng bằng thao tác thật** trên Inkscape: chọn sao → đưa lên trên (hoặc chọn cờ → đưa xuống dưới).<br>- Sửa tệp, lưu lại; ghi chú lại chỗ AI nói đúng/sai so với thực tế.<br>**Giáo viên:**<br>- Chuẩn hoá: AI mô tả đúng “z-order (thứ tự lớp)” nhưng cách gọi tên lệnh có thể khác bản Inkscape đang dùng — luôn thử nghiệm trước; nhấn mạnh không dùng AI “vẽ hộ” sản phẩm. | - NLc, NLd<br>- Năng lực AI 10.C2.2<br>- Giao tiếp và hợp tác<br>- Giải quyết vấn đề và sáng tạo<br>- Trung thực, trách nhiệm | **Nguyên nhân dự kiến:** ngôi sao ở lớp dưới do vẽ trước; cần đưa sao lên lớp trên hoặc đưa hình chữ nhật xuống lớp dưới.<br>**Kết quả kiểm chứng dự kiến:** gợi ý AI đúng bản chất lỗi thứ tự lớp; sau sửa, tệp hiển thị đúng Hình 12.6c SGK.<br>**Câu trả lời dự kiến (3):** sao có thể “không chuẩn” do Spoke ratio ≠ 0.4 (sao bè/gầy) hoặc Corners ≠ 5 — sửa bằng thanh điều khiển thuộc tính chứ không phải do lớp.<br>**Đánh giá:** Qua prompt, câu trả lời và thao tác kiểm chứng trên máy. |
-| **HOẠT ĐỘNG 5. TRÌNH BÀY, NHẬN XÉT SẢN PHẨM, CHỐT VÀ GIAO NHIỆM VỤ VẬN DỤNG**<br>(7 phút) | **Mục tiêu:** Học sinh trình bày sản phẩm, nhận xét theo tiêu chí; chốt quy trình; mở rộng nhiệm vụ về nhà.<br>**Nội dung:** Giới thiệu 2 – 3 sản phẩm tiêu biểu; nhận xét chéo; chốt; giao nhiệm vụ Vận dụng SGK trang 68.<br>**Tổ chức thực hiện:**<br>**Giáo viên:**<br>- Trình chiếu 2 – 3 sản phẩm tiêu biểu (1 sản phẩm tốt làm mẫu; 1 sản phẩm có lỗi điển hình để cả lớp phân tích theo Rubric).<br>- Tổ chức nhận xét theo cặp/nhóm: “(1) Theo Rubric, sản phẩm này đạt tiêu chí nào, thiếu tiêu chí nào? (2) Em góp ý gì để sản phẩm đẹp hơn?”<br>- Chốt quy trình 3 bước thêm đối tượng + 3 điểm then chốt (Duplicate, Corners/Spoke ratio, thứ tự lớp); khen ngợi tinh thần thực hành.<br>- Giao nhiệm vụ vận dụng sau giờ học (Vận dụng SGK trang 68): **(a)** vẽ quốc kì một nước tuỳ chọn trong Thái Lan, Lào, Myanmar hoặc Anh (Hình trong Vận dụng 1 SGK); **(b)** vẽ hình con chó hoặc con nai bằng các hình cơ bản (Vận dụng 2 SGK); nộp tệp .svg theo thời điểm giáo viên quy định; khuyến khích chụp màn hình quá trình và ghi chú nếu có dùng AI kiểm tra.<br>**Học sinh:**<br>- Giới thiệu sản phẩm, tự đánh giá theo Rubric; nhận xét, góp ý cho bạn.<br>- Ghi nhận nhiệm vụ về nhà; lưu sản phẩm đúng vị trí.<br>**Giáo viên:**<br>- Nhận xét chung, định hướng: “Bài sau ta sẽ bổ sung các đối tượng đồ hoạ mới và các phép ghép đối tượng — những ‘phép thuật’ ghép hình của nhà thiết kế.” | - NLa, NLe<br>- Giao tiếp và hợp tác<br>- Giải quyết vấn đề và sáng tạo<br>- Chăm chỉ, trung thực | **Nhận xét dự kiến:** sản phẩm tốt — hoa đều cánh, màu hài hoà; cờ đúng tỉ lệ, sao cân đối, đúng vị trí; sản phẩm có lỗi — nêu đúng tiêu chí còn thiếu và cách khắc phục.<br>**Sản phẩm sau giờ học:** 1 tệp quốc kì nước khác hoặc hình con vật ghép hình cơ bản (.svg).<br>**Đánh giá:** Qua phần trình bày, nhận xét và sản phẩm nộp sau giờ học. |
+| HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH | SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI) |
+
+|---|---|
+
+| Bước 1. Giáo viên chuyển giao nhiệm vụ học tập / - Giáo viên yêu cầu học sinh hoàn thành Phiếu học tập số 4 (giải quyết trọn vẹn 02 bài tập phần LUYỆN TẬP – SGK trang 68 kết hợp kiểm chứng trực tiếp trên phần mềm Inkscape): / + Bài Luyện tập 1 (SGK trang 68): Sau khi vẽ một hình tròn trong Inkscape, ta thực hiện liên tục các thao tác: Nháy công cụ Select -> nháy chọn hình tròn -> nháy chuột chọn lần lượt các ô màu Đỏ, Nâu, Cam trên bảng màu -> giữ phím Shift và nháy chuột vào ô màu Đỏ đậm trên bảng màu. Em hãy xác định kết quả cuối cùng hình tròn sẽ có màu tô nền và màu viền như thế nào? / + Bài Luyện tập 2 (SGK trang 68): Để thay một ngôi sao thành một khối lập phương (hoặc vẽ hình mới), em sẽ tìm công cụ ở thanh công cụ nào? (A. Bảng màu / B. Thanh điều khiển thuộc tính / C. Hộp công cụ / D. Hộp thoại lệnh). / Bước 2. Học sinh thực hiện nhiệm vụ / - Học sinh suy nghĩ, ghi câu trả lời vào Phiếu học tập số 4 và thực hiện chuỗi thao tác của Bài Luyện tập 1 ngay trên phần mềm Inkscape để kiểm chứng kết quả. / Bước 3. Báo cáo sản phẩm / - Giáo viên mời 02 học sinh trình bày kết quả và giải thích cơ chế ghi đè màu tô (Fill) khi nháy chuột thường so với thao tác giữ phím Shift để đổi màu vẽ (Stroke). / Bước 4. Đánh giá, nhận xét / - Giáo viên nhận xét, chấm điểm theo CCĐG 5 và chốt lại quy tắc thao tác chuẩn trong Inkscape. | ĐÁP ÁN PHẦN LUYỆN TẬP (SGK BÀI 12, TRANG 68): / - Giải Bài Luyện tập 1 (SGK trang 68): / + Khi nháy chuột thường lần lượt vào các ô màu Đỏ -> Nâu -> Cam trên Bảng màu, màu tô bên trong (Fill Color) của hình tròn sẽ thay đổi liên tiếp và dừng lại ở màu cuối cùng được nháy là màu Cam. / + Khi nhấn giữ phím Shift và nháy chuột vào ô màu Đỏ đậm, thao tác này không làm thay đổi màu tô nền mà thiết lập màu vẽ đường viền (`Stroke Color`) của hình tròn thành màu Đỏ đậm. / + Kết luận: Hình tròn thu được có phần nền bên trong (`Fill`) màu Cam và đường viền bao quanh (`Stroke`) màu Đỏ đậm. / - Giải Bài Luyện tập 2 (SGK trang 68): / + Chọn đáp án C. Hộp công cụ (Vì công cụ vẽ hình hộp 3D / khối lập phương nằm trong Hộp công cụ ở cạnh trái màn hình làm việc của Inkscape). |
 
 
-## IV. KIỂM TRA, ĐÁNH GIÁ
+
+4. Hoạt động 4: Vận dụng (08 phút – Tiết 2 của bài / Tiết PPCT: 18)
+
+a) Mục tiêu: [KT3], [NLC2], [NLC3], [NLc], [PC1], [PC2] – Học sinh vận dụng kỹ năng vẽ hình cơ bản, nhân bản và sắp xếp thứ tự lớp để vẽ Quốc kì các nước (Thái Lan, Lào, Myanmar) và phân tích cách ghép hình con vật ở phần Vận dụng SGK trang 68.
+
+b) Nội dung: Học sinh quan sát hình mẫu phần VẬN DỤNG (SGK trang 68) và thực hành vẽ ít nhất 01 Quốc kì (Thái Lan, Lào hoặc Myanmar) ngay tại lớp:
+
+Hình minh hoạ bài tập Vận dụng 1 & 2: Vẽ Quốc kì các nước và ghép hình cơ bản (SGK Tin học 10 KNTT, Bài 12, trang 68)
+
+c) Sản phẩm: Tệp HoTen_10-2_Bai12.svg hoàn chỉnh gồm Bông hoa, Quốc kì Việt Nam, Hình tròn Luyện tập và Quốc kì tự chọn ở phần Vận dụng.
+
+Công cụ đánh giá: CCĐG 6 – Rubric 10 điểm chấm sản phẩm thực hành Inkscape (Đính kèm chi tiết tại Mục IV. Phụ lục 2).
+
+d) Tổ chức thực hiện:
+
+| HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH | SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI) |
+
+|---|---|
+
+| Bước 1. Giáo viên chuyển giao nhiệm vụ học tập / - Giáo viên chiếu hình minh hoạ phần VẬN DỤNG (SGK trang 68) và yêu cầu học sinh thực hiện: / + Bài Vận dụng 1 (SGK trang 68): Phân tích cấu tạo các lớp hình học và chọn vẽ ít nhất 01 Quốc kì trong số 4 nước: Thái Lan, Lào, Myanmar (hoặc Anh) ngay trên tệp thực hành. / + Bài Vận dụng 2 (SGK trang 68): Phân tích các hình cơ bản (hình chữ nhật, hình tam giác/đa giác 3 đỉnh, hình tròn) tạo nên hình chú chó và chú tuần lộc để hoàn thiện ở nhà. / Bước 2. Học sinh thực hiện nhiệm vụ / - Học sinh phân tích thứ tự xếp lớp và thực hành vẽ nhanh Quốc kì Lào hoặc Myanmar/Thái Lan trên máy tính. / Bước 3. Báo cáo sản phẩm / - Giáo viên mời 02 học sinh trình bày quy trình xếp lớp khi vẽ Quốc kì Lào (3 dải chữ nhật Đỏ – Xanh – Đỏ và 1 hình tròn Trắng ở lớp trên cùng) và Quốc kì Thái Lan (3 hình chữ nhật Đỏ – Trắng – Xanh lam xếp chồng đồng tâm từ lớn đến nhỏ). / Bước 4. Đánh giá, nhận xét / - Giáo viên nhận xét theo Rubric CCĐG 6, tổng kết toàn bài và hướng dẫn học sinh chuẩn bị Bài 13: Bổ sung các đối tượng đồ hoạ (Tiết PPCT: 19, 20). | HƯỚNG DẪN GIẢI PHẦN VẬN DỤNG (SGK BÀI 12, TRANG 68): / 1. Bài Vận dụng 1 – Vẽ Quốc kì các nước (SGK trang 68): / - Quốc kì Thái Lan: Vẽ 01 hình chữ nhật lớn màu Đỏ ở lớp dưới cùng -> vẽ 01 hình chữ nhật màu Trắng thấp hơn đặt chính giữa ở lớp trung gian -> vẽ 01 hình chữ nhật màu Xanh đậm đặt chính giữa ở lớp trên cùng. / - Quốc kì Lào: Vẽ hình chữ nhật lớn màu Đỏ (lớp dưới) -> vẽ hình chữ nhật màu Xanh lam cao bằng 1/2 đặt chính giữa (lớp giữa) -> dùng công cụ Hình tròn vẽ 01 hình tròn màu Trắng đặt ở tâm (lớp trên cùng). / - Quốc kì Myanmar: Vẽ 3 dải hình chữ nhật ngang màu Vàng (trên), Xanh lá (giữa), Đỏ (dưới) -> dùng công cụ Hình sao (Corners = 5, Spoke ratio = 0.4) vẽ ngôi sao 5 cánh màu Trắng đặt ở lớp trên cùng chính giữa lá cờ. / 2. Bài Vận dụng 2 – Ghép các hình cơ bản thành con vật (SGK trang 68): / - Hình chú chó & chú tuần lộc: Kết hợp công cụ Hình chữ nhật (thân, chân, cổ, sừng), Hình đa giác Corners = 3 (tai hình tam giác) và Hình tròn (mắt, chóp mũi), sử dụng lệnh Duplicate (Ctrl + D) để nhân bản các chi tiết đối xứng. |
 
 
-### 1. Đánh giá quá trình
 
-- Kết quả trò chơi “Chọn đúng công cụ” ở đầu tiết.
-- Câu trả lời khi quan sát giáo viên làm mẫu và khi thảo luận tình huống lỗi với AI.
-- Quá trình thực hành tại phòng máy: thao tác công cụ, tốc độ hoàn thành, cách tự xử lý lỗi.
-- Việc viết prompt, đối chiếu và kiểm chứng gợi ý của AI bằng thao tác thực tế.
-- Phần trình bày, nhận xét sản phẩm của học sinh theo Rubric.
+IV. PHỤ LỤC (HỒ SƠ HỌC LIỆU, PHIẾU HỌC TẬP VÀ CÔNG CỤ ĐÁNH GIÁ)
 
-### 2. Tiêu chí đánh giá bộ sản phẩm (Rubric 10 điểm)
+Phụ lục 1. Hệ thống Phiếu học tập số 1, 2, 3, 4 và Công cụ đánh giá CCĐG 1 – CCĐG 5
 
-| Tiêu chí | Yêu cầu cần đạt | Điểm tối đa |
-| --- | --- | --- |
-| Tạo và lưu tệp | Hai tệp `HoTen_Lop_BongHoa.svg` và `HoTen_Lop_QuocKi.svg` lưu đúng quy cách, mở lại được bằng Inkscape. | 2 |
-| Bông hoa (kĩ thuật Duplicate, quay) | Hoa có đĩa tròn và 6 cánh trở lên; các cánh tạo bằng Duplicate, quay đều quanh tâm; đĩa nằm đúng lớp dưới. | 2 |
-| Quốc kì — ngôi sao | Sao 5 cánh cân đối (Corners = 5, Spoke ratio ≈ 0.4), tô màu vàng, hiển thị trên nền cờ. | 2 |
-| Quốc kì — nền cờ | Hình chữ nhật đỏ đúng tỉ lệ rộng : dài = 2 : 3, nằm đúng lớp dưới ngôi sao. | 2 |
-| Sử dụng AI có kiểm chứng | Viết được prompt hợp lệ, đối chiếu gợi ý AI với SGK/thao tác thực tế và ghi chú kết quả kiểm chứng. | 1 |
-| Thẩm mỹ và trình bày | Hình vẽ sạch, các đối tượng thẳng hàng, bố cục cân đối, màu sắc đúng chủ đề. | 1 |
-| Tổng |  | 10 |
+| Tên Phiếu / Công cụ | Nội dung câu hỏi và yêu cầu (Dựa sát SGK Tin học 10 KNTT, Bài 12 trang 63–68) | Đáp án chuẩn & Thang điểm chấm |
 
-**Cách cho điểm dự kiến:**
+|---|---|---|
 
-- Tiêu chí 2 điểm: đạt đầy đủ yêu cầu được 2 điểm; đạt một phần được 1 điểm; chưa thực hiện được 0 điểm.
-- Tiêu chí 1 điểm: thực hiện phù hợp được 1 điểm; chưa thực hiện hoặc thực hiện chưa phù hợp được 0 điểm.
-- Giáo viên công bố tiêu chí trước khi học sinh thực hành. Nếu sử dụng để nhận xét thường xuyên, giáo viên có thể góp ý theo từng tiêu chí mà không nhất thiết cho điểm.
+| CCĐG 1 / (Hoạt động 1: / Mở đầu) | - Quan sát Hình 12.1a, 12.1b (tr. 63) và Hình 12.2 (tr. 64): So sánh độ chi tiết màu sắc và hiện tượng xảy ra khi phóng to hai bức hình. | - Chỉ rõ Hình 12.1a là ảnh chụp bị vỡ hạt (pixel) khi phóng to; Hình 12.1b là hình vẽ giữ nguyên độ sắc nét (Đạt / Chưa đạt). |
 
-## V. KẾT QUẢ DỰ KIẾN
+| **Phiếu học tập số 1 / & CCĐG 2** / (Hoạt động 2 – / Nhiệm vụ 1) | 1. Điền bảng so sánh Đồ hoạ điểm ảnh (`Bitmap`) và Đồ hoạ vectơ (`Vector`) theo 5 tiêu chí (SGK tr. 64): Định nghĩa; Ứng dụng phù hợp; Khi phóng to; Kích thước tệp; Khả năng chuyển đổi. / 2. Trả lời 2 câu hỏi SGK tr. 64: (a) Ảnh chụp là loại đồ hoạ nào? (b) Vì sao thiết kế logo dùng đồ hoạ vectơ? | - Điền đúng 5 tiêu chí so sánh theo Bảng trang 64 (6,0 điểm). / - Trả lời đúng: (a) Đồ hoạ điểm ảnh; (b) Co dãn không vỡ hình, tệp nhẹ, dễ in ấn mọi kích cỡ (4,0 điểm). |
 
-Sau tiết học, học sinh:
+| **Phiếu học tập số 2 / & CCĐG 3** / (Hoạt động 2 – / Nhiệm vụ 2) | 1. Phân loại phần mềm: Illustrator, CorelDRAW, Inkscape, Photoshop, GIMP vào 2 cột (Vectơ / Bitmap). / 2. Ghi tên 6 thành phần giao diện chính trên Hình 12.3 (SGK tr. 65). / 3. Khoanh đáp án 2 câu hỏi trắc nghiệm đầu trang 66 SGK. | - Phân loại đúng 5 phần mềm (3,0 điểm). / - Nêu đúng chức năng 6 vùng giao diện Inkscape (4,0 điểm). / - Câu 1 tr. 66: B. Inkscape; Câu 2 tr. 66: A. Toàn bộ vùng làm việc (3,0 điểm). |
 
-- Tạo, lưu và mở lại được hai tệp đồ hoạ vectơ hoàn chỉnh: bông hoa và Quốc kì Việt Nam theo đúng mẫu Hình 12.5, 12.6 SGK.
-- Sử dụng thành thạo các thao tác cốt lõi của bài học: Duplicate, quay/di chuyển đối tượng, đặt Corners và Spoke ratio, tô màu Fill/Stroke, chỉnh thứ tự lớp.
-- Phát hiện và tự sửa được lỗi thường gặp của sản phẩm (đối tượng bị che, sao không cân đối, sai tỉ lệ cờ).
-- Viết được prompt nhờ AI kiểm tra lỗi hình vẽ; biết đối chiếu, kiểm chứng gợi ý của AI bằng SGK và thao tác thực tế trước khi áp dụng.
+| **Phiếu học tập số 3 / & CCĐG 4** / (Hoạt động 2 – / Nhiệm vụ 3) | 1. Giải bài toán sắp xếp quả dưa hấu và quả cam cho 4 ý a, b, c, d (Hoạt động 3 tr. 66). / 2. Nêu sự khác nhau khi nháy chuột lần 1 và nháy chuột lần 2 bằng công cụ Select lên đối tượng. / 3. Nêu thao tác chọn màu tô (Fill), màu vẽ (Stroke) và phần mở rộng tệp Inkscape. | - Giải đúng 4 trường hợp xếp lớp a, b, c, d (4,0 điểm). / - Nháy lần 1: Di chuyển/co dãn; Nháy lần 2: Xoay đối tượng (3,0 điểm). / - Nháy thường = Fill; Shift + Nháy = Stroke; tệp .svg; Câu hỏi tr. 67 chọn D. Hộp công cụ (3,0 điểm). |
+
+| **Phiếu học tập số 4 / & CCĐG 5** / (Hoạt động 3: / Luyện tập) | 1. Giải Bài Luyện tập 1 (SGK tr. 68): Xác định màu tô và màu viền của hình tròn sau chuỗi thao tác. / 2. Giải Bài Luyện tập 2 (SGK tr. 68): Chọn thanh công cụ chứa khối lập phương. | - Bài 1: Màu tô (Fill) là màu Cam; màu viền (Stroke) là màu Đỏ đậm (5,0 điểm). / - Bài 2: Chọn C. Hộp công cụ (5,0 điểm). |
+
+
+
+Phụ lục 2. Công cụ đánh giá CCĐG 6 – Rubric 10 điểm chấm sản phẩm thực hành Inkscape (Hình 12.5, Hình 12.6 & Vận dụng)
+
+| THÔNG TIN HÀNH CHÍNH PHIẾU ĐÁNH GIÁ SẢN PHẨM THỰC HÀNH (CCĐG 6) | NỘI DUNG CHI TIẾT |
+
+|---|---|
+
+| Tên bài dạy & Tiết PPCT | Bài 12. Phần mềm thiết kế đồ hoạ (Tiết PPCT: 18) |
+
+| Lớp giảng dạy & Địa điểm | Lớp 10/2 (Dự giờ Tiết 2 – Phòng H.I.4) – Trường THPT Thuận Hoá (Phòng H.I.3 / H.I.4) |
+
+| Giáo viên giảng dạy / GVHD | SVTT: Hồ Quang Huy – Giáo viên hướng dẫn: Thầy Mai Xuân Văn |
+
+| Họ và tên học sinh / Nhóm máy | ........................................................................ Máy số: ................... |
+
+
+
+| STT | Tiêu chí đánh giá | Công cụ & Thao tác Inkscape bắt buộc kiểm tra | Mô tả 3 mức độ đạt (Mức 3: Tốt / Mức 2: Đạt / Mức 1: Chưa đạt) | Điểm tối đa | Điểm đạt |
+
+|---|---|---|---|---|---|
+
+| 1 | Nhiệm vụ 1: / Vẽ bông hoa / (Hình 12.5 SGK tr. 67) | Công cụ Hình tròn/elip (E), lệnh Duplicate (Ctrl + D), nháy lần 2 công cụ Select để xoay cánh hoa. | - Mức 3 (3,5 đ): Vẽ đúng nhụy tròn, dùng Duplicate tạo các cánh hoa elip bằng nhau, xoay và xếp đều quanh nhụy như Hình 12.5g. / - Mức 2 (2,5 đ): Vẽ được nhụy và các cánh hoa nhưng góc xoay chưa đều. / - Mức 1 (1,0 đ): Các cánh hoa vẽ rời rạc bằng tay, không dùng Duplicate và chưa biết xoay. | 3,5 điểm | ...... |
+
+| 2 | Nhiệm vụ 2: / Vẽ Quốc kì Việt Nam / (Hình 12.6 SGK tr. 68) | Công cụ Hình sao (Corners = 5, Spoke ratio = 0.4), Hình chữ nhật tỉ lệ 2 : 3, nút Lower selection to bottom. | - Mức 3 (3,5 đ): Ngôi sao 5 cánh chuẩn (Corners = 5, Spoke ratio = 0.4) màu vàng nổi ở lớp trên chính giữa nền cờ chữ nhật đỏ tỉ lệ 2 : 3. / - Mức 2 (2,5 đ): Vẽ được nền đỏ và sao vàng đúng lớp nhưng thông số Spoke ratio hoặc vị trí chưa cân. / - Mức 1 (1,0 đ): Ngôi sao bị hình chữ nhật đỏ che khuất do chưa biết đổi thứ tự lớp. | 3,5 điểm | ...... |
+
+| 3 | Luyện tập & Vận dụng: / Phối màu Fill/Stroke & Quốc kì các nước (tr. 68) | Nháy chuột chọn Fill, giữ Shift + Nháy chuột chọn Stroke; xếp lớp vẽ Quốc kì Lào/Thái Lan/Myanmar. | - Mức 3 (2,0 đ): Thực hiện đúng thao tác đổi màu nền/màu viền Bài Luyện tập 1 và vẽ thêm được ít nhất 01 Quốc kì ở phần Vận dụng 1. / - Mức 2 (1,25 đ): Làm đúng Bài Luyện tập 1 nhưng chưa hoàn thiện hình Vận dụng. / - Mức 1 (0,5 đ): Còn nhầm lẫn giữa thao tác chọn màu nền (Fill) và màu viền (Stroke). | 2,0 điểm | ...... |
+
+| 4 | Lưu tệp & Ý thức thực hành phòng máy | Lệnh File / Save (Ctrl + S) đúng định dạng .svg. | - Mức 3 (1,0 đ): Lưu tệp đúng tên HoTen_Lop_Bai12.svg, hoàn thành đúng giờ, giữ gìn thiết bị phòng máy. / - Mức 2 (0,5 đ): Lưu tệp đúng định dạng .svg nhưng đặt tên chưa chuẩn. / - Mức 1 (0,25 đ): Quên lưu tệp thực hành. | 1,0 điểm | ...... |
+
+|  | TỔNG ĐIỂM |  | Xếp loại: Đạt từ 8,0 – 10,0: Tốt | 5,0 – 7,9: Đạt | < 5,0: Cần cố gắng | 10,0 điểm | ...... |
+
+
+
+V. NHẬN XÉT CỦA GIÁO VIÊN HƯỚNG DẪN VÀ KÝ DUYỆT
+
+Nhận xét của Giáo viên hướng dẫn:
+
+...................................................................................................................
+
+...................................................................................................................
+
+...................................................................................................................
+
+...................................................................................................................
+
+| GIÁO VIÊN HƯỚNG DẪN / (Ký và ghi rõ họ tên) / Thầy Mai Xuân Văn | Huế, ngày 09 tháng 11 năm 2026 / GIÁO VIÊN GIẢNG DẠY / (Sinh viên thực hiện ký và ghi rõ họ tên) / Hồ Quang Huy |
+
+|---|---|
+

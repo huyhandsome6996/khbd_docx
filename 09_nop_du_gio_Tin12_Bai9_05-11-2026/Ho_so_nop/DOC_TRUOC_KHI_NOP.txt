@@ -1,0 +1,36 @@
+HỒ SƠ DỰ GIỜ TIN HỌC 12 – BÀI 9: TẠO DANH SÁCH, BẢNG
+(ĐÃ CHỈNH SỬA HOÀN CHỈNH THEO 42 NHẬN XÉT CỦA 03 THẦY CÔ: CÔ TUYẾT NGÂN TÔN, THẦY THỐNG NHẤT & THẦY NGUYỄN NHẤT TÂN)
+
+Sinh viên thực hiện: Hồ Quang Huy – MSV: 24S1020030
+Giáo viên hướng dẫn: Thầy Mai Xuân Văn – Trường THPT Thuận Hoá
+Lớp giảng dạy: 12/4 – Thời lượng bài học: 02 tiết (Tiết thứ 1, 2 của bài; Tiết PPCT: 20, 21)
+Lịch dự giờ: Thứ Năm, ngày 05/11/2026 – Tiết 3 (09h00 – 09h45, dự giờ Tiết 1 / Tiết PPCT: 20) – Phòng H.II.4
+
+1. BẢN CHÍNH KẾ HOẠCH BÀI DẠY ĐỂ IN VÀ NỘP
+- Tệp: De_cuong_Tin12_Bai9_Lop12-4.docx (đồng bộ tại ngăn 06_thanh_pham_docx/Đề cương dự giờ Tin12_Bai9_Lop12-4_HoQuangHuy.docx)
+- Đã tích hợp đầy đủ:
+  + Trang bìa và trang đầu ghi rõ: ĐỀ CƯƠNG DỰ GIỜ – KẾ HOẠCH BÀI DẠY và Tiết PPCT: 20, 21.
+  + Mục tiêu mã hóa [KT1]–[KT6], [NLC1]–[NLC3], [NLa/c/d], [NLS/NLAI], [PC1]–[PC3] khớp 1-1 với từng hoạt động.
+  + Tiến trình dạy học chuẩn Công văn 5512 gồm 4 hoạt động:
+    * Hoạt động 1: Mở đầu (05 phút – Tiết 1 / Tiết PPCT: 20)
+    * Hoạt động 2: Hình thành kiến thức mới (62 phút: Nhiệm vụ 1 [20p, Tiết 1], Nhiệm vụ 2 [20p, Tiết 1], Nhiệm vụ 3 [10p, Tiết 2], Nhiệm vụ 4 [12p, Tiết 2])
+    * Hoạt động 3: Luyện tập (18 phút – Tiết 2 / Tiết PPCT: 21)
+    * Hoạt động 4: Vận dụng (05 phút – Tiết 2 / Tiết PPCT: 21)
+  + Đã chèn trực tiếp 8 hình SGK (Hình 9.1 đến Hình 9.8) vào mục b) Nội dung.
+  + Bảng d) Tổ chức thực hiện 2 cột chuẩn: HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH (4 bước chuẩn) | SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI).
+  + Mục IV. PHỤ LỤC đính kèm trọn bộ Phiếu học tập số 1–5, Công cụ đánh giá CCĐG 1–7, Rubric chi tiết và mã nguồn HTML.
+  + Mục V. NHẬN XÉT CỦA GIÁO VIÊN HƯỚNG DẪN VÀ KÝ DUYỆT đúng quy chuẩn.
+
+2. TỆP PHIẾU HỌC TẬP & RUBRIC RỜI ĐỂ IN PHÁT HỌC SINH
+- Tệp: 02_Phieu_hoc_tap_va_dap_an_Tin12_Bai9.docx
+- Trang 1: Phiếu học tập Tiết 1 (Phiếu số 1 & số 2 – Tiết PPCT: 20).
+- Trang 2: Phiếu học tập Tiết 2 (Phiếu số 3, số 4, Luyện tập & Phiếu số 5 – Tiết PPCT: 21).
+- Trang 3: Phiếu đánh giá Rubric 10 điểm (CCĐG 6).
+- Trang 4: Đáp án và hướng dẫn chấm dành cho giáo viên.
+
+3. THƯ MỤC HỌC LIỆU THỰC HÀNH (Hoc_lieu_HTML/)
+- 00_Trinh_chieu.html: Bài trình chiếu 12 slide ngoại tuyến đồng bộ theo cấu trúc mới.
+- 01_Khung_CLB.html: Tệp khung HTML cấp cho học sinh thực hành xuyên suốt 2 tiết.
+- 02_CLB_Mau_CoBan.html: Tệp bảng cơ bản minh họa cho Nhiệm vụ 3.
+- 03_Ma_Can_Sua.html & 04_Ma_Da_Sua.html: Học liệu kiểm chứng lỗi cấu trúc bảng cho Hoạt động 4 (Vận dụng).
+- 05_CLB_HoanChinh_SGK.html: Sản phẩm mẫu hoàn chỉnh tích hợp Hình 9.7, Hình 9.8 và bài Luyện tập trang 56.

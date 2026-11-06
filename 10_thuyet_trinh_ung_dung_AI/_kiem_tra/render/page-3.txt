@@ -1,0 +1,33 @@
+3
+Slide 3 Chia ngăn đểAI biết đọc gì và làm gì
+Thời lượng 65 giây
+Nội dung hiện trên slide
+• Nguồn: chương trình, giáo trình, sách giáo khoa.
+• Hướng dẫn: bản đồ, quy định và quy trình.
+• Kết quả: bản nháp, thành phẩm và phần kiểm tra.
+Lời nói gợi ý
+Trong dựán của tôi, chương trình, giáo trình phương pháp, sách giáo khoa và
+mẫu đềcương nằm ởcác ngăn riêng. Mỗi ngăn có file hướng dẫn đuôi chấm em đê.
+Đây chỉlà file văn bản dễđọc, giống tờgiấy chỉđường. README cho biết tài liệu ở
+đâu. Rule ghi điều phải tuân theo, ví dụWord phải là A4. Skill ghi cách làm một việc,
+ví dụđọc nguồn, soạn, xuất Word rồi kiểm tra từng trang. Nhờvậy, tôi có thểchia sẻ
+cảtài liệu lẫn cách làm. Khi đổi công cụ, tôi vẫn yêu cầu agent xác nhận đã đọc hướng
+dẫn; không mặc định mọi công cụtựnhận mọi file.
+Hình minh hoạ: Ảnh cây thư mục thật của dựán, khoanh README và ba nhóm
+Nguồn, Hướng dẫn, Kết quả. Không chụp thông tin riêng tư.
+Slide 4 Chia việc cho nhiều agent
+Thời lượng 60 giây
+Nội dung hiện trên slide
+• Agent A: soạn bản nháp trong ngăn riêng.
+• Agent B: đối chiếu nguồn và ghi nhận xét riêng.
+• Tôi quyết định sửa gì và hợp nhất bản cuối.
+Lời nói gợi ý
+Tôi có thểmởAI trong Antigravity và thêm OpenCode trên cùng máy. Một cách
+phân công là cho bên A soạn phiếu, bên B kiểm tra phiếu với sách. Hai bên dùng
+chung tài liệu nguồn nhưng ghi kết quảvào hai ngăn khác nhau. Tôi xem nhận xét, yêu
+cầu sửa và duyệt bản cuối. Cùng thư mục không có nghĩa là hai AI tựbiết cuộc trò
+chuyện của nhau. Nếu mỗi bên làm trên một bản sao thì phải cập nhật và hợp nhất thay
+đổi. Tôi tránh cho hai agent cùng sửa một file Word. Cách này giúp phân việc, còn kết
+quảđúng hay sai vẫn phải dựa vào bằng chứng.
+Hình minh hoạ: Sơ đồmột nguồn chung tách sang A và B, rồi vềngười duyệt. Đây là
+cách phân công minh hoạ, không cần chạy hai AI trực tiếp khi thuyết trình.
