@@ -180,10 +180,10 @@ HD4_ROWS_BAI12 = [
     [
         '**Bước 1. Giáo viên chuyển giao nhiệm vụ học tập**\n'
         '- Giáo viên chiếu hình minh hoạ phần Vận dụng (SGK trang 68) và yêu cầu học sinh thực hiện:\n'
-        '  + Bài Vận dụng 1 (SGK trang 68): Phân tích cấu tạo các lớp hình học và chọn vẽ ít nhất 01 Quốc kì trong số 4 nước: Thái Lan, Lào, Myanmar (hoặc Anh) ngay trên tệp thực hành.\n'
+        '  + Bài Vận dụng 1 (SGK trang 68): Phân tích cấu tạo các lớp hình học và chọn vẽ ít nhất 01 Quốc kì trong số các nước Thái Lan, Lào, Myanmar và Anh ngay trên tệp thực hành.\n'
         '  + Bài Vận dụng 2 (SGK trang 68): Phân tích các hình cơ bản (hình chữ nhật, hình tam giác/đa giác 3 đỉnh, hình tròn) tạo nên hình chú chó và chú tuần lộc để hoàn thiện ở nhà.\n'
         '**Bước 2. Học sinh thực hiện nhiệm vụ**\n'
-        '- Học sinh phân tích thứ tự xếp lớp và thực hành vẽ nhanh Quốc kì Lào hoặc Myanmar/Thái Lan trên máy tính.\n'
+        '- Học sinh phân tích thứ tự xếp lớp và thực hành vẽ nhanh ít nhất 01 Quốc kì (Thái Lan, Lào, Myanmar hoặc Anh) trên máy tính.\n'
         '**Bước 3. Báo cáo sản phẩm**\n'
         '- Giáo viên mời 02 học sinh trình bày quy trình xếp lớp khi vẽ Quốc kì Lào (3 dải chữ nhật Đỏ – Xanh – Đỏ và 1 hình tròn Trắng ở lớp trên cùng) và Quốc kì Thái Lan (3 hình chữ nhật Đỏ – Trắng – Xanh lam xếp chồng đồng tâm từ lớn đến nhỏ).\n'
         '**Bước 4. Đánh giá, nhận xét**\n'
@@ -193,15 +193,61 @@ HD4_ROWS_BAI12 = [
         '- **Quốc kì Thái Lan:** Vẽ 01 hình chữ nhật lớn màu Đỏ ở lớp dưới cùng -> vẽ 01 hình chữ nhật màu Trắng thấp hơn đặt chính giữa ở lớp trung gian -> vẽ 01 hình chữ nhật màu Xanh đậm đặt chính giữa ở lớp trên cùng.\n'
         '- **Quốc kì Lào:** Vẽ hình chữ nhật lớn màu Đỏ (lớp dưới) -> vẽ hình chữ nhật màu Xanh lam cao bằng 1/2 đặt chính giữa (lớp giữa) -> dùng công cụ Hình tròn vẽ 01 hình tròn màu Trắng đặt ở tâm (lớp trên cùng).\n'
         '- **Quốc kì Myanmar:** Vẽ 3 dải hình chữ nhật ngang màu Vàng (trên), Xanh lá (giữa), Đỏ (dưới) -> dùng công cụ Hình sao (Corners = 5, Spoke ratio = 0.4) vẽ ngôi sao 5 cánh màu Trắng đặt ở lớp trên cùng chính giữa lá cờ.\n'
+        '- **Quốc kì Anh:** Vẽ hình chữ nhật nền Xanh lam đậm ở lớp dưới cùng -> dùng công cụ Hình chữ nhật vẽ các dải chéo màu Trắng và màu Đỏ (xoay góc bằng công cụ Select nháy lần 2) đặt ở lớp giữa -> vẽ 2 hình chữ nhật màu Trắng (ngang và dọc) xếp chữ thập ở lớp trên -> vẽ 2 hình chữ nhật màu Đỏ (ngang và dọc, hẹp hơn dải trắng) xếp chồng chính giữa ở lớp trên cùng.\n'
         '**2. Bài Vận dụng 2 – Ghép các hình cơ bản thành con vật (SGK trang 68):**\n'
         '- **Hình chú chó & chú tuần lộc:** Kết hợp công cụ Hình chữ nhật (thân, chân, cổ, sừng), Hình đa giác Corners = 3 (tai hình tam giác) và Hình tròn (mắt, chóp mũi), sử dụng lệnh Duplicate (Ctrl + D) để nhân bản các chi tiết đối xứng.'
     ]
 ]
 
-def add_bai12_appendix(b, class_label='10/1 & 10/2', ppct_label='17, 18'):
+# Tiết 1 (Lí thuyết – phòng học H.I.3): học sinh làm việc trên phiếu học tập và vở ghi, giáo viên thao tác minh hoạ trên máy chiếu
+HD3_ROWS_T1 = [
+    ['HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH', 'SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI)'],
+    [
+        '**Bước 1. Giáo viên chuyển giao nhiệm vụ học tập**\n'
+        '- Giáo viên phát Phiếu học tập số 4 và yêu cầu mỗi học sinh tự suy luận, không dùng máy tính, để giải hai bài tập phần Luyện tập (SGK trang 68):\n'
+        '  + Bài Luyện tập 1 (SGK trang 68): Sau khi vẽ một hình tròn trong Inkscape, ta thực hiện liên tục các thao tác: nháy công cụ Select, nháy chọn hình tròn, nháy chuột lần lượt vào các ô màu Đỏ, Nâu, Cam trên bảng màu, rồi giữ phím Shift và nháy chuột vào ô màu Đỏ đậm. Em hãy xác định màu tô nền và màu viền cuối cùng của hình tròn.\n'
+        '  + Bài Luyện tập 2 (SGK trang 68): Để thay một ngôi sao thành một khối lập phương (hoặc vẽ hình mới), em sẽ tìm công cụ ở thanh công cụ nào? (A. Bảng màu / B. Thanh điều khiển thuộc tính / C. Hộp công cụ / D. Hộp thoại lệnh).\n'
+        '**Bước 2. Học sinh thực hiện nhiệm vụ**\n'
+        '- Học sinh vận dụng quy tắc chọn màu đã học ở mục 3 (SGK trang 66–67): nháy chuột thường là đổi màu tô (Fill), giữ Shift và nháy chuột là đổi màu viền (Stroke); sau đó ghi câu trả lời vào Phiếu học tập số 4.\n'
+        '**Bước 3. Báo cáo sản phẩm**\n'
+        '- Giáo viên mời 02 học sinh trình bày kết quả và giải thích cơ chế ghi đè màu tô khi nháy chuột thường so với thao tác giữ phím Shift. Sau đó giáo viên thực hiện đúng chuỗi thao tác của Bài Luyện tập 1 trên phần mềm Inkscape ở màn hình máy chiếu để cả lớp đối chiếu kết quả.\n'
+        '**Bước 4. Đánh giá, nhận xét**\n'
+        '- Giáo viên nhận xét, chấm điểm theo CCĐG 5 và chốt lại quy tắc thao tác chuẩn trong Inkscape.',
+        HD3_ROWS_BAI12[1][1]
+    ]
+]
+
+HD4_ROWS_T1 = [
+    ['HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH', 'SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI)'],
+    [
+        '**Bước 1. Giáo viên chuyển giao nhiệm vụ học tập**\n'
+        '- Giáo viên chiếu lên màn hình Hình 12.5, Hình 12.6 (SGK trang 67–68) và phần Vận dụng 1, Vận dụng 2 (SGK trang 68), sau đó yêu cầu học sinh phân tích và ghi vào vở các bước thực hiện để chuẩn bị cho Tiết 2 Thực hành (Tiết PPCT: 18):\n'
+        '  + Hình 12.5: các công cụ và thứ tự thao tác vẽ bông hoa.\n'
+        '  + Hình 12.6: các công cụ, thông số và thứ tự lớp khi vẽ Quốc kì Việt Nam.\n'
+        '  + Vận dụng 1, Vận dụng 2: thứ tự lớp khi vẽ Quốc kì Thái Lan, Lào, Myanmar, Anh và cách ghép các hình cơ bản thành hình con vật.\n'
+        '**Bước 2. Học sinh thực hiện nhiệm vụ**\n'
+        '- Học sinh quan sát các hình trên màn chiếu, phân tích thứ tự lớp và công cụ cần dùng, rồi ghi tóm tắt các bước vào vở. Ở tiết này học sinh chưa thực hành trên máy tính.\n'
+        '**Bước 3. Báo cáo sản phẩm**\n'
+        '- Giáo viên mời 02 học sinh trình bày quy trình xếp lớp của Quốc kì Việt Nam và của một Quốc kì ở phần Vận dụng 1; các bạn khác nhận xét, bổ sung.\n'
+        '**Bước 4. Đánh giá, nhận xét**\n'
+        '- Giáo viên nhận xét phần ghi chép của học sinh, tổng kết Tiết 1 và dặn học sinh mang theo vở ghi để thực hành trên phòng máy ở Tiết 2 (Tiết PPCT: 18).',
+        '**Tóm tắt các bước chuẩn bị cho Tiết 2 (SGK Bài 12, trang 67–68):**\n'
+        '**1. Bông hoa (Hình 12.5, trang 67):**\n'
+        '- Vẽ hình tròn (nhụy) và hình elip (cánh hoa) -> nhân bản cánh hoa bằng Duplicate (Ctrl + D) -> dùng công cụ Select, nháy lần 2 để xoay từng cánh -> xếp đều quanh nhụy hoa.\n'
+        '**2. Quốc kì Việt Nam (Hình 12.6, trang 67–68):**\n'
+        '- Vẽ ngôi sao 5 cánh (Corners = 5, Spoke ratio = 0.4, màu vàng) -> vẽ hình chữ nhật tỉ lệ 2 : 3 màu đỏ -> nháy Lower selection to bottom để đưa hình chữ nhật xuống lớp dưới.\n'
+        '**3. Quốc kì các nước và ghép hình con vật (Vận dụng 1, 2, trang 68):**\n'
+        '- **Quốc kì Thái Lan:** Đỏ (lớp dưới) -> Trắng (lớp giữa) -> Xanh đậm (lớp trên), các hình chữ nhật xếp chồng đồng tâm.\n'
+        '- **Quốc kì Lào:** Đỏ (lớp dưới) -> Xanh lam cao bằng 1/2 (lớp giữa) -> hình tròn Trắng (lớp trên cùng).\n'
+        '- **Quốc kì Myanmar:** Ba dải ngang Vàng, Xanh lá, Đỏ -> ngôi sao 5 cánh màu Trắng ở lớp trên cùng.\n'
+        '- **Quốc kì Anh:** Nền Xanh lam đậm (lớp dưới) -> các dải chéo Trắng và Đỏ (lớp giữa) -> chữ thập Trắng (lớp trên) -> chữ thập Đỏ hẹp hơn (lớp trên cùng).\n'
+        '- **Hình chú chó và chú tuần lộc:** Ghép hình chữ nhật, hình tam giác (Corners = 3) và hình tròn; dùng Duplicate (Ctrl + D) cho các chi tiết đối xứng.'
+    ]
+]
+
+def add_bai12_appendix(b, class_label='10/1 & 10/2', ppct_label='17, 18', mode='cabai'):
     add(b, 'IV. PHỤ LỤC (HỒ SƠ HỌC LIỆU, PHIẾU HỌC TẬP VÀ CÔNG CỤ ĐÁNH GIÁ)', 'heading')
-    add(b, 'Phụ lục 1. Hệ thống Phiếu học tập số 1, 2, 3, 4 và Công cụ đánh giá CCĐG 1 – CCĐG 5', 'sub')
-    pht_rows = [
+    all_rows = [
         ['Tên Phiếu / Công cụ', 'Nội dung câu hỏi và yêu cầu (Dựa sát SGK Tin học 10 KNTT, Bài 12 trang 63–68)', 'Đáp án chuẩn & Thang điểm chấm'],
         ['**CCĐG 1**\n(Hoạt động 1:\nMở đầu)',
          '- Quan sát Hình 12.1a, 12.1b (tr. 63) và Hình 12.2 (tr. 64): So sánh độ chi tiết màu sắc và hiện tượng xảy ra khi phóng to hai bức hình.',
@@ -231,13 +277,25 @@ def add_bai12_appendix(b, class_label='10/1 & 10/2', ppct_label='17, 18'):
          '- Bài 1: Màu tô (Fill) là màu Cam; màu viền (Stroke) là màu Đỏ đậm *(5,0 điểm)*.\n'
          '- Bài 2: Chọn **C. Hộp công cụ** *(5,0 điểm)*.']
     ]
+    ccdg1_t2 = ['**CCĐG 1**\n(Hoạt động 1:\nMở đầu Tiết 2)',
+         '- Khởi động Inkscape, lưu tệp HoTen_10-2_Bai12.svg và trả lời nhanh 3 câu hỏi thao tác cốt lõi: (1) Muốn xoay đối tượng, nháy công cụ Select mấy lần? (2) Đổi màu đường viền (Stroke) từ Bảng màu như thế nào? (3) Đối tượng vẽ sau che khuất đối tượng vẽ trước thì xử lí ra sao?',
+         '- (1) Nháy lần 2 vào đối tượng bằng công cụ Select rồi kéo mũi tên cong ở góc; (2) Giữ phím Shift và nháy chuột vào ô màu; (3) Dùng nút Lower selection to bottom để hạ lớp *(Đạt / Chưa đạt)*.']
+    if mode == 'tiet1':
+        pht_rows = all_rows
+        add(b, 'Phụ lục 1. Hệ thống Phiếu học tập số 1, 2, 3, 4 và Công cụ đánh giá CCĐG 1 – CCĐG 5', 'sub')
+    elif mode == 'tiet2':
+        pht_rows = [all_rows[0], ccdg1_t2, all_rows[5]]
+        add(b, 'Phụ lục 1. Phiếu học tập số 4 và Công cụ đánh giá CCĐG 1, CCĐG 5', 'sub')
+    else:
+        pht_rows = all_rows
+        add(b, 'Phụ lục 1. Hệ thống Phiếu học tập số 1, 2, 3, 4 và Công cụ đánh giá CCĐG 1 – CCĐG 5', 'sub')
     b.append(table(pht_rows, [1600, 4200, 3200], header=True, cell_sz=21))
 
     add(b, 'Phụ lục 2. Công cụ đánh giá CCĐG 6 – Rubric 10 điểm chấm sản phẩm thực hành Inkscape (Hình 12.5, Hình 12.6 & Vận dụng)', 'sub')
     rubric_info = [
         ['Thông tin hành chính phiếu đánh giá sản phẩm thực hành (CCĐG 6)', 'Nội dung chi tiết'],
         ['Tên bài dạy & Tiết PPCT', f'Bài 12. Phần mềm thiết kế đồ hoạ (Tiết PPCT: {ppct_label})'],
-        ['Lớp giảng dạy & Địa điểm', f'Lớp {class_label} – Trường THPT Thuận Hoá (Phòng H.I.3 / H.I.4)'],
+        ['Lớp giảng dạy & Địa điểm', f'Lớp {class_label} – Trường THPT Thuận Hoá'],
         ['Giáo viên giảng dạy và Giáo viên hướng dẫn', 'Thầy Mai Xuân Văn'],
         ['Sinh viên thực hiện', 'Hồ Quang Huy'],
         ['Họ và tên học sinh / Nhóm máy', '........................................................................ Máy số: ...................']
@@ -371,7 +429,7 @@ def build_bai12_tiet1():
     add(b, '**c) Sản phẩm:** Lời giải chính xác trên Phiếu học tập số 4 (hình tròn có nền màu Cam, viền màu Đỏ đậm; chọn đáp án C. Hộp công cụ).', first=0)
     add(b, '**Công cụ đánh giá:** CCĐG 5 – Đáp án và thang điểm chấm Phiếu học tập số 4 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
-    b.append(table(HD3_ROWS_BAI12, [4600, 4400], header=True, cell_sz=23))
+    b.append(table(HD3_ROWS_T1, [4600, 4400], header=True, cell_sz=23))
 
     add(b, '4. Hoạt động 4: Vận dụng (05 phút – Tiết 1 của bài / Tiết PPCT: 17)', 'heading')
     add(b, '**a) Mục tiêu:** [KT3], [NLC3], [NLa], [PC2] – Học sinh vận dụng quy tắc thứ tự lớp và thuộc tính đối tượng để lập sơ đồ các bước vẽ bông hoa (Hình 12.5), Quốc kì Việt Nam (Hình 12.6) và Quốc kì các nước (Vận dụng trang 68), sẵn sàng cho Tiết 2 Thực hành (Tiết PPCT: 18).', first=0)
@@ -380,9 +438,9 @@ def build_bai12_tiet1():
     add(b, '**c) Sản phẩm:** Bản ghi tóm tắt quy trình thực hành trong vở để thực hiện trên phòng máy ở Tiết 2 (Tiết PPCT: 18).', first=0)
     add(b, '**Công cụ đánh giá:** CCĐG 6 – Rubric đánh giá sản phẩm thực hành và vận dụng *(Đính kèm tại Mục IV. Phụ lục 2)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
-    b.append(table(HD4_ROWS_BAI12, [4600, 4400], header=True, cell_sz=23))
+    b.append(table(HD4_ROWS_T1, [4600, 4400], header=True, cell_sz=23))
 
-    add_bai12_appendix(b, class_label='10/1 (Dự giờ Tiết 1 – Phòng H.I.3)', ppct_label='17')
+    add_bai12_appendix(b, class_label='10/1 (Dự giờ Tiết 1 – Phòng H.I.3)', ppct_label='17', mode='tiet1')
     add_approval_section(b, sign_date_str='Huế, ngày 09 tháng 11 năm 2026')
 
     used_figs = [
@@ -396,6 +454,7 @@ def build_bai12_tiet1():
     save_docx(b, out_p, used_figures=used_figs)
     shutil.copy2(out_p, THANH_PHAM_DIR / 'Đề cương bài dạy Tin10_Bai12_Tiet1.docx')
     shutil.copy2(out_p, GOI_NOP_DIR / '03_KHBD_Tin10_Bai12_Tiet1.docx')
+    shutil.copy2(out_p, GOI_NOP_DIR / out_p.name)
     print('Built:', out_p)
 
 def build_bai12_tiet2():
@@ -573,7 +632,7 @@ def build_bai12_tiet2():
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(HD4_ROWS_BAI12, [4600, 4400], header=True, cell_sz=23))
 
-    add_bai12_appendix(b, class_label='10/2 (Dự giờ Tiết 2 – Phòng H.I.4)', ppct_label='18')
+    add_bai12_appendix(b, class_label='10/2 (Dự giờ Tiết 2 – Phòng H.I.4)', ppct_label='18', mode='tiet2')
     add_approval_section(b, sign_date_str='Huế, ngày 09 tháng 11 năm 2026')
 
     used_figs = [
@@ -585,6 +644,7 @@ def build_bai12_tiet2():
     save_docx(b, out_p, used_figures=used_figs)
     shutil.copy2(out_p, THANH_PHAM_DIR / 'Đề cương bài dạy Tin10_Bai12_Tiet2.docx')
     shutil.copy2(out_p, GOI_NOP_DIR / '04_KHBD_Tin10_Bai12_Tiet2.docx')
+    shutil.copy2(out_p, GOI_NOP_DIR / out_p.name)
     print('Built:', out_p)
 
 def build_bai12_cabai():
@@ -724,7 +784,7 @@ def build_bai12_cabai():
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(HD4_ROWS_BAI12, [4600, 4400], header=True, cell_sz=23))
 
-    add_bai12_appendix(b, class_label='10/1 & 10/2 (Trọn bộ 02 tiết)', ppct_label='17, 18')
+    add_bai12_appendix(b, class_label='10/1 & 10/2 (Trọn bộ 02 tiết)', ppct_label='17, 18', mode='cabai')
     add_approval_section(b, sign_date_str='Huế, ngày 09 tháng 11 năm 2026')
 
     used_figs = [
@@ -738,9 +798,24 @@ def build_bai12_cabai():
     ]
     out_p = KHOI10_DIR / '05_De_cuong_du_gio_Tin10_Bai12_CaBai_2Tiet_TietPPCT17-18.docx'
     save_docx(b, out_p, used_figures=used_figs)
+    shutil.copy2(out_p, THANH_PHAM_DIR / 'Đề cương bài dạy Tin10_Bai12_CaBai_2Tiet.docx')
+    shutil.copy2(out_p, GOI_NOP_DIR / out_p.name)
     print('Built:', out_p)
+
+def make_zips():
+    import zipfile
+    members = sorted(p for p in KHOI10_DIR.glob('*.docx') if not p.name.startswith('~$'))
+    members += [KHOI10_DIR / 'khoi_10_tin_hoc_07092026.xls', KHOI10_DIR / 'README_NGUON_VA_GIAI_TRINH_KHOI10.md']
+    zips = [KHOI10_DIR / 'HoQuangHuy_24S1020030_TronBo_HoSo_Khoi10.zip',
+            GOI_NOP_DIR.parent / 'HoQuangHuy_24S1020030_HoSo_DuGio_Tin10.zip']
+    for zp in zips:
+        with zipfile.ZipFile(zp, 'w', zipfile.ZIP_DEFLATED) as z:
+            for m in members:
+                z.write(m, m.name)
+        print('Zipped:', zp)
 
 if __name__ == '__main__':
     build_bai12_tiet1()
     build_bai12_tiet2()
     build_bai12_cabai()
+    make_zips()
