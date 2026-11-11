@@ -514,13 +514,13 @@ def build_bai10_tiet1():
     add_approval_section(b, sign_date_str=SIGN_DATE, gvhd_name=GVHD_NAME, gvgd_name=GVGD_NAME, sv_name=SV_NAME)
 
     used_figs = ['hinh_10_1.png', 'hinh_10_2.png']
-    out_p = KHOI12_DIR / '01_De_cuong_du_gio_Tin12_Bai10_Tiet1_LT_TietPPCT21_Lop12-2.docx'
+    out_p = KHOI12_DIR / 'de_cuong_du_gio_12-2.docx'
     save_docx(b, out_p, used_figures=used_figs)
     THANH_PHAM_DIR.mkdir(parents=True, exist_ok=True)
     GOI_NOP_DIR.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(out_p, KHOI12_DIR / 'de_cuong_du_gio_12-2.docx')
     shutil.copy2(out_p, THANH_PHAM_DIR / 'Đề cương bài dạy Tin12_Bai10_Tiet1_Lop12-2.docx')
     shutil.copy2(out_p, GOI_NOP_DIR / out_p.name)
+    shutil.copy2(out_p, GOI_NOP_DIR / '01_De_cuong_du_gio_Tin12_Bai10_Tiet1_LT_TietPPCT21_Lop12-2.docx')
     print('Built:', out_p)
 
 
@@ -722,11 +722,11 @@ def build_bai10_tiet2():
     add_approval_section(b, sign_date_str=SIGN_DATE, gvhd_name=GVHD_NAME, gvgd_name=GVGD_NAME, sv_name=SV_NAME)
 
     used_figs = ['hinh_10_2.png']
-    out_p = KHOI12_DIR / '02_De_cuong_du_gio_Tin12_Bai10_Tiet2_TH_TietPPCT22_Lop12-1.docx'
+    out_p = KHOI12_DIR / 'de_cuong_du_gio_12-1.docx'
     save_docx(b, out_p, used_figures=used_figs)
-    shutil.copy2(out_p, KHOI12_DIR / 'de_cuong_du_gio_12-1.docx')
     shutil.copy2(out_p, THANH_PHAM_DIR / 'Đề cương bài dạy Tin12_Bai10_Tiet2_Lop12-1.docx')
     shutil.copy2(out_p, GOI_NOP_DIR / out_p.name)
+    shutil.copy2(out_p, GOI_NOP_DIR / '02_De_cuong_du_gio_Tin12_Bai10_Tiet2_TH_TietPPCT22_Lop12-1.docx')
     print('Built:', out_p)
 
 
@@ -1123,6 +1123,13 @@ def make_zips():
             p = d / old_name
             if p.exists():
                 p.unlink()
+    for dup_name in [
+        '01_De_cuong_du_gio_Tin12_Bai10_Tiet1_LT_TietPPCT21_Lop12-2.docx',
+        '02_De_cuong_du_gio_Tin12_Bai10_Tiet2_TH_TietPPCT22_Lop12-1.docx'
+    ]:
+        p = KHOI12_DIR / dup_name
+        if p.exists():
+            p.unlink()
 
     readme_p = KHOI12_DIR / 'README_NGUON_VA_GIAI_TRINH_KHOI12.md'
     if readme_p.exists():
