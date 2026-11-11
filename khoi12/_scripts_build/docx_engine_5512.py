@@ -68,6 +68,10 @@ def p(text='', role='body', align=None, keep=False, first=None, italic=False, sz
     pp.append(node('widowControl', {'val': 1}))
     pp.append(node('snapToGrid', {'val': 0}))
     pp.append(node('spacing', {'before': 60 if role in ['heading', 'sub'] else 0, 'after': 40 if role in ['heading', 'sub'] else 0, 'line': 276 if role in ['cell', 'code'] else 288, 'lineRule': 'auto'}))
+    if align is None and role in ['body', 'bullet']:
+        _plain = re.sub(r'\*+', '', str(text))
+        if re.search(r'<[A-Za-z/!]|=\"|https?://|\.(?:html|svg|docx|css|js|png)\b|\w_\w|#\w|/\w+/|\S{20,}', _plain):
+            align = 'left'
     pp.append(node('jc', {'val': align or ('center' if role in ['title', 'caption'] else 'left' if role in ['heading', 'sub', 'label', 'code', 'cell'] else 'both')}))
     rp = node('rPr')
     font(rp, size_val=sz, font_name='Times New Roman')

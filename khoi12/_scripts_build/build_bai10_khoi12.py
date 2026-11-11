@@ -46,7 +46,7 @@ HD1_ROWS_BAI10 = [
         '- **Điểm khác biệt khi đọc trang web so với sách, báo giấy:**\n'
         '  + Trang web không chỉ có văn bản và hình ảnh tĩnh mà còn tích hợp âm thanh, video, hoạt ảnh và khả năng tương tác.\n'
         '  + Cách tiếp cận thông tin trên sách, báo giấy chủ yếu là tuần tự (lật từng trang), còn trên trang web là phi tuyến tính thông qua các liên kết.\n'
-        '- **Điểm khác biệt quan trọng nhất:** Trang web có các **siêu liên kết (hyperlink)** giúp người đọc chỉ cần nháy chuột là di chuyển nhanh chóng từ một nội dung thông tin này đến một nội dung thông tin khác trong cùng trang, cùng website hoặc sang website khác trên Internet.'
+        '- **Điểm khác biệt quan trọng nhất:** Trang web có các siêu liên kết (hyperlink) giúp người đọc chỉ cần nháy chuột là di chuyển nhanh chóng từ một nội dung thông tin này đến một nội dung thông tin khác trong cùng trang, cùng website hoặc sang website khác trên Internet.'
     ]
 ]
 
@@ -59,7 +59,7 @@ NV1_ROWS_BAI10 = [
         '  + Yêu cầu 2: Trình bày khái niệm siêu liên kết, cú pháp thẻ <a> tạo liên kết trong HTML và phân biệt Đường dẫn tuyệt đối với Đường dẫn tương đối.\n'
         '  + Yêu cầu 3 (Câu hỏi củng cố SGK trang 58): Trong ba đường dẫn sau, đường dẫn nào là đường dẫn tương đối, đường dẫn nào là đường dẫn tuyệt đối: a) html/cach_tao_lien_ket.html; b) http://google.com; c) mail.google.com/mail/u/0/#inbox/FMfcgzGrcjHzMWKllZqRrT.\n'
         '**Bước 2. Học sinh thực hiện nhiệm vụ**\n'
-        '- Học sinh đọc kỹ SGK trang 57–58, thảo luận nhóm đôi và hoàn thành Phiếu học tập số 1. Giáo viên quan sát, gợi ý học sinh chú ý dấu hiệu nhận biết giao thức (http:// hoặc https://) ở đầu đường dẫn.\n'
+        '- Học sinh đọc kĩ SGK trang 57–58, thảo luận nhóm đôi và hoàn thành Phiếu học tập số 1. Giáo viên quan sát, gợi ý học sinh chú ý dấu hiệu nhận biết giao thức (http:// hoặc https://) ở đầu đường dẫn.\n'
         '**Bước 3. Báo cáo sản phẩm**\n'
         '- Giáo viên mời đại diện 02 nhóm trình bày kết quả Phiếu học tập số 1; các nhóm khác nhận xét, bổ sung.\n'
         '**Bước 4. Đánh giá, nhận xét**\n'
@@ -90,18 +90,18 @@ NV2_ROWS_BAI10 = [
         '  + Yêu cầu 1: Phân biệt Liên kết ngoài (liên kết tới một trang web khác trên Internet) và Liên kết trong (liên kết tới vị trí khác trong cùng website); viết câu lệnh HTML tạo liên kết tới trang Hành trang số của NXB Giáo dục Việt Nam.\n'
         '  + Yêu cầu 2: Quan sát Hình 10.1 – Cấu trúc một website (SGK trang 59), viết đoạn mã HTML cho 4 trường hợp liên kết tương đối trong cùng website: (1) Từ index.html tới thong_tin.html (cùng thư mục); (2) Từ index.html tới bai_tap_1.html (thư mục khác dưới 1 cấp); (3) Từ index.html tới bai_tap_on_tap.html (thư mục khác dưới 2 cấp); (4) Từ bai_tap_1.html quay lại index.html ở thư mục mẹ web/ (thư mục mức trên).\n'
         '**Bước 2. Học sinh thực hiện nhiệm vụ**\n'
-        '- Học sinh quan sát kỹ sơ đồ cây thư mục ở Hình 10.1 (SGK trang 59), thảo luận cặp đôi để xác định đường đi từ tệp nguồn tới tệp đích và viết đúng chuỗi href vào Phiếu học tập số 2.\n'
+        '- Học sinh quan sát kĩ sơ đồ cây thư mục ở Hình 10.1 (SGK trang 59), thảo luận cặp đôi để xác định đường đi từ tệp nguồn tới tệp đích và viết đúng chuỗi href vào Phiếu học tập số 2.\n'
         '**Bước 3. Báo cáo sản phẩm**\n'
         '- Giáo viên mời 02 nhóm lên bảng viết 04 câu lệnh thẻ <a> tương ứng với 4 trường hợp của Hình 10.1; các nhóm khác đối chiếu, nhận xét.\n'
         '**Bước 4. Đánh giá, nhận xét**\n'
         '- Giáo viên nhận xét theo CCĐG 3 và chốt quy tắc: Xuống thư mục con dùng dấu gạch chéo "/" (tên_thư_mục/tên_tệp); ngược lên thư mục mẹ một mức dùng kí tự "../" (số cụm "../" bằng đúng số mức thư mục cần quay lên).',
         '**2. Các cách tạo liên kết tới một trang web (SGK trang 58–60)**\n'
         '**a) Liên kết tới một trang web khác (Liên kết ngoài):**\n'
-        '- Sử dụng **đường dẫn tuyệt đối** trong thuộc tính href để dẫn tới một trang web khác trên Internet.\n'
+        '- Sử dụng đường dẫn tuyệt đối trong thuộc tính href để dẫn tới một trang web khác trên Internet.\n'
         '- Ví dụ (SGK trang 58):\n'
         '  <p><a href="https://hanhtrangso.nxbgd.vn/sach-dien-tu?book_active=0">Sách điện tử Kết nối tri thức với cuộc sống</a></p>\n'
         '**b) Liên kết đến một vị trí khác trong cùng website (Liên kết trong – Hình 10.1, trang 59–60):**\n'
-        '- Sử dụng **đường dẫn tương đối** dựa theo cấu trúc thư mục của website (Hình 10.1: thư mục gốc web/ chứa thư mục images/, tệp index.html, tệp thong_tin.html và thư mục bai_tap/; trong bai_tap/ có bai_tap_1.html, bai_tap_2.html và thư mục con on_tap/ chứa bai_tap_on_tap.html):\n'
+        '- Sử dụng đường dẫn tương đối dựa theo cấu trúc thư mục của website (Hình 10.1: thư mục gốc web/ chứa thư mục images/, tệp index.html, tệp thong_tin.html và thư mục bai_tap/; trong bai_tap/ có bai_tap_1.html, bai_tap_2.html và thư mục con on_tap/ chứa bai_tap_on_tap.html):\n'
         '  + **Trường hợp 1 – Liên kết tới trang web cùng thư mục:** Chỉ cần cung cấp tên tệp đích. Ví dụ từ index.html tới thong_tin.html:\n'
         '    <a href="thong_tin.html">Giới thiệu về trang web</a>\n'
         '  + **Trường hợp 2 – Liên kết tới trang web thuộc thư mục khác, dưới một cấp:** Ghép tên thư mục con và tên tệp phân cách bởi dấu "/". Ví dụ từ index.html tới bai_tap_1.html:\n'
@@ -148,7 +148,7 @@ NV3_ROWS_BAI10 = [
     ]
 ]
 
-# Bước thực hành trọn vẹn Nhiệm vụ 1 & Nhiệm vụ 2 (dùng cho Tiết 2 và Bản gộp Cả bài)
+# Bước thực hành trọn vẹn Nhiệm vụ 1 và Nhiệm vụ 2 (dùng cho Tiết 2 và Bản gộp Cả bài)
 NV4_ROWS_BAI10 = [
     ['HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH', 'SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI)'],
     [
@@ -308,13 +308,13 @@ HD4_ROWS_T1 = [
 ]
 
 
-def add_bai10_appendix(b, class_label='12/2 & 12/1', ppct_label='22, 23', mode='cabai'):
+def add_bai10_appendix(b, class_label='12/2 và 12/1', ppct_label='22, 23', mode='cabai'):
     add(b, 'IV. PHỤ LỤC (HỒ SƠ HỌC LIỆU, PHIẾU HỌC TẬP VÀ CÔNG CỤ ĐÁNH GIÁ)', 'heading')
     all_rows = [
-        ['Tên Phiếu / Công cụ', 'Nội dung câu hỏi và yêu cầu (Dựa sát SGK Tin học 12 KNTT, Bài 10 trang 57–61)', 'Đáp án chuẩn & Thang điểm chấm'],
+        ['Tên Phiếu / Công cụ', 'Nội dung câu hỏi và yêu cầu (Dựa sát SGK Tin học 12 KNTT, Bài 10 trang 57–61)', 'Đáp án chuẩn và Thang điểm chấm'],
         ['**CCĐG 1**\n(Hoạt động 1:\nMở đầu)',
          '- Câu hỏi Khởi động SGK trang 57: Nêu những điểm khác biệt khi đọc thông tin trên trang web so với đọc sách, báo giấy và chỉ ra điểm khác biệt quan trọng nhất.',
-         '- Nêu được trang web có đa phương tiện và siêu liên kết (hyperlink) giúp di chuyển phi tuyến tính tức thời giữa các nội dung *(Đạt / Chưa đạt)*.'],
+         '- Nêu được trang web có đa phương tiện và siêu liên kết (hyperlink) giúp di chuyển phi tuyến tính tức thời giữa các nội dung (Đạt / Chưa đạt).'],
         ['**Phiếu học tập số 1**\n**và CCĐG 2**\n(Hoạt động 2 –\nNhiệm vụ 1)',
          '1. Giải Hoạt động 1 (SGK tr. 57): Vì sao tệp .docx có thể là siêu văn bản còn tệp .txt thì không? Nêu đặc điểm của siêu văn bản.\n'
          '2. Viết cú pháp thẻ <a> và phân biệt Đường dẫn tuyệt đối với Đường dẫn tương đối.\n'
@@ -343,7 +343,7 @@ def add_bai10_appendix(b, class_label='12/2 & 12/1', ppct_label='22, 23', mode='
     ccdg1_t2 = [
         '**CCĐG 1**\n(Hoạt động 1:\nMở đầu Tiết 2)',
         '- Mở tệp CLB.html (Bài 9) trên trình soạn thảo mã và trả lời nhanh 3 câu hỏi thao tác cốt lõi: (1) Cú pháp gắn mã định danh đoạn và liên kết tới vị trí trong cùng trang? (2) Cú pháp liên kết tới tệp khác cùng thư mục? (3) Cách lưu và kiểm thử liên kết trên trình duyệt?',
-        '- (1) Gắn id="CLBTT" tại thẻ đích và gọi href="#CLBTT" tại thẻ <a>; (2) Dùng href="thong_tin.html"; (3) Nhấn Ctrl + S và tải lại trang (F5) trên trình duyệt *(Đạt / Chưa đạt)*.'
+        '- (1) Gắn id="CLBTT" tại thẻ đích và gọi href="#CLBTT" tại thẻ <a>; (2) Dùng href="thong_tin.html"; (3) Nhấn Ctrl + S và tải lại trang (F5) trên trình duyệt (Đạt / Chưa đạt).'
     ]
     if mode == 'tiet1':
         pht_rows = all_rows
@@ -356,11 +356,11 @@ def add_bai10_appendix(b, class_label='12/2 & 12/1', ppct_label='22, 23', mode='
         add(b, 'Phụ lục 1. Hệ thống Phiếu học tập số 1, 2, 3, 4 và Công cụ đánh giá CCĐG 1 – CCĐG 5', 'sub')
     b.append(table(pht_rows, [1600, 4200, 3200], header=True, cell_sz=21))
 
-    add(b, 'Phụ lục 2. Công cụ đánh giá CCĐG 6 – Rubric 10 điểm chấm sản phẩm thực hành HTML tạo liên kết (Nhiệm vụ 1, Nhiệm vụ 2, Luyện tập & Vận dụng SGK trang 61)', 'sub')
+    add(b, 'Phụ lục 2. Công cụ đánh giá CCĐG 6 – Rubric 10 điểm chấm sản phẩm thực hành HTML tạo liên kết (Nhiệm vụ 1, Nhiệm vụ 2, Luyện tập và Vận dụng SGK trang 61)', 'sub')
     rubric_info = [
         ['Thông tin hành chính phiếu đánh giá sản phẩm thực hành (CCĐG 6)', 'Nội dung chi tiết'],
-        ['Tên bài dạy & Tiết PPCT', f'Bài 10: Tạo liên kết (Tiết PPCT: {ppct_label})'],
-        ['Lớp giảng dạy & Trường thực tập', f'Lớp {class_label} – Trường THPT Thuận Hoá'],
+        ['Tên bài dạy và Tiết PPCT', f'Bài 10: Tạo liên kết (Tiết PPCT: {ppct_label})'],
+        ['Lớp giảng dạy và Trường thực tập', f'Lớp {class_label} – Trường THPT Thuận Hoá'],
         ['Giáo viên giảng dạy', GVGD_NAME],
         ['Giáo viên hướng dẫn', GVHD_NAME],
         ['Sinh viên thực hiện', f'{SV_NAME} (Mã sinh viên: 24S1020030)'],
@@ -370,11 +370,11 @@ def add_bai10_appendix(b, class_label='12/2 & 12/1', ppct_label='22, 23', mode='
     add(b, '', first=0)
 
     rubric_rows = [
-        ['STT', 'Tiêu chí đánh giá', 'Phần tử & Thuộc tính HTML bắt buộc kiểm tra', 'Mô tả 3 mức độ đạt (Mức 3: Tốt / Mức 2: Đạt / Mức 1: Chưa đạt)', 'Điểm tối đa', 'Điểm đạt'],
+        ['STT', 'Tiêu chí đánh giá', 'Phần tử và Thuộc tính HTML bắt buộc kiểm tra', 'Mô tả 3 mức độ đạt (Mức 3: Tốt / Mức 2: Đạt / Mức 1: Chưa đạt)', 'Điểm tối đa', 'Điểm đạt'],
         ['1', 'Nhiệm vụ 1:\nLiên kết trong cùng trang\n(Hình 10.2 SGK tr. 61)', 'Nội dung giới thiệu đầu trang CLB.html; thuộc tính id="CLBTT" tại thẻ <table>; thẻ <a href="#CLBTT">.', '- **Mức 3 (3,5 đ):** Thêm đầy đủ phần giới thiệu và danh sách thành tích như Hình 10.2; gắn đúng id="CLBTT" cho bảng và nháy vào liên kết cuộn mượt xuống bảng.\n- **Mức 2 (2,5 đ):** Tạo được liên kết #CLBTT hoạt động đúng nhưng phần văn bản giới thiệu còn thiếu ý.\n- **Mức 1 (1,0 đ):** Quên dấu "#" trong href="#CLBTT" hoặc chưa gắn id cho thẻ <table>.', '3,5 điểm', '......'],
-        ['2', 'Nhiệm vụ 2 & Luyện tập 1:\nLiên kết hai chiều giữa CLB.html và thong_tin.html', 'Tệp thong_tin.html cùng thư mục; <a href="thong_tin.html"> trong CLB.html và <a href="CLB.html"> trong thong_tin.html.', '- **Mức 3 (3,5 đ):** Tạo đúng tệp thong_tin.html cùng thư mục; chuyển trang hai chiều thông suốt giữa CLB.html và thong_tin.html.\n- **Mức 2 (2,5 đ):** Liên kết từ CLB.html sang thong_tin.html hoạt động đúng nhưng chưa có liên kết quay lại.\n- **Mức 1 (1,0 đ):** Lưu sai thư mục hoặc viết sai tên tệp khiến trình duyệt báo lỗi không tìm thấy tệp.', '3,5 điểm', '......'],
-        ['3', 'Luyện tập 2 & Vận dụng:\nLiên kết ngoài & Liên kết từng CLB trong bảng (tr. 61)', 'Đường dẫn tuyệt đối https://...; các thuộc tính id cho từng CLB dưới bảng và thẻ <a href="#..."> trong các ô <td>.', '- **Mức 3 (2,0 đ):** Hoàn thành liên kết từ tên các CLB trong bảng xuống đoạn giới thiệu chi tiết dưới bảng và tạo đúng liên kết tuyệt đối.\n- **Mức 2 (1,25 đ):** Tạo được đoạn giới thiệu và liên kết cho ít nhất 02 câu lạc bộ trong bảng.\n- **Mức 1 (0,5 đ):** Mới viết được đoạn văn giới thiệu dưới bảng nhưng chưa gắn được liên kết từ bảng xuống.', '2,0 điểm', '......'],
-        ['4', 'Cú pháp mã nguồn HTML & Ý thức phòng máy', 'Đóng/mở thẻ chuẩn, khai báo <meta charset="UTF-8">, lưu tệp đúng quy định.', '- **Mức 3 (1,0 đ):** Mã HTML thụt lề rõ ràng, hiển thị tiếng Việt có dấu chuẩn, hoàn thành đúng thời gian.\n- **Mức 2 (0,5 đ):** Trang web chạy được nhưng trình bày mã nguồn chưa gọn.\n- **Mức 1 (0,25 đ):** Quên lưu tệp hoặc đặt tên tệp sai phần mở rộng .html.', '1,0 điểm', '......'],
+        ['2', 'Nhiệm vụ 2 và Luyện tập 1:\nLiên kết hai chiều giữa CLB.html và thong_tin.html', 'Tệp thong_tin.html cùng thư mục; <a href="thong_tin.html"> trong CLB.html và <a href="CLB.html"> trong thong_tin.html.', '- **Mức 3 (3,5 đ):** Tạo đúng tệp thong_tin.html cùng thư mục; chuyển trang hai chiều thông suốt giữa CLB.html và thong_tin.html.\n- **Mức 2 (2,5 đ):** Liên kết từ CLB.html sang thong_tin.html hoạt động đúng nhưng chưa có liên kết quay lại.\n- **Mức 1 (1,0 đ):** Lưu sai thư mục hoặc viết sai tên tệp khiến trình duyệt báo lỗi không tìm thấy tệp.', '3,5 điểm', '......'],
+        ['3', 'Luyện tập 2 và Vận dụng:\nLiên kết ngoài và Liên kết từng CLB trong bảng (tr. 61)', 'Đường dẫn tuyệt đối https://...; các thuộc tính id cho từng CLB dưới bảng và thẻ <a href="#..."> trong các ô <td>.', '- **Mức 3 (2,0 đ):** Hoàn thành liên kết từ tên các CLB trong bảng xuống đoạn giới thiệu chi tiết dưới bảng và tạo đúng liên kết tuyệt đối.\n- **Mức 2 (1,25 đ):** Tạo được đoạn giới thiệu và liên kết cho ít nhất 02 câu lạc bộ trong bảng.\n- **Mức 1 (0,5 đ):** Mới viết được đoạn văn giới thiệu dưới bảng nhưng chưa gắn được liên kết từ bảng xuống.', '2,0 điểm', '......'],
+        ['4', 'Cú pháp mã nguồn HTML và Ý thức phòng máy', 'Đóng/mở thẻ chuẩn, khai báo <meta charset="UTF-8">, lưu tệp đúng quy định.', '- **Mức 3 (1,0 đ):** Mã HTML thụt lề rõ ràng, hiển thị tiếng Việt có dấu chuẩn, hoàn thành đúng thời gian.\n- **Mức 2 (0,5 đ):** Trang web chạy được nhưng trình bày mã nguồn chưa gọn.\n- **Mức 1 (0,25 đ):** Quên lưu tệp hoặc đặt tên tệp sai phần mở rộng .html.', '1,0 điểm', '......'],
         ['', '**Tổng điểm**', '', '**Xếp loại:** Đạt từ 8,0 – 10,0: Tốt | 5,0 – 7,9: Đạt | < 5,0: Cần cố gắng', '**10,0 điểm**', '......']
     ]
     b.append(table(rubric_rows, [650, 1500, 2000, 3450, 700, 700], header=True, cell_sz=21))
@@ -386,14 +386,14 @@ def add_bai10_appendix(b, class_label='12/2 & 12/1', ppct_label='22, 23', mode='
 def build_bai10_tiet1():
     b = init_body_with_cover(
         cover_title='ĐỀ CƯƠNG DỰ GIỜ – KẾ HOẠCH BÀI DẠY',
-        cover_subtitle='BÀI 10: TẠO LIÊN KẾT (TIẾT 1 - LÍ THUYẾT – TIẾT PPCT: 22)',
+        cover_subtitle='BÀI 10: TẠO LIÊN KẾT (TIẾT 1 – LÍ THUYẾT – TIẾT PPCT: 22)',
         class_str='Tin học 12 – Lớp 12/2 – Trường THPT Thuận Hoá',
         schedule_str='Thứ Sáu, ngày 13/11/2026 – Tiết 3 (09h00 – 09h45) – Phòng H.II.2',
-        lesson_row_str='Bài 10: Tạo liên kết (Tiết 1 - Lí thuyết) – Tiết PPCT: 22 (Tổng bài: 02 tiết – PPCT: 22, 23)',
+        lesson_row_str='Bài 10: Tạo liên kết (Tiết 1 – Lí thuyết) – Tiết PPCT: 22 (Tổng bài: 02 tiết – PPCT: 22, 23)',
         page1_title='TÊN BÀI DẠY: BÀI 10. TẠO LIÊN KẾT (TIẾT 1 – LÍ THUYẾT)',
         page1_subtitle='(Thời lượng toàn bài: 02 tiết [Tiết PPCT: 22, 23] – Kế hoạch này chi tiết hoá Tiết thứ 1 của bài / Tiết PPCT: 22)',
         page1_class_line='Môn học: Tin học; Lớp: 12/2',
-        page1_time_line='Thời gian thực hiện: 01 tiết (45 phút – Tiết 1 - LT / Tiết PPCT: 22)',
+        page1_time_line='Thời gian thực hiện: 01 tiết (45 phút – Tiết 1 – LT / Tiết PPCT: 22)',
         page1_sched_line='Lịch dự giờ: Thứ Sáu, ngày 13/11/2026 – Tiết 3 (09h00 – 09h45) – Lớp 12/2 – Phòng H.II.2',
         page1_mode_line='Hình thức tổ chức: Dạy học lí thuyết kết hợp quan sát trực quan và thảo luận nhóm',
         gvgd_name=GVGD_NAME,
@@ -423,8 +423,8 @@ def build_bai10_tiet1():
 
     add(b, 'b) Năng lực đặc thù môn Tin học', 'sub')
     for item in [
-        '**Năng lực giải quyết vấn đề với sự hỗ trợ của CNTT và truyền thông [NLc]:** Viết đúng các đoạn mã HTML sử dụng thẻ <a>, thuộc tính href, thuộc tính id và thẻ <img> để kết nối các tài nguyên web.',
         '**Năng lực ứng xử phù hợp trong môi trường số [NLb]:** Có ý thức kiểm chứng tính chính xác và an toàn của địa chỉ URL trước khi chia sẻ hoặc nhúng liên kết vào trang web.',
+        '**Năng lực giải quyết vấn đề với sự hỗ trợ của CNTT và truyền thông [NLc]:** Viết đúng các đoạn mã HTML sử dụng thẻ <a>, thuộc tính href, thuộc tính id và thẻ <img> để kết nối các tài nguyên web.',
         '**Năng lực hợp tác trong môi trường số [NLe]:** Phối hợp hiệu quả với bạn cùng nhóm trong hoạt động phân tích cấu trúc website.'
     ]:
         add(b, item, 'bullet')
@@ -449,12 +449,12 @@ def build_bai10_tiet1():
         add(b, item, 'bullet')
 
     add(b, 'III. TIẾN TRÌNH DẠY HỌC', 'heading')
-    add(b, '**Bảng tổng quan tiến trình dạy học Tiết 1 - Lí thuyết (45 phút – Tiết thứ 1 của bài / Tiết PPCT: 22)**', first=0, keep=True)
+    add(b, '**Bảng tổng quan tiến trình dạy học Tiết 1 – Lí thuyết (45 phút – Tiết thứ 1 của bài / Tiết PPCT: 22)**', first=0, keep=True)
     ov_rows = [
-        ['Hoạt động dạy học (Công văn 5512)', 'Thời lượng & Tiết PPCT', 'Mục tiêu', 'Sản phẩm & Công cụ đánh giá'],
+        ['Hoạt động dạy học (Công văn 5512)', 'Thời lượng và Tiết PPCT', 'Mục tiêu', 'Sản phẩm và Công cụ đánh giá'],
         ['1. Hoạt động 1: Mở đầu\n(So sánh đọc trang web với đọc sách, báo giấy – SGK tr. 57)', '05 phút\n(Tiết 1 của bài /\nTiết PPCT: 22)', '[KT1], [NLC1],\n[PC1]', 'Câu trả lời miệng nêu bật vai trò của siêu liên kết.\nCông cụ đánh giá: CCĐG 1.'],
-        ['2. Hoạt động 2: Hình thành kiến thức mới\n- 2.1. Nhiệm vụ 1: Siêu văn bản, thẻ <a> & Đường dẫn tuyệt đối/tương đối (10p)\n- 2.2. Nhiệm vụ 2: Liên kết ngoài & Liên kết trong cùng website theo Hình 10.1 (10p)\n- 2.3. Nhiệm vụ 3: Liên kết vị trí trong cùng trang (id) & Liên kết hình ảnh (08p)', '28 phút\n(Tiết 1 của bài /\nTiết PPCT: 22)', '[KT1], [KT2], [KT3],\n[NLC1], [NLC2],\n[NLb], [NLc], [NLe],\n[NLS 3.1.NC1.a],\n[PC1], [PC2]', 'Phiếu học tập số 1, số 2, số 3 đã hoàn thành.\nCông cụ đánh giá: CCĐG 2, CCĐG 3, CCĐG 4.'],
-        ['3. Hoạt động 3: Luyện tập\n(Viết mã HTML giải Bài Luyện tập 1, 2 SGK tr. 61 & Củng cố Hình 10.1)', '07 phút\n(Tiết 1 của bài /\nTiết PPCT: 22)', '[KT1], [KT2], [KT3],\n[NLC1], [NLC3],\n[NLc], [PC3]', 'Lời giải trên Phiếu học tập số 4.\nCông cụ đánh giá: CCĐG 5.'],
+        ['2. Hoạt động 2: Hình thành kiến thức mới\n- 2.1. Nhiệm vụ 1: Siêu văn bản, thẻ <a> và Đường dẫn tuyệt đối/tương đối (10p)\n- 2.2. Nhiệm vụ 2: Liên kết ngoài và Liên kết trong cùng website theo Hình 10.1 (10p)\n- 2.3. Nhiệm vụ 3: Liên kết vị trí trong cùng trang (id) và Liên kết hình ảnh (08p)', '28 phút\n(Tiết 1 của bài /\nTiết PPCT: 22)', '[KT1], [KT2], [KT3],\n[NLC1], [NLC2],\n[NLb], [NLc], [NLe],\n[NLS 3.1.NC1.a],\n[PC1], [PC2]', 'Phiếu học tập số 1, số 2, số 3 đã hoàn thành.\nCông cụ đánh giá: CCĐG 2, CCĐG 3, CCĐG 4.'],
+        ['3. Hoạt động 3: Luyện tập\n(Viết mã HTML giải Bài Luyện tập 1, 2 SGK tr. 61 và Củng cố Hình 10.1)', '07 phút\n(Tiết 1 của bài /\nTiết PPCT: 22)', '[KT1], [KT2], [KT3],\n[NLC1], [NLC3],\n[NLc], [PC3]', 'Lời giải trên Phiếu học tập số 4.\nCông cụ đánh giá: CCĐG 5.'],
         ['4. Hoạt động 4: Vận dụng\n(Thiết kế sơ đồ mã định danh id cho dự án CLB.html chuẩn bị Tiết 2)', '05 phút\n(Tiết 1 của bài /\nTiết PPCT: 22)', '[KT3], [NLC3],\n[NLc], [PC2]', 'Bản thiết kế mã định danh id và liên kết trong vở ghi chuẩn bị cho Tiết 2 Thực hành (Tiết PPCT: 23).']
     ]
     b.append(table(ov_rows, [2700, 1400, 2000, 2900], header=True, cell_sz=22))
@@ -463,7 +463,7 @@ def build_bai10_tiet1():
     add(b, '**a) Mục tiêu:** [KT1], [NLC1], [PC1] – Học sinh nhận biết được sự khác biệt cốt lõi giữa việc đọc thông tin trên trang web với đọc sách, báo giấy, từ đó hiểu được ý nghĩa của siêu liên kết.', first=0)
     add(b, '**b) Nội dung:** Học sinh thảo luận cặp đôi trả lời câu hỏi Khởi động trong Sách giáo khoa Tin học 12 trang 57.', first=0)
     add(b, '**c) Sản phẩm:** Câu trả lời miệng của học sinh chỉ ra điểm khác biệt quan trọng nhất trên trang web là có các siêu liên kết (hyperlink) giúp di chuyển nhanh chóng giữa các trang thông tin.', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 1 – Bảng kiểm quan sát Hoạt động Mở đầu *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 1 – Bảng kiểm quan sát Hoạt động Mở đầu *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(HD1_ROWS_BAI10, [4600, 4400], header=True, cell_sz=23))
 
@@ -472,7 +472,7 @@ def build_bai10_tiet1():
     add(b, '**a) Mục tiêu:** [KT1], [NLC1], [NLC2], [NLb], [PC1] – Học sinh trình bày được đặc điểm của siêu văn bản, cú pháp thẻ <a> và phân biệt được đường dẫn tuyệt đối với đường dẫn tương đối.', first=0)
     add(b, '**b) Nội dung:** Học sinh nghiên cứu mục 1. Siêu văn bản và đường dẫn (SGK trang 57–58), trả lời Hoạt động 1 (trang 57) và Câu hỏi củng cố (trang 58) trên Phiếu học tập số 1.', first=0)
     add(b, '**c) Sản phẩm:** Phiếu học tập số 1 ghi đầy đủ khái niệm siêu văn bản, cú pháp thẻ <a> và phân loại đúng 3 đường dẫn a, b, c ở trang 58.', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 2 – Thang điểm chấm Phiếu học tập số 1 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 2 – Thang điểm chấm Phiếu học tập số 1 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(NV1_ROWS_BAI10, [4600, 4400], header=True, cell_sz=23))
 
@@ -481,7 +481,7 @@ def build_bai10_tiet1():
     add(b, '**b) Nội dung:** Học sinh đọc mục 2a, 2b (SGK trang 58–60), quan sát Hình 10.1 – Cấu trúc một website (SGK trang 59) và hoàn thành Phiếu học tập số 2:', first=0)
     add_figure(b, 'hinh_10_1.png')
     add(b, '**c) Sản phẩm:** Phiếu học tập số 2 hoàn chỉnh các đoạn mã HTML tạo liên kết ngoài và 4 trường hợp liên kết trong cùng website (cùng thư mục, dưới 1 cấp, dưới 2 cấp, lên thư mục mức trên bằng "../").', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 3 – Thang điểm chấm Phiếu học tập số 2 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 3 – Thang điểm chấm Phiếu học tập số 2 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(NV2_ROWS_BAI10, [4600, 4400], header=True, cell_sz=23))
 
@@ -489,15 +489,15 @@ def build_bai10_tiet1():
     add(b, '**a) Mục tiêu:** [KT3], [NLC1], [NLc], [NLS 3.1.NC1.a], [PC2] – Học sinh nắm vững quy trình 2 bước tạo liên kết nội bộ trong cùng trang bằng thuộc tính id và kí tự "#", cách đặt ảnh làm liên kết và giải đúng Câu hỏi củng cố trang 60.', first=0)
     add(b, '**b) Nội dung:** Học sinh đọc phần cuối mục 2b (SGK trang 60) và hoàn thành Phiếu học tập số 3 (bao gồm Câu hỏi củng cố cuối trang 60).', first=0)
     add(b, '**c) Sản phẩm:** Phiếu học tập số 3 trình bày đúng 2 bước tạo liên kết tới mã định danh đoạn (#id), câu lệnh liên kết hình ảnh Mặt Trời (images/sun.png) và đoạn mã danh sách <ul> liên kết tới 3 tệp bài tập.', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 4 – Thang điểm chấm Phiếu học tập số 3 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 4 – Thang điểm chấm Phiếu học tập số 3 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(NV3_ROWS_BAI10, [4600, 4400], header=True, cell_sz=23))
 
     add(b, '3. Hoạt động 3: Luyện tập (07 phút – Tiết 1 của bài / Tiết PPCT: 22)', 'heading')
-    add(b, '**a) Mục tiêu:** [KT1], [KT2], [KT3], [NLC1], [NLC3], [NLc], [PC3] – Học sinh vận dụng lý thuyết vừa học để viết chính xác đoạn mã HTML cho Bài Luyện tập 1, Bài Luyện tập 2 (SGK trang 61) và bài toán đường dẫn tương đối trên Hình 10.1.', first=0)
+    add(b, '**a) Mục tiêu:** [KT1], [KT2], [KT3], [NLC1], [NLC3], [NLc], [PC3] – Học sinh vận dụng lí thuyết vừa học để viết chính xác đoạn mã HTML cho Bài Luyện tập 1, Bài Luyện tập 2 (SGK trang 61) và bài toán đường dẫn tương đối trên Hình 10.1.', first=0)
     add(b, '**b) Nội dung:** Học sinh làm việc cá nhân hoàn thành Phiếu học tập số 4.', first=0)
     add(b, '**c) Sản phẩm:** Lời giải chính xác trên Phiếu học tập số 4.', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 5 – Đáp án và thang điểm chấm Phiếu học tập số 4 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 5 – Đáp án và thang điểm chấm Phiếu học tập số 4 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(HD3_ROWS_T1, [4600, 4400], header=True, cell_sz=23))
 
@@ -506,7 +506,7 @@ def build_bai10_tiet1():
     add(b, '**b) Nội dung:** Học sinh quan sát Hình 10.2 (SGK trang 61) và lập bảng thiết kế các thuộc tính id cùng thẻ <a> cho dự án trang web CLB.html:', first=0)
     add_figure(b, 'hinh_10_2.png')
     add(b, '**c) Sản phẩm:** Bản ghi thiết kế các mã định danh id và câu lệnh liên kết trong vở để sử dụng trực tiếp ở Tiết 2 Thực hành (Tiết PPCT: 23).', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 6 – Rubric đánh giá sản phẩm thực hành và vận dụng *(Đính kèm tại Mục IV. Phụ lục 2)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 6 – Rubric đánh giá sản phẩm thực hành và vận dụng *(Đính kèm tại Mục IV. Phụ lục 2)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(HD4_ROWS_T1, [4600, 4400], header=True, cell_sz=23))
 
@@ -529,14 +529,14 @@ def build_bai10_tiet1():
 def build_bai10_tiet2():
     b = init_body_with_cover(
         cover_title='ĐỀ CƯƠNG DỰ GIỜ – KẾ HOẠCH BÀI DẠY',
-        cover_subtitle='BÀI 10: TẠO LIÊN KẾT (TIẾT 2 - THỰC HÀNH – TIẾT PPCT: 23)',
+        cover_subtitle='BÀI 10: TẠO LIÊN KẾT (TIẾT 2 – THỰC HÀNH – TIẾT PPCT: 23)',
         class_str='Tin học 12 – Lớp 12/1 – Trường THPT Thuận Hoá',
         schedule_str='Thứ Sáu, ngày 13/11/2026 – Tiết 2 (08h00 – 08h45) – Phòng H.II.1',
-        lesson_row_str='Bài 10: Tạo liên kết (Tiết 2 - Thực hành) – Tiết PPCT: 23 (Tổng bài: 02 tiết – PPCT: 22, 23)',
+        lesson_row_str='Bài 10: Tạo liên kết (Tiết 2 – Thực hành) – Tiết PPCT: 23 (Tổng bài: 02 tiết – PPCT: 22, 23)',
         page1_title='TÊN BÀI DẠY: BÀI 10. TẠO LIÊN KẾT (TIẾT 2 – THỰC HÀNH)',
         page1_subtitle='(Thời lượng toàn bài: 02 tiết [Tiết PPCT: 22, 23] – Kế hoạch này chi tiết hoá Tiết thứ 2 của bài / Tiết PPCT: 23)',
         page1_class_line='Môn học: Tin học; Lớp: 12/1',
-        page1_time_line='Thời gian thực hiện: 01 tiết (45 phút – Tiết 2 - TH / Tiết PPCT: 23)',
+        page1_time_line='Thời gian thực hiện: 01 tiết (45 phút – Tiết 2 – TH / Tiết PPCT: 23)',
         page1_sched_line='Lịch dự giờ: Thứ Sáu, ngày 13/11/2026 – Tiết 2 (08h00 – 08h45) – Lớp 12/1 – Phòng H.II.1',
         page1_mode_line='Hình thức tổ chức: Dạy học thực hành tạo liên kết HTML và kiểm thử trên trình duyệt web',
         gvgd_name=GVGD_NAME,
@@ -547,7 +547,7 @@ def build_bai10_tiet2():
     add(b, 'I. MỤC TIÊU', 'heading')
     add(b, 'Căn cứ Yêu cầu cần đạt của Chương trình Giáo dục phổ thông 2018 môn Tin học (Thông tư số 32/2018/TT-BGDĐT), lớp 12, Chủ đề F (Giải quyết vấn đề với sự trợ giúp của máy tính – Tạo trang web) và Kế hoạch dạy học môn Tin học Khối 12 của Trường THPT Thuận Hoá (Tiết PPCT 23 – Bài 10: Tạo liên kết (tiết 2 - Thực hành)):')
     add(b, '1. Về kiến thức', 'sub')
-    add(b, 'Sau tiết học này, học sinh đạt được các yêu cầu về kiến thức và kỹ năng thực hành (ký hiệu [KT1] – [KT3] để đối chiếu xuyên suốt các hoạt động dạy học):', keep=True)
+    add(b, 'Sau tiết học này, học sinh đạt được các yêu cầu về kiến thức và kĩ năng thực hành (ký hiệu [KT1] – [KT3] để đối chiếu xuyên suốt các hoạt động dạy học):', keep=True)
     for item in [
         '**[KT1]:** Vận dụng chuẩn xác quy trình 2 bước tạo liên kết nội bộ trong cùng trang web (gắn thuộc tính định danh id="CLBTT" vào thẻ <table> và tạo thẻ <a href="#CLBTT">) kết hợp bổ sung khối văn bản giới thiệu theo đúng Hình 10.2 (Nhiệm vụ 1 – SGK trang 61).',
         '**[KT2]:** Tạo được tệp trang web mới thong_tin.html trong cùng thư mục với tệp CLB.html và thiết lập thành công liên kết hai chiều bằng đường dẫn tương đối giữa trang chủ CLB.html với trang thong_tin.html (Nhiệm vụ 2 và Bài Luyện tập 1 – SGK trang 61).',
@@ -573,7 +573,7 @@ def build_bai10_tiet2():
         add(b, item, 'bullet')
 
     add(b, 'c) Năng lực số', 'sub')
-    add(b, '**[NLS 3.1.NC1.a]:** Tạo lập, biên tập và liên kết thành công bộ trang web đa trang (.html) theo đúng yêu cầu kỹ thuật.', 'bullet')
+    add(b, '**[NLS 3.1.NC1.a]:** Tạo lập, biên tập và liên kết thành công bộ trang web đa trang (.html) theo đúng yêu cầu kĩ thuật.', 'bullet')
 
     add(b, '3. Về phẩm chất', 'sub')
     for item in [
@@ -592,21 +592,21 @@ def build_bai10_tiet2():
         add(b, item, 'bullet')
 
     add(b, 'III. TIẾN TRÌNH DẠY HỌC', 'heading')
-    add(b, '**Bảng tổng quan tiến trình dạy học Tiết 2 - Thực hành (45 phút – Tiết thứ 2 của bài / Tiết PPCT: 23)**', first=0, keep=True)
+    add(b, '**Bảng tổng quan tiến trình dạy học Tiết 2 – Thực hành (45 phút – Tiết thứ 2 của bài / Tiết PPCT: 23)**', first=0, keep=True)
     ov2_rows = [
-        ['Hoạt động dạy học (Công văn 5512)', 'Thời lượng & Tiết PPCT', 'Mục tiêu', 'Sản phẩm & Công cụ đánh giá'],
-        ['1. Hoạt động 1: Mở đầu\n(Kích hoạt kỹ năng tạo liên kết & Mở tệp dự án CLB.html)', '05 phút\n(Tiết 2 của bài /\nTiết PPCT: 23)', '[KT1], [KT2],\n[NLC1], [NLa]', 'Mở sẵn tệp CLB.html trên trình soạn thảo và trả lời đúng 3 câu hỏi thao tác cốt lõi.\nCông cụ đánh giá: CCĐG 1.'],
-        ['2. Hoạt động 2: Hình thành kiến thức mới (Hướng dẫn & Thực hành cốt lõi SGK tr. 61)\n- 2.1. Nhiệm vụ 1: Tạo liên kết trong cùng trang CLB.html (Hình 10.2 – 12 phút)\n- 2.2. Nhiệm vụ 2: Tạo liên kết sang trang khác thong_tin.html (12 phút)', '24 phút\n(Tiết 2 của bài /\nTiết PPCT: 23)', '[KT1], [KT2],\n[NLC1], [NLC2],\n[NLa], [NLc], [NLd],\n[NLS 3.1.NC1.a],\n[PC1], [PC2]', 'Tệp CLB.html (có liên kết #CLBTT và liên kết sang thong_tin.html) & tệp thong_tin.html.\nCông cụ đánh giá: CCĐG 6 (Rubric thực hành).'],
-        ['3. Hoạt động 3: Luyện tập\n(Thực hành Bài Luyện tập 1 & 2 SGK tr. 61)', '08 phút\n(Tiết 2 của bài /\nTiết PPCT: 23)', '[KT2], [KT3],\n[NLC1], [NLC3],\n[NLc], [PC3]', 'Liên kết quay về CLB.html trong thong_tin.html & tệp gioi_thieu_ban_than.html.\nCông cụ đánh giá: CCĐG 5 & CCĐG 6.'],
+        ['Hoạt động dạy học (Công văn 5512)', 'Thời lượng và Tiết PPCT', 'Mục tiêu', 'Sản phẩm và Công cụ đánh giá'],
+        ['1. Hoạt động 1: Mở đầu\n(Kích hoạt kĩ năng tạo liên kết và Mở tệp dự án CLB.html)', '05 phút\n(Tiết 2 của bài /\nTiết PPCT: 23)', '[KT1], [KT2],\n[NLC1], [NLa]', 'Mở sẵn tệp CLB.html trên trình soạn thảo và trả lời đúng 3 câu hỏi thao tác cốt lõi.\nCông cụ đánh giá: CCĐG 1.'],
+        ['2. Hoạt động 2: Hình thành kiến thức mới (Hướng dẫn và Thực hành cốt lõi SGK tr. 61)\n- 2.1. Nhiệm vụ 1: Tạo liên kết trong cùng trang CLB.html (Hình 10.2 – 12 phút)\n- 2.2. Nhiệm vụ 2: Tạo liên kết sang trang khác thong_tin.html (12 phút)', '24 phút\n(Tiết 2 của bài /\nTiết PPCT: 23)', '[KT1], [KT2],\n[NLC1], [NLC2],\n[NLa], [NLc], [NLd],\n[NLS 3.1.NC1.a],\n[PC1], [PC2]', 'Tệp CLB.html (có liên kết #CLBTT và liên kết sang thong_tin.html) và tệp thong_tin.html.\nCông cụ đánh giá: CCĐG 6 (Rubric thực hành).'],
+        ['3. Hoạt động 3: Luyện tập\n(Thực hành Bài Luyện tập 1 và 2 SGK tr. 61)', '08 phút\n(Tiết 2 của bài /\nTiết PPCT: 23)', '[KT2], [KT3],\n[NLC1], [NLC3],\n[NLc], [PC3]', 'Liên kết quay về CLB.html trong thong_tin.html và tệp gioi_thieu_ban_than.html.\nCông cụ đánh giá: CCĐG 5 và CCĐG 6.'],
         ['4. Hoạt động 4: Vận dụng\n(Tạo liên kết từ tên từng CLB trong bảng đến đoạn giới thiệu cuối trang – SGK tr. 61)', '08 phút\n(Tiết 2 của bài /\nTiết PPCT: 23)', '[KT3], [NLC2],\n[NLC3], [NLc],\n[PC1], [PC2]', 'Tệp CLB.html hoàn chỉnh có 5 đoạn giới thiệu CLB gắn id và liên kết từ bảng xuống.\nCông cụ đánh giá: CCĐG 6 (Rubric 10 điểm).']
     ]
     b.append(table(ov2_rows, [2700, 1400, 2000, 2900], header=True, cell_sz=22))
 
     add(b, '1. Hoạt động 1: Mở đầu (05 phút – Tiết 2 của bài / Tiết PPCT: 23)', 'heading')
     add(b, '**a) Mục tiêu:** [KT1], [KT2], [NLC1], [NLa] – Học sinh tái hiện nhanh cú pháp tạo liên kết nội bộ và liên kết tương đối đã học ở Tiết 1 (Tiết PPCT: 22), đồng thời mở sẵn tệp CLB.html để bắt đầu thực hành.', first=0)
-    add(b, '**b) Nội dung:** Giáo viên yêu cầu học sinh mở thư mục thực hành Bai10_TaoLienKet (chứa tệp CLB.html từ Bài 9) và trả lời nhanh 03 câu hỏi kiểm tra kỹ năng nền tảng.', first=0)
+    add(b, '**b) Nội dung:** Giáo viên yêu cầu học sinh mở thư mục thực hành Bai10_TaoLienKet (chứa tệp CLB.html từ Bài 9) và trả lời nhanh 03 câu hỏi kiểm tra kĩ năng nền tảng.', first=0)
     add(b, '**c) Sản phẩm:** Cửa sổ trình soạn thảo mã HTML mở sẵn tệp CLB.html và câu trả lời đúng 03 câu hỏi thao tác.', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 1 – Bảng kiểm quan sát chuẩn bị thực hành *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 1 – Bảng kiểm quan sát chuẩn bị thực hành *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     hd1_t2_rows = [
         ['HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH', 'SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI)'],
@@ -638,7 +638,7 @@ def build_bai10_tiet2():
     add(b, '**b) Nội dung:** Học sinh đọc hướng dẫn Nhiệm vụ 1 (SGK trang 61), quan sát Hình 10.2 và thực hành trực tiếp trên tệp CLB.html:', first=0)
     add_figure(b, 'hinh_10_2.png')
     add(b, '**c) Sản phẩm:** Tệp CLB.html hiển thị đầy đủ nội dung Hình 10.2 ở đầu trang; khi nháy chuột vào dòng "Theo dõi lịch hoạt động các CLB Thể thao", trình duyệt cuộn ngay tới bảng Lịch hoạt động các CLB Thể thao.', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 6 – Tiêu chí 1 của Rubric thực hành *(Đính kèm tại Mục IV. Phụ lục 2)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 6 – Tiêu chí 1 của Rubric thực hành *(Đính kèm tại Mục IV. Phụ lục 2)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     nv1_t2_rows = [
         ['HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH', 'SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI)'],
@@ -677,7 +677,7 @@ def build_bai10_tiet2():
     add(b, '**a) Mục tiêu:** [KT2], [NLC1], [NLC2], [NLa], [NLc], [NLd], [NLS 3.1.NC1.a], [PC1], [PC2] – Học sinh tạo được tệp thong_tin.html cùng thư mục với CLB.html và thiết lập thành công đường liên kết tương đối từ trang chủ CLB.html sang trang thong_tin.html.', first=0)
     add(b, '**b) Nội dung:** Học sinh thực hiện đúng 2 bước của Nhiệm vụ 2 (SGK trang 61) trên máy tính.', first=0)
     add(b, '**c) Sản phẩm:** Tệp thong_tin.html chứa thông tin giới thiệu các câu lạc bộ và liên kết <a href="thong_tin.html">Thông tin của các CLB</a> hoạt động chính xác trên trang CLB.html.', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 6 – Tiêu chí 2 của Rubric thực hành *(Đính kèm tại Mục IV. Phụ lục 2)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 6 – Tiêu chí 2 của Rubric thực hành *(Đính kèm tại Mục IV. Phụ lục 2)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     nv2_t2_rows = [
         ['HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH', 'SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI)'],
@@ -705,7 +705,7 @@ def build_bai10_tiet2():
     add(b, '**a) Mục tiêu:** [KT2], [KT3], [NLC1], [NLC3], [NLc], [PC3] – Học sinh hoàn thành Bài Luyện tập 1 (tạo liên kết từ thong_tin.html quay về CLB.html) và Bài Luyện tập 2 (tạo trang web giới thiệu bản thân có ít nhất 03 liên kết ngoài) trong SGK trang 61.', first=0)
     add(b, '**b) Nội dung:** Học sinh thực hành viết mã trên máy tính và ghi câu lệnh kết quả vào Phiếu học tập số 4.', first=0)
     add(b, '**c) Sản phẩm:** Liên kết hai chiều hoàn chỉnh giữa CLB.html và thong_tin.html, tệp gioi_thieu_ban_than.html và Phiếu học tập số 4 đã điền đáp án.', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 5 & CCĐG 6 *(Đính kèm tại Mục IV. Phụ lục 1 & Phụ lục 2)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 5 và CCĐG 6 *(Đính kèm tại Mục IV. Phụ lục 1 và Phụ lục 2)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(HD3_ROWS_BAI10, [4600, 4400], header=True, cell_sz=23))
 
@@ -713,7 +713,7 @@ def build_bai10_tiet2():
     add(b, '**a) Mục tiêu:** [KT3], [NLC2], [NLC3], [NLc], [PC1], [PC2] – Học sinh giải quyết trọn vẹn bài tập Vận dụng (SGK trang 61): viết thêm các đoạn giới thiệu cho từng câu lạc bộ ở dưới bảng Lịch hoạt động các CLB Thể thao và đặt liên kết từ tên câu lạc bộ trong bảng đến đoạn giới thiệu tương ứng.', first=0)
     add(b, '**b) Nội dung:** Học sinh bổ sung 5 đoạn giới thiệu có gắn thuộc tính id riêng cho từng CLB ở cuối tệp CLB.html và gắn thẻ <a href="#..."> cho tên các CLB trong bảng.', first=0)
     add(b, '**c) Sản phẩm:** Tệp CLB.html hoàn chỉnh toàn bộ yêu cầu của Bài 10, nháy vào tên bất kì CLB nào trong bảng đều cuộn chính xác tới đoạn giới thiệu chi tiết của CLB đó.', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 6 – Rubric 10 điểm chấm sản phẩm thực hành *(Đính kèm tại Mục IV. Phụ lục 2)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 6 – Rubric 10 điểm chấm sản phẩm thực hành *(Đính kèm tại Mục IV. Phụ lục 2)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(HD4_ROWS_BAI10, [4600, 4400], header=True, cell_sz=23))
 
@@ -735,14 +735,14 @@ def build_bai10_cabai():
     b = init_body_with_cover(
         cover_title='ĐỀ CƯƠNG DỰ GIỜ – KẾ HOẠCH BÀI DẠY',
         cover_subtitle='BÀI 10: TẠO LIÊN KẾT (TRỌN BỘ 02 TIẾT – TIẾT PPCT: 22, 23)',
-        class_str='Tin học 12 – Lớp 12/2 & Lớp 12/1 – Trường THPT Thuận Hoá',
-        schedule_str='Thứ Sáu, ngày 13/11/2026 – Tiết 3 (12/2, Phòng H.II.2) & Tiết 2 (12/1, Phòng H.II.1)',
-        lesson_row_str='Bài 10: Tạo liên kết (02 tiết: Tiết 1 Lí thuyết [PPCT 22] & Tiết 2 Thực hành [PPCT 23])',
+        class_str='Tin học 12 – Lớp 12/2 và Lớp 12/1 – Trường THPT Thuận Hoá',
+        schedule_str='Thứ Sáu, ngày 13/11/2026 – Tiết 3 (12/2, Phòng H.II.2) và Tiết 2 (12/1, Phòng H.II.1)',
+        lesson_row_str='Bài 10: Tạo liên kết (02 tiết: Tiết 1 Lí thuyết [PPCT 22] và Tiết 2 Thực hành [PPCT 23])',
         page1_title='TÊN BÀI DẠY: BÀI 10. TẠO LIÊN KẾT',
         page1_subtitle='(Thời lượng thực hiện toàn bài: 02 tiết = 90 phút – Tiết PPCT: 22, 23 theo Kế hoạch dạy học môn Tin học Khối 12)',
-        page1_class_line='Môn học: Tin học; Lớp: 12/2 (Tiết 1 - LT) & 12/1 (Tiết 2 - TH)',
+        page1_class_line='Môn học: Tin học; Lớp: 12/2 (Tiết 1 – LT) và 12/1 (Tiết 2 – TH)',
         page1_time_line='Thời gian thực hiện: 02 tiết (90 phút – Tiết 1: Lí thuyết [PPCT 22]; Tiết 2: Thực hành [PPCT 23])',
-        page1_sched_line='Lịch dự giờ: Thứ Sáu, ngày 13/11/2026 – Lớp 12/2 (Tiết 3: 09h00–09h45, P. H.II.2) & Lớp 12/1 (Tiết 2: 08h00–08h45, P. H.II.1)',
+        page1_sched_line='Lịch dự giờ: Thứ Sáu, ngày 13/11/2026 – Lớp 12/2 (Tiết 3: 09h00–09h45, P. H.II.2) và Lớp 12/1 (Tiết 2: 08h00–08h45, P. H.II.1)',
         page1_mode_line='Hình thức tổ chức: Dạy học lí thuyết trên lớp (Tiết 1) kết hợp thực hành phòng máy (Tiết 2)',
         gvgd_name=GVGD_NAME,
         gvhd_name=GVHD_NAME,
@@ -752,7 +752,7 @@ def build_bai10_cabai():
     add(b, 'I. MỤC TIÊU', 'heading')
     add(b, 'Căn cứ Yêu cầu cần đạt của Chương trình Giáo dục phổ thông 2018 môn Tin học (Thông tư số 32/2018/TT-BGDĐT), lớp 12, Chủ đề F (Giải quyết vấn đề với sự trợ giúp của máy tính – Tạo trang web) và Kế hoạch dạy học môn Tin học Khối 12 của Trường THPT Thuận Hoá (Bài 10: Tạo liên kết – 02 tiết, Tiết PPCT: 22, 23):')
     add(b, '1. Về kiến thức', 'sub')
-    add(b, 'Sau bài học này (02 tiết = 90 phút), học sinh đạt được các yêu cầu về kiến thức và kỹ năng (ký hiệu [KT1] – [KT4] để đối chiếu xuyên suốt các hoạt động dạy học):', keep=True)
+    add(b, 'Sau bài học này (02 tiết = 90 phút), học sinh đạt được các yêu cầu về kiến thức và kĩ năng (ký hiệu [KT1] – [KT4] để đối chiếu xuyên suốt các hoạt động dạy học):', keep=True)
     for item in [
         '**[KT1]:** Phát biểu được khái niệm siêu văn bản (hypertext), siêu liên kết (hyperlink), cú pháp thẻ <a> và phân biệt rõ đường dẫn tuyệt đối với đường dẫn tương đối (SGK trang 57–58).',
         '**[KT2]:** Viết đúng câu lệnh HTML tạo liên kết ngoài (đường dẫn tuyệt đối) và liên kết tới các trang web trong cùng website theo 4 trường hợp cấu trúc thư mục ở Hình 10.1 (cùng thư mục, dưới 1 cấp, dưới nhiều cấp, và lên thư mục mức trên bằng "../") (SGK trang 58–60).',
@@ -802,10 +802,10 @@ def build_bai10_cabai():
     add(b, 'III. TIẾN TRÌNH DẠY HỌC', 'heading')
     add(b, '**Bảng tổng quan tiến trình dạy học toàn Bài 10 (02 tiết = 90 phút – Tiết PPCT: 22, 23)**', first=0, keep=True)
     ov_all = [
-        ['Hoạt động dạy học (Công văn 5512)', 'Thời lượng & Phân bổ Tiết PPCT', 'Mục tiêu', 'Sản phẩm & Công cụ đánh giá'],
+        ['Hoạt động dạy học (Công văn 5512)', 'Thời lượng và Phân bổ Tiết PPCT', 'Mục tiêu', 'Sản phẩm và Công cụ đánh giá'],
         ['1. Hoạt động 1: Mở đầu\n(So sánh đọc trang web với đọc sách, báo giấy – SGK tr. 57)', '05 phút\n(Tiết 1 của bài /\nTiết PPCT: 22)', '[KT1], [NLC1],\n[PC1]', 'Câu trả lời miệng nêu bật vai trò của siêu liên kết.\nCông cụ đánh giá: CCĐG 1.'],
-        ['2. Hoạt động 2: Hình thành kiến thức mới\n- 2.1. Nhiệm vụ 1: Siêu văn bản, thẻ <a> & Đường dẫn (12p – Tiết 1)\n- 2.2. Nhiệm vụ 2: Liên kết ngoài & Liên kết trong theo Hình 10.1 (15p – Tiết 1)\n- 2.3. Nhiệm vụ 3: Liên kết vị trí cùng trang (id) & Liên kết ảnh (13p – Tiết 1)\n- 2.4. Nhiệm vụ 4: Thực hành Nhiệm vụ 1 (Hình 10.2) & Nhiệm vụ 2 (25p – Tiết 2)', '65 phút\n(40p ở Tiết 1 [PPCT 22]\n+ 25p đầu Tiết 2 [PPCT 23])', '[KT1], [KT2],\n[KT3], [KT4],\n[NLC1], [NLC2],\n[NLa], [NLb], [NLc],\n[NLd], [NLe],\n[NLS 3.1.NC1.a],\n[PC1], [PC2]', 'Phiếu học tập số 1, 2, 3 (Tiết 1) và hai tệp thực hành CLB.html, thong_tin.html (Tiết 2).\nCông cụ đánh giá: CCĐG 2, 3, 4 & CCĐG 6.'],
-        ['3. Hoạt động 3: Luyện tập\n(Giải và thực hành Bài Luyện tập 1 & 2 SGK trang 61)', '10 phút\n(Tiết 2 của bài /\nTiết PPCT: 23)', '[KT2], [KT3], [KT4],\n[NLC1], [NLC3],\n[NLc], [PC3]', 'Phiếu học tập số 4, liên kết quay về CLB.html và tệp gioi_thieu_ban_than.html.\nCông cụ đánh giá: CCĐG 5.'],
+        ['2. Hoạt động 2: Hình thành kiến thức mới\n- 2.1. Nhiệm vụ 1: Siêu văn bản, thẻ <a> và Đường dẫn (12p – Tiết 1)\n- 2.2. Nhiệm vụ 2: Liên kết ngoài và Liên kết trong theo Hình 10.1 (15p – Tiết 1)\n- 2.3. Nhiệm vụ 3: Liên kết vị trí cùng trang (id) và Liên kết ảnh (13p – Tiết 1)\n- 2.4. Nhiệm vụ 4: Thực hành Nhiệm vụ 1 (Hình 10.2) và Nhiệm vụ 2 (25p – Tiết 2)', '65 phút\n(40p ở Tiết 1 [PPCT 22]\n+ 25p đầu Tiết 2 [PPCT 23])', '[KT1], [KT2],\n[KT3], [KT4],\n[NLC1], [NLC2],\n[NLa], [NLb], [NLc],\n[NLd], [NLe],\n[NLS 3.1.NC1.a],\n[PC1], [PC2]', 'Phiếu học tập số 1, 2, 3 (Tiết 1) và hai tệp thực hành CLB.html, thong_tin.html (Tiết 2).\nCông cụ đánh giá: CCĐG 2, 3, 4 và CCĐG 6.'],
+        ['3. Hoạt động 3: Luyện tập\n(Giải và thực hành Bài Luyện tập 1 và 2 SGK trang 61)', '10 phút\n(Tiết 2 của bài /\nTiết PPCT: 23)', '[KT2], [KT3], [KT4],\n[NLC1], [NLC3],\n[NLc], [PC3]', 'Phiếu học tập số 4, liên kết quay về CLB.html và tệp gioi_thieu_ban_than.html.\nCông cụ đánh giá: CCĐG 5.'],
         ['4. Hoạt động 4: Vận dụng\n(Thực hành liên kết từ tên từng CLB trong bảng đến đoạn giới thiệu cuối trang – SGK tr. 61)', '10 phút\n(Tiết 2 của bài /\nTiết PPCT: 23)', '[KT3], [KT4],\n[NLC2], [NLC3],\n[NLc], [PC1], [PC2]', 'Tệp CLB.html hoàn chỉnh có 5 đoạn giới thiệu CLB gắn id và liên kết từ bảng xuống.\nCông cụ đánh giá: CCĐG 6 (Rubric 10 điểm).']
     ]
     b.append(table(ov_all, [2700, 1500, 1900, 2900], header=True, cell_sz=22))
@@ -814,7 +814,7 @@ def build_bai10_cabai():
     add(b, '**a) Mục tiêu:** [KT1], [NLC1], [PC1] – Học sinh nhận biết sự khác biệt giữa đọc thông tin trên trang web với đọc sách, báo giấy và nêu được vai trò của siêu liên kết.', first=0)
     add(b, '**b) Nội dung:** Học sinh thảo luận cặp đôi trả lời câu hỏi Khởi động trong Sách giáo khoa Tin học 12 trang 57.', first=0)
     add(b, '**c) Sản phẩm:** Câu trả lời miệng của học sinh chỉ ra vai trò của siêu liên kết (hyperlink).', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 1 – Bảng kiểm quan sát Hoạt động Mở đầu *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 1 – Bảng kiểm quan sát Hoạt động Mở đầu *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(HD1_ROWS_BAI10, [4600, 4400], header=True, cell_sz=23))
 
@@ -823,7 +823,7 @@ def build_bai10_cabai():
     add(b, '**a) Mục tiêu:** [KT1], [NLC1], [NLC2], [NLb], [PC1] – Học sinh phát biểu được khái niệm siêu văn bản, cú pháp thẻ <a> và phân biệt được đường dẫn tuyệt đối với đường dẫn tương đối.', first=0)
     add(b, '**b) Nội dung:** Học sinh nghiên cứu mục 1. Siêu văn bản và đường dẫn (SGK trang 57–58) và hoàn thành Phiếu học tập số 1.', first=0)
     add(b, '**c) Sản phẩm:** Phiếu học tập số 1 hoàn chỉnh khái niệm và trả lời đúng Câu hỏi củng cố trang 58.', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 2 – Thang điểm chấm Phiếu học tập số 1 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 2 – Thang điểm chấm Phiếu học tập số 1 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(NV1_ROWS_BAI10, [4600, 4400], header=True, cell_sz=23))
 
@@ -832,7 +832,7 @@ def build_bai10_cabai():
     add(b, '**b) Nội dung:** Học sinh đọc mục 2a, 2b (SGK trang 58–60), quan sát Hình 10.1 (SGK trang 59) và hoàn thành Phiếu học tập số 2:', first=0)
     add_figure(b, 'hinh_10_1.png')
     add(b, '**c) Sản phẩm:** Phiếu học tập số 2 hoàn chỉnh các câu lệnh thẻ <a> theo cấu trúc Hình 10.1.', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 3 – Thang điểm chấm Phiếu học tập số 2 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 3 – Thang điểm chấm Phiếu học tập số 2 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(NV2_ROWS_BAI10, [4600, 4400], header=True, cell_sz=23))
 
@@ -840,7 +840,7 @@ def build_bai10_cabai():
     add(b, '**a) Mục tiêu:** [KT3], [NLC1], [NLc], [NLS 3.1.NC1.a], [PC2] – Học sinh nắm vững quy trình 2 bước tạo liên kết nội bộ bằng thuộc tính id và tham chiếu "#id", cách đặt hình ảnh làm liên kết và giải đúng Câu hỏi củng cố trang 60.', first=0)
     add(b, '**b) Nội dung:** Học sinh nghiên cứu phần cuối mục 2b (SGK trang 60) và hoàn thành Phiếu học tập số 3.', first=0)
     add(b, '**c) Sản phẩm:** Phiếu học tập số 3 hoàn chỉnh quy trình 2 bước tạo mã định danh đoạn và đoạn mã danh sách liên kết.', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 4 – Thang điểm chấm Phiếu học tập số 3 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 4 – Thang điểm chấm Phiếu học tập số 3 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(NV3_ROWS_BAI10, [4600, 4400], header=True, cell_sz=23))
 
@@ -849,7 +849,7 @@ def build_bai10_cabai():
     add(b, '**b) Nội dung:** Học sinh quan sát Hình 10.2 (SGK trang 61) và thực hành trực tiếp trên máy tính:', first=0)
     add_figure(b, 'hinh_10_2.png')
     add(b, '**c) Sản phẩm:** Hai tệp CLB.html và thong_tin.html hoạt động trơn tru cả liên kết nội bộ (#CLBTT) và liên kết chuyển trang.', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 6 – Rubric đánh giá sản phẩm thực hành *(Đính kèm tại Mục IV. Phụ lục 2)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 6 – Rubric đánh giá sản phẩm thực hành *(Đính kèm tại Mục IV. Phụ lục 2)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(NV4_ROWS_BAI10, [4600, 4400], header=True, cell_sz=23))
 
@@ -857,19 +857,19 @@ def build_bai10_cabai():
     add(b, '**a) Mục tiêu:** [KT2], [KT3], [KT4], [NLC1], [NLC3], [NLc], [PC3] – Học sinh giải quyết trọn vẹn Bài Luyện tập 1 và Bài Luyện tập 2 (SGK trang 61).', first=0)
     add(b, '**b) Nội dung:** Học sinh hoàn thành Phiếu học tập số 4 và thực hành bổ sung liên kết quay về trang chủ CLB.html cùng tệp gioi_thieu_ban_than.html.', first=0)
     add(b, '**c) Sản phẩm:** Phiếu học tập số 4 và các tệp HTML đã kiểm thử thành công trên trình duyệt.', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 5 – Đáp án và thang điểm chấm Phiếu học tập số 4 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 5 – Đáp án và thang điểm chấm Phiếu học tập số 4 *(Đính kèm tại Mục IV. Phụ lục 1)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(HD3_ROWS_BAI10, [4600, 4400], header=True, cell_sz=23))
 
     add(b, '4. Hoạt động 4: Vận dụng (10 phút cuối Tiết 2 / Tiết PPCT: 23)', 'heading')
-    add(b, '**a) Mục tiêu:** [KT3], [KT4], [NLC2], [NLC3], [NLc], [PC1], [PC2] – Học sinh vận dụng kỹ thuật tạo mã định danh đoạn (id) để liên kết từ tên từng câu lạc bộ trong bảng Lịch hoạt động các CLB Thể thao xuống đoạn giới thiệu tương ứng ở cuối trang CLB.html (SGK trang 61).', first=0)
+    add(b, '**a) Mục tiêu:** [KT3], [KT4], [NLC2], [NLC3], [NLc], [PC1], [PC2] – Học sinh vận dụng kĩ thuật tạo mã định danh đoạn (id) để liên kết từ tên từng câu lạc bộ trong bảng Lịch hoạt động các CLB Thể thao xuống đoạn giới thiệu tương ứng ở cuối trang CLB.html (SGK trang 61).', first=0)
     add(b, '**b) Nội dung:** Học sinh thực hành phần Vận dụng (SGK trang 61) ngay trên tệp CLB.html.', first=0)
     add(b, '**c) Sản phẩm:** Tệp CLB.html hoàn chỉnh có 5 đoạn giới thiệu CLB gắn thuộc tính id và các liên kết điều hướng chính xác từ bảng xuống.', first=0)
-    add(b, '**Công cụ đánh giá:** CCĐG 6 – Rubric 10 điểm chấm sản phẩm thực hành *(Đính kèm tại Mục IV. Phụ lục 2)*.', first=0, keep=True)
+    add(b, '**Công cụ kiểm tra, đánh giá sản phẩm học tập:** CCĐG 6 – Rubric 10 điểm chấm sản phẩm thực hành *(Đính kèm tại Mục IV. Phụ lục 2)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(HD4_ROWS_BAI10, [4600, 4400], header=True, cell_sz=23))
 
-    add_bai10_appendix(b, class_label='12/2 (Tiết 1 - LT) & 12/1 (Tiết 2 - TH)', ppct_label='22, 23', mode='cabai')
+    add_bai10_appendix(b, class_label='12/2 (Tiết 1 – LT) và 12/1 (Tiết 2 – TH)', ppct_label='22, 23', mode='cabai')
     add_approval_section(b, sign_date_str=SIGN_DATE, gvhd_name=GVHD_NAME, gvgd_name=GVGD_NAME, sv_name=SV_NAME)
 
     used_figs = ['hinh_10_1.png', 'hinh_10_2.png']
@@ -890,7 +890,7 @@ def build_bai10_worksheets():
     add(b, 'BỘ PHIẾU HỌC TẬP, ĐÁP ÁN VÀ RUBRIC ĐÁNH GIÁ', 'title')
     add(b, 'BÀI 10: TẠO LIÊN KẾT (SGK TIN HỌC 12 KNTT, TRANG 57–61 – TIẾT PPCT: 22, 23)', 'title')
     add(b, '(Dùng cho Tiết 1 Lí thuyết tại Lớp 12/2 [Phòng H.II.2] và Tiết 2 Thực hành tại Lớp 12/1 [Phòng H.II.1] – Ngày 13/11/2026)', align='center', first=0, italic=True)
-    add_bai10_appendix(b, class_label='12/2 & 12/1', ppct_label='22, 23', mode='cabai')
+    add_bai10_appendix(b, class_label='12/2 và 12/1', ppct_label='22, 23', mode='cabai')
     add_approval_section(
         b,
         sign_date_str=SIGN_DATE,
@@ -906,7 +906,7 @@ def build_bai10_worksheets():
 
 
 # ==============================================================================
-# 5. BỘ HỌC LIỆU HTML THỰC HÀNH BÀI 10 (KẾ THỪA BÀI 9 & CHUẨN SGK TRANG 59–61)
+# 5. BỘ HỌC LIỆU HTML THỰC HÀNH BÀI 10 (KẾ THỪA BÀI 9 và CHUẨN SGK TRANG 59–61)
 # ==============================================================================
 def build_html_learning_materials():
     html_dir = KHOI12_DIR / 'Hoc_lieu_HTML'
