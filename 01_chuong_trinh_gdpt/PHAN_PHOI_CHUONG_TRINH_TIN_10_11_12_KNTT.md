@@ -14,53 +14,77 @@ Tài liệu này tổng hợp **Phân phối chương trình (PPCT) chuẩn** (s
 
 ---
 
-## I. PHÂN PHỐI CHƯƠNG TRÌNH TIN HỌC 12 (70 TIẾT CỐT LÕI – 35 TUẦN × 2 TIẾT/TUẦN)
+## I. PHÂN PHỐI CHƯƠNG TRÌNH TIN HỌC 12 – TRƯỜNG THPT THUẬN HOÁ (NĂM HỌC 2026–2027, 70 TIẾT)
 
-### 1. Học kì I (18 tuần = 36 tiết: Phần chung Chủ đề 1 → Chủ đề 4)
+- **Nguồn gốc văn bản:** Tệp chính thức của Tổ Tin học – Trường THPT Thuận Hoá: [`khoi_12_tin_hoc_07112026.xls`](file:///c:/Users/PC/khbd_docx/01_chuong_trinh_gdpt/khoi_12_tin_hoc_07112026.xls) (đồng bộ tại [`khoi12/khoi_12_tin_hoc_07112026.xls`](file:///c:/Users/PC/khbd_docx/khoi12/khoi_12_tin_hoc_07112026.xls)).
+- **Đặc điểm chương trình Khối 12 của Trường THPT Thuận Hoá:** Thực hiện theo **Định hướng Tin học ứng dụng (ICT)** bộ sách *Kết nối tri thức với cuộc sống* (`Tin-học-12-KNTT.pdf`). Mọi bài học từ Chủ đề 1 đến Chủ đề 7 đều được phân bổ chuẩn **02 tiết/bài** (`tiết 1 - LT` và `tiết 2 - TH` hoặc `tiết 2 - LT`), cộng với 04 tiết Ôn tập và Kiểm tra định kì (Tiết 15, 16: Giữa kì I; Tiết 31, 32: Cuối kì I; Tiết 51, 52: Giữa kì II; Tiết 67, 68: Cuối kì II), tổng cộng **70 tiết/năm** (Học kì I: 36 tiết; Học kì II: 34 tiết).
 
-| Tuần | Tiết PPCT | Chủ đề / Mạch kiến thức | Tên bài học trong SGK Tin học 12 (KNTT) | Số tiết | Cấu trúc tiết dạy (Lí thuyết / Thực hành) | Trang SGK |
-| :---: | :---: | :--- | :--- | :---: | :--- | :---: |
-| 1 | **01, 02** | **Chủ đề 1 (A).** Máy tính và xã hội tri thức | **Bài 1.** Làm quen với Trí tuệ nhân tạo | 02 | Tiết 1 (PPCT 01): Mở đầu + HTKT<br>Tiết 2 (PPCT 02): HTKT + Luyện tập & Vận dụng | 5–11 |
-| 2 | **03, 04** | **Chủ đề 1 (A).** Máy tính và xã hội tri thức | **Bài 2.** Trí tuệ nhân tạo trong khoa học và đời sống | 02 | Tiết 1 (PPCT 03): Mở đầu + HTKT<br>Tiết 2 (PPCT 04): HTKT + Luyện tập & Vận dụng | 12–16 |
-| 3 | **05, 06** | **Chủ đề 2 (B).** Mạng máy tính và Internet | **Bài 3.** Một số thiết bị mạng thông dụng | 02 | Tiết 1 (PPCT 05): Mở đầu + HTKT<br>Tiết 2 (PPCT 06): HTKT + Luyện tập & Vận dụng | 17–21 |
-| 4 | **07, 08** | **Chủ đề 2 (B).** Mạng máy tính và Internet | **Bài 4.** Giao thức mạng | 02 | Tiết 1 (PPCT 07): Mở đầu + HTKT<br>Tiết 2 (PPCT 08): HTKT + Luyện tập & Vận dụng | 22–26 |
-| 5–6 | **09, 10, 11, 12** | **Chủ đề 2 (B).** Mạng máy tính và Internet | **Bài 5.** Thực hành chia sẻ tài nguyên trên mạng | 04 | Tiết 1 (PPCT 09): Lí thuyết hướng dẫn<br>Tiết 2–4 (PPCT 10–12): Thực hành phòng máy | 27–33 |
-| 7 | **13, 14** | **Chủ đề 3 (D).** Đạo đức, pháp luật và văn hoá trong môi trường số | **Bài 6.** Giao tiếp và ứng xử trong không gian mạng | 02 | Tiết 1 (PPCT 13): Mở đầu + HTKT<br>Tiết 2 (PPCT 14): HTKT + Luyện tập & Vận dụng | 34–38 |
-| 8 | **15** | **Kiểm tra định kì** | **Ôn tập / Kiểm tra Giữa học kì I** | 01 | Kiểm tra đánh giá định kì (45 phút) | — |
-| 8–9 | **16, 17** | **Chủ đề 4 (F).** Giải quyết vấn đề với sự trợ giúp của máy tính (Tạo trang web) | **Bài 7.** HTML và cấu trúc trang web | 02 | Tiết 1 (PPCT 16): Lí thuyết (Mở đầu + HTKT)<br>Tiết 2 (PPCT 17): Thực hành + Luyện tập & Vận dụng | 39–45 |
-| 9–10 | **18, 19** | **Chủ đề 4 (F).** Giải quyết vấn đề với sự trợ giúp của máy tính | **Bài 8.** Định dạng văn bản | 02 | Tiết 1 (PPCT 18): Lí thuyết (Mở đầu + HTKT)<br>Tiết 2 (PPCT 19): Thực hành + Luyện tập & Vận dụng | 46–51 |
-| 10–11 | **20, 21** | **Chủ đề 4 (F).** Giải quyết vấn đề với sự trợ giúp của máy tính | **Bài 9.** Tạo danh sách, bảng | 02 | Tiết 1 (PPCT 20): Mở đầu + HTKT (Tạo danh sách)<br>Tiết 2 (PPCT 21): HTKT (Thiết lập bảng) + Luyện tập & Vận dụng | 52–56 |
-| 11–12 | **22, 23** | **Chủ đề 4 (F).** Giải quyết vấn đề với sự trợ giúp của máy tính | **Bài 10.** Tạo liên kết | 02 | Tiết 1 (PPCT 22): Lí thuyết<br>Tiết 2 (PPCT 23): Thực hành + Luyện tập & Vận dụng | 57–62 |
-| 12–13 | **24, 25** | **Chủ đề 4 (F).** Giải quyết vấn đề với sự trợ giúp của máy tính | **Bài 11.** Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web | 02 | Tiết 1 (PPCT 24): Lí thuyết<br>Tiết 2 (PPCT 25): Thực hành + Luyện tập & Vận dụng | 63–68 |
-| 13–14 | **26, 27** | **Chủ đề 4 (F).** Giải quyết vấn đề với sự trợ giúp của máy tính | **Bài 12.** Tạo biểu mẫu | 02 | Tiết 1 (PPCT 26): Lí thuyết<br>Tiết 2 (PPCT 27): Thực hành + Luyện tập & Vận dụng | 69–75 |
-| 14–15 | **28, 29** | **Chủ đề 4 (F).** Giải quyết vấn đề với sự trợ giúp của máy tính | **Bài 13.** Khái niệm, vai trò của CSS | 02 | Tiết 1 (PPCT 28): Lí thuyết<br>Tiết 2 (PPCT 29): Thực hành + Luyện tập & Vận dụng | 76–80 |
-| 15–16 | **30, 31** | **Chủ đề 4 (F).** Giải quyết vấn đề với sự trợ giúp của máy tính | **Bài 14.** Định dạng văn bản bằng CSS | 02 | Tiết 1 (PPCT 30): Lí thuyết<br>Tiết 2 (PPCT 31): Thực hành + Luyện tập & Vận dụng | 81–85 |
-| 16–17 | **32, 33** | **Chủ đề 4 (F).** Giải quyết vấn đề với sự trợ giúp của máy tính | **Bài 15.** Tạo màu cho chữ và nền | 02 | Tiết 1 (PPCT 32): Lí thuyết<br>Tiết 2 (PPCT 33): Thực hành + Luyện tập & Vận dụng | 86–91 |
-| 17–18 | **34, 35, 36** | **Ôn tập & Kiểm tra Cuối kì I** | **Ôn tập Học kì I & Kiểm tra Cuối học kì I** | 03 | Ôn tập tổng hợp + Kiểm tra Cuối kì I (45 phút) | — |
+### 1. Học kì I – Khối 12 (Tiết PPCT 01 – 36)
 
-*(Lưu ý: Trường hợp Tổ chuyên môn phân bổ **Bài 5** trong `02 tiết` [Tiết PPCT 09, 10], thì **Bài 6** là `Tiết 11, 12`, **Bài 7** là `Tiết 13, 14`, **Kiểm tra GK1** là `Tiết 15`, **Bài 8** là `Tiết 16, 17` và **Bài 9. Tạo danh sách, bảng** rơi vào **`Tiết PPCT 18, 19`** hoặc **`Tiết PPCT 20, 21`**).*
+| STT | Tiết PPCT | Tên bài dạy theo Kế hoạch dạy học Trường THPT Thuận Hoá (`khoi_12_tin_hoc_07112026.xls`) | Bài tương ứng trong SGK Tin học 12 KNTT | Trang SGK | Ghi chú / Lịch dự giờ thực tập |
+| :---: | :---: | :--- | :--- | :---: | :--- |
+| 1 | **01** | `Bài 1.1: Làm quen với trí tuệ nhân tạo (tiết 1 - LT)` | Chủ đề 1 – Bài 1 | tr. 5–11 | Lí thuyết |
+| 2 | **02** | `Bài 1.1: Làm quen với trí tuệ nhân tạo (tiết 2 - LT)` | Chủ đề 1 – Bài 1 | tr. 5–11 | Lí thuyết + Luyện tập |
+| 3 | **03** | `Bài 1.2: Trí tuệ nhân tạo trong khoa học và đời sống (tiết 1 - LT)` | Chủ đề 1 – Bài 2 | tr. 12–16 | Lí thuyết |
+| 4 | **04** | `Bài 1.2: Trí tuệ nhân tạo trong khoa học và đời sống (tiết 2 - LT)` | Chủ đề 1 – Bài 2 | tr. 12–16 | Lí thuyết + Luyện tập |
+| 5 | **05** | `Bài 2.3: Một số thiết bị mạng thông dụng (tiết 1 - LT)` | Chủ đề 2 – Bài 3 | tr. 17–21 | Lí thuyết |
+| 6 | **06** | `Bài 2.3: Một số thiết bị mạng thông dụng (tiết 2 - LT)` | Chủ đề 2 – Bài 3 | tr. 17–21 | Lí thuyết + Luyện tập |
+| 7 | **07** | `Bài 2.4: Giao thức mạng (tiết 1 - LT)` | Chủ đề 2 – Bài 4 | tr. 22–26 | Lí thuyết |
+| 8 | **08** | `Bài 2.4: Giao thức mạng (tiết 2 - LT)` | Chủ đề 2 – Bài 4 | tr. 22–26 | Lí thuyết + Luyện tập |
+| 9 | **09** | `Bài 2.5: Thực hành chia sẻ tài nguyên trên mạng (tiết 1 - LT)` | Chủ đề 2 – Bài 5 | tr. 27–33 | Lí thuyết hướng dẫn |
+| 10 | **10** | `Bài 2.5: Thực hành chia sẻ tài nguyên trên mạng (tiết 2 - TH)` | Chủ đề 2 – Bài 5 | tr. 27–33 | Thực hành |
+| 11 | **11** | `Bài 3.6: Giao tiếp và ứng xử trong không gian mạng (tiết 1 - LT)` | Chủ đề 3 – Bài 6 | tr. 34–38 | Lí thuyết |
+| 12 | **12** | `Bài 3.6: Giao tiếp và ứng xử trong không gian mạng (tiết 2 - LT)` | Chủ đề 3 – Bài 6 | tr. 34–38 | Lí thuyết + Tình huống |
+| 13 | **13** | `Bài 4.7: HTML và cấu trúc trang WEB (tiết 1 - LT)` | Chủ đề 4 – Bài 7 | tr. 39–45 | Lí thuyết |
+| 14 | **14** | `Bài 4.7: HTML và cấu trúc trang WEB (tiết 2 - LT)` | Chủ đề 4 – Bài 7 | tr. 39–45 | Lí thuyết + Thực hành |
+| 15 | **15** | `Ôn tập` *(Ôn tập Giữa học kì I)* | Ôn tập Chủ đề 1, 2, 3, Bài 7 | tr. 5–45 | Ôn tập GHKI |
+| 16 | **16** | `Kiểm tra giữa kỳ I` *(Kiểm tra định kì Giữa học kì I – 45 phút)* | Kiểm tra GHKI | — | Kiểm tra định kì |
+| 17 | **17** | `Bài 4.8: Định dạng văn bản (tiết 1 - LT)` | Chủ đề 4 – Bài 8 | tr. 46–51 | Lí thuyết |
+| 18 | **18** | `Bài 4.8: Định dạng văn bản (tiết 2 - TH)` | Chủ đề 4 – Bài 8 | tr. 46–51 | Thực hành |
+| 19 | **19** | **`Bài 4.9: Tạo danh sách, bảng (tiết 1 - LT)`** | Chủ đề 4 – Bài 9 | tr. 52–56 | **Dự giờ: Thứ Năm 05/11/2026 – Tiết 2 (8h00–8h45) – Lớp 12/4 – Phòng H.II.4** |
+| 20 | **20** | **`Bài 4.9: Tạo danh sách, bảng (tiết 2 - TH)`** | Chủ đề 4 – Bài 9 | tr. 52–56 | Thực hành |
+| 21 | **21** | **`Bài 4.10: Tạo liên kết (tiết 1 - LT)`** | Chủ đề 4 – Bài 10 | tr. 57–61 | **Dự giờ: Thứ Sáu 13/11/2026 – Tiết 3 (9h00–9h45) – Lớp 12/2 – Phòng H.II.2** |
+| 22 | **22** | **`Bài 4.10: Tạo liên kết (tiết 2 - TH)`** | Chủ đề 4 – Bài 10 | tr. 57–61 | **Dự giờ: Thứ Sáu 13/11/2026 – Tiết 2 (8h00–8h45) – Lớp 12/1 – Phòng H.II.1** |
+| 23 | **23** | `Bài 4.11: Chèn tệp tin đa phương tiện và khung nội tuyến vào trang WEB (tiết 1 - LT)` | Chủ đề 4 – Bài 11 | tr. 63–68 | Lí thuyết |
+| 24 | **24** | `Bài 4.11: Chèn tệp tin đa phương tiện và khung nội tuyến vào trang WEB (tiết 2 - TH)` | Chủ đề 4 – Bài 11 | tr. 63–68 | Thực hành |
+| 25 | **25** | `Bài 4.12: Tạo biểu mẫu (tiết 1 - LT)` | Chủ đề 4 – Bài 12 | tr. 69–75 | Lí thuyết |
+| 26 | **26** | `Bài 4.12: Tạo biểu mẫu (tiết 2 - TH)` | Chủ đề 4 – Bài 12 | tr. 69–75 | Thực hành |
+| 27 | **27** | `Bài 4.13: Khái niệm và vai trò của CSS (tiết 1 - LT)` | Chủ đề 4 – Bài 13 | tr. 76–80 | Lí thuyết |
+| 28 | **28** | `Bài 4.13: Khái niệm và vai trò của CSS (tiết 2 - LT)` | Chủ đề 4 – Bài 13 | tr. 76–80 | Lí thuyết + Luyện tập |
+| 29 | **29** | `Bài 4.14: Định dạng văn bản bằng CSS (tiết 1 - LT)` | Chủ đề 4 – Bài 14 | tr. 81–85 | Lí thuyết |
+| 30 | **30** | `Bài 4.14: Định dạng văn bản bằng CSS (tiết 2 - TH)` | Chủ đề 4 – Bài 14 | tr. 81–85 | Thực hành |
+| 31 | **31** | `Ôn tập` *(Ôn tập Cuối học kì I)* | Ôn tập HK1 | — | Ôn tập tổng hợp |
+| 32 | **32** | `Kiểm tra cuối kỳ I` *(Kiểm tra Cuối học kì I – 45 phút)* | Kiểm tra HK1 | — | Kiểm tra định kì |
+| 33 | **33** | `Bài 4.15: Tạo màu cho chữ và nền (tiết 1 - LT)` | Chủ đề 4 – Bài 15 | tr. 86–91 | Lí thuyết |
+| 34 | **34** | `Bài 4.15: Tạo màu cho chữ và nền (tiết 2 - TH)` | Chủ đề 4 – Bài 15 | tr. 86–91 | Thực hành |
+| 35 | **35** | `Bài 4.16: Định dạng khung (tiết 1 - LT)` | Chủ đề 4 – Bài 16 | tr. 92–97 | Lí thuyết |
+| 36 | **36** | `Bài 4.16: Định dạng khung (tiết 2 - TH)` | Chủ đề 4 – Bài 16 | tr. 92–97 | Thực hành |
 
 ---
 
-### 2. Học kì II – Tin học 12 (17 tuần = 34 tiết: Tiếp Chủ đề 4, Chủ đề 5 và Phần riêng CS / ICT)
+### 2. Học kì II – Khối 12 (Tiết PPCT 37 – 70)
 
-| Tiết PPCT | Chủ đề / Định hướng | Tên bài học trong SGK Tin học 12 (KNTT) | Số tiết | Trang SGK (KHMT / THƯD) |
-| :---: | :--- | :--- | :---: | :---: |
-| **37, 38** | **Chủ đề 4 (F).** Tạo trang web | **Bài 16.** Định dạng khung | 02 | 92–97 |
-| **39, 40** | **Chủ đề 4 (F).** Tạo trang web | **Bài 17.** Các mức ưu tiên của bộ chọn | 02 | 98–103 |
-| **41, 42, 43** | **Chủ đề 4 (F).** Tạo trang web | **Bài 18.** Thực hành tổng hợp thiết kế trang web | 03 | 104–107 |
-| **44, 45** | **Chủ đề 5 (G).** Hướng nghiệp với Tin học | **Bài 19.** Dịch vụ sửa chữa và bảo trì máy tính | 02 | 108–112 |
-| **46, 47** | **Chủ đề 5 (G).** Hướng nghiệp với Tin học | **Bài 20.** Nhóm nghề quản trị thuộc ngành CNTT | 02 | 113–117 |
-| **48, 49** | **Chủ đề 5 (G).** Hướng nghiệp với Tin học | **Bài 21.** Hội thảo hướng nghiệp | 02 | 118–120 |
-| **50, 51** | **Phần riêng ICT (Chủ đề A)** / **CS (Chủ đề B)** | **Bài 22 (ICT):** Thực hành kết nối các thiết bị số (02 tiết)<br>**Bài 22 (CS):** Tìm hiểu thiết bị mạng (02 tiết) | 02 | 121–126 |
-| **52** | **Kiểm tra định kì** | **Kiểm tra Giữa học kì II** | 01 | — |
-| **53–55** | **Phần riêng ICT (Chủ đề E)** / **CS (Chủ đề B & F)** | **Bài 23 (ICT):** Chuẩn bị xây dựng trang web (03 tiết)<br>**Bài 23 (CS):** Đường truyền mạng và ứng dụng (02 tiết) | 02–03 | 127–133 |
-| **56–57** | **Phần riêng ICT / CS** | **Bài 24 (ICT):** Xây dựng phần đầu trang web (02 tiết)<br>**Bài 24 (CS):** Sơ bộ về thiết kế mạng (02 tiết) | 02 | 134–138 |
-| **58–60** | **Phần riêng ICT / CS** | **Bài 25 (ICT):** Xây dựng phần thân và chân trang web (03 tiết)<br>**Bài 25 (CS):** Làm quen với Học máy (02 tiết) | 02–03 | 139–144 |
-| **61–62** | **Phần riêng ICT / CS** | **Bài 26 (ICT):** Liên kết và thanh điều hướng (02 tiết)<br>**Bài 26 (CS):** Làm quen với Khoa học dữ liệu (02 tiết) | 02 | 145–150 |
-| **63–64** | **Phần riêng ICT / CS** | **Bài 27 (ICT):** Biểu mẫu trên trang web (01–02 tiết)<br>**Bài 27 (CS):** Máy tính và Khoa học dữ liệu (02 tiết) | 01–02 | 151–155 |
-| **65–67** | **Phần riêng ICT / CS** | **Bài 28 (ICT):** Thực hành tổng hợp (03 tiết)<br>**Bài 28–30 (CS):** Trích rút thông tin & Mô phỏng (06 tiết) | 03–06 | 156–170 |
-| **68–70** | **Ôn tập & Kiểm tra Cuối kì II** | **Ôn tập cuối năm & Kiểm tra Cuối học kì II** | 02–03 | — |
+| STT | Tiết PPCT | Tên bài dạy theo Kế hoạch dạy học Trường THPT Thuận Hoá (`khoi_12_tin_hoc_07112026.xls`) | Bài tương ứng trong SGK Tin học 12 KNTT (Định hướng THƯD) | Số tiết |
+| :---: | :---: | :--- | :--- | :---: |
+| 37–38 | **37, 38** | `Bài 4.17: Các mức ưu tiên của bộ chọn (tiết 1 - LT, tiết 2 - TH)` | Chủ đề 4 – Bài 17 (tr. 98–103) | 02 |
+| 39–40 | **39, 40** | `Bài 4.18: Thực hành tổng hợp thiết kế trang WEB (tiết 1 - TH, tiết 2 - TH)` | Chủ đề 4 – Bài 18 (tr. 104–107) | 02 |
+| 41–42 | **41, 42** | `Bài 5.19: Dịch vụ sửa chữa và bảo trì máy tính (tiết 1 - LT, tiết 2 - LT)` | Chủ đề 5 – Bài 19 (tr. 108–112) | 02 |
+| 43–44 | **43, 44** | `Bài 5.20: Nhóm nghề quản trị thuộc ngành Công nghệ thông tin (tiết 1 - LT, tiết 2 - LT)` | Chủ đề 5 – Bài 20 (tr. 113–117) | 02 |
+| 45–46 | **45, 46** | `Bài 5.21: Hội thảo hướng nghiệp (tiết 1 - LT, tiết 2 - LT)` | Chủ đề 5 – Bài 21 (tr. 118–120) | 02 |
+| 47–48 | **47, 48** | `Bài 6.22: Thực hành kết nối các thiết bị số (tiết 1 - TH, tiết 2 - TH)` | Chủ đề 6 (ICT) – Bài 22 (tr. 121–126) | 02 |
+| 49–50 | **49, 50** | `Bài 7.23: Chuẩn bị xây dựng trang WEB (tiết 1 - LT, tiết 2 - TH)` | Chủ đề 7 (ICT) – Bài 23 (tr. 127–133) | 02 |
+| 51 | **51** | `Ôn tập` *(Ôn tập Giữa học kì II)* | Ôn tập GHKII | 01 |
+| 52 | **52** | `Kiểm tra giữa kỳ II` *(Kiểm tra Giữa học kì II)* | Kiểm tra GHKII | 01 |
+| 53–54 | **53, 54** | `Bài 7.24: Xây dựng phần đầu trang WEB (tiết 1 - LT, tiết 2 - TH)` | Chủ đề 7 (ICT) – Bài 24 (tr. 134–138) | 02 |
+| 55–56 | **55, 56** | `Bài 7.25: Xây dựng phần thân và chân trang WEB (tiết 1 - LT, tiết 2 - TH)` | Chủ đề 7 (ICT) – Bài 25 (tr. 139–144) | 02 |
+| 57–58 | **57, 58** | `Bài 7.26: Liên kết và thanh điều hướng (tiết 1 - LT, tiết 2 - TH)` | Chủ đề 7 (ICT) – Bài 26 (tr. 145–150) | 02 |
+| 59–60 | **59, 60** | `Bài 7.27: Biểu mẫu trên trang WEB (tiết 1 - LT, tiết 2 - TH)` | Chủ đề 7 (ICT) – Bài 27 (tr. 151–155) | 02 |
+| 61–62 | **61, 62** | `Bài 7.28: Thực hành tổng hợp (tiết 1 - TH, tiết 2 - TH)` | Chủ đề 7 (ICT) – Bài 28 (tr. 156–158) | 02 |
+| 63–66 | **63, 64, 65, 66** | `Bài 7.23, 7.24, 7.25, 7.26, 7.28: Thực hành (tiết 3 - TH)` *(tăng cường thực hành dự án web)* | Chủ đề 7 (ICT) | 04 |
+| 67 | **67** | `Ôn tập` *(Ôn tập Cuối học kì II)* | Ôn tập CHKII | 01 |
+| 68 | **68** | `Kiểm tra cuối kỳ II` *(Kiểm tra Cuối học kì II)* | Kiểm tra CHKII | 01 |
+| 69 | **69** | `Bài 7.28: Thực hành tổng hợp (tiết 3 - TH)` | Chủ đề 7 (ICT) – Bài 28 | 01 |
+| 70 | **70** | `Hoàn thiện dự án` | Báo cáo dự án trang web | 01 |
 
 ---
 
