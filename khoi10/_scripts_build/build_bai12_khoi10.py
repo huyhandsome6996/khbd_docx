@@ -369,7 +369,7 @@ def build_bai12_tiet1():
 
     add(b, 'II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU', 'heading')
     for item in [
-        '**Thiết bị dạy học:** Máy tính của giáo viên đã cài đặt phần mềm Inkscape (phiên bản 1.0 trở lên), máy chiếu tại phòng học H.I.3, bảng viết và bộ Phiếu học tập.',
+        '**Thiết bị dạy học:** Máy tính của giáo viên đã cài đặt phần mềm Inkscape (phiên bản 1.0 trở lên), máy chiếu, bảng viết và bộ Phiếu học tập.',
         '**Sách giáo khoa chính thức:** *Sách giáo khoa Tin học 10 – Bộ sách Kết nối tri thức với cuộc sống, Nhà xuất bản Giáo dục Việt Nam*, Bài 12: Phần mềm thiết kế đồ hoạ (mục 1, mục 2, mục 3 và phần Luyện tập, Vận dụng – trang 63 đến trang 68).',
         '**Phân phối chương trình:** *Kế hoạch dạy học môn Tin học Khối 10 năm học 2026–2027 của Trường THPT Thuận Hoá* (Tiết PPCT 17 – Mục 4.12. Phần mềm thiết kế đồ họa (tiết 1 - LT)).'
     ]:
@@ -435,12 +435,12 @@ def build_bai12_tiet1():
     add(b, '**a) Mục tiêu:** [KT3], [NLC3], [NLa], [PC2] – Học sinh vận dụng quy tắc thứ tự lớp và thuộc tính đối tượng để lập sơ đồ các bước vẽ bông hoa (Hình 12.5), Quốc kì Việt Nam (Hình 12.6) và Quốc kì các nước (Vận dụng trang 68), sẵn sàng cho Tiết 2 Thực hành (Tiết PPCT: 18).', first=0)
     add(b, '**b) Nội dung:** Học sinh quan sát trước Hình 12.5, Hình 12.6 và hình Vận dụng (SGK trang 67–68) để phân tích quy trình xếp lớp:', first=0)
     add_figure(b, 'hinh_12_van_dung_quoc_ki.png')
-    add(b, '**c) Sản phẩm:** Bản ghi tóm tắt quy trình thực hành trong vở để thực hiện trên phòng máy ở Tiết 2 (Tiết PPCT: 18).', first=0)
+    add(b, '**c) Sản phẩm:** Bản ghi tóm tắt quy trình thực hành trong vở để thực hiện ở Tiết 2 (Tiết PPCT: 18).', first=0)
     add(b, '**Công cụ đánh giá:** CCĐG 6 – Rubric đánh giá sản phẩm thực hành và vận dụng *(Đính kèm tại Mục IV. Phụ lục 2)*.', first=0, keep=True)
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(HD4_ROWS_T1, [4600, 4400], header=True, cell_sz=23))
 
-    add_bai12_appendix(b, class_label='10/1 (Dự giờ Tiết 1 – Phòng H.I.3)', ppct_label='17', mode='tiet1')
+    add_bai12_appendix(b, class_label='10/1', ppct_label='17', mode='tiet1')
     add_approval_section(b, sign_date_str='Huế, ngày 09 tháng 11 năm 2026')
 
     used_figs = [
@@ -487,7 +487,7 @@ def build_bai12_tiet2():
     add(b, 'a) Năng lực chung', 'sub')
     for item in [
         '**Năng lực tự chủ và tự học [NLC1]:** Học sinh tự đọc hướng dẫn thực hành trong Sách giáo khoa trang 67–68 và chủ động thao tác trên phần mềm Inkscape để tạo sản phẩm.',
-        '**Năng lực giao tiếp và hợp tác [NLC2]:** Học sinh trao đổi theo cặp máy, hỗ trợ nhau kiểm tra thông số Corners, Spoke ratio và thứ tự lớp.',
+        '**Năng lực giao tiếp và hợp tác [NLC2]:** Học sinh trao đổi theo nhóm đôi, hỗ trợ nhau kiểm tra thông số Corners, Spoke ratio và thứ tự lớp.',
         '**Năng lực giải quyết vấn đề và sáng tạo [NLC3]:** Học sinh tự phát hiện và xử lí lỗi khi đối tượng vẽ sau che khuất đối tượng vẽ trước hoặc khi tâm xoay cánh hoa bị lệch.'
     ]:
         add(b, item, 'bullet')
@@ -506,14 +506,14 @@ def build_bai12_tiet2():
     add(b, '3. Về phẩm chất', 'sub')
     for item in [
         '**Phẩm chất chăm chỉ [PC1]:** Học sinh kiên trì căn chỉnh từng cánh hoa, góc xoay và tỉ lệ lá cờ cho đến khi sản phẩm cân đối, đẹp mắt.',
-        '**Phẩm chất trách nhiệm [PC2]:** Học sinh tuân thủ nội quy phòng học/phòng máy H.I.4, lưu trữ tệp đúng quy định và hoàn thành sản phẩm đúng thời gian.',
+        '**Phẩm chất trách nhiệm [PC2]:** Học sinh chấp hành nghiêm túc nội quy lớp học, lưu trữ tệp đúng quy định và hoàn thành sản phẩm đúng thời gian.',
         '**Phẩm chất trung thực [PC3]:** Học sinh tự tay thực hiện sản phẩm thực hành và đánh giá công tâm theo bảng tiêu chí Rubric CCĐG 6.'
     ]:
         add(b, item, 'bullet')
 
     add(b, 'II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU', 'heading')
     for item in [
-        '**Thiết bị dạy học:** Máy tính phòng học/phòng máy H.I.4 đã cài đặt sẵn phần mềm Inkscape, máy chiếu, tệp mẫu .svg và phiếu đánh giá Rubric.',
+        '**Thiết bị dạy học:** Máy tính đã cài đặt sẵn phần mềm Inkscape, máy chiếu, bảng viết, tệp mẫu .svg và phiếu đánh giá Rubric.',
         '**Sách giáo khoa chính thức:** *Sách giáo khoa Tin học 10 – Bộ sách Kết nối tri thức với cuộc sống, Nhà xuất bản Giáo dục Việt Nam*, Bài 12: Phần mềm thiết kế đồ hoạ (mục Thực hành, Luyện tập và Vận dụng – trang 67–68).',
         '**Phân phối chương trình:** *Kế hoạch dạy học môn Tin học Khối 10 năm học 2026–2027 của Trường THPT Thuận Hoá* (Tiết PPCT 18 – Mục 4.12. Phần mềm thiết kế đồ họa (tiết 2 - TH)).'
     ]:
@@ -632,7 +632,7 @@ def build_bai12_tiet2():
     add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     b.append(table(HD4_ROWS_BAI12, [4600, 4400], header=True, cell_sz=23))
 
-    add_bai12_appendix(b, class_label='10/2 (Dự giờ Tiết 2 – Phòng H.I.4)', ppct_label='18', mode='tiet2')
+    add_bai12_appendix(b, class_label='10/2', ppct_label='18', mode='tiet2')
     add_approval_section(b, sign_date_str='Huế, ngày 09 tháng 11 năm 2026')
 
     used_figs = [
@@ -696,14 +696,14 @@ def build_bai12_cabai():
     add(b, '3. Về phẩm chất', 'sub')
     for item in [
         '**Phẩm chất chăm chỉ [PC1]:** Tích cực học tập lý thuyết và kiên trì rèn luyện kỹ năng thực hành vẽ hình.',
-        '**Phẩm chất trách nhiệm [PC2]:** Hoàn thành đầy đủ nhiệm vụ học tập ở cả 2 tiết và tuân thủ nội quy phòng học/phòng máy.',
+        '**Phẩm chất trách nhiệm [PC2]:** Hoàn thành đầy đủ nhiệm vụ học tập ở cả 2 tiết và chấp hành nghiêm túc nội quy lớp học.',
         '**Phẩm chất trung thực [PC3]:** Tự giác thực hiện sản phẩm và đánh giá trung thực theo Rubric.'
     ]:
         add(b, item, 'bullet')
 
     add(b, 'II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU', 'heading')
     for item in [
-        '**Thiết bị dạy học:** Máy tính giáo viên và học sinh cài đặt phần mềm Inkscape, máy chiếu tại phòng H.I.3 và H.I.4.',
+        '**Thiết bị dạy học:** Máy tính giáo viên và học sinh cài đặt phần mềm Inkscape, máy chiếu, bảng viết.',
         '**Sách giáo khoa chính thức:** *Sách giáo khoa Tin học 10 – Bộ sách Kết nối tri thức với cuộc sống, Nhà xuất bản Giáo dục Việt Nam*, Bài 12: Phần mềm thiết kế đồ hoạ (trang 63–68).',
         '**Phân phối chương trình:** *Kế hoạch dạy học môn Tin học Khối 10 năm học 2026–2027 của Trường THPT Thuận Hoá* (Tiết PPCT 17 [tiết 1 - LT] và Tiết PPCT 18 [tiết 2 - TH]).'
     ]:
