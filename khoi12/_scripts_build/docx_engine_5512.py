@@ -455,3 +455,4 @@ def save_docx(body, out_path, used_figures=None, is_handout=False):
         for n, value in data.items():
             z.writestr(n, value)
     return out_path
+

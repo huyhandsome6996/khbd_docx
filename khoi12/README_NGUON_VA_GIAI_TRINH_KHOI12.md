@@ -35,3 +35,4 @@
 - **Không in đậm/in hoa/in nghiêng tuỳ tiện:** Các mục `a) Mục tiêu:`, `b) Nội dung:`, `c) Sản phẩm:` chỉ in đậm nhãn đầu mục, phần nội dung diễn giải viết chữ thường chuẩn mực; bảng hoạt động chỉ in đậm các dòng `Bước 1`, `Bước 2`, `Bước 3`, `Bước 4` và từ khoá đầu mục có dấu hai chấm.
 - **Không có khoảng trống lớn giữa các trang:** Toàn bộ các hàng bảng nội dung dài được gỡ thuộc tính `cantSplit` và không chèn ngắt trang cứng thừa trước phần Phụ lục.
 - **Đầy đủ hình ảnh cắt trực tiếp từ SGK Tin học 12 KNTT:** Nhúng trực tiếp **Hình 10.1** (trang 59) và **Hình 10.2** (trang 61) vào đúng mục `b) Nội dung` của hoạt động tương ứng.
+
