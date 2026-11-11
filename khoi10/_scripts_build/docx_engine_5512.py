@@ -445,6 +445,33 @@ def ending(pkg, start=1):
     sect.append(node('pgNumType', {'start': start}))
     return sect
 
+
+_OOXML_ORDER = {
+    'pPr': 'pStyle keepNext keepLines pageBreakBefore framePr widowControl numPr suppressLineNumbers pBdr shd tabs suppressAutoHyphens kinsoku wordWrap overflowPunct topLinePunct autoSpaceDE autoSpaceDN bidi adjustRightInd snapToGrid spacing ind contextualSpacing mirrorIndents suppressOverlap jc textDirection textAlignment textboxTightWrap outlineLvl divId cnfStyle rPr sectPr pPrChange'.split(),
+    'rPr': 'rStyle rFonts b bCs i iCs caps smallCaps strike dstrike outline shadow emboss imprint noProof snapToGrid vanish webHidden color spacing w kern position sz szCs highlight u effect bdr shd fitText vertAlign rtl cs em lang eastAsianLayout specVanish oMath'.split(),
+    'tcPr': 'cnfStyle tcW gridSpan hMerge vMerge tcBorders shd noWrap tcMar textDirection tcFitText vAlign hideMark'.split(),
+    'tblPr': 'tblStyle tblpPr tblOverlap bidiVisual tblStyleRowBandSize tblStyleColBandSize tblW jc tblCellSpacing tblInd tblBorders shd tblLayout tblCellMar tblLook'.split(),
+    'sectPr': 'headerReference footerReference footnotePr endnotePr type pgSz pgMar paperSrc pgBorders lnNumType pgNumType cols formProt vAlign noEndnote titlePg textDirection bidi rtlGutter docGrid printerSettings'.split(),
+}
+
+def _local(tag):
+    return str(tag).split('}')[-1].split(':')[-1]
+
+def sort_ooxml_children(root):
+    """Sắp xếp lại thứ tự phần tử con theo đúng lược đồ OOXML để Microsoft Word mở file không báo lỗi."""
+    for el in root.iter():
+        order = _OOXML_ORDER.get(_local(el.tag))
+        if not order or len(el) < 2:
+            continue
+        kids = list(el)
+        keyed = [(order.index(_local(c.tag)) if _local(c.tag) in order else len(order), i, c) for i, c in enumerate(kids)]
+        if [k[0] for k in keyed] == sorted(k[0] for k in keyed):
+            continue
+        for c in kids:
+            el.remove(c)
+        for _, _, c in sorted(keyed, key=lambda k: (k[0], k[1])):
+            el.append(c)
+
 def save_docx(body, out_path, used_figures=None, is_handout=False):
     pkg = HPKG_TEMPLATE if is_handout else PKG_TEMPLATE
     body.append(ending(pkg, start=1))
@@ -459,13 +486,13 @@ def save_docx(body, out_path, used_figures=None, is_handout=False):
                 rels_xml = rels_xml.replace('</Relationships>', rel_tag + '</Relationships>')
         data['word/_rels/document.xml.rels'] = rels_xml.encode('utf-8')
 
+    sort_ooxml_children(body)
     src = data['word/document.xml'].decode('utf-8')
     prefix = src[:src.index('<w:body')]
     data['word/document.xml'] = (prefix + E.tostring(body, encoding='unicode') + '</w:document>').encode('utf-8')
     if 'word/settings.xml' in data:
         s = data['word/settings.xml'].decode('utf-8')
-        if '<w:updateFields' not in s:
-            s = s.replace('</w:settings>', '<w:updateFields w:val="true"/></w:settings>')
+        s = re.sub(r'<w:updateFields[^>]*/>', '', s)  # tránh hộp thoại cập nhật trường khi mở bằng Word
         data['word/settings.xml'] = s.encode('utf-8')
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
