@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Giới thiệu các hoạt động ngoại khoá - Bài 10 Hoàn chỉnh</title>
+</head>
+<body>
+  <!-- Nhiệm vụ 1 (Hình 10.2 SGK trang 61): Phần giới thiệu bổ sung vào đầu trang -->
+  <h2>Giới thiệu các hoạt động ngoại khoá</h2>
+  <p>Trường THPT Nguyễn Bỉnh Khiêm có bề dày thành tích về học tập và các hoạt động thể thao, văn nghệ của thành phố.
+  Các câu lạc bộ ngoại khoá hoạt động sôi nổi và luôn được nhà trường tạo điều kiện để sinh hoạt.
+  Những năm qua, trường đạt nhiều thành tích trong các cuộc thi cấp thành phố, quận:</p>
+  <ul>
+    <li>03 HCV cấp thành phố môn Bơi lội</li>
+    <li>02 HCV, 06 HCB và 05 HCĐ cấp thành phố các môn Võ thuật</li>
+    <li>01 giải ba môn Bóng đá nam cấp thành phố</li>
+    <li>01 giải nhì, 02 giải ba Hội thi biểu diễn âm nhạc quận</li>
+  </ul>
+  <p><a href="#CLBTT">Theo dõi lịch hoạt động các CLB Thể thao</a></p>
+  <!-- Nhiệm vụ 2 (SGK trang 61): Liên kết tương đối sang trang thong_tin.html -->
+  <p><a href="thong_tin.html">Thông tin của các CLB</a></p>
+
+  <hr>
+  <h2>Danh sách các Câu lạc bộ</h2>
+  <ul>
+    <li>THỂ THAO
+      <ol>
+        <li>Bóng đá</li>
+        <li>Bóng chuyền</li>
+        <li>Bóng rổ</li>
+        <li>Võ thuật</li>
+        <li>Bơi</li>
+      </ol>
+    </li>
+    <li>NGHỆ THUẬT
+      <ol>
+        <li>Mĩ thuật</li>
+        <li>Nhiếp ảnh</li>
+        <li>Âm nhạc</li>
+        <li>Khiêu vũ</li>
+      </ol>
+    </li>
+  </ul>
+
+  <!-- Nhiệm vụ 1 (Bước 2) & Vận dụng (SGK trang 61): Bảng có id="CLBTT" và liên kết từ tên từng CLB xuống đoạn giới thiệu -->
+  <table id="CLBTT" border="1" style="border-collapse: collapse; width: 90%;">
+    <caption>Lịch hoạt động các CLB Thể thao</caption>
+    <tr>
+      <th rowspan="2">Bộ môn</th>
+      <th rowspan="2">GV phụ trách</th>
+      <th colspan="5">Ngày</th>
+    </tr>
+    <tr>
+      <th>Thứ 2</th><th>Thứ 3</th><th>Thứ 4</th><th>Thứ 5</th><th>Thứ 6</th>
+    </tr>
+    <tr><td><a href="#clb-bongda">Bóng đá</a></td><td>Thầy Khải</td><td></td><td>X</td><td></td><td></td><td>X</td></tr>
+    <tr><td><a href="#clb-bongchuyen">Bóng chuyền</a></td><td>Cô Lan</td><td>X</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td><a href="#clb-bongro">Bóng rổ</a></td><td>Thầy Vũ</td><td></td><td></td><td>X</td><td></td><td></td></tr>
+    <tr><td><a href="#clb-vothuat">Võ thuật</a></td><td>Thầy Hoàng - Karatedo<br>Thầy Đức - Taekwondo<br>Thầy Thắng - Vovinam</td><td>X</td><td>X</td><td></td><td>X</td><td></td></tr>
+    <tr><td><a href="#clb-boi">Bơi</a></td><td>Cô Bích</td><td></td><td></td><td>X</td><td></td><td>X</td></tr>
+  </table>
+
+  <hr>
+  <!-- Phần Vận dụng (SGK trang 61): Các đoạn giới thiệu chi tiết từng CLB ở dưới bảng -->
+  <h2>Chi tiết các Câu lạc bộ Thể thao</h2>
+
+  <h3 id="clb-bongda">1. Câu lạc bộ Bóng đá</h3>
+  <p>Địa điểm: Sân bóng cỏ nhân tạo trường. Số thành viên: 45 học sinh. Thành tích: 01 giải Ba môn Bóng đá nam cấp thành phố. Phí hội viên: 50.000đ/tháng. Điện thoại liên hệ: Thầy Khải (0905.111.222).</p>
+
+  <h3 id="clb-bongchuyen">2. Câu lạc bộ Bóng chuyền</h3>
+  <p>Địa điểm: Sân thể chất ngoài trời số 1. Số thành viên: 32 học sinh. Thành tích: Giải Khuyến khích cấp cụm trường. Phí hội viên: 40.000đ/tháng. Điện thoại liên hệ: Cô Lan (0905.222.333).</p>
+
+  <h3 id="clb-bongro">3. Câu lạc bộ Bóng rổ</h3>
+  <p>Địa điểm: Nhà thi đấu đa năng. Số thành viên: 38 học sinh. Thành tích: Top 4 giải Bóng rổ học sinh thành phố. Phí hội viên: 50.000đ/tháng. Điện thoại liên hệ: Thầy Vũ (0905.333.444).</p>
+
+  <h3 id="clb-vothuat">4. Câu lạc bộ Võ thuật (Karatedo – Taekwondo – Vovinam)</h3>
+  <p>Địa điểm: Phòng tập Võ đường trường. Số thành viên: 60 học sinh. Thành tích: 02 HCV, 06 HCB và 05 HCĐ cấp thành phố các môn Võ thuật. Phí hội viên: 60.000đ/tháng. Điện thoại liên hệ: Thầy Hoàng (0905.444.555).</p>
+
+  <h3 id="clb-boi">5. Câu lạc bộ Bơi lội</h3>
+  <p>Địa điểm: Bể bơi tiêu chuẩn trường. Số thành viên: 40 học sinh. Thành tích: 03 HCV cấp thành phố môn Bơi lội. Phí hội viên: 70.000đ/tháng. Điện thoại liên hệ: Cô Bích (0905.555.666).</p>
+</body>
+</html>
