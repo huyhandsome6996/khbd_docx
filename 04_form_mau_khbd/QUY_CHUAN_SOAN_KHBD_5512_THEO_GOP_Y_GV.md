@@ -22,11 +22,11 @@ Khi ghi thông tin `Lịch dự giờ`, `Lớp`, `Phòng học`, `Tiết TKB` v�
 | Ngày dự giờ | Thứ | Tiết TKB | Khung giờ | Lớp | Phòng học | Tên bài dạy theo lịch đăng ký | Tiết PPCT chuẩn |
 | :---: | :---: | :---: | :---: | :---: | :---: | :--- | :---: |
 | `02/11/2026` | Thứ Hai | Tiết 2 | `08h00 – 08h45` | `10/2` | `H.I.4` | **Ôn tập kiểm tra Giữa học kì I** (Tin 10) | **Tiết PPCT: 15** |
-| `05/11/2026` | Thứ Năm | Tiết 3 | `09h00 – 09h45` | `12/4` | `H.II.4` | **Bài 9. Tạo danh sách, bảng** (Tin 12 – Dự giờ Tiết 1) | **Tiết PPCT: 20, 21** *(dự giờ Tiết 20)* |
+| `05/11/2026` | Thứ Năm | Tiết 3 | `09h00 – 09h45` | `12/4` | `H.II.4` | **Bài 9. Tạo danh sách, bảng** (Tin 12 – Dự giờ Tiết 1) | **Tiết PPCT: 19, 20** *(dự giờ Tiết 19)* |
 | `10/11/2026` | Thứ Ba | Tiết 1 | `07h10 – 07h55` | `10/1` | `H.I.3` | **Bài 12. Phần mềm thiết kế đồ hoạ (Tiết 1 – Lí thuyết)** | **Tiết PPCT: 17** |
 | `10/11/2026` | Thứ Ba | Tiết 2 | `08h00 – 08h45` | `10/2` | `H.I.4` | **Bài 12. Phần mềm thiết kế đồ hoạ (Tiết 2 – Thực hành)** | **Tiết PPCT: 18** |
-| `13/11/2026` | Thứ Sáu | Tiết 2 | `08h00 – 08h45` | `12/1` | `H.II.1` | **Bài 10. Tạo liên kết (Tiết 2 – Thực hành)** | **Tiết PPCT: 23** |
-| `13/11/2026` | Thứ Sáu | Tiết 3 | `09h00 – 09h45` | `12/2` | `H.II.2` | **Bài 10. Tạo liên kết (Tiết 1 – Lí thuyết)** | **Tiết PPCT: 22** |
+| `13/11/2026` | Thứ Sáu | Tiết 2 | `08h00 – 08h45` | `12/1` | `H.II.1` | **Bài 10. Tạo liên kết (Tiết 2 – Thực hành)** | **Tiết PPCT: 22** |
+| `13/11/2026` | Thứ Sáu | Tiết 3 | `09h00 – 09h45` | `12/2` | `H.II.2` | **Bài 10. Tạo liên kết (Tiết 1 – Lí thuyết)** | **Tiết PPCT: 21** |
 | `16/11/2026` | Thứ Hai | Tiết 3 | `09h00 – 09h45` | `10/3` | `H.I.5` | **Bài 13. Bổ sung các đối tượng đồ hoạ (Tiết 1 – Lí thuyết)** | **Tiết PPCT: 19** *(Tiết 2 TH là PPCT 20)* |
 
 ---
@@ -248,3 +248,20 @@ Dưới đây là quy chuẩn bắt buộc cho từng phần của KHBD đúc k�
      & pdftoppm -png -r 150 "C:\duong_dan\output.pdf" "C:\duong_dan\page"
      ```
    - *(Lưu ý: Luôn lưu các tệp `.pdf`, `.png`, `.xml` kiểm tra tạm thời vào thư mục `scratch` của phiên làm việc, **tuyệt đối không lưu ảnh/PDF tạm vào kho lưu trữ `c:\Users\PC\khbd_docx`** để giữ kho lưu trữ luôn sạch gọn).*
+
+
+---
+
+## V. PHÂN LUỒNG THEO TỪNG GIÁO VIÊN & KINH NGHIỆM DẠY THẬT (`de_cuong/` & `Day_that/`)
+
+*(Chi tiết đầy đủ xem tại [`Day_that/README_KINH_NGHIEM_VA_LUU_Y_CHO_AGENT.md`](file:///c:/Users/PC/khbd_docx/Day_that/README_KINH_NGHIEM_VA_LUU_Y_CHO_AGENT.md))*
+
+1. **Phân biệt form nộp giữa hai Giảng viên / GVHD (Không áp dụng cứng nhắc một khuôn):**
+   - **Thầy Nguyễn Nhất Tân (Khối 12 – Dự giờ kiến tập tại `de_cuong/`):** Dùng **Đề cương dự giờ cô đọng** (không kẻ bảng 2 cột kịch bản GV–HS và không viết các dòng `Bước 1..4` dài dòng; mục `d) Cách thức tiến hành:` chỉ viết gọn thành **01 đoạn văn 4 câu** mô tả mạch tổ chức, giữ nguyên hình ảnh SGK và câu hỏi củng cố).
+   - **Thầy Mai Xuân Văn (Khối 10 – Tiết DẠY THẬT tại `Day_that/`):** Yêu cầu **KHBD đầy đủ Công văn 5512** (đủ 4 hoạt động, bảng 2 cột `Bước 1..4`, Rubric 6 cột), **NHƯNG mọi hoạt động viết trong KHBD bắt buộc phải khả thi 100% khi sinh viên đứng lớp thực tế** tại phòng học thường `H.I.5` (không có máy tính cá nhân cho học sinh, phần lớn học sinh trung bình/yếu, ngại phát biểu). Không bịa phát 4 phiếu học tập giấy rời rườm rà; ưu tiên tra cứu trực tiếp bảng/hình SGK, trắc nghiệm giơ ngón tay, nhìn hình đoán từ khoá và GV thao tác mẫu trực tiếp trên máy chiếu (`Inkscape`).
+2. **Quy tắc Bộ đôi Hồ sơ Dạy thật (`Day_that/`):**
+   - Mỗi tiết đứng lớp giảng dạy thật cần xuất đồng bộ 02 tệp: `01_KHBD_...docx` (hồ sơ chuẩn 5512 nộp GVHD) và `02_Kich_ban_len_lop_chi_tiet_vui_nhon_...docx` (cẩm nang cầm tay từng phút gồm Checklist reset công cụ phần mềm trước giờ, sơ đồ bảng phấn 3 phần, lời thoại vui nhộn, liên hệ bài cũ + ứng dụng thực tế/AI và bảng cứu hộ sự cố 3 giây).
+3. **Các bẫy XML bổ sung trong `docx_engine_5512.py` cần kiểm tra tự động:**
+   - **Tuyệt đối không lồng `` `...` `` bên trong `**...**` hoặc `*...*`**, và **không trải `**...**` qua `\n`** trong ô bảng vì parser sẽ làm lộ ký tự `` ` `` hoặc `**` thô. Chạy kiểm tra hậu kỳ `re.search(r'[`$\u200b\ufffd]|\*\*|\\rightarrow|\§', text)` trên `word/document.xml`.
+   - **Ngăn tiêu đề bảng đứng mồ côi & xé bảng:** Gắn `<w:keepNext/>` cho các đoạn thuộc hàng tiêu đề (`idx_r == 0` khi bảng có > 1 hàng và không phải trang bìa); chỉ gắn `<w:cantSplit/>` cho hàng tiêu đề hoặc hàng ngắn (`< 550` ký tự), gỡ `cantSplit` ở hàng hoạt động dài để tránh để lại khoảng trắng nửa trang.
+   - **Giữ Trang bìa 1 trang khi nhãn cột trái dài:** Rút gọn nhãn hàng 1 trang bìa thành `'Giáo viên'` nếu cần để dòng địa danh cuối bìa không nhảy sang đầu Trang 2.
