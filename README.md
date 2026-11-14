@@ -94,8 +94,9 @@ c:\Users\PC\khbd_docx\
     ├── README_KINH_NGHIEM_VA_LUU_Y_CHO_AGENT.md        [BẮT BUỘC ĐỌC] Bài học phân biệt Thầy Tân vs Thầy Văn & thiết kế 100% khả thi
     ├── 01_KHBD_Tin10_Bai13_Tiet1_Lop10-3_DayThat.docx  KHBD 5512 đầy đủ khả thi 100% (Bài 13 Tiết 1 – Lớp 10/3 – H.I.5 – 16/11/2026)
     ├── 02_Kich_ban_len_lop_chi_tiet_vui_nhon_Tin10_Bai13_Tiet1.docx  Cẩm nang tự học từ 0 & kịch bản 2 cột kèm 7 hình SGK
+    ├── 03_Bai_thuyet_trinh_giang_day_lien_mach_45_phut_Tin10_Bai13_Tiet1.docx  Kịch bản thuyết trình liền mạch phiên bản dạy học (nói gì, làm gì, tương tác gì)
     ├── mau_bai13.svg                                   Tệp Inkscape dựng sẵn 5 khu vực thị phạm trực tiếp trên lớp
-    └── _scripts_build/build_day_that_10_3.py           Script build bộ đôi hồ sơ Dạy thật & kiểm tra XML
+    └── _scripts_build/build_day_that_10_3.py           Script build trọn bộ hồ sơ Dạy thật & kiểm tra XML
 ```
 
 ---
