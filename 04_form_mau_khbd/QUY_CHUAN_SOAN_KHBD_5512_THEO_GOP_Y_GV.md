@@ -92,6 +92,8 @@ Dưới đây là quy chuẩn bắt buộc cho từng phần của KHBD đúc k�
      - Về năng lực: `[NLC1]`, `[NLC2]`, `[NLC3]`, `[NLa]`, `[NLb]`, `[NLc]`, `[NLd]`, `[NLe]`, `[NLS ...]`, `[NLAI ...]`.
      - Về phẩm chất: `[PC1 – Chăm chỉ]`, `[PC2 – Trách nhiệm]`, `[PC3 – Trung thực]`.
    - Tại mục **`a) Mục tiêu`** của từng Hoạt động (`Hoạt động 1`, `Hoạt động 2 – Nhiệm vụ 1, 2...`, `Hoạt động 3`, `Hoạt động 4`), bắt buộc **trích dẫn chính xác các mã `[KT...]`, `[NLC...]`, `[NL...]`, `[PC...]`** mà hoạt động đó giải quyết và diễn giải khớp từng mệnh đề với Mục I. Tổng hợp tất cả các hoạt động phải phủ kín 100% các mã mục tiêu đã nêu ở Mục I.
+3. **Quy tắc "Ghi căn cứ nào vào Mục tiêu thì phải trích lục vào Phụ lục" (BẮT BUỘC):**
+   - Nếu ở mục `I. MỤC TIÊU` có viết đoạn mở đầu viện dẫn *"Căn cứ Yêu cầu cần đạt Chương trình GDPT 2018 (TT 32/2018/TT-BGDĐT), Thông tư 02/2025/TT-BGDĐT và Kế hoạch dạy học môn Tin học Khối ... Trường THPT Thuận Hoá..."*, thì tại mục **`IV. PHỤ LỤC`** bắt buộc phải có **Phụ lục 1 trích lục nguyên văn** các Yêu cầu cần đạt và dòng Tiết PPCT đã viện dẫn đó (không viện dẫn suông ở Mục I mà thiếu bản trích ở Mục IV).
 
 ### 3. Quy chuẩn Mục `II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU`
 1. **Tên Sách giáo khoa chuẩn xác (Nhận xét `#2` của Cô Tuyết Ngân Tôn):**
@@ -119,7 +121,7 @@ Dưới đây là quy chuẩn bắt buộc cho từng phần của KHBD đúc k�
    - **QUY TẮC SỐNG CÒN VỚI BÀI 2 TIẾT:**
      - Khi soạn kế hoạch bài dạy gộp 02 tiết (như Bài 9 Tin 12 hoặc bản gộp 2 tiết Bài 12, Bài 13 Tin 10), **tuyệt đối không chèn `Hoạt động Luyện tập` vào cuối Tiết 1 khi học sinh chưa học xong toàn bộ phần `Hình thành kiến thức mới` của bài học**. Phải hoàn thành tất cả các Nhiệm vụ của `Hoạt động 2` trước, sau đó mới đến `Hoạt động 3: Luyện tập` và `Hoạt động 4: Vận dụng`.
      - Đối với Khối 10 Trường THPT Thuận Hoá, vì trong file PPCT (`khoi_10_tin_hoc_07092026.xls`) nhà trường chia rõ `tiết 1 - LT` (Tiết PPCT 17, 19) và `tiết 2 - TH` (Tiết PPCT 18, 20) dạy ở các lớp/tiết khác nhau theo lịch dự giờ, nên trong ngăn `khoi10/` ta chuẩn bị sẵn **cả hai phương án**:
-       1. **Bản tách riêng từng tiết 45 phút** (`03_...Tiet1_LT...docx`, `04_...Tiet2_TH...docx`, `06_...Tiet1_LT...docx`, `07_...Tiet2_TH...docx`) để nộp đúng tiết dự giờ 45 phút trên lớp; trong mỗi tiết 45 phút vẫn giữ nguyên cấu trúc 4 Hoạt động (`Mở đầu -> Hình thành kiến thức mới [chia Nhiệm vụ 1, 2, 3] -> Luyện tập củng cố trong phạm vi tiết học -> Vận dụng`).
+       1. **Bản tách riêng từng tiết 45 phút** (`03_...Tiet1_LT...docx`, `04_...Tiet2_TH...docx`, `06_...Tiet1_LT...docx`, `07_...Tiet2_TH...docx`) để nộp đúng tiết dự giờ 45 phút trên lớp; trong mỗi tiết 45 phút vẫn giữ nguyên cấu trúc 4 Hoạt động (`Mở đầu`, tiếp theo `Hình thành kiến thức mới [chia Nhiệm vụ 1, 2, 3]`, rồi `Luyện tập củng cố trong phạm vi tiết học` và `Vận dụng`).
        2. **Bản gộp cả bài 02 tiết 90 phút** (`05_...CaBai_2Tiet...docx`, `08_...CaBai_2Tiet...docx`) để sẵn sàng trình ngay nếu giảng viên yêu cầu xem kế hoạch tổng thể 2 tiết giống Bài 9 Tin 12!
 3. **Đưa `a) Mục tiêu`, `b) Nội dung`, `c) Sản phẩm` ra NGOÀI bảng (Nhận xét `#2` của Thầy Nguyễn Nhất Tân):**
    - Trong mỗi Hoạt động (hoặc mỗi Nhiệm vụ của Hoạt động 2), trình bày lần lượt ở ngoài bảng:
@@ -173,11 +175,11 @@ Dưới đây là quy chuẩn bắt buộc cho từng phần của KHBD đúc k�
      - Sinh viên thực tập (**Hồ Quang Huy**) là người dự giờ, lập kế hoạch bài dạy và hồ sơ kiểm tra.
      - **Bảng chữ ký gồm 2 hàng rõ ràng:**
        - **Hàng 1 (phía trên – dành cho Giáo viên):**
-         - Cột trái: **`GIÁO VIÊN HƯỚNG DẪN`** -> *(Ký và ghi rõ họ tên)* -> **`Thầy Mai Xuân Văn`**.
-         - Cột phải: *Huế, ngày...* -> **`GIÁO VIÊN GIẢNG DẠY`** -> *(Ký và ghi rõ họ tên)* -> **`Thầy Mai Xuân Văn`**.
+         - Cột trái: **`GIÁO VIÊN HƯỚNG DẪN`**, kế tiếp *(Ký và ghi rõ họ tên)*, bên dưới **`Thầy Mai Xuân Văn`**.
+         - Cột phải: *Huế, ngày...*, kế tiếp **`GIÁO VIÊN GIẢNG DẪY`**, dòng *(Ký và ghi rõ họ tên)*, bên dưới **`Thầy Mai Xuân Văn`**.
        - **Hàng 2 (phía dưới – dành cho Sinh viên thực hiện ký):**
          - Cột trái: Trống.
-         - Cột phải: **`SINH VIÊN THỰC HIỆN`** -> *(Ký và ghi rõ họ tên)* -> **`Hồ Quang Huy`**.
+         - Cột phải: **`SINH VIÊN THỰC HIỆN`**, kế tiếp *(Ký và ghi rõ họ tên)*, bên dưới **`Hồ Quang Huy`**.
 
 ---
 
@@ -214,9 +216,9 @@ Dưới đây là quy chuẩn bắt buộc cho từng phần của KHBD đúc k�
        - Chú thích hình vẽ / bảng: `Hình 1.1...`, `Bảng 1.1...`.
        - Điểm số trong đáp án: `*(0,25 điểm)*`.
        - Căn cứ văn bản, lưu ý sư phạm trong ngoặc đơn: `*(Lưu ý sư phạm:...)*`.
-   - **Thay thế ký hiệu lạ:**
+   - **Thay thế ký hiệu lạ và CẤM ký hiệu mũi tên (`->`, `→`):**
      - Tuyệt đối không sử dụng ký hiệu lạ như dấu mục `§` (thay bằng chữ tiếng Việt rõ ràng: `Mục` hoặc `mục`).
-     - Các ký hiệu toán học / mũi tên phải chuẩn: `2¹⁰ = 1024`, `->`, từ nối `và` (không dùng `&` trong câu văn tiếng Việt).
+     - **Tuyệt đối KHÔNG dùng ký hiệu mũi tên `->` hoặc `→` trong văn bản giáo án và kịch bản giảng dạy**, kể cả khi mô tả chuỗi thao tác hay thứ tự lớp; bắt buộc thay bằng từ ngữ tiếng Việt đọc thành lời được (*"rồi"*, *"sau đó"*, *"tiếp theo"*, *"từ ... đến ..."*, *"vào bảng chọn ... chọn lệnh ..."*). Dùng từ nối `và` (không dùng `&` trong câu văn tiếng Việt), lũy thừa viết chuẩn `2¹⁰ = 1024`.
 5. **Xử lý khoảng cách chữ và ngắt dòng trong văn bản căn đều (Justified Paragraphs):**
    - Khi văn bản căn đều 2 bên (`both/justify`), tuyệt đối không dùng ký tự ngắt dòng mềm `<w:br/>` ở giữa đoạn văn dài vì Word sẽ kéo giãn khoảng cách các từ trên dòng đó sang hai mép trang. Mọi dòng ngắt mục hoặc ý mới phải được tạo thành một đoạn văn `<w:p>` riêng biệt.
    - **Xoá hoàn toàn tên file kỹ thuật liền khối (như `khoi_10_tin_hoc_07092026.xls`):** Một chuỗi ký tự liền nhau dài hơn 20–30 ký tự (nối bằng gạch dưới `_`) khi không thể ngắt dòng sẽ bị Word đẩy nguyên khối xuống dòng kế tiếp. Dòng trước đó bị thiếu chữ sẽ bị chế độ `both` dãn các khoảng cách giữa các từ ra cực rộng gây mất thẩm mỹ nghiêm trọng. Hãy dùng câu chữ sư phạm thông thường (*"Kế hoạch dạy học môn Tin học Khối 10 năm học 2026–2027 của Trường THPT Thuận Hoá"*), tuyệt đối không chèn trực tiếp tên file nội bộ vào bài nộp in.
@@ -262,6 +264,7 @@ Dưới đây là quy chuẩn bắt buộc cho từng phần của KHBD đúc k�
 2. **Quy tắc Bộ đôi Hồ sơ Dạy thật (`Day_that/`):**
    - Mỗi tiết đứng lớp giảng dạy thật cần xuất đồng bộ 02 tệp: `01_KHBD_...docx` (hồ sơ chuẩn 5512 nộp GVHD) và `02_Kich_ban_len_lop_chi_tiet_vui_nhon_...docx` (cẩm nang cầm tay từng phút gồm Checklist reset công cụ phần mềm trước giờ, sơ đồ bảng phấn 3 phần, lời thoại vui nhộn, liên hệ bài cũ + ứng dụng thực tế/AI và bảng cứu hộ sự cố 3 giây).
 3. **Các bẫy XML bổ sung trong `docx_engine_5512.py` cần kiểm tra tự động:**
-   - **Tuyệt đối không lồng `` `...` `` bên trong `**...**` hoặc `*...*`**, và **không trải `**...**` qua `\n`** trong ô bảng vì parser sẽ làm lộ ký tự `` ` `` hoặc `**` thô. Chạy kiểm tra hậu kỳ `re.search(r'[`$\u200b\ufffd]|\*\*|\\rightarrow|\§', text)` trên `word/document.xml`.
+   - **Tuyệt đối không lồng `` `...` `` bên trong `**...**` hoặc `*...*`**, **không trải `**...**` qua `\n`** trong ô bảng vì parser sẽ làm lộ ký tự `` ` `` hoặc `**` thô, và **không dùng ký hiệu mũi tên `->` hoặc `→`** trong văn bản Word. Chạy kiểm tra hậu kỳ `re.search(r'[`$\u200b\ufffd]|\*\*|\\rightarrow|\§|->|→', text)` trên `word/document.xml`.
+   - **Ghi vào Mục tiêu thì phải đưa vào Phụ lục:** Mọi văn bản pháp quy / chương trình / PPCT viện dẫn ở Mục I phải có bảng trích lục đính kèm tại Mục `IV. PHỤ LỤC`.
    - **Ngăn tiêu đề bảng đứng mồ côi & xé bảng:** Gắn `<w:keepNext/>` cho các đoạn thuộc hàng tiêu đề (`idx_r == 0` khi bảng có > 1 hàng và không phải trang bìa); chỉ gắn `<w:cantSplit/>` cho hàng tiêu đề hoặc hàng ngắn (`< 550` ký tự), gỡ `cantSplit` ở hàng hoạt động dài để tránh để lại khoảng trắng nửa trang.
    - **Giữ Trang bìa 1 trang khi nhãn cột trái dài:** Rút gọn nhãn hàng 1 trang bìa thành `'Giáo viên'` nếu cần để dòng địa danh cuối bìa không nhảy sang đầu Trang 2.

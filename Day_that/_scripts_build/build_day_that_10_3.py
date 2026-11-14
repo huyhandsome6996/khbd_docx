@@ -191,7 +191,7 @@ def clean_and_validate_docx(body, out_path, used_figures=None, is_khbd=True):
     with zipfile.ZipFile(out_path) as archive:
         root = LX.fromstring(archive.read('word/document.xml'))
         text = ' '.join(root.xpath('//w:t/text()', namespaces=ns))
-        bad = re.search(r'[`$\u200b\ufffd]|\*\*|\\rightarrow|\§', text)
+        bad = re.search(r'[`$\u200b\ufffd]|\*\*|\\rightarrow|\§|->|→', text)
         if bad:
             raise ValueError(f'{out_path.name}: phát hiện ký tự thô {bad.group()}')
         for req in ('10/3', 'H.I.5', '16/11/2026', SV_NAME, GV_NAME):
@@ -229,7 +229,7 @@ def build_khbd_day_that():
 
     # I. MỤC TIÊU
     eng.add(b, 'I. MỤC TIÊU', 'heading')
-    eng.add(b, 'Căn cứ Yêu cầu cần đạt Chương trình GDPT 2018 môn Tin học (Thông tư số 32/2018/TT-BGDĐT), lớp 10, Chủ đề E và Kế hoạch dạy học môn Tin học Khối 10 Trường THPT Thuận Hoá (Tiết PPCT 19 – Mục 4.13. Bổ sung các đối tượng đồ họa, tiết 1 - LT), phù hợp điều kiện phòng học lí thuyết `H.I.5` (không có máy tính học sinh):')
+    eng.add(b, 'Căn cứ Yêu cầu cần đạt Chương trình Giáo dục phổ thông 2018 môn Tin học (Thông tư số 32/2018/TT-BGDĐT), lớp 10, Chủ đề E, khung Năng lực số (Thông tư số 02/2025/TT-BGDĐT) và Kế hoạch dạy học môn Tin học Khối 10 năm học 2026–2027 của Trường THPT Thuận Hoá (Tiết PPCT 19 – Mục 4.13. Bổ sung các đối tượng đồ họa, tiết 1 - LT; chi tiết trích lục đính kèm tại Phụ lục 1, Mục IV. PHỤ LỤC), phù hợp điều kiện phòng học lí thuyết (không có máy tính học sinh):')
 
     eng.add(b, '1. Về kiến thức', 'sub')
     eng.add(b, 'Sau tiết học này, học sinh đạt được các yêu cầu về kiến thức (ký hiệu `[KT1]` – `[KT3]`):', keep=True)
@@ -270,9 +270,9 @@ def build_khbd_day_that():
     # II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU
     eng.add(b, 'II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU', 'heading')
     for item in [
-        '**Thiết bị dạy học:** Máy tính giáo viên cài sẵn phần mềm **`Inkscape`** (đã đặt lại chế độ tô màu mặc định `Opacity = 100%`, mở sẵn hộp thoại `Fill and Stroke`), máy chiếu tại phòng học `H.I.5`, bảng viết, phấn.',
+        '**Thiết bị dạy học:** Máy tính giáo viên cài sẵn phần mềm **`Inkscape`** (đã đặt lại chế độ tô màu mặc định `Opacity = 100%`, mở sẵn hộp thoại `Fill and Stroke`), máy chiếu tại lớp học, bảng viết, phấn.',
         '**Học liệu chuẩn (SGK):** *Sách giáo khoa Tin học 10 – Bộ sách Kết nối tri thức với cuộc sống (NXB Giáo dục Việt Nam)*, **Bài 13: Bổ sung các đối tượng đồ hoạ** (trang 69–74).',
-        '**Tệp trình chiếu & minh hoạ của giáo viên:** Bộ câu hỏi hỏi-đáp tra cứu SGK và câu hỏi trắc nghiệm hiển thị trực tiếp trên màn chiếu (sử dụng ngay SGK học sinh mang theo, không phát phiếu giấy rời gây mất thời gian); tệp `mau_bai13.svg` chuẩn bị sẵn để giáo viên thao tác thị phạm trực tiếp trên `Inkscape`.'
+        '**Tệp trình chiếu & minh hoạ của giáo viên:** Bộ câu hỏi hỏi-đáp tra cứu SGK và câu hỏi trắc nghiệm hiển thị trực tiếp trên màn chiếu (sử dụng ngay SGK học sinh mang theo, không phát phiếu giấy rời gây mất thời gian; hệ thống câu hỏi và trích lục căn cứ đính kèm tại Phụ lục 1, Phụ lục 2, Phụ lục 3 ở Mục IV. PHỤ LỤC); tệp `mau_bai13.svg` chuẩn bị sẵn để giáo viên thao tác thị phạm trực tiếp trên `Inkscape`.'
     ]:
         eng.add(b, item, 'bullet')
 
@@ -296,7 +296,7 @@ def build_khbd_day_that():
     eng.add(b, '**b) Nội dung:** Giáo viên chiếu **Hình 13.1 (Miếng dưa hấu – SGK trang 69)** và đặt hai câu hỏi trực quan dễ trả lời cho cả lớp quan sát:', first=0, keep=True)
     eng.add_figure(b, 'hinh_13_1_2_dua_hau_thuoc_tinh.png')
     eng.add(b, '**c) Sản phẩm:** Câu trả lời miệng của học sinh nêu đúng màu sắc/hình khối và thứ tự 4 lớp từ dưới lên của miếng dưa hấu.', first=0)
-    eng.add(b, '**Công cụ đánh giá:** `CCĐG 1` *(Bảng kiểm vấn đáp ngắn – Phụ lục 1)*.', first=0, keep=True)
+    eng.add(b, '**Công cụ đánh giá:** `CCĐG 1` *(Bảng kiểm vấn đáp ngắn – Phụ lục 2)*.', first=0, keep=True)
     eng.add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     hd1_rows = [
         ['HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH', 'SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI)'],
@@ -316,7 +316,7 @@ def build_khbd_day_that():
             '  + 03 nửa hình tròn kích thước giảm dần (vỏ xanh đậm, cùi trắng/xanh nhạt, ruột đỏ).\n'
             '  + Các hình giọt nước/elip nhỏ màu đen (hạt dưa).\n'
             '- **Thứ tự 4 lớp (từ dưới lên trên):**\n'
-            '  1. Vỏ xanh (lớp dưới cùng) -> 2. Cùi trắng -> 3. Ruột đỏ -> 4. Hạt đen (lớp trên cùng).'
+            '  1. Vỏ xanh (lớp dưới cùng), tiếp đến 2. Cùi trắng, tiếp theo 3. Ruột đỏ và trên cùng là 4. Hạt đen (lớp trên cùng).'
         ]
     ]
     b.append(eng.table(hd1_rows, [4650, 4421], header=True, cell_sz=22))
@@ -330,7 +330,7 @@ def build_khbd_day_that():
     eng.add(b, '**b) Nội dung:** Giáo viên chiếu **Hình 13.2** và **Bảng thuộc tính trang 69–70 SGK**, yêu cầu học sinh đọc bảng trong sách giáo khoa để trả lời nhanh 03 câu hỏi trọng tâm:', first=0, keep=True)
     eng.add_figure(b, 'bang_13_1_thuoc_tinh_hinh_khoi.png')
     eng.add(b, '**c) Sản phẩm:** Học sinh tìm đúng từ khoá thuộc tính trong bảng SGK và ghi tóm tắt vào vở.', first=0)
-    eng.add(b, '**Công cụ đánh giá:** `CCĐG 2` *(Câu hỏi tra bảng SGK tr. 69–70 – Phụ lục 1)*.', first=0, keep=True)
+    eng.add(b, '**Công cụ đánh giá:** `CCĐG 2` *(Câu hỏi tra bảng SGK tr. 69–70 – Phụ lục 2)*.', first=0, keep=True)
     eng.add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     nv1_rows = [
         ['HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH', 'SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI)'],
@@ -364,7 +364,7 @@ def build_khbd_day_that():
     eng.add(b, '**b) Nội dung:** Học sinh quan sát **Hình 13.3, Hình 13.4 (SGK trang 70)** và tham gia chọn đáp án nhanh cho 02 câu trắc nghiệm cuối mục ở trang 71:', first=0, keep=True)
     eng.add_figure(b, 'hinh_13_3_4_fill_stroke.png')
     eng.add(b, '**c) Sản phẩm:** Học sinh phân biệt được `Fill` – `Stroke`, ý nghĩa `Opacity` và giơ tay chọn đúng đáp án `C` và `B` ở trang 71.', first=0)
-    eng.add(b, '**Công cụ đánh giá:** `CCĐG 3` *(02 câu trắc nghiệm nhanh trang 71 – Phụ lục 1)*.', first=0, keep=True)
+    eng.add(b, '**Công cụ đánh giá:** `CCĐG 3` *(02 câu trắc nghiệm nhanh trang 71 – Phụ lục 2)*.', first=0, keep=True)
     eng.add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     nv2_rows = [
         ['HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH', 'SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI)'],
@@ -401,13 +401,13 @@ def build_khbd_day_that():
     eng.add_figure(b, 'hinh_13_6_cac_phep_ghep_hinh.png')
     eng.add_figure(b, 'hinh_13_7_8_dam_may_logo.png')
     eng.add(b, '**c) Sản phẩm:** Học sinh phân biệt đúng 6 phép ghép ở Hình 13.6, nêu được cách ghép đám mây Hình 13.7 và quy tắc "hình dưới bị hình trên cắt".', first=0)
-    eng.add(b, '**Công cụ đánh giá:** `CCĐG 4` *(Bài tập nhận diện hình kết quả Hình 13.6 & Câu hỏi đám mây tr. 72 – Phụ lục 1)*.', first=0, keep=True)
+    eng.add(b, '**Công cụ đánh giá:** `CCĐG 4` *(Bài tập nhận diện hình kết quả Hình 13.6 & Câu hỏi đám mây tr. 72 – Phụ lục 2)*.', first=0, keep=True)
     eng.add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     nv3_rows = [
         ['HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH', 'SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI)'],
         [
             '**Bước 1. Giáo viên chuyển giao nhiệm vụ học tập**\n'
-            '- Giáo viên chiếu Hình 13.5 (2 hình tròn + 1 hình vuông -> trái tim) và Hình 13.6 (SGK tr. 72) với 1 hình vuông (lớp dưới) + 1 hình tròn (lớp trên), giao bài tập cực nhanh theo cặp bàn (02 phút):\n'
+            '- Giáo viên chiếu Hình 13.5 (2 hình tròn và 1 hình vuông ghép thành trái tim) và Hình 13.6 (SGK tr. 72) với 1 hình vuông (lớp dưới) + 1 hình tròn (lớp trên), giao bài tập cực nhanh theo cặp bàn (02 phút):\n'
             '  + Câu hỏi 1: Quan sát Hình 13.6 trong SGK trang 72, hãy chỉ ra phép nào gộp hết hai hình (`Union`), phép nào lấy hình vuông bị hình tròn khoét mất một miếng (`Difference`), và phép nào chỉ lấy phần chung ở giữa (`Intersection`)?\n'
             '  + Câu hỏi 2 (SGK tr. 72): Để vẽ đám mây Hình 13.7 từ nhiều hình tròn chồng lên nhau, ta chọn phép ghép nào trong 6 phép trên?\n'
             '**Bước 2. Học sinh thực hiện nhiệm vụ**\n'
@@ -417,7 +417,7 @@ def build_khbd_day_that():
             '**Bước 4. Đánh giá, nhận xét**\n'
             '- Giáo viên đánh giá theo `CCĐG 4`, **demo trực tiếp trên Inkscape (01 phút)**: gộp 4 hình tròn bằng `Path / Union` thành đám mây Hình 13.7 và dùng `Path / Difference` cắt hình vuông bằng hình tròn (liên hệ ngay Logo quả táo cắn dở Apple và máy cắt Laser/AI Vector `.svg` để mở rộng hứng thú). Nhấn mạnh quy tắc: Trong `Difference`, `Division`, `Cut Path`, **hình lớp dưới luôn bị hình lớp trên cắt**.',
             '**3. Các phép ghép đối tượng trong bảng chọn Path (SGK tr. 71–72)**\n'
-            '- **Cách thực hiện:** Chọn từ 2 đối tượng trở lên -> Mở bảng chọn **`Path`** -> Chọn phép ghép:\n'
+            '- **Cách thực hiện:** Chọn từ 2 đối tượng trở lên, mở bảng chọn **`Path`** rồi chọn phép ghép:\n'
             '  1. **Phép hợp (Union, Ctrl + +):** Gộp tất cả thành một hình duy nhất (dùng ghép hình trái tim H.13.5 và **đám mây H.13.7**).\n'
             '  2. **Phép hiệu (Difference, Ctrl + -):** Lấy **hình lớp dưới** trừ phần giao với **hình lớp trên**.\n'
             '  3. **Phép giao (Intersection, Ctrl + *):** Chỉ lấy phần giao nhau của các hình.\n'
@@ -435,7 +435,7 @@ def build_khbd_day_that():
     eng.add(b, '**b) Nội dung:** Giáo viên tổ chức hoạt động nhanh **"Nhìn hình đoán lệnh"** qua **Hình 13.14, Hình 13.15, Hình 13.16 (SGK trang 74)** trên màn chiếu:', first=0, keep=True)
     eng.add_figure(b, 'hinh_13_14_15_16_luyen_tap.png')
     eng.add(b, '**c) Sản phẩm:** Học sinh nêu đúng 1–2 từ khoá công cụ/thuộc tính/phép ghép cho từng hình (không yêu cầu hoàn chỉnh quy trình phức tạp).', first=0)
-    eng.add(b, '**Công cụ đánh giá:** `CCĐG 5` *(Rubric 6 cột quan sát vấn đáp Luyện tập & Vận dụng – Phụ lục 2)*.', first=0, keep=True)
+    eng.add(b, '**Công cụ đánh giá:** `CCĐG 5` *(Rubric 6 cột quan sát vấn đáp Luyện tập & Vận dụng – Phụ lục 3)*.', first=0, keep=True)
     eng.add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     hd3_rows = [
         ['HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH', 'SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI)'],
@@ -450,7 +450,7 @@ def build_khbd_day_that():
             '**Bước 3. Báo cáo sản phẩm**\n'
             '- Giáo viên gọi 03 học sinh xung phong (hoặc gọi ngẫu nhiên trả lời từng hình một); lớp nhận xét.\n'
             '**Bước 4. Đánh giá, nhận xét**\n'
-            '- Giáo viên đánh giá theo Rubric `CCĐG 5` (Phụ lục 2) và biểu diễn nhanh thao tác tạo bông hoa Hình 13.14 trên Inkscape (30 giây) để chốt đáp án.',
+            '- Giáo viên đánh giá theo Rubric `CCĐG 5` (Phụ lục 3) và biểu diễn nhanh thao tác tạo bông hoa Hình 13.14 trên Inkscape (30 giây) để chốt đáp án.',
             '**Giải nhanh 3 hình Luyện tập (SGK tr. 74):**\n'
             '- **Hình 13.14 (Bông hoa):** Công cụ Hình sao (`Corners = 10`), tăng **`Rounded`** để bo tròn cánh + thêm **1 hình tròn vàng** ở lớp trên làm nhụy.\n'
             '- **Hình 13.15:** Tán trên dùng **`Path / Union`** (ghép 1 hình vuông xoay 45 độ + 2 hình tròn); chân đế dùng **`Path / Difference`** khoét 2 bên hình chữ nhật; cuối cùng dùng **`Path / Union`** gộp lại.\n'
@@ -464,7 +464,7 @@ def build_khbd_day_that():
     eng.add(b, '**a) Mục tiêu:** `[KT1]`, `[KT2]`, `[KT3]`, `[NLC3]`, `[NLc]`, `[PC1]` – Học sinh tự ghép nối lại toàn bộ kiến thức bài học để trả lời câu hỏi Vận dụng 1 (vẽ Miếng dưa hấu Hình 13.1 đầu giờ) và nắm nhiệm vụ cho Tiết 2 Thực hành.', first=0)
     eng.add(b, '**b) Nội dung:** Giáo viên quay lại **Hình 13.1 (Miếng dưa hấu)** ở Hoạt động Mở đầu và đặt câu hỏi tổng kết bài học (Vận dụng 1 SGK trang 74).', first=0)
     eng.add(b, '**c) Sản phẩm:** Học sinh nêu miệng được 3 ý chính để vẽ miếng dưa hấu bằng `Start = 0, End = 180` và xem giáo viên thực hiện trực tiếp trên `Inkscape`.', first=0)
-    eng.add(b, '**Công cụ đánh giá:** `CCĐG 5` *(Rubric quan sát vấn đáp – Phụ lục 2)*.', first=0, keep=True)
+    eng.add(b, '**Công cụ đánh giá:** `CCĐG 5` *(Rubric quan sát vấn đáp – Phụ lục 3)*.', first=0, keep=True)
     eng.add(b, '**d) Tổ chức thực hiện:**', first=0, keep=True)
     hd4_rows = [
         ['HOẠT ĐỘNG CỦA GIÁO VIÊN VÀ HỌC SINH', 'SẢN PHẨM DỰ KIẾN (NỘI DUNG GHI BÀI)'],
@@ -486,13 +486,29 @@ def build_khbd_day_that():
     b.append(eng.table(hd4_rows, [4650, 4421], header=True, cell_sz=22))
 
     # IV. PHỤ LỤC
-    eng.add(b, 'IV. PHỤ LỤC (HỆ THỐNG CÂU HỎI ĐÁNH GIÁ TRỰC QUAN TẠI LỚP)', 'heading')
-    eng.add(b, 'Phụ lục 1. Hệ thống câu hỏi vấn đáp tra bảng SGK và Trắc nghiệm chiếu màn hình (CCĐG 1 – CCĐG 4)', 'sub')
+    eng.add(b, 'IV. PHỤ LỤC (TRÍCH LỤC CĂN CỨ CHƯƠNG TRÌNH, PHÂN PHỐI CHƯƠNG TRÌNH VÀ CÔNG CỤ ĐÁNH GIÁ)', 'heading')
+
+    eng.add(b, 'Phụ lục 1. Trích lục Yêu cầu cần đạt Chương trình GDPT 2018, Thông tư 02/2025/TT-BGDĐT và Phân phối chương trình Khối 10', 'sub')
+    can_cu_rows = [
+        ['Văn bản căn cứ được viện dẫn ở Mục I', 'Nội dung trích lục nguyên văn áp dụng cho Bài 13 (Tiết 1 – Lí thuyết / Tiết PPCT: 19)'],
+        ['**1. Chương trình GDPT 2018 môn Tin học**\n*(Thông tư số 32/2018/TT-BGDĐT, Lớp 10, Chủ đề E. Ứng dụng tin học – Phần mềm thiết kế đồ hoạ, định hướng ICT)*',
+         '- **Yêu cầu cần đạt 1:** *"Sử dụng được một số chức năng cơ bản của phần mềm thiết kế đồ hoạ."*\n'
+         '- **Yêu cầu cần đạt 2:** *"Tạo được sản phẩm số đơn giản, hữu ích và thực tế như thiết kế logo, tạo banner, topic quảng cáo, băng-rôn, áp phích, poster và thiệp chúc mừng,…"*'],
+        ['**2. Khung năng lực số cho người học**\n*(Thông tư số 02/2025/TT-BGDĐT)*',
+         '- **Mã năng lực số `[NLS 3.2.NC1.a]` (Tích hợp và tạo lập lại nội dung số):** Nhận biết và hiểu được cách tinh chỉnh thuộc tính, màu sắc, độ trong suốt và kết hợp các đối tượng đồ hoạ số (vectơ) để hình thành sản phẩm mới.'],
+        ['**3. Kế hoạch dạy học môn Tin học Khối 10**\n*(Phân phối chương trình năm học 2026–2027 của Tổ Tin học – Trường THPT Thuận Hoá)*',
+         '- **Tiết PPCT 19 (Học kì I):** `Mục 4.13. Bổ sung các đối tượng đồ họa (tiết 1 - LT)` – Thời lượng: 01 tiết (45 phút). Nội dung trọng tâm theo SGK Tin học 10 (KNTT, trang 69–74): (1) Các đối tượng hình khối và thuộc tính cơ bản; (2) Thiết lập màu tô, màu vẽ và hộp thoại `Fill and Stroke`; (3) Các phép ghép đối tượng trong bảng chọn `Path`; Luyện tập & Vận dụng lí thuyết.\n'
+         '- **Tiết PPCT 20 (Học kì I):** `Mục 4.13. Bổ sung các đối tượng đồ họa (tiết 2 - TH)` – Thời lượng: 01 tiết (45 phút). Học sinh thực hành tại phòng máy 03 bài trong SGK trang 72–74 (Logo 3 cánh, Hình cây xanh, Hình cầu 3D) và hoàn thiện sản phẩm `.svg`.']
+    ]
+    b.append(eng.table(can_cu_rows, [3150, 5921], header=True, cell_sz=21))
+    eng.add(b, '', first=0)
+
+    eng.add(b, 'Phụ lục 2. Hệ thống câu hỏi vấn đáp tra bảng SGK và Trắc nghiệm chiếu màn hình (CCĐG 1 – CCĐG 4)', 'sub')
     pl1_rows = [
         ['Công cụ đánh giá', 'Câu hỏi / Yêu cầu thực hiện trực tiếp tại lớp (Không phát giấy)', 'Đáp án chuẩn & Tiêu chí đạt'],
         ['**CCĐG 1**\n(Hoạt động 1:\nMở đầu)',
          '- Quan sát Hình 13.1 (tr. 69): Kể tên các hình/màu và lớp nằm dưới cùng, trên cùng.',
-         '- Nêu đúng 3 nửa hình tròn (vỏ xanh dưới cùng -> cùi trắng -> ruột đỏ) + hạt đen (lớp trên cùng) *(Đạt / Chưa đạt)*.'],
+         '- Nêu đúng 3 nửa hình tròn (vỏ xanh dưới cùng, đến cùi trắng, tiếp đến ruột đỏ) và hạt đen ở lớp trên cùng *(Đạt / Chưa đạt)*.'],
         ['**CCĐG 2**\n(Nhiệm vụ 2.1:\nThuộc tính)',
          '- Tra bảng SGK tr. 69–70: (1) Bo góc hình chữ nhật dùng thông số nào? (2) Vẽ nửa hình tròn chỉnh góc nào? (3) Câu hỏi tr. 70: Làm cong đỉnh ngôi sao chỉnh tham số nào?',
          '- Trả lời đúng 3 từ khoá: (1) `Rx, Ry`; (2) `Start = 0, End = 180`; (3) `Rounded` *(Đạt từ 2/3 ý trở lên)*.'],
@@ -505,11 +521,11 @@ def build_khbd_day_that():
     ]
     b.append(eng.table(pl1_rows, [1600, 4200, 3271], header=True, cell_sz=21))
 
-    eng.add(b, 'Phụ lục 2. Công cụ đánh giá CCĐG 5 – Rubric quan sát trả lời nhanh Hoạt động Luyện tập & Vận dụng', 'sub')
+    eng.add(b, 'Phụ lục 3. Công cụ đánh giá CCĐG 5 – Rubric quan sát trả lời nhanh Hoạt động Luyện tập & Vận dụng', 'sub')
     rubric_info = [
         ['THÔNG TIN HÀNH CHÍNH CÔNG CỤ ĐÁNH GIÁ (CCĐG 5)', 'NỘI DUNG CHI TIẾT'],
         ['Tên bài dạy & Tiết PPCT', 'Bài 13. Bổ sung các đối tượng đồ hoạ (Tiết 1 - Lí thuyết / Tiết PPCT: 19)'],
-        ['Lớp giảng dạy & Phòng học', 'Lớp 10/3 – Trường THPT Thuận Hoá (Phòng H.I.5 – Thứ Hai 16/11/2026)'],
+        ['Lớp giảng dạy & Thời gian', 'Lớp 10/3 – Trường THPT Thuận Hoá (Thứ Hai, ngày 16/11/2026)'],
         ['Giáo viên hướng dẫn & SVTT', 'GVHD: Thầy Mai Xuân Văn – Sinh viên thực hiện: Hồ Quang Huy (24S1020030)'],
         ['Hình thức đánh giá thực tế', 'Giáo viên gọi tên, quan sát câu trả lời miệng trực tiếp tại lớp qua màn chiếu & SGK']
     ]
@@ -589,7 +605,7 @@ def build_kich_ban_vui_nhon():
             '3. Ghép/Cắt hình (Path)',
             '**1. Đối tượng hình khối & thuộc tính (tr. 69-70)**\n'
             '- Chữ nhật: `W, H`, `Rx, Ry` (bo góc)\n'
-            '- Tròn: `Start, End` (`0 -> 180`: nửa tròn)\n'
+            '- Tròn: `Start, End` (từ `0 đến 180`: nửa tròn)\n'
             '- Sao/Đa giác: `Corners` (cánh), `Rounded` (cong)\n\n'
             '**2. Màu tô, màu vẽ – Fill and Stroke (Shift+Ctrl+F)**\n'
             '- `Fill`: Màu nền (`Flat`, `Linear/Radial gradient`)\n'
@@ -601,8 +617,8 @@ def build_kich_ban_vui_nhon():
             '- `Intersection` (`Ctrl + *`): Giao (phần chung)\n'
             '- `Exclusion`, `Division`, `Cut Path` (SGK tr. 72)',
             '**Mẹo nhớ Bài 12:**\n'
-            '- Vẽ trước -> Nằm DƯỚI\n'
-            '- Vẽ sau -> Nằm TRÊN\n\n'
+            '- Vẽ trước thì nằm DƯỚI\n'
+            '- Vẽ sau thì nằm TRÊN\n\n'
             '**Nháp đáp án tr. 71:**\n'
             'Câu 1: C (`Stroke style`)\n'
             'Câu 2: B (cây bút)\n\n'
@@ -649,9 +665,9 @@ def build_kich_ban_vui_nhon():
 
     eng.add(b, '4. Nắm nhanh 03 bài Thực hành SGK trang 72–74 (Để tự tin dặn dò chuẩn bị Tiết 2)', 'sub')
     for item in [
-        '**Nhiệm vụ 1 – Logo 3 cánh (H.13.8–13.9, tr. 72–73):** Vẽ hình tròn -> kéo nút tạo cung hở và bấm nút **Arc** -> vào `Stroke style` tăng độ dày `Width` -> `Ctrl + D` nhân 3 bản xoay ghép khít -> tô `Stroke paint` màu đỏ đậm.',
-        '**Nhiệm vụ 2 – Hình cây xanh (H.13.10–13.11, tr. 73):** Xếp 3 hình tròn làm tán -> đặt hình chữ nhật (dưới) và 2 hình tròn (trên), bấm `Path / Difference` **từng cặp 2 hình một** để khoét eo thân cây -> quét cả tán và thân bấm `Path / Union` -> tô màu xanh lá.',
-        '**Nhiệm vụ 3 – Hình cầu 3D (H.13.12–13.13, tr. 73–74):** Tắt viền cả 3 hình (`Stroke = X`); vẽ chữ nhật nền vàng + hình tròn to đen tô **`Linear gradient`** chéo sáng tối + hình tròn nhỏ trắng lệch góc trên phải tô **`Radial gradient`** tạo quầng sáng phản chiếu.'
+        '**Nhiệm vụ 1 – Logo 3 cánh (H.13.8–13.9, tr. 72–73):** Vẽ hình tròn, kéo nút tạo cung hở và bấm nút **Arc**, sau đó mở thẻ `Stroke style` tăng độ dày `Width`, nhấn `Ctrl + D` nhân 3 bản xoay ghép khít rồi tô `Stroke paint` màu đỏ đậm.',
+        '**Nhiệm vụ 2 – Hình cây xanh (H.13.10–13.11, tr. 73):** Xếp 3 hình tròn làm tán, đặt hình chữ nhật (dưới) và 2 hình tròn (trên), vào `Path` chọn `Difference` **từng cặp 2 hình một** để khoét eo thân cây, rồi quét cả tán và thân vào `Path` chọn `Union` và tô màu xanh lá.',
+        '**Nhiệm vụ 3 – Hình cầu 3D (H.13.12–13.13, tr. 73–74):** Tắt viền cả 3 hình (`Stroke = X`); vẽ chữ nhật nền vàng, hình tròn to đen tô **`Linear gradient`** chéo sáng tối và hình tròn nhỏ trắng lệch góc trên phải tô **`Radial gradient`** tạo quầng sáng phản chiếu.'
     ]:
         eng.add(b, item, 'bullet')
 
@@ -689,7 +705,7 @@ def build_kich_ban_vui_nhon():
             '- *(HS trả lời xong)*: *"Chuẩn rồi! Giờ nhớ lại Bài 12: Hình vẽ trước nằm dưới, vẽ sau nằm trên, giống như ly trà sữa trân châu bỏ vào trước nằm đáy. Vậy vỏ xanh nằm đáy (lớp 1) hay hạt đen nằm đáy?"*\n'
             '- *(Chốt vào bài)*: *"Bài 12 mình mới vẽ được cả cái bánh pizza hình tròn chứ chưa biết xẻ nửa ra làm miếng dưa hấu. Hôm nay Bài 13 sẽ dạy cách chỉnh góc, tô màu 3D và cắt ghép hình!"*',
             '- **Thao tác Inkscape (mau_bai13.svg – Khu vực 1 bên trái):** Kéo thử từng lớp của miếng dưa hấu mẫu (vỏ xanh, cùi trắng, ruột đỏ, hạt đen) ra cho cả lớp cười ồ thấy rõ lớp dưới/trên, xong nhấn `Ctrl + Z` trả về chỗ cũ. Ghi tựa Bài 13 lên bảng.\n'
-            '- **Chữa cháy nếu lớp im re:** Cười tươi hỏi trắc nghiệm bằng miệng luôn: *"Đố nha: lớp hạt đen nằm dưới lớp ruột đỏ hay trên lớp ruột đỏ? Nếu hạt nằm dưới thì mình có thấy cái hạt nào không?"* -> Cả lớp tự khắc đồng thanh đáp "Trên!".'
+            '- **Chữa cháy nếu lớp im re:** Cười tươi hỏi trắc nghiệm bằng miệng luôn: *"Đố nha: lớp hạt đen nằm dưới lớp ruột đỏ hay trên lớp ruột đỏ? Nếu hạt nằm dưới thì mình có thấy cái hạt nào không?"* Khi đó cả lớp tự khắc đồng thanh đáp "Trên!".'
         ]
     ]
     b.append(eng.table(c1_rows, [4650, 4421], header=True, cell_sz=22))
@@ -700,16 +716,16 @@ def build_kich_ban_vui_nhon():
     c2a_rows = [
         ['MÌNH NÓI GÌ? (Lời thoại tự nhiên, vui nhộn)', 'TAY BẤM GÌ (mau_bai13.svg) & CHỮA CHÁY KHI LỚP IM RE'],
         [
-            '- *"Nhìn 4 hình màu đỏ ở Hình 13.2 trang 69: Nhìn khác hẳn nhau vậy nhưng sinh ra từ CÙNG MỘT MẸ là một công cụ ở Bài 12! Đố các bạn là công cụ nào trong 3 hình: Chữ nhật, Hình tròn hay Hình sao?"* -> Gọi 1 HS trả lời (Hình sao!).\n'
+            '- *"Nhìn 4 hình màu đỏ ở Hình 13.2 trang 69: Nhìn khác hẳn nhau vậy nhưng sinh ra từ CÙNG MỘT MẸ là một công cụ ở Bài 12! Đố các bạn là công cụ nào trong 3 hình: Chữ nhật, Hình tròn hay Hình sao?"*, sau đó gọi 1 HS trả lời (Hình sao!).\n'
             '- *"Chính xác! Giờ cho cả lớp 2 phút rà mắt vào Bảng thuộc tính trang 69–70 SGK, không cần học thuộc lòng, chỉ cần nhìn sách đọc to cho thầy đúng 3 mật mã sau:*\n'
             '  *1. Điện thoại iPhone bo tròn góc, còn gạch thẻ vuông góc: muốn bo 4 góc hình chữ nhật chỉnh chữ cái nào?* (`Rx, Ry`)\n'
             '  *2. Muốn xẻ nửa hình tròn thành miếng dưa hấu chỉnh Start và End bao nhiêu độ?* (`0` và `180`)\n'
             '  *3. Câu hỏi trang 70 SGK: Cho ngôi sao 5 cánh nhọn đi spa mài cong các đỉnh thành cánh hoa thì chỉnh tham số nào?* (`Rounded`)\n'
             '- *"Nói suông sợ chưa tin, nhìn máy chiếu thầy bấm phép biến hình trong 30 giây nè!"*',
             '- **Thao tác Inkscape (mau_bai13.svg – Khu vực 2):**\n'
-            '  1. Nháy đúp vào **Hình chữ nhật xanh**, gõ `Rx = 25` -> `Enter`: bo tròn 4 góc ngay!\n'
-            '  2. Nháy đúp vào **Hình tròn cam**, gõ `Start = 0`, `End = 180` -> `Enter`: xẻ ngay nửa hình tròn!\n'
-            '  3. Nháy đúp vào **Ngôi sao đỏ**, sửa `Rounded = 0.25` -> `Enter`: biến ngay thành bông hoa 5 cánh bầu bĩnh!\n'
+            '  1. Nháy đúp vào **Hình chữ nhật xanh**, gõ `Rx = 25` rồi nhấn `Enter`: bo tròn 4 góc ngay!\n'
+            '  2. Nháy đúp vào **Hình tròn cam**, gõ `Start = 0`, `End = 180` rồi nhấn `Enter`: xẻ ngay nửa hình tròn!\n'
+            '  3. Nháy đúp vào **Ngôi sao đỏ**, sửa `Rounded = 0.25` rồi nhấn `Enter`: biến ngay thành bông hoa 5 cánh bầu bĩnh!\n'
             '- **Chữa cháy:** Nếu HS đọc sai tên tiếng Anh `Rx, Ry` hay `Rounded`, cười bảo *"Đọc theo kiểu phiên âm Việt hoá cũng tính điểm, miễn chỉ đúng dòng trong SGK trang 70!"* rồi ghi chữ chuẩn lên bảng.'
         ]
     ]
@@ -726,7 +742,7 @@ def build_kich_ban_vui_nhon():
             '- *"Hãy nhớ: Fill là màu áo, Stroke paint là màu chỉ may viền, Stroke style là độ dày chỉ may hay nét đứt. Còn Opacity giống như đeo kính râm, kéo xuống là nhìn xuyên thấu qua lớp dưới!"*\n'
             '- *"Giờ cả lớp bình chọn bằng ngón tay nha (1 ngón = A, 2 = B, 3 = C, 4 = D) cho 2 câu trắc nghiệm SGK trang 71!"*',
             '- **Thao tác Inkscape (mau_bai13.svg – Khu vực 3):**\n'
-            '  + Hộp thoại `Fill and Stroke` đã mở sẵn bên phải: bấm vào **Hình tròn xanh**, chọn tab `Fill` bấm nút **`Radial gradient`** (nút thứ 4) -> biến thành quả bóng 3D!\n'
+            '  + Hộp thoại `Fill and Stroke` đã mở sẵn bên phải: bấm vào **Hình tròn xanh**, chọn tab `Fill`, bấm nút **`Radial gradient`** (nút thứ 4) sẽ biến ngay thành quả bóng 3D!\n'
             '  + Chuyển tab `Stroke style`, bấm `Dashes` đổi viền sang nét đứt.\n'
             '  + Bấm **Hình tròn xanh dương** đè trên chữ nhật vàng, kéo thanh `Opacity` xuống `40% – 80%` cho HS thấy nhìn xuyên qua.\n'
             '- **Đáp án tr. 71:** Câu 1 giơ 3 ngón (**C. Stroke style**); Câu 2 giơ 2 ngón (**B** – cây bút).\n'
@@ -751,8 +767,8 @@ def build_kich_ban_vui_nhon():
             '- *(Giới thiệu nhanh 3 phép phụ còn lại trong H.13.6: Exclusion đục lỗ giữa, Division cắt rời giữ màu, Cut Path cắt đứt viền mất màu)*.\n'
             '- Hỏi câu trang 72: *"Vậy muốn ghép nhiều hình tròn thành Đám mây Hình 13.7, chọn phép nào?"* (`Path / Union`!).',
             '- **Thao tác AN TOÀN TUYỆT ĐỐI (mau_bai13.svg – Khu vực 4):**\n'
-            '  + **A (Đám mây):** Quét chọn 3 hình tròn + 1 chữ nhật xanh nhạt, **KHÔNG bấm phím tắt Ctrl + +** (hay kẹt Shift trên laptop), mà bấm thẳng vào menu **`Path -> Union`** cho cả lớp đọc rõ chữ -> Biến ngay thành Đám mây H.13.7!\n'
-            '  + **B & C (Cắt Vuông-Tròn & Logo Apple):** Quét chọn hình vuông đỏ + hình tròn cam (hoặc quả táo đen + hình tròn trắng xám bên cạnh), bấm menu **`Path -> Difference`** -> Táo cắn dở hiện ra ngay lập tức (cả lớp vỗ tay liền)!\n'
+            '  + **A (Đám mây):** Quét chọn 3 hình tròn và 1 chữ nhật xanh nhạt, **KHÔNG bấm phím tắt Ctrl + +** (hay kẹt Shift trên laptop), mà mở thẳng menu **Path chọn Union** cho cả lớp đọc rõ chữ, lập tức biến thành Đám mây H.13.7!\n'
+            '  + **B & C (Cắt Vuông-Tròn & Logo Apple):** Quét chọn hình vuông đỏ với hình tròn cam (hoặc quả táo đen với hình tròn trắng xám bên cạnh), mở menu **Path chọn Difference**, táo cắn dở hiện ra ngay lập tức (cả lớp vỗ tay liền)!\n'
             '- **Chữa cháy:** Nếu bấm `Difference` mà thấy mất hình gốc? Bình tĩnh bấm `Ctrl + Z`, cười giải thích: *"Hình nào vẽ sau nằm trên sẽ đóng vai dao cắt; muốn hình gốc không mất thì bấm phím End cho nó xuống đáy rồi cắt lại!"*.'
         ]
     ]
@@ -770,7 +786,7 @@ def build_kich_ban_vui_nhon():
             '  + *"Hình 13.16 (Chùm bóng bay nhìn xuyên nhau): Đeo kính râm cho quả bóng bằng thông số gì?"* (`Opacity` khoảng 75%–80%!).',
             '- **Thao tác (mau_bai13.svg – Khu vực 5):** Chỉ vào hình mẫu Bông hoa H.13.14 và Chùm bóng bay H.13.16 dựng sẵn ở Khu vực 5 để đối chiếu ngay cho lớp xem (không mất công vẽ lại từ đầu).\n'
             '- Gọi luân phiên 3 bạn ở các dãy bàn khác nhau, khen ngay *"Chuẩn không cần chỉnh!"* để giữ sinh khí vui vẻ cuối giờ.\n'
-            '- **Chữa cháy:** Nếu HS quên từ tiếng Anh của quân Bích (Hình 13.15), chỉ cần gợi *"Trái tim lật ngược hồi nãy mình ghép bằng lệnh gì?"* -> HS nhìn bảng giữa nhớ ngay ra `Union` và `Difference`.'
+            '- **Chữa cháy:** Nếu HS quên từ tiếng Anh của quân Bích (Hình 13.15), chỉ cần gợi *"Trái tim lật ngược hồi nãy mình ghép bằng lệnh gì?"*, khi đó HS nhìn bảng giữa sẽ nhớ ngay ra `Union` và `Difference`.'
         ]
     ]
     b.append(eng.table(c3_rows, [4650, 4421], header=True, cell_sz=22))
@@ -785,7 +801,7 @@ def build_kich_ban_vui_nhon():
             '  2. *"Nhân đôi thu nhỏ thành cùi trắng và ruột đỏ bằng phím tắt gì ở Bài 12?"* (`Ctrl + D` rồi kéo thu nhỏ, đổi màu).\n'
             '  3. *"Hạt dưa màu đen vẽ bằng hình gì và nằm lớp nào?"* (Elip nhỏ màu đen ở lớp trên cùng).\n'
             '- *(Tổng kết & Dặn dò)*: *"Cả lớp hôm nay nắm bài cực chắc! Về nhà xem trước 3 bài thực hành trang 72–74 (Logo 3 cánh, Hình cây xanh, Hình cầu 3D) để Tiết 2 Thực hành làm cho mượt nha. Thầy cảm ơn Thầy Văn và cả lớp!"*',
-            '- **Thao tác chốt hạ (mau_bai13.svg – Khu vực 1 bên phải):** Tận dụng ngay hình tròn xanh đang chờ sẵn ở Khu vực 1: nhấn `E` chỉnh `Start = 0, End = 180` -> `Ctrl + D` thu nhỏ tô trắng -> `Ctrl + D` thu nhỏ tô đỏ -> Rải 2 chấm elip đen: chưa tới 25 giây hiện ngay miếng dưa hấu mới tinh khép lại tiết học cực ấn tượng!\n'
+            '- **Thao tác chốt hạ (mau_bai13.svg – Khu vực 1 bên phải):** Tận dụng ngay hình tròn xanh đang chờ sẵn ở Khu vực 1: nhấn `E`, chỉnh `Start = 0, End = 180`, rồi bấm `Ctrl + D` thu nhỏ tô trắng, tiếp tục `Ctrl + D` thu nhỏ tô đỏ, sau đó rải 2 chấm elip đen: chưa tới 25 giây hiện ngay miếng dưa hấu mới tinh khép lại tiết học cực ấn tượng!\n'
             '- **Lưu ý giờ:** Nếu còn dưới 2 phút mà chuông sắp reo thì không cần vẽ hạt, chỉ bấm cắt nửa hình tròn và `Ctrl + D` 1 lần tô đỏ minh hoạ rồi chốt dặn dò ngay cho kịp giờ.'
         ]
     ]
@@ -796,10 +812,10 @@ def build_kich_ban_vui_nhon():
     rescue_rows = [
         ['Sự cố bất ngờ trên máy chiếu', 'Nguyên nhân', 'Cách xử lý trong 3 giây (Không hoảng!)'],
         ['Vẽ hình ra bị **tàng hình** (chỉ thấy khung chấm nét đứt, không thấy màu)', 'Inkscape nhớ lại lần trước có ai đặt `Opacity = 0%` hoặc bỏ màu nền `Fill = X` & viền `Stroke = X`.', 'Nhìn góc dưới cùng bên trái màn hình chỉnh `O: 100` (hoặc kéo `Opacity` lên 100%) + nháy chuột trái vào một ô màu xanh/đỏ trên Bảng màu dưới đáy.'],
-        ['Vẽ hình tròn ra chỉ thấy **nửa hình / miếng bánh** chứ không tròn kín', 'Inkscape đang nhớ góc `Start/End` của lần vẽ trước.', 'Nhìn lên cuối Thanh điều khiển thuộc tính phía trên, bấm vào **biểu tượng hình tròn khép kín (nút ngoài cùng bên phải trong 3 nút tròn)** -> tròn lại ngay!'],
+        ['Vẽ hình tròn ra chỉ thấy **nửa hình / miếng bánh** chứ không tròn kín', 'Inkscape đang nhớ góc `Start/End` của lần vẽ trước.', 'Nhìn lên cuối Thanh điều khiển thuộc tính phía trên, bấm vào **biểu tượng hình tròn khép kín (nút ngoài cùng bên phải trong 3 nút tròn)** là tròn lại ngay!'],
         ['Bấm `Corners / Start / End` không thấy ô nhập đâu cả', 'Đang chọn công cụ `Select` (mũi tên đen) nên không hiện thuộc tính riêng của hình.', 'Nháy **đúp chuột** thẳng vào hình đó (hoặc bấm lại biểu tượng hình tròn `E` / hình sao `*` ở thanh công cụ bên trái).'],
-        ['Bấm `Path / Difference` mà mất tiêu cả hình gốc hoặc không có tác dụng', 'Chọn nhầm **3 hình cùng lúc** (chỉ được chọn đúng 2 hình) hoặc **hình cần giữ đang nằm ở lớp trên**.', 'Bấm `Ctrl + Z` (hoàn tác). Nháy chọn hình cần giữ bấm phím `End` (đưa xuống dưới cùng). Rồi giữ `Shift` chọn **từng cặp 2 hình** một và mở menu `Path -> Difference`.'],
-        ['Bấm phím tắt `Ctrl + +` trên bàn phím laptop không ăn', 'Do dấu `+` trên laptop phải bấm chung phím `Shift` nên hay bị kẹt.', 'Cứ mở chuột lên menu **Path -> bấm chữ Union** (vừa chắc ăn 100%, vừa giúp học sinh dưới lớp nhìn thấy tên lệnh trên máy chiếu!).'],
+        ['Bấm `Path / Difference` mà mất tiêu cả hình gốc hoặc không có tác dụng', 'Chọn nhầm **3 hình cùng lúc** (chỉ được chọn đúng 2 hình) hoặc **hình cần giữ đang nằm ở lớp trên**.', 'Bấm `Ctrl + Z` (hoàn tác). Nháy chọn hình cần giữ bấm phím `End` (đưa xuống dưới cùng). Rồi giữ `Shift` chọn **từng cặp 2 hình** một và mở menu `Path`, chọn `Difference`.'],
+        ['Bấm phím tắt `Ctrl + +` trên bàn phím laptop không ăn', 'Do dấu `+` trên laptop phải bấm chung phím `Shift` nên hay bị kẹt.', 'Cứ mở chuột lên menu **Path rồi bấm chữ Union** (vừa chắc ăn 100%, vừa giúp học sinh dưới lớp nhìn thấy tên lệnh trên máy chiếu!).'],
         ['Lỡ bấm nhầm kéo lệch khung bảng của `mau_bai13.svg`', 'Hiếm gặp vì Layer 1 đã khoá; có thể do mở khoá nhầm.', 'Bấm `Ctrl + Z` ngay lập tức (hoặc đóng file không lưu rồi mở lại `mau_bai13.svg`).']
     ]
     b.append(eng.table(rescue_rows, [2350, 2700, 4021], header=True, cell_sz=21))

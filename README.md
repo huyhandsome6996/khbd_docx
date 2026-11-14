@@ -9,7 +9,7 @@ Kho lưu trữ [`c:\Users\PC\khbd_docx`](file:///c:/Users/PC/khbd_docx) được
 > 3. **Phân biệt rõ 04 luồng hồ sơ nghiệp vụ theo từng Giáo viên:**
 >    - **Luồng 1 – Hồ sơ KHBD đầy đủ chuẩn CV 5512 (Khối 10 & Khối 12):** Tuân thủ 100% [`04_form_mau_khbd/QUY_CHUAN_SOAN_KHBD_5512_THEO_GOP_Y_GV.md`](file:///c:/Users/PC/khbd_docx/04_form_mau_khbd/QUY_CHUAN_SOAN_KHBD_5512_THEO_GOP_Y_GV.md) (đúc kết từ **42 nhận xét của Cô Tuyết Ngân Tôn, Thầy Thống Nhất, Thầy Nguyễn Nhất Tân**).
 >    - **Luồng 2 – Đề cương dự giờ kiến tập Khối 12 (nộp Thầy Nguyễn Nhất Tân):** Lưu tại [`de_cuong/`](file:///c:/Users/PC/khbd_docx/de_cuong) — không kẻ bảng 2 cột kịch bản chi tiết lên lớp, mà trình bày gọn mục `d) Cách thức tiến hành:` bằng 01 đoạn văn 4 câu cô đọng.
->    - **Luồng 3 – Hồ sơ DẠY THẬT trực tiếp trên lớp (nộp Thầy Mai Xuân Văn – Khối 10):** Lưu tại [`Day_that/`](file:///c:/Users/PC/khbd_docx/Day_that) — viết KHBD đầy đủ 5512 nhưng **bắt buộc 100% khả thi tại phòng học thường không có máy tính HS** (loại bỏ hoạt động giấy rời rườm rà không thực hiện được), đi kèm file thứ 2 là **Kịch bản lên lớp vui nhộn cầm tay chỉ việc**. Đọc kỹ [`Day_that/README_KINH_NGHIEM_VA_LUU_Y_CHO_AGENT.md`](file:///c:/Users/PC/khbd_docx/Day_that/README_KINH_NGHIEM_VA_LUU_Y_CHO_AGENT.md) trước khi soạn bất kỳ tiết dạy thật nào!
+>    - **Luồng 3 – Hồ sơ DẠY THẬT trực tiếp trên lớp (nộp Thầy Mai Xuân Văn – Khối 10):** Lưu tại [`Day_that/`](file:///c:/Users/PC/khbd_docx/Day_that) — viết KHBD đầy đủ 5512 nhưng **bắt buộc 100% khả thi tại phòng học thường không có máy tính HS** (loại bỏ hoạt động giấy rời rườm rà không thực hiện được; mọi văn bản căn cứ viện dẫn ở Mục tiêu đều phải trích lục đính kèm tại Mục `IV. PHỤ LỤC`; tuyệt đối không dùng ký hiệu mũi tên `->` / `→`, phải viết bằng từ ngữ đọc thành lời được), đi kèm file thứ 2 là **Kịch bản lên lớp vui nhộn cầm tay chỉ việc**. Đọc kỹ [`Day_that/README_KINH_NGHIEM_VA_LUU_Y_CHO_AGENT.md`](file:///c:/Users/PC/khbd_docx/Day_that/README_KINH_NGHIEM_VA_LUU_Y_CHO_AGENT.md) trước khi soạn bất kỳ tiết dạy thật nào!
 >    - **Luồng 4 – Hồ sơ Dự giờ Sinh hoạt chủ nhiệm (Lớp 12/2):** Tuân thủ 100% [`04_form_mau_khbd/QUY_TAC_SOAN_DE_CUONG_SHCN_12-2.md`](file:///c:/Users/PC/khbd_docx/04_form_mau_khbd/QUY_TAC_SOAN_DE_CUONG_SHCN_12-2.md) (nộp **Cô Nguyễn Thị Thu Phương**).
 
 ---
@@ -21,7 +21,7 @@ c:\Users\PC\khbd_docx\
 ├── README.md                                       <-- [TÀI LIỆU NÀY] Cẩm nang tổng thể & Bản đồ 09 ngăn cho AI Agent
 │
 ├── 01_chuong_trinh_gdpt/                           <-- [NGĂN 01] Chương trình GDPT 2018 & Phân phối chương trình (PPCT)
-│   ├── README.md                                       Quy tắc tra cứu YCCĐ, thứ tự Năng lực (NL chung -> NL đặc thù -> NLS/AI)
+│   ├── README.md                                       Quy tắc tra cứu YCCĐ, thứ tự Năng lực (NL chung, NL đặc thù, NLS/AI)
 │   ├── khoi_10_tin_hoc_07092026.xls                    [GỐC] Kế hoạch dạy học (PPCT) Khối 10 Trường THPT Thuận Hoá (70 tiết)
 │   ├── PHAN_PHOI_CHUONG_TRINH_TIN_10_11_12_KNTT.md     Bảng tra cứu Tiết PPCT Lớp 10, 11, 12 & Link Google Drive giải trình
 │   └── CHƯƠNG TRÌNH GIÁO DỤC PHỔ THÔNG MÔN TIN HỌC.docx Toàn văn Thông tư 32/2018/TT-BGDĐT môn Tin học
@@ -72,7 +72,7 @@ c:\Users\PC\khbd_docx\
 │   ├── README_NGUON_VA_GIAI_TRINH_KHOI10.md            Cẩm nang giải trình "Nói có sách, mách có chứng" cho Khối 10
 │   ├── PHAN_PHOI_CHUONG_TRINH_TIN_10_11_12_KNTT.md     Bản sao tra cứu nhanh PPCT tại ngăn khoi10
 │   ├── khoi_10_tin_hoc_07092026.xls                    Bản gốc Kế hoạch dạy học Khối 10 Trường THPT Thuận Hoá
-│   ├── 01_..09_*.docx                                  09 tệp .docx thành phẩm Khối 10 (Tiết PPCT 15 -> 20, cả bản 1 tiết & 2 tiết)
+│   ├── 01_..09_*.docx                                  09 tệp .docx thành phẩm Khối 10 (Tiết PPCT 15 đến 20, cả bản 1 tiết & 2 tiết)
 │   ├── _scripts_build/                                 Bộ script Python & 19 hình cắt SGK Tin 10 (docx_engine_5512.py, build_*.py)
 │   └── HoQuangHuy_24S1020030_TronBo_HoSo_Khoi10.zip    Tệp nén trọn bộ hồ sơ Khối 10
 │

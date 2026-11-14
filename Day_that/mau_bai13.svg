@@ -53,7 +53,7 @@
     </text>
     <text x="145" y="155" font-family="'Times New Roman', Arial, sans-serif" font-size="14" font-weight="bold" fill="#334155" text-anchor="middle">Mẫu 4 lớp (kéo tách cho HS xem)</text>
     <text x="385" y="155" font-family="'Times New Roman', Arial, sans-serif" font-size="14" font-weight="bold" fill="#b91c1c" text-anchor="middle">Gõ Start = 0, End = 180</text>
-    <text x="265" y="485" font-family="'Times New Roman', Arial, sans-serif" font-size="13.5" font-style="italic" fill="#475569" text-anchor="middle">Chọn hình tròn phải -&gt; phím E -&gt; Start=0, End=180 -&gt; Ctrl+D</text>
+    <text x="265" y="485" font-family="'Times New Roman', Arial, sans-serif" font-size="13.5" font-style="italic" fill="#475569" text-anchor="middle">Chọn hình tròn phải, nhấn E, đặt Start=0, End=180 rồi Ctrl+D</text>
 
     <!-- Khung 2 -->
     <rect x="530" y="90" width="520" height="420" rx="12" fill="#ffffff" stroke="#2563eb" stroke-width="2.5" />
@@ -86,12 +86,12 @@
       KHU VỰC 4: MỤC 3 – CÁC PHÉP GHÉP PATH (THAO TÁC MENU PATH CHO CHẮC ĂN!)
     </text>
     <text x="175" y="605" font-family="'Times New Roman', Arial, sans-serif" font-size="16" font-weight="bold" fill="#1e293b" text-anchor="middle">A. Đám mây (Hình 13.7)</text>
-    <text x="175" y="627" font-family="'Times New Roman', Arial, sans-serif" font-size="14" fill="#475569" text-anchor="middle">Quét 4 tròn -&gt; Path -&gt; Union</text>
+    <text x="175" y="627" font-family="'Times New Roman', Arial, sans-serif" font-size="14" fill="#475569" text-anchor="middle">Quét 4 hình, vào Path chọn Union</text>
     <text x="485" y="605" font-family="'Times New Roman', Arial, sans-serif" font-size="16" font-weight="bold" fill="#1e293b" text-anchor="middle">B. Thử Difference / Intersection</text>
-    <text x="485" y="627" font-family="'Times New Roman', Arial, sans-serif" font-size="14" fill="#475569" text-anchor="middle">Vuông (dưới) + Tròn (trên) -&gt; Path -&gt; ...</text>
+    <text x="485" y="627" font-family="'Times New Roman', Arial, sans-serif" font-size="14" fill="#475569" text-anchor="middle">Vuông (dưới) + Tròn (trên), chọn Path...</text>
     <text x="815" y="605" font-family="'Times New Roman', Arial, sans-serif" font-size="16" font-weight="bold" fill="#1e293b" text-anchor="middle">C. Thực tế: Logo Apple "cắn dở"</text>
-    <text x="815" y="627" font-family="'Times New Roman', Arial, sans-serif" font-size="14" fill="#475569" text-anchor="middle">Quét táo đen + tròn trắng -&gt; Path -&gt; Difference</text>
-    <text x="510" y="938" font-family="'Times New Roman', Arial, sans-serif" font-size="15" font-style="italic" fill="#6b21a8" text-anchor="middle">Lưu ý vàng: Lỡ bấm sai cứ nhấn Ctrl+Z! Nếu mất hình gốc thì hình đó đang nằm TRÊN -&gt; bấm phím End đưa xuống dưới!</text>
+    <text x="815" y="627" font-family="'Times New Roman', Arial, sans-serif" font-size="14" fill="#475569" text-anchor="middle">Quét táo đen + tròn trắng, chọn Difference</text>
+    <text x="510" y="938" font-family="'Times New Roman', Arial, sans-serif" font-size="15" font-style="italic" fill="#6b21a8" text-anchor="middle">Lưu ý vàng: Lỡ bấm sai cứ nhấn Ctrl+Z! Nếu mất hình gốc là do nằm TRÊN, bấm phím End đưa xuống dưới!</text>
 
     <!-- Khung 5 -->
     <rect x="1020" y="530" width="560" height="430" rx="12" fill="#ffffff" stroke="#dc2626" stroke-width="2.5" />
