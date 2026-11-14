@@ -31,9 +31,9 @@ Khi ghi thông tin `Lịch dự giờ`, `Lớp`, `Phòng học`, `Tiết TKB` v�
 
 ---
 
-## II. HAI NGUYÊN TẮC TƯ DUY CỐT LÕI: "NÓI CÓ SÁCH, MÁCH CÓ CHỨNG" & "VĂN PHONG CON NGƯỜI LỊCH SỰ, ĐẦY ĐỦ CHỦ NGỮ"
+## II. HAI NGUYÊN TẮC TƯ DUY CỐT LÕI: "ĐỐI CHIẾU CĂN CỨ CHUẨN XÁC" & "VĂN PHONG SƯ PHẠM ĐẦY ĐỦ CHỦ NGỮ – VỊ NGỮ"
 
-### 1. Nguyên tắc "Nói có sách, mách có chứng" (Khả năng giải trình tuyệt đối)
+### 1. Nguyên tắc đối chiếu căn cứ Chương trình, Phân phối chương trình và Sách giáo khoa (Khả năng giải trình tuyệt đối)
 Giảng viên và Giáo viên hướng dẫn chấm bài rất kỹ và thường chỉ tay vào từng dòng để hỏi: *"Em lấy cái này ở đâu? Dựa vào văn bản nào? Tại sao lại là Tiết PPCT này? Tại sao Ôn tập chỉ có những bài này?"*. Vì vậy:
 1. **Về Phân phối chương trình (PPCT):**
    - **Khối 10:** Bắt buộc trích dẫn trực tiếp tệp **Kế hoạch dạy học môn Tin học Khối 10 năm học 2026–2027 của Trường THPT Thuận Hoá** ([`01_chuong_trinh_gdpt/khoi_10_tin_hoc_07092026.xls`](file:///c:/Users/PC/khbd_docx/01_chuong_trinh_gdpt/khoi_10_tin_hoc_07092026.xls)).
@@ -260,7 +260,9 @@ Dưới đây là quy chuẩn bắt buộc cho từng phần của KHBD đúc k�
 
 1. **Phân biệt form nộp giữa hai Giảng viên / GVHD (Không áp dụng cứng nhắc một khuôn):**
    - **Thầy Nguyễn Nhất Tân (Khối 12 – Dự giờ kiến tập tại `de_cuong/`):** Dùng **Đề cương dự giờ cô đọng** (không kẻ bảng 2 cột kịch bản GV–HS và không viết các dòng `Bước 1..4` dài dòng; mục `d) Cách thức tiến hành:` chỉ viết gọn thành **01 đoạn văn 4 câu** mô tả mạch tổ chức, giữ nguyên hình ảnh SGK và câu hỏi củng cố).
-   - **Thầy Mai Xuân Văn (Khối 10 – Tiết DẠY THẬT tại `Day_that/`):** Yêu cầu **KHBD đầy đủ Công văn 5512** (đủ 4 hoạt động, bảng 2 cột `Bước 1..4`, Rubric 6 cột), **NHƯNG mọi hoạt động viết trong KHBD bắt buộc phải khả thi 100% khi sinh viên đứng lớp thực tế** tại phòng học thường `H.I.5` (không có máy tính cá nhân cho học sinh, phần lớn học sinh trung bình/yếu, ngại phát biểu). Không bịa phát 4 phiếu học tập giấy rời rườm rà; ưu tiên tra cứu trực tiếp bảng/hình SGK, trắc nghiệm giơ ngón tay, nhìn hình đoán từ khoá và GV thao tác mẫu trực tiếp trên máy chiếu (`Inkscape`).
+   - **Thầy Mai Xuân Văn (Khối 10 – Tiết DẠY THẬT tại `Day_that/`):** Yêu cầu **KHBD đầy đủ Công văn 5512** (đủ 4 hoạt động, bảng 2 cột `Bước 1..4`, Rubric 6 cột, văn phong sư phạm nghiêm túc để nộp kiểm tra), **NHƯNG mọi hoạt động viết trong KHBD phải hoàn toàn khả thi khi triển khai thực tế trên lớp**.
+  - **Phân tách rạch ròi Tiết 1 (Lí thuyết) làm tiền đề cho Tiết 2 (Thực hành):** Tuyệt đối không đưa nội dung bài tập thực hành hay phần Luyện tập cuối bài của Tiết 2 (ví dụ Hình 13.14–13.16 tr. 74) vào Tiết 1 Lí thuyết (tr. 69–72); Hoạt động Luyện tập của Tiết 1 phải giải quyết đúng hệ thống câu hỏi củng cố lí thuyết Mục 1, 2, 3 (tr. 70–72), còn Hoạt động Vận dụng tổng kết vấn đề Mở đầu và định hướng kiến thức nền tảng cho các nhiệm vụ thực hành ở Tiết 2.
+  - **Không ghi chú thích hậu trường vào KHBD nộp giáo viên:** Không viết các cụm phân trần cơ sở vật chất hoặc năng lực lớp (như `"không có máy tính học sinh"`, `"không phát giấy"`, `"vừa sức với học sinh yếu"`, `"Khả thi 100%"`, hay `"nói có sách, mách có chứng"`) vào văn bản KHBD nộp chấm; mô tả hoạt động tương tác GV–HS, công việc học sinh thực hiện trên SGK/màn chiếu và sản phẩm cần đạt bằng ngôn ngữ sư phạm chuẩn mực.
 2. **Quy tắc Bộ đôi Hồ sơ Dạy thật (`Day_that/`):**
    - Mỗi tiết đứng lớp giảng dạy thật cần xuất đồng bộ 02 tệp: `01_KHBD_...docx` (hồ sơ chuẩn 5512 nộp GVHD) và `02_Kich_ban_len_lop_chi_tiet_vui_nhon_...docx` (cẩm nang cầm tay từng phút gồm Checklist reset công cụ phần mềm trước giờ, sơ đồ bảng phấn 3 phần, lời thoại vui nhộn, liên hệ bài cũ + ứng dụng thực tế/AI và bảng cứu hộ sự cố 3 giây).
 3. **Các bẫy XML bổ sung trong `docx_engine_5512.py` cần kiểm tra tự động:**
