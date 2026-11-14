@@ -93,7 +93,8 @@ c:\Users\PC\khbd_docx\
 └── Day_that/                                       <-- [NGĂN DẠY THẬT] Hồ sơ đứng lớp giảng dạy trực tiếp (nộp Thầy Mai Xuân Văn)
     ├── README_KINH_NGHIEM_VA_LUU_Y_CHO_AGENT.md        [BẮT BUỘC ĐỌC] Bài học phân biệt Thầy Tân vs Thầy Văn & thiết kế 100% khả thi
     ├── 01_KHBD_Tin10_Bai13_Tiet1_Lop10-3_DayThat.docx  KHBD 5512 đầy đủ khả thi 100% (Bài 13 Tiết 1 – Lớp 10/3 – H.I.5 – 16/11/2026)
-    ├── 02_Kich_ban_len_lop_chi_tiet_vui_nhon_Tin10_Bai13_Tiet1.docx  Cẩm nang cầm tay nói gì – bấm gì – chữa cháy gì từng phút
+    ├── 02_Kich_ban_len_lop_chi_tiet_vui_nhon_Tin10_Bai13_Tiet1.docx  Cẩm nang tự học từ 0 & kịch bản 2 cột kèm 7 hình SGK
+    ├── mau_bai13.svg                                   Tệp Inkscape dựng sẵn 5 khu vực thị phạm trực tiếp trên lớp
     └── _scripts_build/build_day_that_10_3.py           Script build bộ đôi hồ sơ Dạy thật & kiểm tra XML
 ```
 
