@@ -36,25 +36,22 @@ Khi soạn Kế hoạch bài dạy cho tiết dạy thật tại lớp học ph�
 
 ---
 
-## 3. Quy trình "Bộ ba Hồ sơ Dạy thật" cho Sinh viên lên lớp
+## 3. Quy trình "Hồ sơ Dạy thật" cho Sinh viên lên lớp
 
 Khi người dùng chuẩn bị lên lớp dạy thật một tiết dạy cụ thể, Agent xuất đồng bộ bộ tài liệu trong thư mục `Day_that/` từ kịch bản build thống nhất ([`build_day_that_10_3.py`](file:///c:/Users/PC/khbd_docx/Day_that/_scripts_build/build_day_that_10_3.py)):
 
-1. **Tệp 1 – Hồ sơ nộp GVHD:** [`01_KHBD_Tin10_Bai13_Tiet1_Lop10-3_DayThat.docx`](file:///c:/Users/PC/khbd_docx/Day_that/01_KHBD_Tin10_Bai13_Tiet1_Lop10-3_DayThat.docx)
+1. **Tệp 1 – Hồ sơ nộp GVHD:** [`khbd10-3.docx`](file:///c:/Users/PC/khbd_docx/Day_that/khbd10-3.docx)
    - Văn phong sư phạm chuẩn mực Công văn 5512, đủ mã `[KT]`, `[NLC]`, `[NLa/c]`, `[NLS]`, `[PC]`, nhúng đủ **06 hình ảnh SGK phần Lí thuyết trang 69–72** (không nhúng hình thực hành/luyện tập của Tiết 2), bảng 2 cột `Bước 1..4`, Phụ lục trích lục căn cứ Chương trình + PPCT (`Phụ lục 1`), câu hỏi đánh giá `CCĐG 1..4` (`Phụ lục 2`), Rubric 6 cột `CCĐG 5` (`Phụ lục 3`) và mục `V. NHẬN XÉT CỦA GIÁO VIÊN HƯỚNG DẪN VÀ KÝ DUYỆT`.
    - **Quy tắc trích lục Phụ lục ("ghi vào là phải đưa vào Phụ lục"):** Nếu ở mục `I. MỤC TIÊU` hay `II. THIẾT BỊ DẠY HỌC` có viết đoạn *"Căn cứ Yêu cầu cần đạt Chương trình GDPT 2018 (TT 32/2018), TT 02/2025 và Kế hoạch dạy học Trường THPT Thuận Hoá..."*, thì **bắt buộc phải trích lục nội dung cụ thể của các căn cứ đó vào `Phụ lục 1` (Mục `IV. PHỤ LỤC`)**, tuyệt đối không viện dẫn suông ở đầu bài rồi bỏ trống ở cuối bài.
    - **Quy tắc cấm ký hiệu mũi tên (`->`, `→`) và lặp mã phòng (`H.I.5`):** Tuyệt đối không viết tắt các bước hay thứ tự bằng ký hiệu mũi tên `->` hoặc `→`, mà phải diễn đạt bằng từ ngữ tiếng Việt đọc thành lời được (*"rồi"*, *"sau đó"*, *"tiếp theo"*, *"từ ... đến ..."*, *"vào bảng chọn ... chọn lệnh ..."*). Mã phòng học (`H.I.5`) chỉ ghi ở Trang bìa và Đầu trang 1, không lặp lại vào Mục tiêu, Thiết bị hay Phụ lục Rubric.
-   - Khớp 100% thời lượng, câu hỏi và hình ảnh với kịch bản nói ở Tệp 2 và Tệp 3.
-2. **Tệp 2 – Cẩm nang cầm tay cho người dạy:** [`02_Kich_ban_len_lop_chi_tiet_vui_nhon_Tin10_Bai13_Tiet1.docx`](file:///c:/Users/PC/khbd_docx/Day_that/02_Kich_ban_len_lop_chi_tiet_vui_nhon_Tin10_Bai13_Tiet1.docx) *(kèm tệp thị phạm trực tiếp trên Inkscape: [`mau_bai13.svg`](file:///c:/Users/PC/khbd_docx/Day_that/mau_bai13.svg))*
-   - **Checklist 5 phút trước giờ:** Mở sẵn `mau_bai13.svg` bằng Inkscape (khoá lớp khung nền `Layer 1` để quét chuột không bị xê dịch), vẽ nháp để **reset trạng thái công cụ** phòng trường hợp bị nhớ `Opacity = 0%` hoặc khuyết góc `Start/End`, mở sẵn `Shift + Ctrl + F`.
-   - **Sơ đồ bảng phấn 3 phần:** Góc trái (mục tiêu) – Giữa bảng (chốt ý ghi vở) – Góc phải (nháp đáp án 4 câu củng cố tr. 70–72 & mẹo nhớ quy tắc).
-   - **Mục Tự học kiến thức cốt lõi cho người dạy:** Giải thích rõ ràng bằng tiếng Việt toàn bộ thuộc tính hình khối (kèm 3 nút `Slice / Arc / Whole`), 3 tab `Fill and Stroke`, **trọn bộ cả 6 phép ghép `Path`** (`Union`, `Difference`, `Intersection`, `Exclusion`, `Division`, `Cut Path`) và tóm tắt nhanh **3 bài Thực hành SGK tr. 72–74** để người dạy nắm chắc mạch chuẩn bị sang Tiết 2.
-   - **Kho liên hệ Bài cũ SGK & Thực tế/AI:** Liên hệ tự nhiên về Bài 11 (bản quyền nguồn mở Inkscape), Bài 12 (thứ tự lớp dưới/trên, thanh thuộc tính, dải màu dưới đáy), liên hệ **Logo quả táo cắn dở Apple (`Difference` + `Intersection`)**, **máy cắt Laser/CNC file `.svg`**, và **AI ảnh Bitmap (`.png`) vs AI Vector (`.svg`)**.
-   - **Kịch bản từng chặng (bảng 2 cột + nhúng đủ 6 hình cắt SGK tr. 69–72):** Lời dẫn tự nhiên, thao tác chi tiết trên từng khu vực của `mau_bai13.svg` (ưu tiên bấm menu **Path chọn Union** thay vì `Ctrl + +` vì bàn phím laptop hay kẹt `Shift`), và phương án xử lý tình huống sư phạm.
-   - **Bảng cứu hộ kỹ thuật 3 giây:** Xử lý ngay lỗi vẽ hình không thấy màu, vẽ hình tròn bị khuyết, không hiện ô `Start/End/Corners`, mất hình khi `Difference`.
-3. **Tệp 3 – Kịch bản Thuyết trình Giảng dạy Liền mạch (Phiên bản Dạy học):** [`03_Bai_thuyet_trinh_giang_day_lien_mach_45_phut_Tin10_Bai13_Tiet1.docx`](file:///c:/Users/PC/khbd_docx/Day_that/03_Bai_thuyet_trinh_giang_day_lien_mach_45_phut_Tin10_Bai13_Tiet1.docx)
-   - Viết liền mạch theo văn phong bài thuyết trình phiên bản dạy học từ phút 00 đến phút 45, tách rõ các thẻ `[Hành động & Thao tác]`, `[Lời nói trực tiếp]`, `[Tương tác với học sinh]`, `[Xử lý tình huống]` và `[Viết bảng & Chốt ghi vở]`, nhúng kèm đủ 6 hình cắt SGK tr. 69–72 đúng ngay tại từng phần giảng bài và khớp 100% với KHBD số 01.
-4. **Tệp 4 – Bảng thị phạm Inkscape dựng sẵn:** [`mau_bai13.svg`](file:///c:/Users/PC/khbd_docx/Day_that/mau_bai13.svg)
+   - Khớp 100% thời lượng, câu hỏi và hình ảnh với kịch bản tập duyệt ở Tệp 2.
+2. **Tệp 2 – Tài liệu tập duyệt Inkscape ở nhà & Kịch bản giảng sâu bản chất (Không trang bìa hành chính):** [`Kich_ban_thuyet_trinh_va_tap_duyet_Bai13_Tiet1.docx`](file:///c:/Users/PC/khbd_docx/Day_that/Kich_ban_thuyet_trinh_va_tap_duyet_Bai13_Tiet1.docx) *(kèm tệp thị phạm trực tiếp trên Inkscape: [`mau_bai13.svg`](file:///c:/Users/PC/khbd_docx/Day_that/mau_bai13.svg))*
+   - **Không chèn trang bìa hành chính rườm rà:** Vì đây là tài liệu để sinh viên đọc hiểu sâu và tập bấm ở nhà trước khi cầm lên lớp, nên vào thẳng nội dung ngay từ Trang 1.
+   - **Phần I – Bức tranh tổng thể:** Làm rõ mạch nối từ Bài 12 sang Bài 13 (3 bế tắc ở Bài 12 $\leftrightarrow$ 3 nhóm công cụ Bài 13 $\leftrightarrow$ sản phẩm đạt được và tiền đề cho Tiết 2).
+   - **Phần II – Hướng dẫn dùng Inkscape từ con số 0 theo đúng giao diện trên máy:** Cách mở `mau_bai13.svg`, 4 phím điều hướng (`5`, `Ctrl+lăn chuột`, `Space`, `Ctrl+Z`), bản đồ 5 vị trí nút bấm (Hộp công cụ bên trái khớp vị trí thực tế của Inkscape, Thanh ngang thuộc tính, Dải màu đáy, Bảng `Fill and Stroke` bên phải, Menu `Path` trên cùng), bài tập làm quen 3 phút và bảng cứu hộ 6 lỗi thường gặp.
+   - **Phần III – Kịch bản 6 chặng (45 phút) đi sâu bản chất, tránh kiểu "đãi môi":** Mỗi chặng đều tách rõ 4 mục: *(1) Mục đích của chặng*, *(2) Bản chất kiến thức bằng ví dụ đời thực dễ giảng*, *(3) Lời giảng liền mạch kết hợp thao tác bấm trên `mau_bai13.svg` & xử lý im lặng*, *(4) Nội dung viết bảng & đọc HS chép vở* — kèm đủ 06 hình SGK tr. 69–72 đúng vị trí từng chặng.
+   - **Phần IV – Sơ đồ bảng phấn 3 cột & Checklist 5 phút trước giờ.**
+3. **Tệp 3 – Bảng thị phạm Inkscape dựng sẵn:** [`mau_bai13.svg`](file:///c:/Users/PC/khbd_docx/Day_that/mau_bai13.svg)
    - Dựng sẵn các khu vực thao tác trực quan (Miếng dưa hấu 4 lớp tách rời & hình tròn chờ cắt `Start=0, End=180`; Chữ nhật/Tròn/Ngôi sao Inkscape; 5 ô vuông Hình 13.3 + hình thử `Opacity`/`Radial gradient`; Đám mây + cặp Vuông-Tròn + Logo Apple; hình mẫu quả cầu 3D giới thiệu Tiết 2). Lớp khung nền được khoá bằng `sodipodi:insensitive="true"` để giáo viên quét chọn hình không bao giờ bị kéo lệch khung.
 
 ---
