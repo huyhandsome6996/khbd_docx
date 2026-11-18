@@ -14,7 +14,7 @@ Mỗi đề cương vẫn bám sát đầy đủ:
 1. **[`de_cuong_du_gio_12-4.docx`](file:///c:/Users/PC/khbd_docx/de_cuong/de_cuong_du_gio_12-4.docx)**
    - **Lớp:** `12/4` – **Phòng:** `H.II.4`
    - **Lịch dự giờ:** Thứ Năm, ngày `05/11/2026` – Tiết 3 (`09h00 – 09h45`)
-   - **Nội dung:** **Bài 9: Tạo danh sách, bảng** (SGK trang 52–56 – Tiết PPCT: `19, 20`)
+   - **Nội dung:** **Bài 9: Tạo danh sách, bảng (Tiết 1 – Lí thuyết)** (SGK trang 52–55 – Tiết PPCT: `19`)
 
 2. **[`de_cuong_du_gio_12-1.docx`](file:///c:/Users/PC/khbd_docx/de_cuong/de_cuong_du_gio_12-1.docx)**
    - **Lớp:** `12/1` – **Phòng:** `H.II.1`

@@ -7,7 +7,7 @@ theo y kien gop y cua Thay Nguyen Nhat Tan va bam sat:
 - Cong van 5512/BGDDT-GDTrH & Thong tu 02/2025/TT-BGDDT
 
 Xuat ra thu muc: c:/Users/PC/khbd_docx/de_cuong/
-  1. de_cuong_du_gio_12-4.docx (Bai 9: Tao danh sach, bang - Tiet PPCT 19, 20 - Lop 12/4 - Phong H.II.4)
+  1. de_cuong_du_gio_12-4.docx (Bai 9: Tao danh sach, bang - Tiet 1 LT - Tiet PPCT 19 - Lop 12/4 - Phong H.II.4)
   2. de_cuong_du_gio_12-2.docx (Bai 10: Tao lien ket - Tiet 1 LT - Tiet PPCT 21 - Lop 12/2 - Phong H.II.2)
   3. de_cuong_du_gio_12-1.docx (Bai 10: Tao lien ket - Tiet 2 TH - Tiet PPCT 22 - Lop 12/1 - Phong H.II.1)
 """
@@ -237,20 +237,20 @@ def validate_de_cuong(out_path, used_figures):
 
 
 # ==============================================================================
-# 1. DE CUONG LOP 12/4 - BAI 9: TAO DANH SACH, BANG (TIET PPCT: 19, 20)
+# 1. DE CUONG LOP 12/4 - BAI 9: TAO DANH SACH, BANG (TIET 1 LT - TIET PPCT: 19)
 # ==============================================================================
 def build_12_4_bai9():
     b = eng.init_body_with_cover(
         cover_title='ĐỀ CƯƠNG DỰ GIỜ',
-        cover_subtitle='BÀI 9: TẠO DANH SÁCH, BẢNG (TIẾT PPCT: 19, 20)',
+        cover_subtitle='BÀI 9: TẠO DANH SÁCH, BẢNG (TIẾT 1 – LÍ THUYẾT – TIẾT PPCT: 19)',
         class_str='Tin học 12 – Lớp 12/4 – Trường THPT Thuận Hoá',
         schedule_str='Thứ Năm, ngày 05/11/2026 – Tiết 3 (09h00 – 09h45) – Phòng H.II.4',
-        lesson_row_str='Bài 9: Tạo danh sách, bảng (SGK trang 52–56 – Tiết PPCT: 19, 20)',
-        page1_title='TÊN BÀI DẠY: BÀI 9. TẠO DANH SÁCH, BẢNG',
-        page1_subtitle='(Đề cương dự giờ kiến tập – Thời lượng bài học theo PPCT: 02 tiết [Tiết PPCT: 19, 20] – Dự giờ tại Lớp 12/4)',
+        lesson_row_str='Bài 9: Tạo danh sách, bảng (Tiết 1 – Lí thuyết – Tiết PPCT: 19)',
+        page1_title='TÊN BÀI DẠY: BÀI 9. TẠO DANH SÁCH, BẢNG (TIẾT 1 – LÍ THUYẾT)',
+        page1_subtitle='(Đề cương dự giờ kiến tập – Thời lượng toàn bài theo PPCT: 02 tiết [Tiết PPCT: 19, 20] – Trọng tâm Tiết 1: Lí thuyết)',
         page1_class_line='Môn học: Tin học; Lớp: 12/4',
-        page1_time_line='Thời lượng bài học theo PPCT: 02 tiết (Tiết 19: Lí thuyết – dự giờ; Tiết 20: Thực hành)',
-        page1_sched_line='Lịch dự giờ: Thứ Năm, 05/11/2026 – Tiết 3 (09h00–09h45) – Phòng H.II.4',
+        page1_time_line='Thời lượng: 01 tiết (45 phút – Tiết 1 - Lí thuyết / Tiết PPCT: 19)',
+        page1_sched_line='Lịch dự giờ: Thứ Năm, ngày 05/11/2026 – Tiết 3 (09h00–09h45) – Phòng H.II.4',
         page1_mode_line='Hình thức: Tóm tắt mục tiêu, nội dung trọng tâm, phương pháp tổ chức dạy học và đánh giá',
         gvgd_name=GVGD_NAME,
         gvhd_name=GVHD_NAME,
@@ -259,131 +259,127 @@ def build_12_4_bai9():
 
     eng.add(b, 'I. MỤC TIÊU BÀI HỌC (THEO CÔNG VĂN 5512 & THÔNG TƯ 02/2025)', 'heading')
     eng.add(b, '1. Về kiến thức', 'sub')
-    eng.add(b, '- **[KT1]:** Trình bày được cú pháp và chức năng các thẻ HTML tạo danh sách có thứ tự (<ol>, <li>), danh sách không có thứ tự (<ul>, <li>), danh sách mô tả (<dl>, <dt>, <dd>) và danh sách lồng nhau; giải thích được ý nghĩa các thuộc tính type, start.', first=0)
-    eng.add(b, '- **[KT2]:** Trình bày được cấu trúc cơ bản của bảng trong HTML gồm các thẻ <table>, <tr>, <th>, <td>, <caption>; vận dụng thuộc tính style để định dạng kích thước, đường viền và các thuộc tính colspan, rowspan để gộp ô.', first=0)
-    eng.add(b, '- **[KT3]:** Vận dụng phối hợp thẻ tạo danh sách và thẻ tạo bảng để xây dựng trang web hoàn chỉnh giới thiệu Câu lạc bộ và Lịch hoạt động câu lạc bộ đúng yêu cầu Sách giáo khoa Tin học 12 trang 55–56.', first=0)
+    eng.add(b, '- **[KT1]:** Nhận biết được ý nghĩa, ưu điểm của danh sách và bảng trên trang web; trình bày được cú pháp và chức năng các thẻ HTML tạo danh sách có thứ tự (<ol>, <li>), danh sách không có thứ tự (<ul>, <li>), danh sách mô tả (<dl>, <dt>, <dd>) và danh sách lồng nhau; giải thích được ý nghĩa thuộc tính type, start và đặc tính list-style-type trong thuộc tính style.', first=0)
+    eng.add(b, '- **[KT2]:** Trình bày được cấu trúc cơ bản của bảng trong HTML gồm các cặp thẻ <table>, <tr>, <th>, <td>, <caption>; giải thích được vai trò của từng thẻ và vị trí đặt thẻ <caption> trong bảng.', first=0)
+    eng.add(b, '- **[KT3]:** Trình bày được cách sử dụng thuộc tính style (width, height, border) để điều chỉnh kích thước, tạo khung viền cho bảng/ô và nguyên tắc sử dụng thuộc tính colspan, rowspan để gộp cột, gộp hàng trong bảng làm nền tảng cho Tiết 2 Thực hành.', first=0)
 
     eng.add(b, '2. Về năng lực', 'sub')
     eng.add(b, 'a) Năng lực chung', 'label', italic=True)
-    eng.add(b, '- **[NLC1 – Tự chủ và tự học]:** Chủ động đọc Sách giáo khoa, phân tích ví dụ mã nguồn HTML và tự kiểm chứng kết quả hiển thị trên trình duyệt web.', first=0)
-    eng.add(b, '- **[NLC2 – Giao tiếp và hợp tác]:** Thảo luận cặp đôi hoặc nhóm nhỏ để nhận diện cấu trúc thẻ danh sách, bảng biểu và hỗ trợ nhau sửa lỗi cú pháp.', first=0)
-    eng.add(b, '- **[NLC3 – Giải quyết vấn đề và sáng tạo]:** Lựa chọn cấu trúc danh sách hoặc bảng hợp lí, thiết kế bảng có gộp ô (rowspan, colspan) rõ ràng, thẩm mĩ cho trang web thực tế.', first=0)
+    eng.add(b, '- **[NLC1 – Tự chủ và tự học]:** Chủ động đọc Sách giáo khoa Tin học 12 (trang 52–55), phân tích các ví dụ mã nguồn HTML (Hình 9.1 đến Hình 9.6) để nắm vững cú pháp tạo danh sách và thiết lập bảng.', first=0)
+    eng.add(b, '- **[NLC2 – Giao tiếp và hợp tác]:** Thảo luận cặp đôi sôi nổi để nhận diện cấu trúc thẻ danh sách lồng nhau, phân tích cách đếm số ô sau khi gộp hàng/cột và góp ý bài làm cho bạn.', first=0)
+    eng.add(b, '- **[NLC3 – Giải quyết vấn đề và sáng tạo]:** Lựa chọn được dạng trình bày (danh sách hoặc bảng) phù hợp với đặc điểm dữ liệu thực tế; thiết kế sẵn sơ đồ khung thẻ và gộp ô phục vụ Tiết 2 Thực hành.', first=0)
 
     eng.add(b, 'b) Năng lực đặc thù môn Tin học', 'label', italic=True)
-    eng.add(b, '- **[NLa]:** Sử dụng và quản lí hiệu quả trình soạn thảo mã nguồn HTML (Sublime Text / VS Code / Notepad++) và trình duyệt web.', first=0)
-    eng.add(b, '- **[NLc]:** Phân tích cấu trúc dữ liệu dạng danh sách, bảng biểu và viết đúng mã HTML chuẩn cấu trúc lồng thẻ.', first=0)
-    eng.add(b, '- **[NLd]:** Khai thác ví dụ trong học liệu số để tự học, kiểm tra và hoàn thiện sản phẩm HTML.', first=0)
+    eng.add(b, '- **[NLb]:** Giải thích được vai trò các cặp thẻ danh sách, bảng và sự khác biệt giữa ô tiêu đề <th> với ô dữ liệu <td> cũng như hạn chế của thuộc tính border="1".', first=0)
+    eng.add(b, '- **[NLc]:** Viết đúng câu lệnh HTML tạo các loại danh sách (<ol>, <ul>, <dl>), danh sách lồng nhau, thiết lập bảng và xác định chính xác số thẻ <th>/<td> còn lại trên mỗi hàng khi dùng rowspan, colspan.', first=0)
+    eng.add(b, '- **[NLd]:** Khai thác ví dụ và hình ảnh minh họa trong học liệu số để tự học, kiểm chứng kết quả hiển thị giả định trên trình duyệt.', first=0)
 
     eng.add(b, 'c) Năng lực số (Thông tư 02/2025/TT-BGDĐT)', 'label', italic=True)
-    eng.add(b, '- **[NLS 3.1.NC1.a]:** Tạo lập, chỉnh sửa và định dạng nội dung số dạng danh sách và bảng trên trang web bằng HTML.', first=0)
+    eng.add(b, '- **[NLS 3.1.NC1.a]:** Nắm vững nguyên lí thiết kế và định dạng cấu trúc dữ liệu dạng danh sách, bảng biểu trên trang web bằng HTML.', first=0)
 
     eng.add(b, '3. Về phẩm chất', 'sub')
-    eng.add(b, '- **[PC1 – Chăm chỉ]:** Kiên trì thực hành viết mã HTML, cẩn trọng kiểm tra cặp thẻ đóng – mở và các thuộc tính bảng.', first=0)
-    eng.add(b, '- **[PC2 – Trách nhiệm]:** Chấp hành nghiêm túc nội quy lớp học, bảo quản thiết bị và hoàn thành sản phẩm thực hành đúng hạn.', first=0)
-    eng.add(b, '- **[PC3 – Trung thực]:** Tự tay biên tập mã nguồn HTML và tự đánh giá trung thực mức độ hoàn thành sản phẩm.', first=0)
+    eng.add(b, '- **[PC1 – Chăm chỉ]:** Chú ý theo dõi bài giảng, chủ động nghiên cứu Sách giáo khoa và ghi chép đầy đủ cấu trúc thẻ HTML.', first=0)
+    eng.add(b, '- **[PC2 – Trách nhiệm]:** Tích cực hoàn thành các câu hỏi vấn đáp, bài tập củng cố trên lớp và chuẩn bị kĩ sơ đồ thẻ cho Tiết 2 Thực hành.', first=0)
+    eng.add(b, '- **[PC3 – Trung thực]:** Tự giác trình bày nhận thức cá nhân và trung thực khi tự đối chiếu, sửa lỗi cú pháp trên phiếu học tập.', first=0)
 
     eng.add(b, 'II. THIẾT BỊ DẠY HỌC VÀ HỌC LIỆU', 'heading')
     eng.add(b, '1. Thiết bị dạy học và điều kiện tổ chức', 'sub')
-    eng.add(b, '- Hệ thống máy tính giáo viên, máy chiếu/màn hình lớn tại phòng học H.II.4 (Lớp 12/4) cài đặt trình soạn thảo HTML (Sublime Text / VS Code / Notepad++) và trình duyệt web (Chrome / Edge).', first=0)
+    eng.add(b, '- Máy tính giáo viên kết nối máy chiếu/màn hình lớn tại phòng học H.II.4 (Lớp 12/4), bảng viết, phấn.', first=0)
     eng.add(b, '2. Học liệu', 'sub')
-    eng.add(b, '- Sách giáo khoa Tin học 12 – Định hướng Tin học ứng dụng (Bộ sách Kết nối tri thức với cuộc sống), NXB Giáo dục Việt Nam, Bài 9: Tạo danh sách, bảng (trang 52–56).', first=0)
-    eng.add(b, '- Phân phối chương trình Khối 12 Trường THPT Thuận Hoá (Tiết PPCT 19: Bài 4.9 – Tạo danh sách, bảng, tiết 1 – LT; Tiết PPCT 20: tiết 2 – TH).', first=0)
-    eng.add(b, '- Hình ảnh minh họa SGK (Hình 9.1 đến Hình 9.8), Phiếu học tập và tệp HTML mẫu (CLB.html).', first=0)
+    eng.add(b, '- Sách giáo khoa Tin học 12 – Định hướng Tin học ứng dụng (Bộ sách Kết nối tri thức với cuộc sống), NXB Giáo dục Việt Nam, Bài 9: Tạo danh sách, bảng (Mục 1 và Mục 2, trang 52–55).', first=0)
+    eng.add(b, '- Phân phối chương trình Khối 12 Trường THPT Thuận Hoá (Tiết PPCT 19: Bài 4.9: Tạo danh sách, bảng, tiết 1 - LT).', first=0)
+    eng.add(b, '- Bộ hình ảnh cắt từ SGK (Hình 9.1 đến Hình 9.6), Phiếu học tập và tệp HTML minh hoạ trên màn chiếu.', first=0)
 
     eng.add(b, 'III. NỘI DUNG TRỌNG TÂM VÀ PHƯƠNG PHÁP TỔ CHỨC DẠY HỌC', 'heading')
 
-    eng.add(b, '1. Hoạt động 1: Mở đầu (Khởi động – Khoảng 5 phút)', 'sub')
-    eng.add(b, '**a) Mục tiêu:** Tạo hứng thú, giúp học sinh nhận thấy nhu cầu tổ chức thông tin trên trang web dưới dạng danh sách và bảng biểu thay cho đoạn văn xuôi.', first=0)
-    eng.add(b, '**b) Nội dung:** Quan sát hai cách trình bày thông tin Câu lạc bộ và Lịch hoạt động CLB (một đoạn văn bản thuần tuý và một trang web có danh sách, bảng biểu rõ ràng) và trả lời câu hỏi gợi mở.', first=0)
-    eng.add(b, '**c) Sản phẩm:** Nhận định của học sinh về tính trực quan, dễ tra cứu của danh sách và bảng biểu; xác định được mục tiêu Bài 9.', first=0)
+    eng.add(b, '1. Hoạt động 1: Mở đầu (Tình huống mở đầu, Hoạt động 1 tr. 52 & Hoạt động 2 tr. 53 – 5 phút)', 'sub')
+    eng.add(b, '**a) Mục tiêu:** Học sinh nhận biết được ưu điểm trực quan của danh sách và bảng so với đoạn văn xuôi, từ đó lựa chọn dạng biểu diễn phù hợp cho từng loại dữ liệu thực tế.', first=0)
+    eng.add(b, '**b) Nội dung:** So sánh đoạn văn bản viết liền trong thẻ <p> với danh sách tách dòng (Hoạt động 1 tr. 52) và phân tích tình huống Hội chợ ẩm thực lớp 12E có 4 thuộc tính dữ liệu: Tên món ăn, Đơn giá, Số lượng, Tổng số tiền (Hoạt động 2 tr. 53).', first=0)
+    eng.add(b, '**c) Sản phẩm:** Nhận định của học sinh: dùng danh sách khi liệt kê các mục cùng loại; dùng bảng cho Hội chợ ẩm thực vì mỗi món ăn có 4 thuộc tính cần căn thẳng theo hàng và cột để dễ so sánh, tính toán.', first=0)
     add_steps(
         b,
-        'Giáo viên chiếu tình huống so sánh hai cách trình bày lịch CLB và nêu câu hỏi gợi mở.',
-        'Học sinh quan sát, so sánh ưu nhược điểm của từng cách trình bày.',
-        'Đại diện 1–2 học sinh nêu nhận xét về sự cần thiết của danh sách và bảng trên trang web.',
-        'Giáo viên nhận xét, chốt vấn đề và dẫn dắt vào Bài 9: Tạo danh sách, bảng.'
+        'Giáo viên chiếu hai tình huống mở đầu từ SGK trang 52–53 và nêu câu hỏi lựa chọn dạng trình bày phù hợp.',
+        'Học sinh quan sát màn chiếu, trao đổi nhanh theo cặp để phân tích ưu điểm của danh sách và bảng biểu.',
+        'Đại diện 1–2 học sinh trả lời phân biệt tình huống nào dùng danh sách, tình huống nào cần lập bảng.',
+        'Giáo viên nhận xét, chốt ý nghĩa của danh sách và bảng trên trang web rồi dẫn dắt vào Bài 9 (Tiết 1 – Lí thuyết).'
     )
 
-    eng.add(b, '2. Hoạt động 2: Hình thành kiến thức mới (Bám sát SGK trang 52–56)', 'sub')
-    eng.add(b, '2.1. Nội dung 1: Tạo danh sách trong HTML (Mục 1 – SGK trang 52–53)', 'label', italic=True)
-    eng.add(b, '**a) Mục tiêu:** Học sinh viết và giải thích được 3 loại danh sách trong HTML (<ol>, <ul>, <dl>) và danh sách lồng nhau.', first=0)
+    eng.add(b, '2. Hoạt động 2: Hình thành kiến thức mới (Bám sát SGK trang 52–55 – 25 phút)', 'sub')
+    eng.add(b, '2.1. Nội dung 1: Tạo danh sách trong HTML (Mục 1 – SGK trang 52–53, 12 phút)', 'label', italic=True)
+    eng.add(b, '**a) Mục tiêu:** Học sinh nêu được cú pháp, phân biệt chức năng 3 loại danh sách HTML (<ol>, <ul>, <dl>) và viết đúng cấu trúc danh sách lồng nhau.', first=0)
     eng.add(b, '**b) Nội dung & c) Sản phẩm kiến thức trọng tâm:**', first=0)
-    eng.add(b, '- **Danh sách có thứ tự:** Dùng cặp thẻ <ol>...</ol> bao ngoài và <li>...</li> cho từng mục; thuộc tính type ("1", "A", "a", "I", "i") chọn kiểu đánh số, thuộc tính start chọn giá trị bắt đầu.', first=0)
-    eng.add(b, '- **Danh sách không có thứ tự:** Dùng <ul>...</ul> và <li>...</li>; định dạng kí hiệu đầu dòng bằng style với list-style-type nhận giá trị disc, circle, square hoặc none (ví dụ: <ul style="list-style-type:square">).', first=0)
-    eng.add(b, '- **Danh sách mô tả:** Dùng <dl>...</dl>, trong đó <dt>...</dt> chứa thuật ngữ và <dd>...</dd> chứa mô tả.', first=0)
-    eng.add(b, '- **Danh sách lồng nhau & Củng cố trang 53:** Đặt thẻ <ol> hoặc <ul> bên trong thẻ <li> của danh sách cha (đáp án câu hỏi tr. 53: đặt <ol type="a"> bên trong thẻ <li> của <ol type="1">).', first=0)
+    eng.add(b, '- **Danh sách có thứ tự (<ol>...</ol>):** Bao ngoài bằng <ol>, mỗi phần tử đặt trong cặp thẻ <li>...</li>. Thuộc tính type nhận 5 giá trị: "1" (mặc định: 1, 2, 3), "A" (A, B, C), "a" (a, b, c), "I" (I, II, III), "i" (i, ii, iii); thuộc tính start là số nguyên quy định vị trí bắt đầu đếm (ví dụ <ol type="a" start="3"> bắt đầu từ c).', first=0)
+    eng.add(b, '- **Danh sách không có thứ tự (<ul>...</ul>):** Bao ngoài bằng <ul>, mỗi mục đặt trong <li>...</li>. Dùng thuộc tính style với đặc tính list-style-type nhận 4 giá trị: disc (tròn đặc – mặc định), circle (tròn rỗng), square (vuông đặc) hoặc none (ẩn kí tự đầu dòng).', first=0)
+    eng.add(b, '- **Danh sách mô tả (<dl>...</dl>):** Liệt kê thuật ngữ kèm giải thích (không dùng <li>), trong đó <dt>...</dt> chứa tên mục/thuật ngữ và <dd>...</dd> chứa nội dung mô tả.', first=0)
+    eng.add(b, '- **Danh sách lồng nhau & Củng cố tr. 53:** Đặt toàn bộ danh sách con (<ol> hoặc <ul>) bên trong cặp thẻ <li>...</li> của mục cha. Đáp án câu hỏi trang 53: đặt <ol type="a"> bên trong cặp thẻ <li> của <ol type="1">.', first=0)
     add_figure_sgk(b, 'hinh_9_1.png')
     add_figure_sgk(b, 'hinh_9_2.png')
     add_figure_sgk(b, 'hinh_9_3.png')
     add_steps(
         b,
-        'Giáo viên giao nhiệm vụ nghiên cứu Mục 1 SGK và các ví dụ Hình 9.1–9.3.',
-        'Học sinh đọc SGK, thảo luận cặp đôi phân tích cú pháp <ol>, <ul>, <dl> và câu hỏi củng cố tr. 53.',
-        'Đại diện cặp đôi trình bày cấu trúc từng loại danh sách và đáp án danh sách lồng nhau.',
-        'Giáo viên chuẩn hoá cú pháp, lưu ý thuộc tính style cho <ul> và quy tắc lồng thẻ vào bên trong <li>.'
+        'Giáo viên chiếu Hình 9.1–9.3, giao nhiệm vụ đọc Mục 1 SGK trang 52–53 để phân tích cú pháp 3 loại danh sách.',
+        'Học sinh thảo luận cặp đôi, hoàn thành bảng đối chiếu thẻ <ol>, <ul>, <dl> và tìm câu trả lời cho phần củng cố trang 53.',
+        'Đại diện 2 cặp trình bày cú pháp từng loại danh sách, dự đoán kết quả của type/start và cách lồng thẻ vào bên trong <li>.',
+        'Giáo viên chuẩn hoá cú pháp, nhấn mạnh sự khác biệt giữa type trên <ol> với style trên <ul> và chốt quy tắc lồng danh sách.'
     )
 
-    eng.add(b, '2.2. Nội dung 2: Thiết lập bảng trong HTML (Mục 2 – SGK trang 53–55)', 'label', italic=True)
-    eng.add(b, '**a) Mục tiêu:** Trình bày được cấu trúc bảng cơ bản, cách điều chỉnh kích thước, đường viền và gộp ô bằng colspan, rowspan.', first=0)
+    eng.add(b, '2.2. Nội dung 2: Thiết lập bảng trong HTML (Mục 2 – SGK trang 53–55, 13 phút)', 'label', italic=True)
+    eng.add(b, '**a) Mục tiêu:** Học sinh trình bày được cấu trúc bảng cơ bản, cách dùng thuộc tính style định dạng viền/kích thước và nguyên tắc gộp ô bằng rowspan, colspan.', first=0)
     eng.add(b, '**b) Nội dung & c) Sản phẩm kiến thức trọng tâm:**', first=0)
-    eng.add(b, '- **Cấu trúc bảng cơ bản:** Dùng <table>...</table>, hàng <tr>...</tr>, ô tiêu đề <th>...</th>, ô dữ liệu <td>...</td>, tiêu đề bảng <caption>...</caption>.', first=0)
-    eng.add(b, '- **Định dạng kích thước và viền bảng:** Dùng thuộc tính style với width, height và border (ví dụ style="border:1px solid") cho <table> và các ô.', first=0)
-    eng.add(b, '- **Gộp ô trong bảng & Củng cố trang 55:** Dùng colspan="n" để gộp ngang n ô, rowspan="m" để gộp dọc m ô và bỏ bớt thẻ <td>/<th> bị gộp (câu hỏi tr. 55: bảng Hình 9.6 chưa phân biệt rõ viền các ô và độ rộng cột; khắc phục bằng thuộc tính style với border và width).', first=0)
+    eng.add(b, '- **Cấu trúc bảng cơ bản (Hình 9.4):** Khai báo bảng bằng <table>...</table>, tiêu đề bảng bằng <caption>...</caption> (đặt ngay sau <table> và trước <tr> đầu tiên); từng hàng tạo bằng <tr>...</tr> từ trên xuống; ô tiêu đề cột dùng <th>...</th> (in đậm, căn giữa); ô dữ liệu dùng <td>...</td> (chữ thường, căn trái).', first=0)
+    eng.add(b, '- **Định dạng đường viền và kích thước bảng (Hình 9.5):** Sử dụng thuộc tính style với các đặc tính width, height (theo % hoặc px) và border (cú pháp border: độ_dày kiểu_viền [màu]; như solid, dotted, double, none) đặt cho <table>, <th>, <td>.', first=0)
+    eng.add(b, '- **Gộp ô bằng rowspan, colspan & Củng cố tr. 55 (Hình 9.6):** Thuộc tính colspan="n" gộp ngang n cột; rowspan="m" gộp dọc m hàng (phải lược bỏ các thẻ <th>/<td> ở vị trí đã bị chiếm ở các hàng tiếp theo để tránh lệch cột). Đáp án câu hỏi tr. 55: Bảng Hình 9.6 dùng border="1" nên chưa phân biệt rõ khung viền từng ô và độ rộng cột; khắc phục bằng thuộc tính style với border và width.', first=0)
     add_figure_sgk(b, 'hinh_9_4.png')
     add_figure_sgk(b, 'hinh_9_5.png')
     add_figure_sgk(b, 'hinh_9_6.png')
     add_steps(
         b,
-        'Giáo viên chiếu Hình 9.4–9.6, yêu cầu học sinh phân tích cấu trúc hàng, ô và cách gộp ô.',
-        'Học sinh nghiên cứu Mục 2 SGK, đếm số thẻ <td>/<th> trên từng hàng khi sử dụng rowspan, colspan.',
-        'Học sinh trả lời câu hỏi về vai trò <th>, colspan, rowspan và nhược điểm Hình 9.6.',
-        'Giáo viên chốt kiến thức cấu trúc bảng và nhấn mạnh quy tắc lược bỏ ô bị gộp để không lệch cột.'
+        'Giáo viên chiếu Hình 9.4–9.6, yêu cầu học sinh đọc Mục 2 SGK trang 53–55 để phân tích vai trò các thẻ bảng và cách gộp ô.',
+        'Học sinh thảo luận cặp đôi, đếm số thẻ <th>/<td> còn lại ở hàng thứ hai khi hàng đầu đã dùng rowspan="2" và colspan="3".',
+        '1–2 học sinh lên bảng viết lại cấu trúc hàng thứ hai và giải thích nhược điểm bảng Hình 9.6 cùng cách sửa bằng thuộc tính style.',
+        'Giáo viên nhận xét, chốt quy tắc lược bỏ ô bị gộp và lưu ý dùng thuộc tính style thay thế cho border="1" trong HTML5.'
     )
 
-    eng.add(b, '2.3. Nội dung 3: Thực hành tạo danh sách và bảng (Mục 3 – SGK trang 55–56)', 'label', italic=True)
-    eng.add(b, '**a) Mục tiêu:** Xây dựng được trang web CLB.html có danh sách câu lạc bộ lồng nhau và bảng lịch hoạt động có gộp ô.', first=0)
-    eng.add(b, '**b) Nội dung & c) Sản phẩm:**', first=0)
-    eng.add(b, '- **Nhiệm vụ 1 (Hình 9.7):** Tạo danh sách lồng nhau gồm Thể thao (Bóng đá, Bóng chuyền, Bóng rổ, Võ [Karatedo, Taekwondo, Vovinam], Bơi) và Nghệ thuật (Mĩ thuật, Nhiếp ảnh, Âm nhạc [Thanh nhạc, Piano, Violin], Khiêu vũ).', first=0)
-    eng.add(b, '- **Nhiệm vụ 2 (Hình 9.8):** Tạo bảng Lịch hoạt động CLB Thể thao lưu vào tệp CLB.html có tiêu đề, hàng tiêu đề gộp ô cho các buổi và các môn thể thao từ Thứ 2 đến Thứ 6.', first=0)
-    add_figure_sgk(b, 'hinh_9_7.png')
-    add_figure_sgk(b, 'hinh_9_8.png')
+    eng.add(b, '3. Hoạt động 3: Luyện tập (Củng cố lí thuyết – 10 phút)', 'sub')
+    eng.add(b, '**a) Mục tiêu:** Củng cố kĩ năng đọc hiểu, viết đúng mã HTML tạo danh sách lồng nhau, sử dụng thuộc tính style định dạng viền/màu chữ và tính đúng số ô khi gộp bảng.', first=0)
+    eng.add(b, '**b) Nội dung:** Học sinh làm việc cá nhân và cặp đôi trên phiếu học tập/vở ghi để giải quyết 03 bài tập củng cố lí thuyết: (1) Xác định kí hiệu hiển thị của <ol type="a" start="3"> và viết đoạn mã danh sách lồng 2 cấp (câu hỏi tr. 53); (2) Phân tích số thẻ <th>/<td> trên từng hàng khi dùng rowspan="2" và colspan="3" ở Hình 9.6a và nêu cách khắc phục nhược điểm Hình 9.6 (tr. 55); (3) Viết nhanh câu lệnh dùng thuộc tính style đặt viền xanh (1px solid blue) cho hàng tiêu đề và tô màu chữ đỏ, vàng, xanh cho các ô Toán, Vật lí, Hoá học.', first=0)
+    eng.add(b, '**c) Sản phẩm:** Đáp án chính xác trong vở/phiếu học tập của học sinh: mã danh sách <ol type="1"> lồng <ol type="a"> trong <li>; hàng 2 của Hình 9.6a chỉ còn 3 thẻ <td> (Toán, Vật lí, Hoá học); câu lệnh style="border:1px solid blue" và style="color:red/gold/green".', first=0)
     add_steps(
         b,
-        'Giáo viên hướng dẫn mẫu bố cục Hình 9.7–9.8 và giao hai nhiệm vụ thực hành trong SGK.',
-        'Học sinh thực hành viết mã HTML trên máy (hoặc phác thảo khung thẻ trên phiếu nếu dạy lí thuyết tại lớp).',
-        'Một số học sinh trình chiếu mã nguồn và kết quả hiển thị trang CLB.html.',
-        'Giáo viên kiểm tra cấu trúc lồng thẻ, cách gộp ô colspan/rowspan và tổng kết sản phẩm.'
+        'Giáo viên chiếu hệ thống 03 câu hỏi luyện tập lí thuyết lên bảng và phát phiếu ghi nhanh cho các cặp đôi.',
+        'Học sinh tự suy nghĩ giải quyết độc lập rồi đối chiếu kết quả đếm thẻ và câu lệnh với bạn cùng bàn.',
+        'Đại diện 2–3 học sinh đọc và viết đáp án lên bảng; các cặp khác nhận xét, phát hiện lỗi thiếu đóng thẻ hoặc thừa ô.',
+        'Giáo viên chốt đáp án chuẩn từng câu và nhấn mạnh các lỗi cú pháp dễ mắc trước khi sang hoạt động vận dụng.'
     )
 
-    eng.add(b, '3. Hoạt động 3: Luyện tập (SGK trang 56)', 'sub')
-    eng.add(b, '**a) Mục tiêu:** Củng cố kĩ năng dùng thuộc tính style để tạo viền bảng và định dạng màu chữ trong HTML.', first=0)
-    eng.add(b, '**b) Nội dung:** Thực hiện bài Luyện tập SGK trang 56: sửa mã nguồn Hình 9.6a dùng style thay border="1", đặt viền màu xanh cho hai hàng đầu và tô màu đỏ, vàng, xanh cho chữ Toán, Vật lí, Hoá học.', first=0)
-    eng.add(b, '**c) Sản phẩm:** Đoạn mã HTML sử dụng style="border:1px solid blue" cho hai hàng đầu và style="color:red/gold/green" cho từng ô tiêu đề môn học.', first=0)
+    eng.add(b, '4. Hoạt động 4: Vận dụng (Chuẩn bị cho Tiết 2 Thực hành – 5 phút)', 'sub')
+    eng.add(b, '**a) Mục tiêu:** Vận dụng kiến thức Tiết 1 để thiết kế trước cấu trúc mã nguồn cho bài thực hành tổng hợp ở Tiết 2 (Tiết PPCT: 20).', first=0)
+    eng.add(b, '**b) Nội dung:** Học sinh quan sát nhanh khung yêu cầu trang web Câu lạc bộ (SGK tr. 55–56), từ đó phác thảo vào vở: (1) Sơ đồ cây phân cấp danh sách lồng nhau của 2 khối Thể thao và Nghệ thuật; (2) Sơ đồ gộp ô cho 2 hàng tiêu đề bảng Lịch hoạt động CLB Thể thao (Bộ môn và GV phụ trách dùng rowspan="2", Ngày dùng colspan="5" cho Thứ 2 đến Thứ 6).', first=0)
+    eng.add(b, '**c) Sản phẩm:** Bản phác thảo sơ đồ thẻ danh sách lồng và ma trận hàng/cột gộp ô chuẩn bị sẵn sàng trong vở để thực hành trực tiếp trên máy ở Tiết 2 (Tiết PPCT: 20).', first=0)
     add_steps(
         b,
-        'Giáo viên nêu yêu cầu bài Luyện tập trang 56 và gợi ý tên màu cơ bản trong CSS inline.',
-        'Học sinh viết lại đoạn mã định dạng bằng style theo cặp đôi.',
-        'Đại diện học sinh đọc hoặc trình bày đoạn mã đã chỉnh sửa; lớp nhận xét.',
-        'Giáo viên nhận xét, chốt đáp án chuẩn và nhắc ưu tiên dùng style thay thuộc tính border cũ.'
-    )
-
-    eng.add(b, '4. Hoạt động 4: Vận dụng (SGK trang 56)', 'sub')
-    eng.add(b, '**a) Mục tiêu:** Vận dụng kiến thức tạo bảng HTML kết hợp lập trình Python sinh tệp bảng điểm tự động.', first=0)
-    eng.add(b, '**b) Nội dung:** Thực hiện bài Vận dụng SGK trang 56: với bảng dữ liệu n × 4 (Họ tên và điểm Toán, Vật lí, Hoá học), viết chương trình Python tạo tệp HTML có bảng tương tự Hình 9.6b.', first=0)
-    eng.add(b, '**c) Sản phẩm:** Tệp kịch bản Python sinh mã HTML tạo bảng điểm hoàn chỉnh (học sinh hoàn thiện và nộp ở giờ học sau).', first=0)
-    add_steps(
-        b,
-        'Giáo viên giao nhiệm vụ Vận dụng trang 56 và gợi ý cấu trúc vòng lặp ghép chuỗi thẻ <tr><td>...</td></tr>.',
-        'Học sinh tiếp nhận yêu cầu, phác thảo ý tưởng thuật toán sinh mã HTML từ danh sách dữ liệu.',
-        '1–2 học sinh nêu hướng xử lí phần tiêu đề bảng gộp ô và các hàng dữ liệu động.',
-        'Giáo viên dặn dò học sinh hoàn thiện bài Vận dụng tại nhà và chuẩn bị Bài 10.'
+        'Giáo viên nêu nhiệm vụ chuẩn bị cho Tiết 2 Thực hành và hướng dẫn cách phác thảo sơ đồ phân cấp danh sách, bảng gộp ô.',
+        'Học sinh vẽ nhanh sơ đồ lồng thẻ và xác định vị trí đặt rowspan="2", colspan="5" vào vở ghi.',
+        '1–2 học sinh nêu nhanh số thẻ <th> ở hàng 1 và hàng 2 của bảng lịch hoạt động CLB.',
+        'Giáo viên nhận xét, biểu dương tinh thần chuẩn bị và dặn dò học sinh ôn kĩ cú pháp trước giờ thực hành tại phòng máy.'
     )
 
     eng.add(b, 'IV. HỆ THỐNG CÂU HỎI CỦNG CỐ VÀ TIÊU CHÍ ĐÁNH GIÁ', 'heading')
-    eng.add(b, '- **Câu hỏi củng cố 1 (SGK tr. 53):** Tạo danh sách lồng nhau có cấp 1 đánh số 1, 2, 3 và cấp 2 đánh số a, b, c như thế nào?', first=0)
-    eng.add(b, '- **Câu hỏi củng cố 2 (SGK tr. 55):** Bảng trong Hình 9.6 có nhược điểm gì và cách khắc phục?', first=0)
-    eng.add(b, '- **Tiêu chí đánh giá sản phẩm thực hành (Thang điểm 10):** Đúng cấu trúc HTML và lồng thẻ (3,0 điểm); Tạo đúng danh sách lồng nhau theo Hình 9.7 (2,5 điểm); Tạo đúng bảng lịch hoạt động có gộp ô chuẩn theo Hình 9.8 (3,0 điểm); Trình bày mã nguồn sạch đẹp, lưu tệp đúng quy định (1,5 điểm).', first=0)
+    eng.add(b, '- **Câu hỏi củng cố 1 (SGK tr. 53):** Làm thế nào để tạo danh sách lồng nhau có cấp 1 đánh số 1, 2, 3 và cấp 2 đánh số a, b, c?', first=0)
+    eng.add(b, '- **Câu hỏi củng cố 2 (SGK tr. 55):** Bảng trong ví dụ Hình 9.6 có nhược điểm gì và cần dùng thuộc tính nào để khắc phục?', first=0)
+    eng.add(b, '- **Câu hỏi phân tích bảng:** Vì sao khi hàng 1 đã khai báo <th rowspan="2">Họ và tên</th> và <th colspan="3">Điểm thi</th> thì hàng 2 chỉ còn đúng 3 cặp thẻ <td>?', first=0)
+    rubric_intro = eng.add(b, '- **Bảng tiêu chí đánh giá thường xuyên Tiết 1 – Lí thuyết (Thang điểm 10):**', first=0)
+    rubric_intro.find(eng.w('pPr')).append(eng.node('keepNext'))
+    rubric_table = eng.table([
+        ['STT', 'TIÊU CHÍ ĐÁNH GIÁ', 'YÊU CẦU CẦN ĐẠT TRONG TIẾT 1 (LÍ THUYẾT)', 'ĐIỂM'],
+        ['1', 'Ý nghĩa danh sách & bảng', 'Phân biệt đúng tình huống nên dùng danh sách với tình huống cần lập bảng nhiều thuộc tính.', '2,0 điểm'],
+        ['2', 'Cú pháp 3 loại danh sách', 'Viết đúng cặp thẻ <ol>, <ul>, <dl>, thuộc tính type/start, style và quy tắc lồng trong <li>.', '3,0 điểm'],
+        ['3', 'Cấu trúc & định dạng bảng', 'Nêu đúng vai trò <table>, <caption>, <tr>, <th>, <td> và cách viết thuộc tính style (border, width, height).', '2,5 điểm'],
+        ['4', 'Gộp ô & chuẩn bị Tiết 2', 'Tính đúng số thẻ còn lại khi dùng rowspan, colspan và phác thảo đúng sơ đồ khung cho Tiết 2 Thực hành.', '2,5 điểm']
+    ], [700, 2300, 4871, 1200], header=True, cell_sz=22, cant_split=True)
+    b.append(rubric_table)
 
+    eng.br(b)
     eng.add_approval_section(
         b,
         sign_date_str='Huế, ngày 05 tháng 11 năm 2026',
@@ -395,7 +391,7 @@ def build_12_4_bai9():
     )
 
     out_path = DE_CUONG_DIR / 'de_cuong_du_gio_12-4.docx'
-    save_de_cuong(b, out_path, used_figures=list(BAI9_FIGS.keys()))
+    save_de_cuong(b, out_path, used_figures=['hinh_9_1.png', 'hinh_9_2.png', 'hinh_9_3.png', 'hinh_9_4.png', 'hinh_9_5.png', 'hinh_9_6.png'])
 
 
 # ==============================================================================
@@ -683,8 +679,8 @@ def build_12_1_bai10_tiet2():
 
 
 def sync_to_khoi12():
-    """Đồng bộ 2 file lớp 12/1 và 12/2 sang khoi12/ để tránh lệch phiên bản."""
-    for fname in ('de_cuong_du_gio_12-1.docx', 'de_cuong_du_gio_12-2.docx'):
+    """Đồng bộ cả 3 file đề cương 12/1, 12/2, 12/4 sang khoi12/ để tránh lệch phiên bản."""
+    for fname in ('de_cuong_du_gio_12-1.docx', 'de_cuong_du_gio_12-2.docx', 'de_cuong_du_gio_12-4.docx'):
         src = DE_CUONG_DIR / fname
         dst = KHOI12_DIR / fname
         if src.exists() and dst.parent.exists():
